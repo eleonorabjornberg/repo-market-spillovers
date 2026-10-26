@@ -1,0 +1,88 @@
+{
+  "BAA10Y.csv": {
+    "retrieved_at": "2026-10-26T17:26:40+00:00",
+    "sha256": "64fb420ac4fc8189d3c7f2271e618f0e280dc8939a6a81f1783a2faffc7da24e",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10Y"
+  },
+  "BOGZ1FL664090005Q.csv": {
+    "retrieved_at": "2026-10-26T17:26:40+00:00",
+    "sha256": "32be8f168c4a49fe3bb6ada538c8eb3f7b793505098381f3fbf21cfdd68482a1",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BOGZ1FL664090005Q"
+  },
+  "CRDQUSAPABIS.csv": {
+    "retrieved_at": "2026-10-26T17:26:39+00:00",
+    "sha256": "65a825edb68f1b7c930629fa102d8d91fce0a24eddc1b31ceb2a12936d33504d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CRDQUSAPABIS"
+  },
+  "DGS10.csv": {
+    "retrieved_at": "2026-10-26T17:26:39+00:00",
+    "sha256": "19f98e90edb98a9e861f534980d7f6189fe69c771159197585a057589b65327d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
+  },
+  "FPF-ALLQHF_FINANCINGLIQUIDTYGT1LE7_PERCENT.json": {
+    "retrieved_at": "2026-10-26T17:26:42+00:00",
+    "sha256": "2ebe105929705747e19eb50a04022db6c22fd84d26572052761d0847161d7475",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_FINANCINGLIQUIDTYGT1LE7_PERCENT"
+  },
+  "FPF-ALLQHF_FINANCINGLIQUIDTYLE1_PERCENT.json": {
+    "retrieved_at": "2026-10-26T17:26:42+00:00",
+    "sha256": "a7d40b8be1f8198c71170b6159420c685e8531adb301b2f4ddb026cdd328507a",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_FINANCINGLIQUIDTYLE1_PERCENT"
+  },
+  "FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE.json": {
+    "retrieved_at": "2026-10-26T17:26:41+00:00",
+    "sha256": "f191f2d3db764494a0a03905f3f1cd721a80cb3966dc1f280d6baf2c18775f2d",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE"
+  },
+  "FPF-ALLQHF_PORTFOLIOLIQUIDITYGT1LE7_PERCENT.json": {
+    "retrieved_at": "2026-10-26T17:26:43+00:00",
+    "sha256": "5876e0bce043aae2a42d21edf78c72de3dc4343622b1269c9b5d669e4a9df575",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_PORTFOLIOLIQUIDITYGT1LE7_PERCENT"
+  },
+  "FPF-ALLQHF_PORTFOLIOLIQUIDITYLE1_PERCENT.json": {
+    "retrieved_at": "2026-10-26T17:26:42+00:00",
+    "sha256": "ad0cae8d8b7f76a4b40398e161b773a62aa7d1a211ad4dd69d0c7afb41c30cb7",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_PORTFOLIOLIQUIDITYLE1_PERCENT"
+  },
+  "FPF-BORROW_REPO_GAVN10_PERCENT.json": {
+    "retrieved_at": "2026-10-26T17:26:41+00:00",
+    "sha256": "67b8a8b12943ca34a11e0ffa122feee88f7f15b53e288e1f6e049867463b9cd0",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-BORROW_REPO_GAVN10_PERCENT"
+  },
+  "FPF-STRATEGY_RV_LEVERAGERATIO_GAVWMEAN.json": {
+    "retrieved_at": "2026-10-26T17:26:41+00:00",
+    "sha256": "f71bfa44c87a8a002ff04dcaa704d31588579aafff7dd2cf72e4b4e22e861543",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_RV_LEVERAGERATIO_GAVWMEAN"
+  },
+  "GDP.csv": {
+    "retrieved_at": "2026-10-26T17:26:39+00:00",
+    "sha256": "5d2a8770ac8661e0989113aad8be4b2ea4a0f5fa4549dc7f372ce6279a95c818",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GDP"
+  },
+  "NASDAQCOM.csv": {
+    "retrieved_at": "2026-10-26T17:26:38+00:00",
+    "sha256": "2cc4964d1f03ca1da5c18b4db11487e0c9ec774c83a190c71b41174f7143a8ec",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NASDAQCOM"
+  },
+  "NFCI.csv": {
+    "retrieved_at": "2026-10-26T17:26:40+00:00",
+    "sha256": "869ecd21cb3ad3fc06ce94a909fecfc77c8c7814c286e0679483907de7040b5d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NFCI"
+  },
+  "T10Y3M.csv": {
+    "retrieved_at": "2026-10-26T17:26:40+00:00",
+    "sha256": "b3db552823d4f7e29bc7dfd2a1d600681a23bc6853f09a34d035990dd8e79a00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y3M"
+  },
+  "VIXCLS.csv": {
+    "retrieved_at": "2026-10-26T17:26:38+00:00",
+    "sha256": "dc7a6e9822aac16f8ac20aeebfb4aa20db63543e58e5134ce9f5e96c480597f5",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS"
+  },
+  "ebp.csv": {
+    "note": "downloaded by Eleonora and supplied by hand; the Board's site refuses automated downloads from this environment",
+    "retrieved_at": "2026-10-26",
+    "sha256": "d7a7ddf7bdaa6f577cffb5e668cbe8ba5202bc864813c6e17fb73ea339fd5663",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ebp_csv.csv"
+  }
+}
