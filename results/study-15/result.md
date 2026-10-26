@@ -126,3 +126,26 @@ If a crisis started outside repo, in a stock-market bust:
 - **2008 uses an older report format** (Q4): broader categories, repo and securities lending combined. It agrees with
   published research (Gorton and Metrick, 2012; Copeland, Martin and Walker, 2014) that the run on repo in 2008 hit
   private collateral hardest.
+
+## Cross-check against the published research (added 26 October 2026, after Q4)
+
+Eleonora supplied both papers. Their findings, quoted:
+
+- **Gorton and Metrick** ([NBER w15223](https://www.nber.org/papers/w15223), August 2009), on bilateral repo: their
+  haircut index for repo collateral other than Treasuries "rises from zero in early 2007 to nearly 50 percent at the
+  peak of the crisis in late 2008", and some asset classes "stopped entirely from being used as collateral".
+- **Copeland, Martin and Walker** ([NY Fed Staff Report 506](https://www.newyorkfed.org/research/staff_reports/sr506.html),
+  revised August 2014), with confidential tri-party data from July 2008:
+  - margins on Treasuries and agency debentures "did not change throughout the crisis";
+  - corporate-bond collateral in tri-party fell by "about $80 billion, or roughly 44%" from July 2008 to April 2009,
+    and private ABS by 66%;
+  - they find "no system-wide run on repo", but "a sharp decline in the tri-party repo funding of Lehman".
+
+**Agreement.** Their 44% fall in corporate collateral comes from different data, a different window and one segment
+of repo. It is close to Q4's 42% fall in dealers' financing against corporate securities. Both show the pullback
+concentrated in private collateral, with Treasuries spared.
+
+**A correction of wording.** The limits above say "the run on repo in 2008". Copeland, Martin and Walker dispute that
+the repo market as a whole ran: in tri-party, lenders cut private collateral and pulled away from Lehman, while
+margins elsewhere barely moved. The accurate wording is that **repo lenders pulled back from private collateral, and
+from the weakest dealer**. The text above is left as written; this note governs.
