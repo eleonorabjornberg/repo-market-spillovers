@@ -60,6 +60,8 @@
   "IORB.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IORB",
   "BAA10Y.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10Y",
   "DGS10.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+  "VIXCLS.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
+  "FPF_top10_leverage.json": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE",
   "OFR_FSI.csv": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv"
  }
 }
