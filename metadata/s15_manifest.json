@@ -1,67 +1,187 @@
 {
   "DBAA.csv": {
-    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "retrieved_at": "2026-10-26T19:14:16+00:00",
     "sha256": "e3a4500a627967d172352ff39ecd0130970f0cc30acdc611b4a416d0f9634607",
     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DBAA"
   },
   "DGS10.csv": {
-    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "retrieved_at": "2026-10-26T19:14:16+00:00",
     "sha256": "19f98e90edb98a9e861f534980d7f6189fe69c771159197585a057589b65327d",
     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
   },
   "VIXCLS.csv": {
-    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "retrieved_at": "2026-10-26T19:14:16+00:00",
     "sha256": "dc7a6e9822aac16f8ac20aeebfb4aa20db63543e58e5134ce9f5e96c480597f5",
     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS"
   },
   "nyfed/PDSIRRA-CDTOT.json": {
-    "retrieved_at": "2026-10-26T18:52:47+00:00",
+    "retrieved_at": "2026-10-26T19:14:17+00:00",
     "sha256": "2468ed76cccab020de7a79d7d7e974d81222520debcd1410c00468d3ad21baa9",
     "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CDTOT.json"
   },
   "nyfed/PDSIRRA-UTSETTOT.json": {
-    "retrieved_at": "2026-10-26T18:52:48+00:00",
+    "retrieved_at": "2026-10-26T19:14:18+00:00",
     "sha256": "d7714400391e49800c3cf9bcecaffbe767d54e4a686743d5e88fdf5251d16152",
     "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UTSETTOT.json"
   },
   "nyfed/PDSIRRA-UTSTTOT.json": {
-    "retrieved_at": "2026-10-26T18:52:48+00:00",
+    "retrieved_at": "2026-10-26T19:14:18+00:00",
     "sha256": "fdd54e10040ff78a6f9c16e81255f1584f05ccb4e248a3a89f1eb78022f4f724",
     "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UTSTTOT.json"
   },
   "nyfed/PDSORA-CDTOT.json": {
-    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "retrieved_at": "2026-10-26T19:14:17+00:00",
     "sha256": "415bdf794b22f9d338b29bef3791d01aa995d706fc61aaaa3581781d0447a356",
     "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CDTOT.json"
   },
   "nyfed/PDSORA-UTSETTOT.json": {
-    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "retrieved_at": "2026-10-26T19:14:17+00:00",
     "sha256": "200f2ab277c82395d103d6fde508c87477d4a0223825ba1417aa61aa64486d52",
     "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UTSETTOT.json"
   },
   "nyfed/PDSORA-UTSTTOT.json": {
-    "retrieved_at": "2026-10-26T18:52:47+00:00",
+    "retrieved_at": "2026-10-26T19:14:17+00:00",
     "sha256": "74610524c75e4949f4f2c24f76e4345dc28887d62c4bf169565720967609fbf2",
     "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UTSTTOT.json"
   },
   "rp_corporate.json": {
-    "retrieved_at": "2026-10-26T18:52:44+00:00",
+    "retrieved_at": "2026-10-26T19:14:14+00:00",
     "sha256": "e0166e4d7c2ea6120536a66aec56ee2dfbc903389c8995b7e996d1e9b8256f81",
     "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RP_CORD_TOT-A"
   },
   "rp_treasury.json": {
-    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "retrieved_at": "2026-10-26T19:14:14+00:00",
     "sha256": "9ca028afa14ec2a9a30e4f6f11c26b38c26227e7c4caf330ca5e72a815ad4538",
     "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RP_T_TOT-A"
   },
   "rrp_corporate.json": {
-    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "retrieved_at": "2026-10-26T19:14:15+00:00",
     "sha256": "35260d1513ec4844bddba8401b04603673bdba2cce3e9cf7eb089bf392cd0c6c",
     "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RRP_CORD_TOT-A"
   },
   "rrp_treasury.json": {
-    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "retrieved_at": "2026-10-26T19:14:15+00:00",
     "sha256": "dd3cbc70f4a773c1e55d6455f1801d14e64ac198d47cde61bc2453842d5413ba",
     "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RRP_T_TOT-A"
+  },
+  "sbp2013/PDFSICOC.json": {
+    "retrieved_at": "2026-10-26T19:14:31+00:00",
+    "sha256": "315ed09fb7696a7e888eca4a10a0e44e6b98e0ae537c277705b0aa9d62ef7c8f",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSICOC.json"
+  },
+  "sbp2013/PDFSICT.json": {
+    "retrieved_at": "2026-10-26T19:14:30+00:00",
+    "sha256": "0b964157ec6f835483918d2a51a00432de5ad2caea1de1bdae6f0a35a6034e7a",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSICT.json"
+  },
+  "sbp2013/PDFSICTA.json": {
+    "retrieved_at": "2026-10-26T19:14:32+00:00",
+    "sha256": "43b775b61d1ff2c08f972fbc40cad2c02d5f85fc4c11d2ac6833d803676c4f04",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSICTA.json"
+  },
+  "sbp2013/PDFSIFAOC.json": {
+    "retrieved_at": "2026-10-26T19:14:37+00:00",
+    "sha256": "399be6f84ba5a4215ec28a6cc73831c7e3ac4830575ad28c8130e60bd6ff38df",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIFAOC.json"
+  },
+  "sbp2013/PDFSIFAT.json": {
+    "retrieved_at": "2026-10-26T19:14:36+00:00",
+    "sha256": "aa73e43209ee560bf42731cd1bf4798ab6b7b6eb52381702e5689adb1bc8f7d0",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIFAT.json"
+  },
+  "sbp2013/PDFSIFATA.json": {
+    "retrieved_at": "2026-10-26T19:14:38+00:00",
+    "sha256": "3ed6d2be1ce484cf778aca2e33c44ef23b9af51475ab90b74f6a4c20bd86d411",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIFATA.json"
+  },
+  "sbp2013/PDFSIMBOC.json": {
+    "retrieved_at": "2026-10-26T19:14:34+00:00",
+    "sha256": "04de17a4c5787c1a3de4fe6382fbfb806871fea144d50f315b6a615fa330b49f",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIMBOC.json"
+  },
+  "sbp2013/PDFSIMBT.json": {
+    "retrieved_at": "2026-10-26T19:14:33+00:00",
+    "sha256": "ea0d565247dfb3438587b165891a230983f0eb11e2c531ad2023d5b0f1fa8ed6",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIMBT.json"
+  },
+  "sbp2013/PDFSIMBTA.json": {
+    "retrieved_at": "2026-10-26T19:14:35+00:00",
+    "sha256": "c9f9c987cfbea4f181f732d8309451fb0c7af89863b24ebb2acd503c59f36773",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIMBTA.json"
+  },
+  "sbp2013/PDFSIUSTOC.json": {
+    "retrieved_at": "2026-10-26T19:14:39+00:00",
+    "sha256": "c6b88dd4eae7793b9f7f67ca7ed7965ecd71fb56c25119263518028711f59f6d",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIUSTOC.json"
+  },
+  "sbp2013/PDFSIUSTT.json": {
+    "retrieved_at": "2026-10-26T19:14:39+00:00",
+    "sha256": "b599e57e70653bc246c4b4cc9f0a12fa66a07fa7a3723d092c7e06f023cd342a",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIUSTT.json"
+  },
+  "sbp2013/PDFSIUSTTA.json": {
+    "retrieved_at": "2026-10-26T19:14:40+00:00",
+    "sha256": "fd6dca93bbda88212470de77b6d413c9c174598fb2f4b95051332b4eec6c80dc",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSIUSTTA.json"
+  },
+  "sbp2013/PDFSOCOC.json": {
+    "retrieved_at": "2026-10-26T19:14:20+00:00",
+    "sha256": "cd67519b711ae30b69c933e016151178491568408e380df1cfcfd496efa8b02c",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOCOC.json"
+  },
+  "sbp2013/PDFSOCT.json": {
+    "retrieved_at": "2026-10-26T19:14:19+00:00",
+    "sha256": "80ff7a8d53d7726d30ca86a9b12e6ed8175aaa7bd59b27935093cbe987583d7c",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOCT.json"
+  },
+  "sbp2013/PDFSOCTA.json": {
+    "retrieved_at": "2026-10-26T19:14:21+00:00",
+    "sha256": "892662b67de7297b94136e7c85d63ba76d0b42a58050dd0f1ff1101b17f0c61a",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOCTA.json"
+  },
+  "sbp2013/PDFSOFAOC.json": {
+    "retrieved_at": "2026-10-26T19:14:26+00:00",
+    "sha256": "d3c05daa8bd7500480ddbac8a7853f316541e65d5b015f467a71b586b6066625",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOFAOC.json"
+  },
+  "sbp2013/PDFSOFAT.json": {
+    "retrieved_at": "2026-10-26T19:14:25+00:00",
+    "sha256": "eb25f1a4f6952fedb65196598b876feb9a675c7bbec0ade5d7c48bc271c00e55",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOFAT.json"
+  },
+  "sbp2013/PDFSOFATA.json": {
+    "retrieved_at": "2026-10-26T19:14:27+00:00",
+    "sha256": "0ab49a1e031024dca25515c42cc2652096659d4709040543291261c12a4cd90d",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOFATA.json"
+  },
+  "sbp2013/PDFSOMBOC.json": {
+    "retrieved_at": "2026-10-26T19:14:23+00:00",
+    "sha256": "c3573bb9c3be6620716aeede8c22a85998f43b7d8cf6fddbed686d5a2d285452",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOMBOC.json"
+  },
+  "sbp2013/PDFSOMBT.json": {
+    "retrieved_at": "2026-10-26T19:14:22+00:00",
+    "sha256": "d2b8695138aff5fb03b0ef43c24333c05525fde023bd46bd022a7e0f25bcd526",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOMBT.json"
+  },
+  "sbp2013/PDFSOMBTA.json": {
+    "retrieved_at": "2026-10-26T19:14:24+00:00",
+    "sha256": "7a661b667ab5bb59c4de0cc688a73641109d8cb75404b415e8b04bf9c0bddbef",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOMBTA.json"
+  },
+  "sbp2013/PDFSOUSTOC.json": {
+    "retrieved_at": "2026-10-26T19:14:29+00:00",
+    "sha256": "097839a51dad28733b35b0023d127a44a5be8c7d42f9442f0c124747b57cc512",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOUSTOC.json"
+  },
+  "sbp2013/PDFSOUSTT.json": {
+    "retrieved_at": "2026-10-26T19:14:28+00:00",
+    "sha256": "22e2a23abc709fab95296c874f2ca1b3aaaee1df5a436d9eb2fdaedcc3780d7a",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOUSTT.json"
+  },
+  "sbp2013/PDFSOUSTTA.json": {
+    "retrieved_at": "2026-10-26T19:14:29+00:00",
+    "sha256": "fbc8cf8280cc7969c435e1e667ef49e7b68f105c4f62c2a64efadef86e39cb9a",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/PDFSOUSTTA.json"
   }
 }

@@ -490,5 +490,92 @@
     "dBaa_bp": 1.0
    }
   ]
+ },
+ "Q4_2008": {
+  "checks_T_equals_OC_plus_TA_pct": {
+   "PDFSOC": 100.0,
+   "PDFSOMB": 100.0,
+   "PDFSOFA": 100.0,
+   "PDFSOUST": 100.0,
+   "PDFSIC": 100.0,
+   "PDFSIMB": 100.0,
+   "PDFSIFA": 100.0,
+   "PDFSIUST": 100.0
+  },
+  "windows": {
+   "baseline": [
+    "2007-05-09",
+    "2007-08-01"
+   ],
+   "W1": [
+    "2008-03-19",
+    "2008-06-11"
+   ],
+   "W2": [
+    "2008-09-17",
+    "2008-12-10"
+   ]
+  },
+  "securities_out": {
+   "corporate": {
+    "baseline_bn": 458.3,
+    "W1_bn": 406.1,
+    "W2_bn": 265.8,
+    "W1_change_pct": -11.4,
+    "W2_change_pct": -42.01
+   },
+   "mortgage": {
+    "baseline_bn": 939.1,
+    "W1_bn": 1050.7,
+    "W2_bn": 980.6,
+    "W1_change_pct": 11.88,
+    "W2_change_pct": 4.42
+   },
+   "agency": {
+    "baseline_bn": 534.0,
+    "W1_bn": 679.5,
+    "W2_bn": 571.4,
+    "W1_change_pct": 27.25,
+    "W2_change_pct": 7.0
+   },
+   "treasury": {
+    "baseline_bn": 2424.7,
+    "W1_bn": 2558.8,
+    "W2_bn": 2024.6,
+    "W1_change_pct": 5.53,
+    "W2_change_pct": -16.5
+   }
+  },
+  "securities_in": {
+   "corporate": {
+    "baseline_bn": 237.4,
+    "W1_bn": 198.3,
+    "W2_bn": 112.9,
+    "W1_change_pct": -16.49,
+    "W2_change_pct": -52.47
+   },
+   "mortgage": {
+    "baseline_bn": 594.1,
+    "W1_bn": 608.3,
+    "W2_bn": 616.9,
+    "W1_change_pct": 2.38,
+    "W2_change_pct": 3.83
+   },
+   "agency": {
+    "baseline_bn": 472.0,
+    "W1_bn": 573.6,
+    "W2_bn": 494.3,
+    "W1_change_pct": 21.51,
+    "W2_change_pct": 4.71
+   },
+   "treasury": {
+    "baseline_bn": 2688.8,
+    "W1_bn": 2759.6,
+    "W2_bn": 2190.0,
+    "W1_change_pct": 2.63,
+    "W2_change_pct": -18.55
+   }
+  },
+  "run_on_private_collateral_visible": true
  }
 }

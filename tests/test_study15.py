@@ -25,3 +25,15 @@ class Study15Test(unittest.TestCase):
     def test_agreement(self):
         self.assertEqual(s15.agreement({"a": 100.0, "b": 103.0}, {"a": 100.5, "b": 100.0}),
                          {"n_weeks": 2, "share_within_1pct": 50.0})
+
+
+class Study15ExtensionTest(unittest.TestCase):
+    def test_total_check(self):
+        t = {"a": 100.0, "b": 100.0}
+        self.assertEqual(s15.total_check(t, {"a": 60.0, "b": 60.0}, {"a": 40.0, "b": 50.0}), 50.0)
+
+    def test_window_mean(self):
+        series = {f"2008-{w:02d}": float(w) for w in range(1, 31)}
+        self.assertEqual(s15.window_mean(series, end="2008-13")[0], 7.0)
+        self.assertEqual(s15.window_mean(series, start="2008-18")[0], 24.0)
+        self.assertIsNone(s15.window_mean(series, start="2008-20")[0])
