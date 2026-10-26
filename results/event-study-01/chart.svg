@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 330" font-family="sans-serif" font-size="11"><rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="20" font-size="14" font-weight="bold">Month-end: extra size of the daily move (mean |Δ| on month-end − other days), 95% bootstrap interval</text>
+<text x="10" y="38" fill="#555">Spillover would show as the scarce regimes sitting above the floor regime in every panel.</text>
+<text x="110.0" y="68" text-anchor="middle" font-weight="bold">SOFR − IORB (bp)</text>
+<line x1="30" x2="200" y1="254.2" y2="254.2" stroke="#999" stroke-dasharray="3,3"/>
+<text x="26" y="258.2" text-anchor="end" fill="#555">0.0</text>
+<text x="26" y="99.8" text-anchor="end" fill="#555">20.8</text>
+<line x1="60.0" x2="60.0" y1="198.9" y2="95.8" stroke="#d97706" stroke-width="2"/>
+<circle cx="60.0" cy="153.8" r="4" fill="#d97706"/>
+<text x="60.0" y="292" text-anchor="middle" fill="#d97706">scarce</text>
+<text x="60.0" y="305" text-anchor="middle" fill="#d97706">2018–19</text>
+<line x1="115.0" x2="115.0" y1="252.7" y2="246.6" stroke="#64748b" stroke-width="2"/>
+<circle cx="115.0" cy="249.9" r="4" fill="#64748b"/>
+<text x="115.0" y="292" text-anchor="middle" fill="#64748b">floor</text>
+<text x="115.0" y="305" text-anchor="middle" fill="#64748b">2021–23</text>
+<line x1="170.0" x2="170.0" y1="241.5" y2="209.8" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="170.0" cy="227.0" r="4" fill="#b91c1c"/>
+<text x="170.0" y="292" text-anchor="middle" fill="#b91c1c">scarce</text>
+<text x="170.0" y="305" text-anchor="middle" fill="#b91c1c">2025–26</text>
+<text x="310.0" y="68" text-anchor="middle" font-weight="bold">10y Treasury (bp)</text>
+<line x1="230" x2="400" y1="134.3" y2="134.3" stroke="#999" stroke-dasharray="3,3"/>
+<text x="226" y="258.2" text-anchor="end" fill="#555">-1.9</text>
+<text x="226" y="99.8" text-anchor="end" fill="#555">0.6</text>
+<line x1="260.0" x2="260.0" y1="244.4" y2="122.4" stroke="#d97706" stroke-width="2"/>
+<circle cx="260.0" cy="185.7" r="4" fill="#d97706"/>
+<text x="260.0" y="292" text-anchor="middle" fill="#d97706">scarce</text>
+<text x="260.0" y="305" text-anchor="middle" fill="#d97706">2018–19</text>
+<line x1="315.0" x2="315.0" y1="254.2" y2="95.8" stroke="#64748b" stroke-width="2"/>
+<circle cx="315.0" cy="177.1" r="4" fill="#64748b"/>
+<text x="315.0" y="292" text-anchor="middle" fill="#64748b">floor</text>
+<text x="315.0" y="305" text-anchor="middle" fill="#64748b">2021–23</text>
+<line x1="370.0" x2="370.0" y1="233.0" y2="111.6" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="370.0" cy="172.4" r="4" fill="#b91c1c"/>
+<text x="370.0" y="292" text-anchor="middle" fill="#b91c1c">scarce</text>
+<text x="370.0" y="305" text-anchor="middle" fill="#b91c1c">2025–26</text>
+<text x="510.0" y="68" text-anchor="middle" font-weight="bold">VIX (pts)</text>
+<line x1="430" x2="600" y1="155.7" y2="155.7" stroke="#999" stroke-dasharray="3,3"/>
+<text x="426" y="258.2" text-anchor="end" fill="#555">-0.6</text>
+<text x="426" y="99.8" text-anchor="end" fill="#555">0.4</text>
+<line x1="460.0" x2="460.0" y1="209.0" y2="106.8" stroke="#d97706" stroke-width="2"/>
+<circle cx="460.0" cy="160.5" r="4" fill="#d97706"/>
+<text x="460.0" y="292" text-anchor="middle" fill="#d97706">scarce</text>
+<text x="460.0" y="305" text-anchor="middle" fill="#d97706">2018–19</text>
+<line x1="515.0" x2="515.0" y1="254.2" y2="145.1" stroke="#64748b" stroke-width="2"/>
+<circle cx="515.0" cy="202.6" r="4" fill="#64748b"/>
+<text x="515.0" y="292" text-anchor="middle" fill="#64748b">floor</text>
+<text x="515.0" y="305" text-anchor="middle" fill="#64748b">2021–23</text>
+<line x1="570.0" x2="570.0" y1="253.4" y2="95.8" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="570.0" cy="185.3" r="4" fill="#b91c1c"/>
+<text x="570.0" y="292" text-anchor="middle" fill="#b91c1c">scarce</text>
+<text x="570.0" y="305" text-anchor="middle" fill="#b91c1c">2025–26</text>
+<text x="710.0" y="68" text-anchor="middle" font-weight="bold">Baa − 10y (bp)</text>
+<line x1="630" x2="800" y1="214.0" y2="214.0" stroke="#999" stroke-dasharray="3,3"/>
+<text x="626" y="258.2" text-anchor="end" fill="#555">-0.7</text>
+<text x="626" y="99.8" text-anchor="end" fill="#555">2.1</text>
+<line x1="660.0" x2="660.0" y1="253.8" y2="204.6" stroke="#d97706" stroke-width="2"/>
+<circle cx="660.0" cy="230.7" r="4" fill="#d97706"/>
+<text x="660.0" y="292" text-anchor="middle" fill="#d97706">scarce</text>
+<text x="660.0" y="305" text-anchor="middle" fill="#d97706">2018–19</text>
+<line x1="715.0" x2="715.0" y1="254.2" y2="137.5" stroke="#64748b" stroke-width="2"/>
+<circle cx="715.0" cy="200.1" r="4" fill="#64748b"/>
+<text x="715.0" y="292" text-anchor="middle" fill="#64748b">floor</text>
+<text x="715.0" y="305" text-anchor="middle" fill="#64748b">2021–23</text>
+<line x1="770.0" x2="770.0" y1="208.3" y2="95.8" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="770.0" cy="153.8" r="4" fill="#b91c1c"/>
+<text x="770.0" y="292" text-anchor="middle" fill="#b91c1c">scarce</text>
+<text x="770.0" y="305" text-anchor="middle" fill="#b91c1c">2025–26</text>
+<text x="910.0" y="68" text-anchor="middle" font-weight="bold">O/N financial CP − IORB (bp)</text>
+<line x1="830" x2="1000" y1="254.2" y2="254.2" stroke="#999" stroke-dasharray="3,3"/>
+<text x="826" y="258.2" text-anchor="end" fill="#555">0.0</text>
+<text x="826" y="99.8" text-anchor="end" fill="#555">3.1</text>
+<line x1="860.0" x2="860.0" y1="198.4" y2="95.8" stroke="#d97706" stroke-width="2"/>
+<circle cx="860.0" cy="150.8" r="4" fill="#d97706"/>
+<text x="860.0" y="292" text-anchor="middle" fill="#d97706">scarce</text>
+<text x="860.0" y="305" text-anchor="middle" fill="#d97706">2018–19</text>
+<line x1="915.0" x2="915.0" y1="218.0" y2="183.0" stroke="#64748b" stroke-width="2"/>
+<circle cx="915.0" cy="201.2" r="4" fill="#64748b"/>
+<text x="915.0" y="292" text-anchor="middle" fill="#64748b">floor</text>
+<text x="915.0" y="305" text-anchor="middle" fill="#64748b">2021–23</text>
+<line x1="970.0" x2="970.0" y1="251.7" y2="211.8" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="970.0" cy="233.2" r="4" fill="#b91c1c"/>
+<text x="970.0" y="292" text-anchor="middle" fill="#b91c1c">scarce</text>
+<text x="970.0" y="305" text-anchor="middle" fill="#b91c1c">2025–26</text>
+</svg>
