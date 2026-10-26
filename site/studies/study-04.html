@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study 04: do Treasury-market shocks spread into repo? (H2)</title>
+<meta name="description" content="Nominally &quot;supported for 2025–26 only&quot; (+1.1 bp next day), but weak: a placebo is 84% as large, no replication, no dose–response. April 2025 moved repo 7 bp.">
+<style>
+:root{--bg:#fafaf9;--fg:#1c1917;--muted:#57534e;--line:#e7e5e4;--card:#fff;--accent:#1e3a8a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c0a09;--fg:#f5f5f4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#93c5fd}}
+:root[data-theme="dark"]{--bg:#0c0a09;--fg:#f5f5f4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#93c5fd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 72px}h1{font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0 0 12px;letter-spacing:-.02em}
+h2{font-size:24px;margin:44px 0 12px;letter-spacing:-.01em}h3{font-size:19px;margin:32px 0 8px}
+p,li{max-width:70ch}a{color:var(--accent)}ul,ol{padding-left:22px}li{margin:4px 0}
+h1+p{color:var(--muted)}nav{font-size:15px;margin-bottom:28px}
+.table{overflow-x:auto;margin:16px 0}table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card)}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600}
+figure{margin:16px 0}img{max-width:100%;height:auto;background:#fff;border-radius:6px}
+.study{border-bottom:1px solid var(--line);padding:14px 0}.study h3{margin:0 0 4px}.study p{margin:0;color:var(--muted)}
+code{font:14px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:1px 4px}
+</style></head><body><main>
+<nav><a href="../index.html">Repo Market Watch</a> · <a href="../findings.html">Findings</a> · <a href="../studies.html">All studies</a></nav>
+<h1>Study 04: do Treasury-market shocks spread into repo? (H2) — result</h1>
+<p>Design: <a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/docs/design-study-04-amplification.md"><code>docs/design-study-04-amplification.md</code></a>, written before the run and disclosing the exploratory probe it follows. Every figure is read from <a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/results/study-04/result.json"><code>result.json</code></a>.</p>
+<ul><li><b>Shock (S1):</b> day t−1 in the top 5% of |Δ10y| within its regime.</li><li><b>Outcome (Y1):</b> the change in SOFR − IORB on the next day t. Calendar, FOMC and IORB-change days are excluded.</li><li><b>Intervals:</b> 95% bootstrap, 5,000 draws.</li></ul>
+<h2>Verdict: "supported for 2025–26 only" by the rule fixed in advance, but weak in substance</h2>
+<div class="table"><table><thead><tr><th style="text-align:left">Test</th><th style="text-align:right">Estimate (bp)</th><th style="text-align:left">95% interval</th><th style="text-align:left">Rule asks</th></tr></thead><tbody><tr><td style="text-align:left"><b>Main:</b> 2025–26 − floor 2021–23</td><td style="text-align:right"><b>+1.11</b></td><td style="text-align:left">[+0.02, +2.24]</td><td style="text-align:left">positive, excluding 0: <b>met</b></td></tr><tr><td style="text-align:left">Replication: 2018–19 − floor</td><td style="text-align:right">−2.17</td><td style="text-align:left">[−5.17, +0.39]</td><td style="text-align:left">same sign: <b>not met</b></td></tr><tr><td style="text-align:left">Placebo, shocks moved 10 days later</td><td style="text-align:right">+0.93</td><td style="text-align:left">[−0.10, +1.95]</td><td style="text-align:left">includes 0: met</td></tr><tr><td style="text-align:left">Placebo, shocks moved 10 days earlier</td><td style="text-align:right">+0.49</td><td style="text-align:left">[−0.42, +1.50]</td><td style="text-align:left">includes 0: met</td></tr><tr><td style="text-align:left">Dose–response: |Δ10y| × hedge-fund repo share</td><td style="text-align:right">−0.004</td><td style="text-align:left">[−0.019, +0.013]</td><td style="text-align:left">positive, excluding 0: <b>not met</b></td></tr></tbody></table></div>
+<p>The rule gives "supported for 2025–26 only". The record should also say why that verdict is weak:</p>
+<ol><li><b>The main test is not new evidence.</b> Its definition is the probe's, and it reproduces the probe's number.</li><li><b>The interval barely clears zero:</b> its lower end is +0.02 bp.</li><li><b>The +10-day placebo is 84% of the main effect.</b> Its interval just includes zero, so the rule passes it, but an effect that nearly survives moving the shock two weeks is mostly about volatile <i>periods</i> in 2025–26, not about the shock <i>day</i>. Large bond moves cluster, and so do small repo rises.</li><li><b>Nothing else lines up:</b><ul><li>the 2018–19 replication points the other way;</li><li>repo does not respond more when hedge-fund repo is larger;</li><li>the second shock measure (OFR volatility rises) gives −0.60 bp [−1.72, +0.78] in 2025–26.</li></ul></li><li><b>The direction is the wrong way round for forced selling.</b> In 2025–26, rallies (yields down) were followed by +1.27 bp [+0.07, +2.41], and sell-offs by +0.81 bp [−0.61, +2.54]. Leveraged funds forced to cut long Treasury positions would show up after sell-offs.</li></ol>
+<div class="table"><table><thead><tr><th style="text-align:left">Outcome, 2025–26 − floor</th><th style="text-align:right">Estimate (bp)</th><th style="text-align:left">95% interval</th></tr></thead><tbody><tr><td style="text-align:left">Y1 next-day spread</td><td style="text-align:right">+1.11</td><td style="text-align:left">[+0.02, +2.24]</td></tr><tr><td style="text-align:left">Y2 three-day spread</td><td style="text-align:right">+1.48</td><td style="text-align:left">[−0.83, +3.97]</td></tr><tr><td style="text-align:left">Y3 next-day 75th percentile of SOFR − IORB</td><td style="text-align:right">+1.19</td><td style="text-align:left">[−0.15, +2.61]</td></tr></tbody></table></div>
+<h2>The two episodes</h2>
+<p><b>March 2020</b> (a run):</p>
+<ul><li>the spread rose from −1 bp on 9 March to +10 bp on 12 March;</li><li>after the 10-year moved 21 bp on 16 March, the spread reached <b>+44 bp on 17 March</b>, with its 75th percentile at +64 bp;</li><li>it fell back to 0 the next day, when the Fed's repo operations and asset purchases took hold.</li></ul>
+<p><b>April 2025</b> (a ripple):</p>
+<ul><li>the 10-year rose 14 bp on 7 April, and repo rose 7 bp on 8 April, from −7 bp to 0 bp: back to IORB, not above it;</li><li>by 11 April the spread was −7 bp again;</li><li>the 75th percentile peaked at +10 bp on 9 April.</li></ul>
+<p>In 2025 the bond market's worst week in years moved repo by less than an ordinary quarter-end.</p>
+<h2>What this means for the question</h2>
+<p>The idea that the bond market now drags repo with it gets little support at daily frequency. There is a small next-day association in 2025–26, but it doesn't replicate, doesn't scale with leverage, and doesn't point the way forced deleveraging would. The April 2025 stress test passed with a few basis points of repo pressure.</p>
+<p>Three things could still be hiding it, so these are limits, not an all-clear:</p>
+<ul><li><b>The Fed's backstop:</b> the Standing Repo Facility now caps how far repo rates can rise.</li><li><b>The clearing migration (study 03):</b> cleared repo nets balance sheet and absorbs shocks better.</li><li><b>Daily data:</b> intraday stress is invisible here.</li></ul>
+<p>The first two are what study 07 watches.</p>
+<h2>Limits</h2>
+<ul><li><b>Few shocks:</b> about 24 per regime.</li><li><b>Common causes:</b> shared drivers (refundings, data surprises) can move both markets.</li><li><b>The panel</b> ends on 3 Sep 2026.</li><li><b>Dose–response</b> relies on Form PF's quarterly hedge-fund repo, carried to days.</li></ul><p><a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/results/study-04/result.md">Source on GitHub</a>, with its design, code and data.</p>
+</main></body></html>
