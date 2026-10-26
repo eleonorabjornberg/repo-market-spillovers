@@ -71,3 +71,14 @@ is dropped from the measure that needs it.
 - **Counterparties are not identified.** "Mostly hedge funds" for dealers' reverse repo is the OFR's and the New York
   Fed's characterisation, not something this data shows.
 - **M2 bounds netted packages from above.** It cannot confirm them.
+
+## Amendment (26 October 2026, after the first fetch, before any measure was computed)
+
+Sponsored term buckets (under 30 days and 30 days or more) are suppressed for confidentiality in many weeks of 2022–23,
+so no week in early 2022 is complete. Changes:
+
+- **"First 13 weeks"** means the first 13 weeks in which the measure is complete.
+- **A sensitivity version** treats every suppressed value as zero, over all weeks, and is reported beside the main one.
+  It decides nothing.
+
+The rest of the design is unchanged.

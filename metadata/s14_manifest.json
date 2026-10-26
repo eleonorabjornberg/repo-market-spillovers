@@ -1,0 +1,242 @@
+{
+  "PDSIRRA-CBGUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:46+00:00",
+    "sha256": "8c3b3cbd316a6f3673f45cb4e99b7673a3366ab34c9b62198d0aee98ced6be51",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBGUTSET.json"
+  },
+  "PDSIRRA-CBGUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:46+00:00",
+    "sha256": "4fb20ffb7d8fd6ec8e9d02d67fbab60bfe5306e0ee90081a6d4722187e48f3d6",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBGUTSETTAG30.json"
+  },
+  "PDSIRRA-CBGUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:46+00:00",
+    "sha256": "3ab4159184863fd803a3d1e40b5da4563a6bd52ad47c05cf0efd4a67f736682e",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBGUTSETTAL30.json"
+  },
+  "PDSIRRA-CBSPUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:47+00:00",
+    "sha256": "7bd877c3b84c9883f62adb4dc515ca26eabc228647b974f33c099a75371ede90",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSPUTSET.json"
+  },
+  "PDSIRRA-CBSPUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:48+00:00",
+    "sha256": "afe01e6f61d319fe40809d6fa5e9f1b9a671761847f110a846d497a96c3f0d7a",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSPUTSETTAG30.json"
+  },
+  "PDSIRRA-CBSPUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:48+00:00",
+    "sha256": "49e5700b02612e4174925bc3dc88ae7791fc0d12c116429f6688e3ae0cf9c2df",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSPUTSETTAL30.json"
+  },
+  "PDSIRRA-CBSUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:47+00:00",
+    "sha256": "1f4e8a2cf4da35847c43bb6fe26568894359e4d9138a6c96cc50b4594b09d738",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSUTSET.json"
+  },
+  "PDSIRRA-CBSUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:47+00:00",
+    "sha256": "1e09438da2281849e665a526e13acf0ea47cf6737003fdb5dd9c9813378bd519",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSUTSETTAG30.json"
+  },
+  "PDSIRRA-CBSUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:47+00:00",
+    "sha256": "b22c82b52213ff58a5fe8d57d25bb78c75af3f88b5be7507422c231c2db3ee21",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSUTSETTAL30.json"
+  },
+  "PDSIRRA-GCFUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:49+00:00",
+    "sha256": "d2550542c093a505d57b465f5d83ed37e149b72b39cfe93ae800d012923e8561",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-GCFUTSET.json"
+  },
+  "PDSIRRA-GCFUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:50+00:00",
+    "sha256": "32cffb087735aec739abe528425900a814b69ea5824b495179fecd833295417f",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-GCFUTSETTAG30.json"
+  },
+  "PDSIRRA-GCFUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:49+00:00",
+    "sha256": "005292430cbf2ec535b0077905f5cc58a464a76fc6de5acb195f066a19fee625",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-GCFUTSETTAL30.json"
+  },
+  "PDSIRRA-TRIGUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:48+00:00",
+    "sha256": "39ffffd7f413b4d99c62d8fe8d0c103492adcb2aa17f84741e02e95d924e10d1",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRIGUTSET.json"
+  },
+  "PDSIRRA-TRIGUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:48+00:00",
+    "sha256": "240514ffcc88268a86c4660464a3a974b8d5da732dc55b929e53e3d0e3e35bce",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRIGUTSETTAG30.json"
+  },
+  "PDSIRRA-TRIGUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:48+00:00",
+    "sha256": "aa97a8d55ca7e2d6a1b5a45243953225f0c5a7403007cb1626e177baddf7c855",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRIGUTSETTAL30.json"
+  },
+  "PDSIRRA-TRISPUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:49+00:00",
+    "sha256": "c9d389041908b16207d708e3305af5702b8cb392ec3b41465ce3569f1e1c6ede",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRISPUTSET.json"
+  },
+  "PDSIRRA-TRISPUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:49+00:00",
+    "sha256": "6ae1022d884bf7ed161c67309fcbd28c125d4e210959a32337348516c9944783",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRISPUTSETTAG30.json"
+  },
+  "PDSIRRA-TRISPUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:49+00:00",
+    "sha256": "6b0671e7cc1d00b8df610e1b2f733ebcb80f0cd9d2184f5a8796a1a2a7152595",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRISPUTSETTAL30.json"
+  },
+  "PDSIRRA-UBGUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:45+00:00",
+    "sha256": "84323d8cc459a83e0912e4afd1dfe86276885452f283e025398a6c3e8b743fb6",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBGUTSET.json"
+  },
+  "PDSIRRA-UBGUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:45+00:00",
+    "sha256": "600e0626993912e92c6a34d2e17cb312e898fe1e07094a81306a8764e8a0d808",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBGUTSETTAG30.json"
+  },
+  "PDSIRRA-UBGUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:45+00:00",
+    "sha256": "588314f34189906df0fe5da693a2d7260f30431a5aade64fed5c745871a382b6",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBGUTSETTAL30.json"
+  },
+  "PDSIRRA-UBSUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:45+00:00",
+    "sha256": "4311f2781c975d20d1a8234337723ae540541b45495e776910515b71cf2a8c35",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBSUTSET.json"
+  },
+  "PDSIRRA-UBSUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:46+00:00",
+    "sha256": "78d0a02c12e138c1e7075d100121e984be109449a78327ef640aaf84792d34fe",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBSUTSETTAG30.json"
+  },
+  "PDSIRRA-UBSUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:46+00:00",
+    "sha256": "32574a7b0b1ec929aad19bc98bb9b81e33a6faf5d31dca2e0945e0b7972ef83c",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBSUTSETTAL30.json"
+  },
+  "PDSORA-CBGUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:40+00:00",
+    "sha256": "2c276631abbafe2d20306c365f389ffba1e080f14b7566097d7b082d66506741",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBGUTSET.json"
+  },
+  "PDSORA-CBGUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:41+00:00",
+    "sha256": "3ee35fe57f73f391586f89bcae22754b03066e889de283b81abdb091310e4fef",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBGUTSETTAG30.json"
+  },
+  "PDSORA-CBGUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:40+00:00",
+    "sha256": "98881e99d620654b6dcaf75a1759798a94ed9207c7ba8c813a8240d528970db7",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBGUTSETTAL30.json"
+  },
+  "PDSORA-CBSPUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:42+00:00",
+    "sha256": "d2f517332634c7660713c13e9f50e3b7155a90327265f922cd02730cca9d41f0",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBSPUTSET.json"
+  },
+  "PDSORA-CBSPUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:42+00:00",
+    "sha256": "b96fc2fc635e79db8cf8128ee5a61fed81b0aa9ecdc5e98d0954c4d77df6591d",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBSPUTSETTAG30.json"
+  },
+  "PDSORA-CBSPUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:42+00:00",
+    "sha256": "792002189fb8dd51c237635b02404e8b47f3be6686df0e311a19974280adbb88",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBSPUTSETTAL30.json"
+  },
+  "PDSORA-CBSUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:41+00:00",
+    "sha256": "e4d0bc79c48931d97a4867bde4547d4ab68dccc9bc2f0966925e366e054a455f",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBSUTSET.json"
+  },
+  "PDSORA-CBSUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:41+00:00",
+    "sha256": "150c25c002d6bea012643028b547c8841c206b0506587308a69ceb2dff5e23eb",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBSUTSETTAG30.json"
+  },
+  "PDSORA-CBSUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:41+00:00",
+    "sha256": "4d49008c9f53bcc69363ded3a58a8c65e8ff7fccb12f42ccbff8d1574df58c37",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CBSUTSETTAL30.json"
+  },
+  "PDSORA-GCFUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:44+00:00",
+    "sha256": "9295c16737559bfd9c58e4bc8dd3b924c8e220d0c64ab3b8bbcbe0e1275c0504",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-GCFUTSET.json"
+  },
+  "PDSORA-GCFUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:45+00:00",
+    "sha256": "3857d9a2c70f701e4c11d623efc81d15463826b2146d5e75a50f025eb44fd5f4",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-GCFUTSETTAG30.json"
+  },
+  "PDSORA-GCFUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:44+00:00",
+    "sha256": "5cbe069e39b956489e2d2d5af13d4af14fbc35d06e89a68c698599ed01f6c0b4",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-GCFUTSETTAL30.json"
+  },
+  "PDSORA-TRIGUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:43+00:00",
+    "sha256": "0c9a92ec37ab2f3ffb72e4eff4556fa65553bfae6770e08ec83546211312aac6",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-TRIGUTSET.json"
+  },
+  "PDSORA-TRIGUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:43+00:00",
+    "sha256": "16abc8f8d08499a725f81b4c3215bb6e9e393eed02e0117ab8969c14fb719dfe",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-TRIGUTSETTAG30.json"
+  },
+  "PDSORA-TRIGUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:43+00:00",
+    "sha256": "9fe79343c311d1b8b9824ab812c51ea9ef03777768246e1f45c95ff818ab2837",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-TRIGUTSETTAL30.json"
+  },
+  "PDSORA-TRISPUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:44+00:00",
+    "sha256": "be0ee9d4f950087b556b72f3a7cbcc0dbe3751ef4c17d0dc8df7cd18505369a3",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-TRISPUTSET.json"
+  },
+  "PDSORA-TRISPUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:44+00:00",
+    "sha256": "f67e9cff1f392be87e38f9a663249a5ea0370bc9900e3e0b3de39713e7212e1d",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-TRISPUTSETTAG30.json"
+  },
+  "PDSORA-TRISPUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:44+00:00",
+    "sha256": "438f8c6dfc3f5943aef7e12ba2246c9dc34a5858a30f18e41c0063a8eb0da97d",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-TRISPUTSETTAL30.json"
+  },
+  "PDSORA-UBGUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:39+00:00",
+    "sha256": "a21d66eb9264f00455a87af11d734e25a7fbe2764e699d134875194464492022",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UBGUTSET.json"
+  },
+  "PDSORA-UBGUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:39+00:00",
+    "sha256": "587cf46414cbe957f7e14607dd99bbb5a9ed9e0cbf72053fe44d77f7ca599d23",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UBGUTSETTAG30.json"
+  },
+  "PDSORA-UBGUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:39+00:00",
+    "sha256": "b7df900c4bffac04dc90d537e01d7a338cf2a27050a64b97662ef89ea5ea9fb5",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UBGUTSETTAL30.json"
+  },
+  "PDSORA-UBSUTSET.json": {
+    "retrieved_at": "2026-10-26T18:32:40+00:00",
+    "sha256": "81d096ab3a1b1860432a199fe72ea78206f4017f8dce84456e78453ea5617fef",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UBSUTSET.json"
+  },
+  "PDSORA-UBSUTSETTAG30.json": {
+    "retrieved_at": "2026-10-26T18:32:40+00:00",
+    "sha256": "39e2a4f91ca49663bbdf545ab9b507a9568d894ea4cdd7650301a367b98374a3",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UBSUTSETTAG30.json"
+  },
+  "PDSORA-UBSUTSETTAL30.json": {
+    "retrieved_at": "2026-10-26T18:32:40+00:00",
+    "sha256": "bc43216fb3539637c35e0d6297ffcf9054558102c7145858cde9f2b76c6b08b5",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UBSUTSETTAL30.json"
+  }
+}
