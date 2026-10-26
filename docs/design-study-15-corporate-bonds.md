@@ -68,3 +68,23 @@ yield, in bp. A haven failure is ΔT > 0, as in study 09.
   widen mechanically when Treasury yields fall. Q3 uses its level for that reason, not its spread.
 - **Nothing here forecasts a crisis or says an AI bust is coming.** It says what corporate bonds and repo did in past
   panics.
+
+## Amendment (26 October 2026, after the first fetch, before any measure was computed)
+
+The first run stopped before computing any measure. Seen in doing so: each OFR series' coverage, and its first and last
+values. Two problems:
+- **The OFR's mirror ends on 29 December 2021,** when the New York Fed changed the report's format.
+- **Its all-collateral totals are mostly missing:** they are blank whenever any component is.
+
+Changes:
+- **Two segments.** 2015–2021 from the OFR series above. From 5 January 2022, from the New York Fed's API in the new
+  format, as in study 14: for each leg, each collateral is summed over the eight venues and three terms. Corporate debt
+  is `CD`, and Treasuries are `UTSET` plus `UTST` (TIPS), matching the OFR's Treasury total, which includes TIPS. The
+  two formats are not spliced: growth is measured within each segment.
+- **Denominator.** C1 is corporate over corporate plus Treasury, in both segments. It leaves out agency, mortgage,
+  equity and other collateral, so it overstates corporate's share of all repo. That makes "small" a conservative call.
+- **Q1's tests** use the 2022 segment: "small" on its last 13 weeks, and "grew faster" from its first 13 weeks to its
+  last 13. The 2015–2021 segment is reported the same way, without a verdict.
+- **Suppressed values** ("*") in the new format count as zero, so totals are lower bounds. The number of weeks with
+  any suppressed corporate cell is reported.
+- Q2 and Q3 are unchanged. March 2020 falls in the first segment and April 2025 in the second.
