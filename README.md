@@ -39,6 +39,7 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 14: what keeps repo outside clearing](results/study-14/result.md) | Why hasn't Treasury repo moved into central clearing faster: haircuts, netted packages, year-ends? | The uncleared market grew with clearing (dealers' uncleared reverse repo $0.9tn → $1.6tn; share 60% → 57%). Dealers' uncleared repo and reverse repo are 80–84% matched (netted packages), mostly at zero haircut per the OFR; trades enter clearing at each year-end and leave again. |
 | [Study 15: corporate bonds in repo and in panics](results/study-15/result.md) | Would repo or corporate bonds cushion a crisis from outside, such as a stock-market bust? | Corporate collateral is a small corner of repo ($167bn of dealers' repo against $3.4tn on Treasuries). When Treasuries fail as a haven in a panic, corporate yields rise too on 89% of days: no offset. The cushion depends on Treasuries rallying. In 2008, dealers' financing against corporate securities fell 42% while Treasury financing fell 17%: the run hit private collateral. |
 | [Study 16: data-centre debt and swaps](results/study-16/result.md) | How much are the AI data-centre builders borrowing, and does it show up in the swap market, as the Dallas Fed suggests? | Debt of Alphabet, Amazon, Meta, Microsoft, Oracle and CoreWeave up $95bn in a year to $334bn. Long-dated swap trading is no heavier around their bond deals (+6% [−16%, +30%]): the channel is not visible in public data. |
+| [Study 17: milder spikes and the creep](results/study-17/result.md) | Why are 2025–26 month-ends milder than 2018–19's, and what drove the spread's slow creep since 2022? | Ordinary month-ends are not milder; the extremes are (year-end 2018 +62 bp; since the standing repo facility the worst turn is 22 bp above its rate): a leaky ceiling. The creep goes mostly with the reverse repo facility draining, then reserves. |
 
 ## Reproduce
 
@@ -65,6 +66,7 @@ python3 scripts/study_14_haircuts_netting.py
 python3 scripts/study_15_corporate_bonds.py
 python3 scripts/fetch_study16_dtcc.py          # resumable; about 500 daily DTCC files
 SEC_USER_AGENT="name email" python3 scripts/study_16_data_centre_debt.py
+python3 scripts/study_17_spikes_and_creep.py
 python3 scripts/build_findings.py          # site/findings.html from SYNTHESIS.md
 python3 -m unittest discover -s tests      # also run by .github/workflows/tests.yml on every pull request
 ```

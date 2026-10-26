@@ -54,6 +54,7 @@ afterwards is labelled as such in the study.
 | Would corporate bonds or repo cushion a stock-market bust? | **Only while Treasuries act as a haven**: corporate collateral is a small part of repo, and corporate yields rise with Treasury yields in 9 of 10 panics when Treasuries sell off | [15](results/study-15/result.md) |
 | What keeps Treasury repo outside central clearing? | **The uncleared market grew alongside clearing**: a large matched book, mostly zero-haircut netted packages, that enters clearing only at year-ends | [14](results/study-14/result.md) |
 | Does data-centre borrowing reach the swap market, as the Dallas Fed suggests? | **Not visibly**: debt up $95bn to $334bn in a year, but long-dated swap trading no heavier around the bond deals | [16](results/study-16/result.md) |
+| Why are recent month-end spikes milder than 2018–19's? | **Only the extremes are**: ordinary month-ends are as large; the standing repo facility caps the worst spikes, leakily | [17](results/study-17/result.md) |
 | What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
 | Can better warning indicators be found? | **Not yet**: two promising, unproven candidates | [12](results/study-12/result.md) |
 | What happens at the clearing deadlines, and in the next stress? | **Pending**: tests set before the data exists | [10](docs/design-study-10-prospective.md) |
@@ -75,6 +76,12 @@ The same held for:
   most exposed to dealers' balance sheets, yet they showed no pass-through from repo.
 
 The single hint: corporate (Baa) spreads rose 1.3 bp in the two days after those seven repo jumps.
+
+The calendar's grip has not weakened either ([study 17](results/study-17/result.md)). Ordinary month-ends lifted repo
+rates as much in 2025–26 as in 2018–19. What changed is the extremes. Year-end 2018 sent SOFR 65 bp above the top of
+the Fed's range; since the standing repo facility began offering cash at that rate, the worst turn day has reached
+22 bp above it. The ceiling leaks on reporting dates, but it holds back the spikes. The slow rise in repo rates since
+2022 went mostly with money funds' cash leaving the Fed's reverse repo facility, and then with falling reserves.
 
 ### 2. Today does not look like 2000 or 2007, but it is different
 
