@@ -1,0 +1,291 @@
+{
+ "design": "docs/design-study-16-data-centre-debt.md",
+ "manifest": "metadata/s16_manifest.json",
+ "seed": 20261027,
+ "draws": 2000,
+ "Q1_size": {
+  "companies": {
+   "Alphabet": {
+    "debt_concept": "LongTermDebt",
+    "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "debt_bn": {
+     "2019": 4.7,
+     "2020": 15.3,
+     "2021": 15.4,
+     "2022": 15.3,
+     "2023": 13.0,
+     "2024": 12.0,
+     "2025": 49.1
+    },
+    "capex_bn": {
+     "2019": 23.5,
+     "2020": 22.3,
+     "2021": 24.6,
+     "2022": 31.5,
+     "2023": 32.3,
+     "2024": 52.5,
+     "2025": 91.4
+    },
+    "finance_leases_bn": {
+     "2019": 0.7,
+     "2020": 1.2,
+     "2021": 2.1,
+     "2022": 2.1,
+     "2023": 1.7,
+     "2024": 1.7,
+     "2025": 2.5
+    },
+    "share_due_after_5y_pct": 73.6,
+    "maturity_year": 2025,
+    "latest_fiscal_year": 2025
+   },
+   "Amazon": {
+    "debt_concept": "LongTermDebt",
+    "capex_concept": "PaymentsToAcquireProductiveAssets",
+    "debt_bn": {
+     "2019": 24.8,
+     "2020": 33.2,
+     "2021": 50.6,
+     "2022": 70.5,
+     "2023": 67.2,
+     "2024": 58.0,
+     "2025": 68.8
+    },
+    "capex_bn": {
+     "2019": 16.9,
+     "2020": 40.1,
+     "2021": 61.1,
+     "2022": 63.6,
+     "2023": 52.7,
+     "2024": 83.0,
+     "2025": 131.8
+    },
+    "finance_leases_bn": {
+     "2019": 27.0,
+     "2020": 28.4,
+     "2021": 23.8,
+     "2022": 15.8,
+     "2023": 12.1,
+     "2024": 10.6,
+     "2025": 12.3
+    },
+    "share_due_after_5y_pct": 65.4,
+    "maturity_year": 2025,
+    "latest_fiscal_year": 2025
+   },
+   "Meta": {
+    "debt_concept": "LongTermDebt",
+    "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "debt_bn": {
+     "2022": 9.9,
+     "2023": 18.4,
+     "2024": 28.8,
+     "2025": 58.7
+    },
+    "capex_bn": {
+     "2019": 15.1,
+     "2020": 15.2,
+     "2021": 18.7,
+     "2022": 31.2,
+     "2023": 27.0,
+     "2024": 37.3,
+     "2025": 69.7
+    },
+    "finance_leases_bn": {
+     "2019": 0.5,
+     "2020": 0.5,
+     "2021": 0.6,
+     "2022": 0.7,
+     "2023": 0.7,
+     "2024": 0.7,
+     "2025": 1.2
+    },
+    "share_due_after_5y_pct": 82.6,
+    "maturity_year": 2025,
+    "latest_fiscal_year": 2025
+   },
+   "Microsoft": {
+    "debt_concept": "LongTermDebt",
+    "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "debt_bn": {
+     "2019": 72.2,
+     "2020": 63.3,
+     "2021": 58.1,
+     "2022": 49.8,
+     "2023": 47.2,
+     "2024": 44.9,
+     "2025": 43.2,
+     "2026": 40.3
+    },
+    "capex_bn": {
+     "2019": 13.9,
+     "2020": 15.4,
+     "2021": 20.6,
+     "2022": 23.9,
+     "2023": 28.1,
+     "2024": 44.5,
+     "2025": 64.6,
+     "2026": 115.9
+    },
+    "finance_leases_bn": {
+     "2019": 6.6,
+     "2020": 9.5,
+     "2021": 12.5,
+     "2022": 14.9,
+     "2023": 17.1,
+     "2024": 27.1,
+     "2025": 46.2,
+     "2026": 66.6
+    },
+    "share_due_after_5y_pct": 74.5,
+    "maturity_year": 2026,
+    "latest_fiscal_year": 2026
+   },
+   "Oracle": {
+    "debt_concept": "DebtInstrumentCarryingAmount",
+    "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "debt_bn": {
+     "2019": 56.3,
+     "2020": 71.8,
+     "2021": 84.5,
+     "2022": 76.2,
+     "2023": 90.9,
+     "2024": 87.2,
+     "2025": 92.9,
+     "2026": 130.1
+    },
+    "capex_bn": {
+     "2019": 1.7,
+     "2020": 1.6,
+     "2021": 2.1,
+     "2022": 4.5,
+     "2023": 8.7,
+     "2024": 6.9,
+     "2025": 21.2,
+     "2026": 55.7
+    },
+    "finance_leases_bn": {
+     "2024": 0.0,
+     "2025": 2.9,
+     "2026": 7.7
+    },
+    "share_due_after_5y_pct": 69.4,
+    "maturity_year": 2026,
+    "latest_fiscal_year": 2026
+   },
+   "CoreWeave": {
+    "debt_concept": "LongTermDebt",
+    "capex_concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "debt_bn": {
+     "2024": 7.9,
+     "2025": 21.4
+    },
+    "capex_bn": {
+     "2023": 2.9,
+     "2024": 8.7,
+     "2025": 10.3
+    },
+    "finance_leases_bn": {
+     "2024": 0.1,
+     "2025": 0.3
+    },
+    "share_due_after_5y_pct": 20.1,
+    "maturity_year": 2025,
+    "latest_fiscal_year": 2025
+   }
+  },
+  "together_bn": {
+   "debt": {
+    "2024": 238.9,
+    "2025": 334.1
+   },
+   "capex": {
+    "2023": 151.8,
+    "2024": 232.8,
+    "2025": 389.0
+   }
+  }
+ },
+ "Q2_swaps": {
+  "n_days": 494,
+  "days": [
+   "2024-11-01",
+   "2026-10-23"
+  ],
+  "n_deals": 15,
+  "n_deals_in_window": 14,
+  "n_event_days": 28,
+  "n_draws_used": 2000,
+  "deal_days": [
+   "2025-01-30",
+   "2025-04-28",
+   "2025-09-24",
+   "2025-10-30",
+   "2025-11-17",
+   "2026-02-02",
+   "2026-02-10",
+   "2026-03-10",
+   "2026-04-30",
+   "2026-05-15",
+   "2026-06-01",
+   "2026-07-07",
+   "2026-08-07",
+   "2026-09-09",
+   "2026-10-26"
+  ],
+  "long": {
+   "coef_log": 0.0604,
+   "pct": 6.2,
+   "ci95_pct": [
+    -16.2,
+    30.2
+   ],
+   "lower_above_zero": false
+  },
+  "ten": {
+   "coef_log": -0.0385,
+   "pct": -3.8,
+   "ci95_pct": [
+    -18.5,
+    9.3
+   ],
+   "lower_above_zero": false
+  },
+  "long_trades": {
+   "coef_log": 0.0127,
+   "pct": 1.3,
+   "ci95_pct": [
+    -15.5,
+    17.4
+   ],
+   "lower_above_zero": false
+  },
+  "long_minus_ten": {
+   "coef_log": 0.099,
+   "pct": 10.4,
+   "ci95_pct": [
+    -13.2,
+    42.3
+   ],
+   "lower_above_zero": false
+  },
+  "heavier_around_deals": false,
+  "specific_to_long_tenors": false
+ },
+ "Q3_share_due_after_5y_pct": {
+  "Alphabet": 73.6,
+  "Amazon": 65.4,
+  "Meta": 82.6,
+  "Microsoft": 74.5,
+  "Oracle": 69.4,
+  "CoreWeave": 20.1
+ },
+ "filings_by_company": {
+  "Alphabet": 17,
+  "Amazon": 6,
+  "Meta": 7,
+  "Microsoft": 0,
+  "Oracle": 10,
+  "CoreWeave": 0
+ }
+}
