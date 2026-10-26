@@ -1,0 +1,67 @@
+{
+  "DBAA.csv": {
+    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "sha256": "e3a4500a627967d172352ff39ecd0130970f0cc30acdc611b4a416d0f9634607",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DBAA"
+  },
+  "DGS10.csv": {
+    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "sha256": "19f98e90edb98a9e861f534980d7f6189fe69c771159197585a057589b65327d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
+  },
+  "VIXCLS.csv": {
+    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "sha256": "dc7a6e9822aac16f8ac20aeebfb4aa20db63543e58e5134ce9f5e96c480597f5",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS"
+  },
+  "nyfed/PDSIRRA-CDTOT.json": {
+    "retrieved_at": "2026-10-26T18:52:47+00:00",
+    "sha256": "2468ed76cccab020de7a79d7d7e974d81222520debcd1410c00468d3ad21baa9",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CDTOT.json"
+  },
+  "nyfed/PDSIRRA-UTSETTOT.json": {
+    "retrieved_at": "2026-10-26T18:52:48+00:00",
+    "sha256": "d7714400391e49800c3cf9bcecaffbe767d54e4a686743d5e88fdf5251d16152",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UTSETTOT.json"
+  },
+  "nyfed/PDSIRRA-UTSTTOT.json": {
+    "retrieved_at": "2026-10-26T18:52:48+00:00",
+    "sha256": "fdd54e10040ff78a6f9c16e81255f1584f05ccb4e248a3a89f1eb78022f4f724",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UTSTTOT.json"
+  },
+  "nyfed/PDSORA-CDTOT.json": {
+    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "sha256": "415bdf794b22f9d338b29bef3791d01aa995d706fc61aaaa3581781d0447a356",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-CDTOT.json"
+  },
+  "nyfed/PDSORA-UTSETTOT.json": {
+    "retrieved_at": "2026-10-26T18:52:46+00:00",
+    "sha256": "200f2ab277c82395d103d6fde508c87477d4a0223825ba1417aa61aa64486d52",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UTSETTOT.json"
+  },
+  "nyfed/PDSORA-UTSTTOT.json": {
+    "retrieved_at": "2026-10-26T18:52:47+00:00",
+    "sha256": "74610524c75e4949f4f2c24f76e4345dc28887d62c4bf169565720967609fbf2",
+    "url": "https://markets.newyorkfed.org/api/pd/get/PDSORA-UTSTTOT.json"
+  },
+  "rp_corporate.json": {
+    "retrieved_at": "2026-10-26T18:52:44+00:00",
+    "sha256": "e0166e4d7c2ea6120536a66aec56ee2dfbc903389c8995b7e996d1e9b8256f81",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RP_CORD_TOT-A"
+  },
+  "rp_treasury.json": {
+    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "sha256": "9ca028afa14ec2a9a30e4f6f11c26b38c26227e7c4caf330ca5e72a815ad4538",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RP_T_TOT-A"
+  },
+  "rrp_corporate.json": {
+    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "sha256": "35260d1513ec4844bddba8401b04603673bdba2cce3e9cf7eb089bf392cd0c6c",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RRP_CORD_TOT-A"
+  },
+  "rrp_treasury.json": {
+    "retrieved_at": "2026-10-26T18:52:45+00:00",
+    "sha256": "dd3cbc70f4a773c1e55d6455f1801d14e64ac198d47cde61bc2453842d5413ba",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=NYPD-PD_RRP_T_TOT-A"
+  }
+}
