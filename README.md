@@ -18,6 +18,7 @@ The research plan, hypotheses H1–H5 and the studies that test them, is [`PLAN.
 | [Study 02: then and now](results/study-02/result.md) | Does today's repo and bond market look like the run-up to 2000 or 2007, and would those signs have warned? | Not on the measures that flashed then. New this time: record hedge-fund repo, record public debt, very tight credit spreads, with no history to score them against. |
 | [Study 03: map of the chain](results/study-03/result.md) | H1: does a record, concentrated repo chain sit under the Treasury market? | Not supported as specified. Hedge-fund repo is at a record relative to the market and money funds' cash runs increasingly through FICC, but the basis-trade proxy is below 2019 and shrinking, and lending is spread across more counterparty types. |
 | [Study 04: amplification](results/study-04/result.md) | H2: do Treasury-market shocks spread into repo? | Nominally "supported for 2025–26 only" (+1.1 bp next day), but weak: a placebo is 84% as large, no replication, no dose–response. April 2025 moved repo 7 bp. |
+| [Study 06: would the chain have warned?](results/study-06/result.md) | H4: do repo-chain indicators warn of stress better than the standard signs? | Cannot tell. Best chain indicator (basis-trade proxy) AUROC 0.63 against the yield curve's 0.58; difference +0.05 [−0.14, +0.24]. Nothing warned reliably. |
 | [Study 09: Treasuries in a panic](results/study-09/result.md) | Does more federal debt make Treasuries a worse safe haven, and does that hit repo? With household debt. | Not supported: the weaker haven since 2020 tracks inflation, not debt; repo moves less after panic sell-offs; household debt is down from 98% to 66% of GDP. |
 
 ## Reproduce
@@ -33,6 +34,7 @@ python3 scripts/study_02_then_and_now.py
 python3 scripts/fetch_chain.py      # study 03: OFR, CFTC, Treasury, FRED into data/raw/chain/
 python3 scripts/study_03_chain.py
 python3 scripts/study_04_amplification.py
+python3 scripts/study_06_warning.py
 python3 scripts/fetch_study09.py && python3 scripts/study_09_debt_volatility.py
 python3 -m unittest discover -s tests
 ```

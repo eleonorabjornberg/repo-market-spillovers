@@ -33,6 +33,7 @@ evidence behind each.
 | [Study 02](results/study-02/result.md) | Context for H1 and H4 | Today does not resemble the run-up to 2000 or 2007 on the indicators that flashed then. Three things have never been at today's levels: hedge-fund repo (10.4% of GDP), public debt (97% of GDP), credit spreads as tight as only in 1994–97. |
 | [Study 03](results/study-03/result.md) | H1 | **Not supported** as specified: hedge-fund repo is at a record relative to private Treasuries (12.7%), and FICC's share of money funds' repo rose from 16% to 42%. But the basis-trade proxy is below 2019, and lending is less concentrated across counterparty types. |
 | [Study 04](results/study-04/result.md) | H2 | **Supported for 2025–26 only** by its rule (+1.1 bp [0.0, 2.2]), but weak: the main test repeats the probe, a +10-day placebo is 84% as large, the 2018–19 replication has the opposite sign, there is no dose–response, and the effect is larger after rallies than sell-offs. |
+| [Study 06](results/study-06/result.md) | H4 | **Cannot tell**: the best chain indicator (leveraged funds' futures short, AUROC 0.63) edges out the yield curve (0.58) by +0.05 [−0.14, +0.24]; no indicator warned reliably over eight episodes since 2017. |
 | [Study 09](results/study-09/result.md) | Added: debt and the safe haven | **Not supported**: Treasuries' weaker haven role since 2020 tracks inflation (+5.9 pp per point), not federal debt (−0.07 pp per point [−0.43, +0.24]); repo moves less after panic sell-offs; household debt fell from 98% to 66% of GDP. |
 
 ## The studies
