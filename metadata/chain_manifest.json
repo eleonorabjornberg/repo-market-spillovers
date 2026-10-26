@@ -1,0 +1,82 @@
+{
+  "BOGZ1FL892150005Q.csv": {
+    "retrieved_at": "2026-10-26T16:09:26+00:00",
+    "sha256": "a7a42469773db81201949c455a2205ced5f94a26a2ea3888757d36f1cc3f6922",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BOGZ1FL892150005Q"
+  },
+  "CFTC_TFF_treasury.json": {
+    "retrieved_at": "2026-10-26T16:09:37+00:00",
+    "sha256": "af78cc3ae8a7c33a257d3c8c3e24b2eb496bca3ea53737fa6bfb6025cf09cc5e",
+    "url": "https://publicreporting.cftc.gov/resource/gpe5-46if.json?%24select=report_date_as_yyyy_mm_dd%2Ccftc_contract_market_code%2Clev_money_positions_long%2Clev_money_positions_short&%24where=cftc_contract_market_code+in%28%27042601%27%2C%27044601%27%2C%27043602%27%2C%27043607%27%2C%27020601%27%2C%27020604%27%29&%24order=report_date_as_yyyy_mm_dd&%24limit=50000"
+  },
+  "MSPD_marketable.json": {
+    "retrieved_at": "2026-10-26T16:09:32+00:00",
+    "sha256": "7ea4b4b9e95412702cb6911e6026b72303e7210caf122f7c122af6b78b032f5b",
+    "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_1?filter=security_type_desc:eq:Marketable&fields=record_date,security_class_desc,debt_held_public_mil_amt&sort=record_date&page[size]=10000"
+  },
+  "OFRHF_FICC-SPONSORED_REPO_VOL.json": {
+    "retrieved_at": "2026-10-26T16:09:28+00:00",
+    "sha256": "019d84e645d71f308cc08a7a1667c1f17cb38b74418b0d9e040411f51f036439",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FICC-SPONSORED_REPO_VOL"
+  },
+  "OFRHF_FICC-SPONSORED_REVREPO_VOL.json": {
+    "retrieved_at": "2026-10-26T16:09:28+00:00",
+    "sha256": "bb102c8b25b1b5a0e2ce6888cbf4f46f6cebb5b32c5f87fc7260a90cb94ae8e5",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FICC-SPONSORED_REVREPO_VOL"
+  },
+  "OFRHF_FPF-ASSETCLASS_LTREASURY_SUM.json": {
+    "retrieved_at": "2026-10-26T16:09:27+00:00",
+    "sha256": "8953b67e77c38f015554a1f00a0d7cb6e103bc4656b5e460037d0a4ef81cc55c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_LTREASURY_SUM"
+  },
+  "OFRHF_FPF-ASSETCLASS_STREASURY_SUM.json": {
+    "retrieved_at": "2026-10-26T16:09:27+00:00",
+    "sha256": "99ab5e34c8446886de381ae8f2445be6dd7df9f2f7795ef2feb8039065b8058d",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_STREASURY_SUM"
+  },
+  "OFRHF_FPF-BORROW_REPO_SUM.json": {
+    "retrieved_at": "2026-10-26T16:09:27+00:00",
+    "sha256": "8ddc7f3b62592286b853cb5a6f3abc3abe040f4ccbfaebe445ef31b0ec4c0f5c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-BORROW_REPO_SUM"
+  },
+  "OFR_MMF-MMF_RP_TOT-M.json": {
+    "retrieved_at": "2026-10-26T16:09:29+00:00",
+    "sha256": "216498710ac8af363e215883ff518b447f4ddedf3183cab68264feaa89042524",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=MMF-MMF_RP_TOT-M"
+  },
+  "OFR_MMF-MMF_RP_wDFI-M.json": {
+    "retrieved_at": "2026-10-26T16:09:30+00:00",
+    "sha256": "0714d1f322dfc112a81da62e7bc293c92e7d6a247b7136a4687c5f73a44fa8d2",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=MMF-MMF_RP_wDFI-M"
+  },
+  "OFR_MMF-MMF_RP_wFFI-M.json": {
+    "retrieved_at": "2026-10-26T16:09:30+00:00",
+    "sha256": "c6a7b1803c2828df21c96e5f35b087c8831f2120d3011f4d6e1402ec8f2aab0a",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=MMF-MMF_RP_wFFI-M"
+  },
+  "OFR_MMF-MMF_RP_wFICC-M.json": {
+    "retrieved_at": "2026-10-26T16:09:29+00:00",
+    "sha256": "d392f90a3b23c0c64957bc64a6de362cbf041d3c5be4907369b14400f7403ede",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=MMF-MMF_RP_wFICC-M"
+  },
+  "OFR_MMF-MMF_RP_wFR-M.json": {
+    "retrieved_at": "2026-10-26T16:09:29+00:00",
+    "sha256": "8a8fdf0a893eb017d280777c7cea6dc70eb9c553d015783b42120f24e8d0b071",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=MMF-MMF_RP_wFR-M"
+  },
+  "OFR_MMF-MMF_RP_wOCP-M.json": {
+    "retrieved_at": "2026-10-26T16:09:30+00:00",
+    "sha256": "51578bbdb2952da55188375ae9be3b51332da6e8c3276bb1294b1c3dbaed440a",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=MMF-MMF_RP_wOCP-M"
+  },
+  "OFR_REPO-DVP_TV_TOT-P.json": {
+    "retrieved_at": "2026-10-26T16:09:31+00:00",
+    "sha256": "fe66977409b3ca4ee8765e0f55c5dac8a0d31ab55fd0cf60157e65398584144d",
+    "url": "https://data.financialresearch.gov/v1/series/timeseries?mnemonic=REPO-DVP_TV_TOT-P"
+  },
+  "TREAST.csv": {
+    "retrieved_at": "2026-10-26T16:09:26+00:00",
+    "sha256": "1cac65c2091f20d9cbadb5f034badc16790dec80e8c7f215f196f4b1f1e63ade",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TREAST"
+  }
+}

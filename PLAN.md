@@ -31,6 +31,7 @@ evidence behind each.
 |---|---|---|
 | [Event study 01](results/event-study-01/result.md) | H3, on calendar days | **Not supported** at daily closes: calendar repo pressure does not move yields, VIX, credit, equities or the dollar more when reserves are scarce. |
 | [Study 02](results/study-02/result.md) | Context for H1 and H4 | Today does not resemble the run-up to 2000 or 2007 on the indicators that flashed then. Three things have never been at today's levels: hedge-fund repo (10.4% of GDP), public debt (97% of GDP), credit spreads as tight as only in 1994–97. |
+| [Study 03](results/study-03/result.md) | H1 | **Not supported** as specified: hedge-fund repo is at a record relative to private Treasuries (12.7%), and FICC's share of money funds' repo rose from 16% to 42%. But the basis-trade proxy is below 2019, and lending is less concentrated across counterparty types. |
 | Probes, uncommitted | H2 | Hint: after the biggest Treasury-yield days, repo rose an extra 1.1 bp [0.2, 2.1] the next day in 2025–26, and not in other regimes. Seen while exploring, so it is a lead, not a result. |
 
 ## The studies

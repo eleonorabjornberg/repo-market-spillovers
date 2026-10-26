@@ -1,0 +1,562 @@
+{
+ "design": "docs/design-study-03-chain.md",
+ "manifest": "metadata/chain_manifest.json",
+ "panel_sha256": "4ddc3882cd6d406b11e1088f8ff6195e16dde175a0ad6818abe40dd5bdac8999",
+ "snapshots": [
+  "2007-06",
+  "2014-06",
+  "2019-06",
+  "2026-06"
+ ],
+ "criteria": {
+  "a_size": false,
+  "b_concentration": false
+ },
+ "verdict": "not supported",
+ "measures": {
+  "M1_repo_all_pct_phmt": {
+   "from": "2002-12",
+   "latest": {
+    "month": "2026-06",
+    "value": 26.952
+   },
+   "peak": {
+    "month": "2007-06",
+    "value": 140.544
+   },
+   "snapshots": {
+    "2007-06": 140.544,
+    "2014-06": 39.414,
+    "2019-06": 31.633,
+    "2026-06": 26.952
+   },
+   "now_percentile": 9.2,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "M2_hf_repo_pct_phmt": {
+   "from": "2013-01",
+   "latest": {
+    "month": "2026-06",
+    "value": 12.722
+   },
+   "peak": {
+    "month": "2025-10",
+    "value": 13.11
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 5.655,
+    "2019-06": 9.35,
+    "2026-06": 12.722
+   },
+   "now_percentile": 94.4,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "M3_hf_long_treasury_pct_phmt": {
+   "from": "2013-01",
+   "latest": {
+    "month": "2026-06",
+    "value": 8.885
+   },
+   "peak": {
+    "month": "2025-07",
+    "value": 9.599
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 5.985,
+    "2019-06": 9.51,
+    "2026-06": 8.885
+   },
+   "now_percentile": 82.1,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "M3_hf_short_treasury_pct_phmt": {
+   "from": "2013-01",
+   "latest": {
+    "month": "2026-06",
+    "value": 5.635
+   },
+   "peak": {
+    "month": "2024-07",
+    "value": 6.755
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 2.574,
+    "2019-06": 6.35,
+    "2026-06": 5.635
+   },
+   "now_percentile": 72.8,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "M4_levfund_futures_net_short_pct_phmt": {
+   "from": "2006-06",
+   "latest": {
+    "month": "2026-09",
+    "value": 2.938
+   },
+   "peak": {
+    "month": "2024-10",
+    "value": 4.852
+   },
+   "snapshots": {
+    "2007-06": 0.318,
+    "2014-06": -1.205,
+    "2019-06": 4.039,
+    "2026-06": 3.456
+   },
+   "now_percentile": 84.0,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "M5_mmf_repo_pct_phmt": {
+   "from": "2010-11",
+   "latest": {
+    "month": "2026-09",
+    "value": 10.534
+   },
+   "peak": {
+    "month": "2023-05",
+    "value": 17.689
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 6.748,
+    "2019-06": 8.78,
+    "2026-06": 11.566
+   },
+   "now_percentile": 81.7,
+   "now_top_decile": false,
+   "now_above_2019": true
+  },
+  "M6_sponsored_repo_pct_dvp": {
+   "from": "2020-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 37.17
+   },
+   "peak": {
+    "month": "2025-12",
+    "value": 39.934
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": null,
+    "2026-06": 36.792
+   },
+   "now_percentile": 89.9,
+   "now_top_decile": false,
+   "now_above_2019": null
+  },
+  "M6_sponsored_revrepo_pct_dvp": {
+   "from": "2020-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 46.719
+   },
+   "peak": {
+    "month": "2026-05",
+    "value": 47.495
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": null,
+    "2026-06": 46.723
+   },
+   "now_percentile": 96.2,
+   "now_top_decile": true,
+   "now_above_2019": null
+  },
+  "M7_dealer_treasury_pct_phmt": {
+   "from": "2018-04",
+   "latest": {
+    "month": "2026-08",
+    "value": 1.67
+   },
+   "peak": {
+    "month": "2026-04",
+    "value": 2.024
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": 1.852,
+    "2026-06": 1.874
+   },
+   "now_percentile": 97.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "C1_ficc_share_of_mmf_repo": {
+   "from": "2014-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 39.606
+   },
+   "peak": {
+    "month": "2025-12",
+    "value": 43.343
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 0.003,
+    "2019-06": 15.686,
+    "2026-06": 42.316
+   },
+   "now_percentile": 98.6,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "C2_hhi_mmf_private_counterparties": {
+   "from": "2016-04",
+   "latest": {
+    "month": "2026-09",
+    "value": 0.338
+   },
+   "peak": {
+    "month": "2017-02",
+    "value": 0.631
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": 0.438,
+    "2026-06": 0.345
+   },
+   "now_percentile": 27.2,
+   "now_top_decile": false,
+   "now_above_2019": false
+  }
+ },
+ "levels": {
+  "phmt_bn": {
+   "from": "2002-12",
+   "latest": {
+    "month": "2026-09",
+    "value": 27258.071
+   },
+   "peak": {
+    "month": "2026-08",
+    "value": 27267.98
+   },
+   "snapshots": {
+    "2007-06": 3529.161,
+    "2014-06": 9673.598,
+    "2019-06": 13796.313,
+    "2026-06": 26584.132
+   },
+   "now_percentile": 99.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "hf_repo_bn": {
+   "from": "2013-01",
+   "latest": {
+    "month": "2026-06",
+    "value": 3382.0
+   },
+   "peak": {
+    "month": "2026-04",
+    "value": 3382.0
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 547.0,
+    "2019-06": 1290.0,
+    "2026-06": 3382.0
+   },
+   "now_percentile": 100.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "levfund_futures_net_short_bn": {
+   "from": "2006-06",
+   "latest": {
+    "month": "2026-09",
+    "value": 800.797
+   },
+   "peak": {
+    "month": "2024-10",
+    "value": 1145.741
+   },
+   "snapshots": {
+    "2007-06": 11.212,
+    "2014-06": -116.52,
+    "2019-06": 557.2,
+    "2026-06": 918.834
+   },
+   "now_percentile": 90.6,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "mmf_repo_bn": {
+   "from": "2010-11",
+   "latest": {
+    "month": "2026-09",
+    "value": 2871.495
+   },
+   "peak": {
+    "month": "2023-05",
+    "value": 3379.919
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 652.737,
+    "2019-06": 1211.275,
+    "2026-06": 3074.627
+   },
+   "now_percentile": 96.9,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "mmf_repo_ficc_bn": {
+   "from": "2014-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 1137.273
+   },
+   "peak": {
+    "month": "2026-06",
+    "value": 1301.062
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 0.022,
+    "2019-06": 190.005,
+    "2026-06": 1301.062
+   },
+   "now_percentile": 100.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "mmf_repo_fed_bn": {
+   "from": "2011-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 6.114
+   },
+   "peak": {
+    "month": "2022-12",
+    "value": 2339.616
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 305.531,
+    "2019-06": 43.607,
+    "2026-06": 6.83
+   },
+   "now_percentile": 19.1,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "sponsored_repo_bn": {
+   "from": "2020-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 1053.192
+   },
+   "peak": {
+    "month": "2025-12",
+    "value": 1247.602
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": null,
+    "2026-06": 1103.747
+   },
+   "now_percentile": 93.7,
+   "now_top_decile": true,
+   "now_above_2019": null
+  },
+  "sponsored_revrepo_bn": {
+   "from": "2020-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 1323.736
+   },
+   "peak": {
+    "month": "2025-12",
+    "value": 1424.816
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": null,
+    "2026-06": 1401.646
+   },
+   "now_percentile": 94.9,
+   "now_top_decile": true,
+   "now_above_2019": null
+  },
+  "dvp_bn": {
+   "from": "2018-05",
+   "latest": {
+    "month": "2026-09",
+    "value": 2833.412
+   },
+   "peak": {
+    "month": "2025-11",
+    "value": 3139.272
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": 969.106,
+    "2026-06": 2999.935
+   },
+   "now_percentile": 98.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "repo_all_bn": {
+   "from": "1945-10",
+   "latest": {
+    "month": "2026-06",
+    "value": 7164.975
+   },
+   "peak": {
+    "month": "2026-04",
+    "value": 7164.975
+   },
+   "snapshots": {
+    "2007-06": 4960.018,
+    "2014-06": 3812.77,
+    "2019-06": 4364.157,
+    "2026-06": 7164.975
+   },
+   "now_percentile": 100.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "dealer_treasury_bn": {
+   "from": "2018-04",
+   "latest": {
+    "month": "2026-08",
+    "value": 455.408
+   },
+   "peak": {
+    "month": "2026-03",
+    "value": 534.443
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": 255.447,
+    "2026-06": 498.248
+   },
+   "now_percentile": 97.0,
+   "now_top_decile": true,
+   "now_above_2019": true
+  }
+ },
+ "mmf_split_pct": {
+  "ficc": {
+   "from": "2014-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 39.606
+   },
+   "peak": {
+    "month": "2025-12",
+    "value": 43.343
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 0.003,
+    "2019-06": 15.686,
+    "2026-06": 42.316
+   },
+   "now_percentile": 98.6,
+   "now_top_decile": true,
+   "now_above_2019": true
+  },
+  "fed": {
+   "from": "2011-03",
+   "latest": {
+    "month": "2026-09",
+    "value": 0.213
+   },
+   "peak": {
+    "month": "2022-09",
+    "value": 80.934
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 46.808,
+    "2019-06": 3.6,
+    "2026-06": 0.222
+   },
+   "now_percentile": 14.0,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "dfi": {
+   "from": "2010-11",
+   "latest": {
+    "month": "2026-09",
+    "value": 28.997
+   },
+   "peak": {
+    "month": "2010-12",
+    "value": 39.664
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 18.827,
+    "2019-06": 23.518,
+    "2026-06": 27.304
+   },
+   "now_percentile": 73.8,
+   "now_top_decile": false,
+   "now_above_2019": true
+  },
+  "ffi": {
+   "from": "2010-11",
+   "latest": {
+    "month": "2026-09",
+    "value": 31.0
+   },
+   "peak": {
+    "month": "2018-08",
+    "value": 76.51
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": 34.362,
+    "2019-06": 57.19,
+    "2026-06": 29.97
+   },
+   "now_percentile": 18.8,
+   "now_top_decile": false,
+   "now_above_2019": false
+  },
+  "ocp": {
+   "from": "2010-12",
+   "latest": {
+    "month": "2026-09",
+    "value": 0.185
+   },
+   "peak": {
+    "month": "2026-03",
+    "value": 0.234
+   },
+   "snapshots": {
+    "2007-06": null,
+    "2014-06": null,
+    "2019-06": 0.005,
+    "2026-06": 0.188
+   },
+   "now_percentile": 73.8,
+   "now_top_decile": false,
+   "now_above_2019": true
+  }
+ }
+}
