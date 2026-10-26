@@ -1,0 +1,107 @@
+{
+  "FPF-ASSETCLASS_IRD_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:53+00:00",
+    "sha256": "81f1e25e74be607b83adaa89cab592dbdf3549b8d610332e622bf571b905571d",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_IRD_GNE_SUM"
+  },
+  "FPF-ASSETCLASS_IRD_LGNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:53+00:00",
+    "sha256": "8892a1fd36a924740e3010ad6ab13d39090ef337214e1c7c06964f5afa63567e",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_IRD_LGNE_SUM"
+  },
+  "FPF-ASSETCLASS_IRD_SGNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:54+00:00",
+    "sha256": "ebd759008450b67e4ba63ca770ca62be20e704820b75e9aed8a9f8b656eaf943",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_IRD_SGNE_SUM"
+  },
+  "FPF-ASSETCLASS_LTREASURY_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:52+00:00",
+    "sha256": "8953b67e77c38f015554a1f00a0d7cb6e103bc4656b5e460037d0a4ef81cc55c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_LTREASURY_SUM"
+  },
+  "FPF-ASSETCLASS_STREASURY_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:53+00:00",
+    "sha256": "99ab5e34c8446886de381ae8f2445be6dd7df9f2f7795ef2feb8039065b8058d",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ASSETCLASS_STREASURY_SUM"
+  },
+  "FPF-BORROW_REPO_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:52+00:00",
+    "sha256": "8ddc7f3b62592286b853cb5a6f3abc3abe040f4ccbfaebe445ef31b0ec4c0f5c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-BORROW_REPO_SUM"
+  },
+  "FPF-STRATEGY_CREDIT_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:55+00:00",
+    "sha256": "5d1d7ae9845d5eb2dd192d3f1fab7ed93f1bfb15854b770433e438e9150d6d5c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_CREDIT_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_CREDIT_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:57+00:00",
+    "sha256": "3e6a64c9ae2811459976af9e69550937405b3862667bbbe78e5b8e7c898f949c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_CREDIT_GNE_SUM"
+  },
+  "FPF-STRATEGY_EQUITY_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:55+00:00",
+    "sha256": "af7c4dc3d146033495c52ad43a827d84ae380e71406701dace7ed2c660907c91",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_EQUITY_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_EQUITY_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:57+00:00",
+    "sha256": "f121617338e60ef4e34c59f64d173431aac3413314645ab02d9b30a056d1af38",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_EQUITY_GNE_SUM"
+  },
+  "FPF-STRATEGY_EVENT_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:56+00:00",
+    "sha256": "97d3f5bc5faf20c71da92b5965189b4b1e6892988dc815e4f449bd6c2e8fc0de",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_EVENT_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_EVENT_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:58+00:00",
+    "sha256": "65ae96f9f75d79aa3ccb2ed2e374edc8656feb77405ff6818cfab6a9506557b2",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_EVENT_GNE_SUM"
+  },
+  "FPF-STRATEGY_MACRO_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:55+00:00",
+    "sha256": "d776baa9e0c58b25b252d6f63d801726d3b64da00c6f99b8da5299fee3483af3",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_MACRO_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_MACRO_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:57+00:00",
+    "sha256": "f299f50f4c4478429ea702651f72e76b6f846e6dd569caa395f4dae58c5f207c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_MACRO_GNE_SUM"
+  },
+  "FPF-STRATEGY_MULTI_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:55+00:00",
+    "sha256": "e6a49c7321232206d2adce5034a59ff633b8ddce0a2a0d54b8708aaddf34bcec",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_MULTI_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_MULTI_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:57+00:00",
+    "sha256": "6093636464bb97fbc6376a66da5f23fc0b359b90f6f26057bdd45f2d3188c3d2",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_MULTI_GNE_SUM"
+  },
+  "FPF-STRATEGY_OTHER_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:56+00:00",
+    "sha256": "2c4ae968c48f228f0c643aeb68e30cae0e66a7a9ed24fafc1afd3267541c1021",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_OTHER_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_OTHER_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:58+00:00",
+    "sha256": "bfa98732ff46b9bc8cd0b684df45ba5e7e023e781b86204b04adec64e9eb103f",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_OTHER_GNE_SUM"
+  },
+  "FPF-STRATEGY_RV_BORROWING_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:54+00:00",
+    "sha256": "fd7134213f97e79acbe9eeb395f93d4bce60d345f641145ef8d906050c799e56",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_RV_BORROWING_SUM"
+  },
+  "FPF-STRATEGY_RV_GNE_SUM.json": {
+    "retrieved_at": "2026-10-26T17:17:56+00:00",
+    "sha256": "f98140211ad5b38be3fc400688d4b42cfcf358716ca00271fb382c4e96dd7ef3",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-STRATEGY_RV_GNE_SUM"
+  },
+  "TIC_slt_table5.txt": {
+    "retrieved_at": "2026-10-26T17:18:08+00:00",
+    "sha256": "e5de973b1a6f13c8ec95707d665ce107f53f467db10d7a2d991677ee67d1de11",
+    "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+  }
+}

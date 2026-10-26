@@ -39,6 +39,7 @@ evidence behind each.
 | [Study 09](results/study-09/result.md) | Added: debt and the safe haven | **Not supported**: Treasuries' weaker haven role since 2020 tracks inflation (+5.9 pp per point), not federal debt (−0.07 pp per point [−0.43, +0.24]); repo moves less after panic sell-offs; household debt fell from 98% to 66% of GDP. |
 | [Study 08](SYNTHESIS.md) | Synthesis | Published: repo stress has not spread to wider markets; shocks run from bonds to repo, weakly; no indicator warned reliably. New and untested: record hedge-fund repo, 97% federal debt, very tight credit spreads. Much of the shift to FICC is migration ahead of the clearing mandate. |
 | [Study 10](docs/design-study-10-prospective.md) | Prospective | **Pending.** Set on 26 Oct 2026 with frozen code: (A) relief or disruption at the clearing deadlines against the two previous years' same days; (B) the credit lead on new repo shocks (10 needed); (C) whether the chain gives way in the next stress event (Eleonora's concern about the co-moving hedge-fund repo, sponsored repo and basis trade). |
+| [Study 11](results/study-11/result.md) | Descriptive | Hedge-fund repo still funds Treasuries (E4 no); the hedge moved from futures (−16%) to rate derivatives (+47%) (E1b yes, but the DTCC package proxy did not confirm, so E1 partly); relative value over macro (E3 yes, E2 no); growth mostly multi-strategy and equity funds. |
 
 ## The studies
 
