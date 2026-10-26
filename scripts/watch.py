@@ -26,6 +26,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from spillovers import history as h  # noqa: E402
 import fetch_chain  # noqa: E402
 import fetch_dtcc  # noqa: E402
+import study_10_prospective as s10  # noqa: E402
 
 RAW = ROOT / "data" / "raw" / "watch"
 OUT = ROOT / "results" / "watch"
@@ -265,7 +266,31 @@ def svg_line(series, title, unit, threshold=None, threshold_label="", width=440,
             f' · {keys[-1]}: {vals[-1]:.1f}</span></figcaption>{"".join(parts)}</figure>')
 
 
-def page(run_date, month, readings, flags, charts):
+def prospective_section(status):
+    """Study 10's three pre-registered tests, as they stand."""
+    a = status["A_clearing_deadlines"]
+    rows = []
+    for key, label in (("D1_cash_clearing", "Cash Treasury clearing, 31 Dec 2026"),
+                       ("D2_repo_clearing", "Repo clearing, 30 Jun 2027")):
+        e = a[key]
+        rows.append((label, e.get("verdict") or "pending: scored after the deadline's window closes"))
+    b = status["B_credit_lead"]
+    rows.append(("Credit after repo shocks", b.get("verdict") or
+                 f"pending: {b['n_shock_days']} of {s10.LEAD_MIN_SHOCKS} new repo shocks so far"))
+    c = status["C_chain_under_stress"]
+    rows.append(("The chain under stress", c.get("verdict") or "pending: no stress event yet (counting from 2 November 2026)"))
+    ref = c.get("reference_april_2025")
+    signed = lambda v, fmt: format(v, fmt).replace("-", "−")  # noqa: E731
+    note = (f" For reference, April 2025 scores <b>{ref['verdict']}</b>: repo peaked at {ref['C1_max_noncal_spread_bp']:.0f} bp on"
+            f" ordinary days and the basis-trade proxy changed {signed(ref['C2_futures_short_change_pct'], '+.1f')}%, while"
+            f" the 10-year swap spread moved {signed(ref['C3_swap_spread_change_bp'], '+.0f')} bp.") if ref else ""
+    trs = "".join(f"<tr><td>{html.escape(k)}</td><td>{html.escape(v)}</td></tr>" for k, v in rows)
+    return (f'<h2>Pre-registered tests</h2><p class="note">Set on 26 October 2026, before their data existed, with the code '
+            f'that scores them (<a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/docs/'
+            f'design-study-10-prospective.md">study 10</a>).{note}</p><table class="tests"><tbody>{trs}</tbody></table>')
+
+
+def page(run_date, month, readings, flags, charts, prospective=""):
     today = dt.date.fromisoformat(run_date)
     countdown = "".join(
         f'<div class="deadline"><b>{(dt.date.fromisoformat(d) - today).days}</b> days<span>{html.escape(n)} · '
@@ -305,7 +330,8 @@ ul.flags{{list-style:none;padding:0;display:grid;grid-template-columns:repeat(au
 figcaption{{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-weight:600;font-size:14px;margin-bottom:6px}}.unit{{color:var(--muted);font-weight:400}}
 svg{{width:100%;height:auto;display:block}}.line{{fill:none;stroke:var(--accent);stroke-width:1.6}}.dot{{fill:var(--warn)}}.grid{{stroke:var(--line)}}
 .threshold{{stroke:var(--warn);stroke-dasharray:4 3}}.tick{{fill:var(--muted);font-size:12px}}.warn{{fill:var(--warn)}}
-.note{{color:var(--muted);font-size:14px;max-width:760px}}a{{color:var(--accent)}}
+.note{{color:var(--muted);font-size:14px;max-width:760px}}
+table.tests{{border-collapse:collapse;width:100%;max-width:760px;background:var(--card);font-size:15px}}table.tests td{{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}}table.tests td:first-child{{font-weight:600;width:40%}}a{{color:var(--accent)}}
 </style></head><body><main>
 <nav style="font-size:15px;margin-bottom:20px">Repo Market Watch · <a href="findings.html">Findings: is the repo market signalling a crisis?</a></nav>
 <h1>Repo Market Watch</h1>
@@ -320,6 +346,7 @@ these indicators reliably warned of past stress (studies 04–06). The flags and
 first build, in <a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/docs/design-study-07-watch.md">the design</a>.
 Much of the growth in cleared repo since late 2023 is the market moving ahead of the clearing deadlines
 (<a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/results/study-07/result.md">study 07</a>).</p>
+{prospective}
 <h2>The readings</h2>
 <div class="figs">{figs}</div>
 <p class="note">Sources: FRED, the OFR (financial stress index, Hedge Fund Monitor, Short-term Funding Monitor), the CFTC
@@ -349,7 +376,8 @@ def main():
         for k in sorted(rows):
             w.writerow(rows[k])
     SITE.mkdir(parents=True, exist_ok=True)
-    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts))
+    status = s10.run(run_date)
+    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, prospective_section(status)))
     print(json.dumps({"month": month, "flags": flags, "readings": readings}, indent=1))
 
 

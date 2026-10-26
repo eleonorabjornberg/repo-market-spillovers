@@ -1,0 +1,77 @@
+{
+ "design": "docs/design-study-10-prospective.md",
+ "run_date": "2026-10-26",
+ "data_to": "2026-10-23",
+ "A_clearing_deadlines": {
+  "D1_cash_clearing": {
+   "status": "pending",
+   "deadline": "2026-12-31",
+   "comparators": {
+    "2024-12-31": {
+     "d_spread_bp": 12.0,
+     "sd_noncal_d_spread_bp": 5.534,
+     "n_noncal_days": 11,
+     "swap_change_bp": -0.52
+    },
+    "2025-12-31": {
+     "d_spread_bp": 16.0,
+     "sd_noncal_d_spread_bp": 3.362,
+     "n_noncal_days": 12,
+     "swap_change_bp": 1.53
+    }
+   },
+   "A1_sponsored_share_change_pp": null,
+   "A1_migration_jump": null,
+   "deadline_measures": null
+  },
+  "D2_repo_clearing": {
+   "status": "pending",
+   "deadline": "2027-06-30",
+   "comparators": {
+    "2025-06-30": {
+     "d_spread_bp": 6.0,
+     "sd_noncal_d_spread_bp": 2.858,
+     "n_noncal_days": 12,
+     "swap_change_bp": 2.25
+    },
+    "2026-06-30": {
+     "d_spread_bp": 6.0,
+     "sd_noncal_d_spread_bp": 2.109,
+     "n_noncal_days": 11,
+     "swap_change_bp": -5.2
+    }
+   },
+   "A1_sponsored_share_change_pp": null,
+   "A1_migration_jump": null,
+   "deadline_measures": null
+  },
+  "A5_sponsored_over_hf_repo": {
+   "2026Q2": 0.412
+  }
+ },
+ "B_credit_lead": {
+  "status": "pending",
+  "from": "2026-11-02",
+  "n_shock_days": 0,
+  "n_other_days": 0,
+  "shock_days": []
+ },
+ "C_chain_under_stress": {
+  "status": "pending",
+  "onset": null,
+  "verdict": null,
+  "reference_april_2025": {
+   "onset": "2025-03-10",
+   "window": [
+    "2025-03-03",
+    "2025-05-05"
+   ],
+   "C1_max_noncal_spread_bp": 2.0,
+   "C1_strained": false,
+   "C2_futures_short_change_pct": 0.21,
+   "C2_unwind": false,
+   "C3_swap_spread_change_bp": -23.05,
+   "verdict": "held"
+  }
+ }
+}

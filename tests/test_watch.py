@@ -56,3 +56,23 @@ class FlagsTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ProspectiveCalendarTest(unittest.TestCase):
+    def test_non_calendar_rule(self):
+        import study_10_prospective as s10
+        days = ["2026-11-02", "2026-11-03", "2026-11-04", "2026-11-05", "2026-11-13", "2026-11-18", "2026-11-19",
+                "2026-11-25", "2026-11-27", "2026-11-30", "2026-12-01"]
+        iorb = {d: 3.9 for d in days}
+        for d in days[days.index("2026-11-19"):]:
+            iorb[d] = 3.65  # a cut on the 19th: that day alone is excluded
+        got = s10.non_calendar(days, iorb)
+        # first two and last two business days of November out, the 13th out, the IORB change out;
+        # December is the incomplete latest month, so none of it counts yet
+        self.assertEqual(got, {"2026-11-04", "2026-11-05", "2026-11-18", "2026-11-25"})
+
+    def test_offset(self):
+        import study_10_prospective as s10
+        days = ["a", "b", "c"]
+        self.assertEqual(s10.offset(days, "b", 1), "c")
+        self.assertIsNone(s10.offset(days, "c", 1))
