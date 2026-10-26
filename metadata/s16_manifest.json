@@ -1,0 +1,67 @@
+{
+  "Alphabet_facts.json": {
+    "retrieved_at": "2026-10-26T20:12:55+00:00",
+    "sha256": "a017f26ee88cb4a639d1c1ddb06d53b4afe22f0ac89cabec7cd67c88919fe1c5",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+  },
+  "Alphabet_submissions.json": {
+    "retrieved_at": "2026-10-26T20:12:55+00:00",
+    "sha256": "5f29ed0c43529dca319199d592e504a97b3628143a918d60d5852904b9f62c14",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json"
+  },
+  "Amazon_facts.json": {
+    "retrieved_at": "2026-10-26T20:12:56+00:00",
+    "sha256": "7549fb68446eee40e1f50a166fa06b2d2ee6349e07c8553a4828757e032d3cd4",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+  },
+  "Amazon_submissions.json": {
+    "retrieved_at": "2026-10-26T20:12:56+00:00",
+    "sha256": "64101d7a76a2c68e7a07d37369623ff0d4b11ededdf28410f953337990d1588f",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json"
+  },
+  "CoreWeave_facts.json": {
+    "retrieved_at": "2026-10-26T20:12:58+00:00",
+    "sha256": "c0af16143fd615e9d4d3066226d81722fcbb49de9ee4125f038b1f47e285026f",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001769628.json"
+  },
+  "CoreWeave_submissions-001.json": {
+    "retrieved_at": "2026-10-26T20:12:59+00:00",
+    "sha256": "3ff9d9ae4ba2c71cbe4079a3ac5d04429e6a7b31b5255fa0cc34a8140e009a18",
+    "url": "https://data.sec.gov/submissions/CIK0001769628-submissions-001.json"
+  },
+  "CoreWeave_submissions.json": {
+    "retrieved_at": "2026-10-26T20:12:59+00:00",
+    "sha256": "9c0b1b8003e81dd805a3890188eab94131f3a752b04a91181712bf0fd8140e44",
+    "url": "https://data.sec.gov/submissions/CIK0001769628.json"
+  },
+  "Meta_facts.json": {
+    "retrieved_at": "2026-10-26T20:12:56+00:00",
+    "sha256": "52f806ebd7961834d5ac8073e516361e60e800a52ada0ed7f46fb5f615b6050d",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+  },
+  "Meta_submissions.json": {
+    "retrieved_at": "2026-10-26T20:12:56+00:00",
+    "sha256": "438940caf157661bf9555ee9001a3c8e77d5c0eaa4a6c3dd1b5955c8d207f983",
+    "url": "https://data.sec.gov/submissions/CIK0001326801.json"
+  },
+  "Microsoft_facts.json": {
+    "retrieved_at": "2026-10-26T20:12:57+00:00",
+    "sha256": "dd0308149a8e96497989ed7c690b5a49a00bef9ceafbb24638bda41e8ae938dd",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+  },
+  "Microsoft_submissions.json": {
+    "retrieved_at": "2026-10-26T20:12:57+00:00",
+    "sha256": "85787b1faad12408547154b63c205ee48c076b754a5bec6f7913e528cdf17ceb",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json"
+  },
+  "Oracle_facts.json": {
+    "retrieved_at": "2026-10-26T20:12:58+00:00",
+    "sha256": "65523545f040abaea1dfcf321da2a5aec85e7f34387244b0ffcb26e4c8707f7d",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json"
+  },
+  "Oracle_submissions.json": {
+    "retrieved_at": "2026-10-26T20:12:58+00:00",
+    "sha256": "dfbf57f8dac43f68751a133165ba2de185cb7494eb4e6b0db2569e8550477a79",
+    "url": "https://data.sec.gov/submissions/CIK0001341439.json"
+  }
+}
