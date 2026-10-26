@@ -103,3 +103,21 @@ November 2023" compared two endpoints and hid the dip and the rise between.
 - **Do not present the swap shift as new.** Credit the Fed's June 2026 note and treat our data as extending it to
   mid-2026.
 - **Re-date the clearing story** to the 2022 proposal; keep the extension slowdown, with saturation as the alternative.
+
+## Note added 26 October 2026: the Dallas Fed piece, now read
+
+Eleonora supplied the page. McCormick, Ramaswamy and De Vere, ["Contract design, higher yields make basis trade
+alternatives attractive"](https://www.dallasfed.org/research/economics/2026/1016) (Dallas Fed, 16 October 2026):
+
+- **The basis trade plateaued mainly for mechanical reasons.** As long-end yields near the 6% reference yield used
+  for futures conversion factors, the delivery option in the basis shrinks.
+- **Front-end swap-spread wideners now offer leveraged funds risk-adjusted carry "close to" a long basis position.**
+  A swap-spread position carries more dollar risk per unit of notional, so "even modest reallocation" cuts futures,
+  cash Treasury and repo positions by more.
+- **The two-year contract accounts for a large share of the dollar decline,** while much of the duration-weighted
+  decline is in longer contracts. That fits C2: −30% by face value, −17% weighted by duration.
+- **Asset managers may be receiving fixed on swaps tied to AI and data-centre financing.** The authors call this
+  "limited to a plausible mechanism and market commentary".
+
+This confirms that the swap shift is published, now by two Fed sources, so the instruction above to credit it stands.
+The article cites the piece for the swap alternative and, as a hypothesis, for the AI channel.
