@@ -5,7 +5,7 @@
 
 ## The short answer
 
-Not yet, at least not in any way public data can detect. Six studies looked for the repo market's fingerprints on wider
+Not yet, at least not in any way public data can detect. Ten studies looked for the repo market's fingerprints on wider
 markets, and for warning signs of a crisis in the bond market. They found:
 
 - **Repo stress has not spread to wider markets.** On the days repo was most strained, Treasury yields, stock prices,
@@ -26,8 +26,10 @@ tracks them: the **[Repo Market Watch](index.html)**.
 
 ## Why the repo market
 
-The repo market is where cash is lent overnight against collateral, mostly US Treasury securities. About $3 trillion a
-day changes hands in the cleared part alone. It is how leveraged investors finance their Treasury holdings, and how
+The repo market is where cash is lent overnight against collateral, mostly US Treasury securities. The OFR puts the
+amount outstanding at about $13.5 trillion, roughly 40% of GDP, across all its segments; about 70% of it is backed by
+Treasuries.¹ Hedge funds are the largest borrowers (about $3 trillion) and money market funds
+the largest lenders (about $3 trillion). It is how leveraged investors finance their Treasury holdings, and how
 money funds earn on their cash. If it seizes up, those holders must sell, and the Treasury market, the base of global
 finance, feels it. That happened in September 2019 (repo rates spiked to 5%) and in March 2020 (the "dash for cash").
 
@@ -48,8 +50,10 @@ afterwards is labelled as such in the study.
 | Do Treasury shocks now spread into repo? | **Weakly, in 2025–26 only**, and not the way forced selling would | [04](results/study-04/result.md) |
 | Would repo indicators have warned of past stress? | **Cannot tell**; nothing warned reliably | [06](results/study-06/result.md) |
 | Is the growth of cleared repo a move ahead of the SEC's mandate? | **Yes** | [07](results/study-07/result.md) |
-| What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
 | Does high federal debt make Treasuries a worse safe haven? | **Not detectably**; inflation explains it | [09](results/study-09/result.md) |
+| What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
+| Can better warning indicators be found? | **Not yet**: two promising, unproven candidates | [12](results/study-12/result.md) |
+| What happens at the clearing deadlines, and in the next stress? | **Pending**: tests set before the data exists | [10](docs/design-study-10-prospective.md) |
 
 ### 1. Repo stress has not spread to wider markets
 
@@ -75,14 +79,14 @@ The single hint: corporate (Baa) spreads rose 1.3 bp in the two days after those
 |---|---:|---:|
 | Commercial paper − bill spread | 42 bp | about 0 |
 | Financial conditions (Chicago Fed NFCI) | −0.37 | −0.53 (loose) |
-| Repo, all collateral (% of GDP) | 34% | 22% |
+| Repo liabilities, all collateral (% of GDP)² | 34% | 22% |
 | Household debt (% of GDP) | 96% | 66% |
 | Federal debt held by the public (% of GDP) | 35% | **97%** |
 | Hedge-fund repo borrowing (% of GDP) | n/a | **10.4%** (3.6% in 2013) |
 | Baa − 10-year spread | 165 bp | **148 bp** |
 | 10-year term premium | 0.79% | 0.96%, highest since 2010 |
 
-Funding markets are calm, and overall leverage in repo is lower than before 2008. The leverage has moved: from
+Funding markets are calm, and overall leverage in repo, relative to the economy, is lower than before 2008. The leverage has moved: from
 households and dealer balance sheets financing mortgages in 2007, to the government's debt and hedge funds financing
 Treasuries today. Credit spreads this tight have occurred only in 1994–97, and the warning they gave then was LTCM in
 1998.
@@ -175,12 +179,22 @@ In September 2026 one was on: **complacency**, with Baa spreads tighter than 96.
 sell-off pushed the OFR's stress index from −2.5 to −1.5, and the next build will show whether that holds.
 
 The two clearing deadlines are the events to watch. They move the most leveraged part of the market into new plumbing,
-on a fixed date.
+on a fixed date. Three tests were set before either happens, with the code that scores them
+([study 10](docs/design-study-10-prospective.md)):
+- **The deadlines:** relief, disruption or no visible effect in repo and swap spreads, against the same days in the two
+  previous years. The first verdict is due after January 2027.
+- **The credit lead:** whether Baa spreads widen after new repo jumps, once there have been ten.
+- **The chain under stress:** at the next stress surge, whether repo strains while the basis trade unwinds. April 2025,
+  scored the same way, "held".
+
+The watch also tracks study 12's two candidate indicators, on stress that has not happened yet.
 
 ## What this cannot see
 
 - **Bilateral uncleared repo**, its haircuts and its counterparties. That is where leverage would hide before the
-  clearing deadline, and no public dataset covers it.
+  clearing deadline. The New York Fed reports that 75% of these Treasury trades carry no haircut at all, and that only
+  about 30% of hedge funds' repo with dealers was centrally cleared by late 2025.¹ No public dataset tracks either over
+  time yet; the OFR's new collection is not in its public data feed.
 - **Intraday stress**: everything here is daily closes.
 - **Futures prices, the MOVE index and cross-currency funding**, which are not free.
 - **More history.** The chain's data starts in 2013–14, so 2008 cannot be studied with it, and eight episodes are too
@@ -194,7 +208,18 @@ The project is open: code, data manifests, designs and results are at
 [github.com/eleonorabjornberg/repo-market-spillovers](https://github.com/eleonorabjornberg/repo-market-spillovers).
 - **Data:** the repo data comes from the companion project
   [repo-market-model](https://github.com/eleonorabjornberg/repo-market-model)'s published daily panel, pinned and
-  checksummed. Market data comes from FRED, the OFR, the CFTC, the US Treasury and DTCC.
+  checksummed. Market data comes from FRED, the OFR, the CFTC, DTCC, the US Treasury (including TIC) and the Federal
+  Reserve.
 - **Pre-registration:** every study's design was committed before its first run. Changes made after seeing data are
   marked post hoc in the study.
 - **Figures:** every number on a study's result page is read from that study's `result.json`.
+
+## Notes
+
+1. Gara Afonso, Jun-Davinci Choi, Gonzalo Cisternas and Will Riordan, "Who's Borrowing and Lending in Repo Markets?"
+   and "Follow the Cash! Microstructure of Repo Markets", Federal Reserve Bank of New York, *Liberty Street Economics*,
+   28 and 29 September 2026. Their figures draw on OFR, Form PF and N-MFP data not all of which is public.
+
+2. The Federal Reserve's Financial Accounts (series `BOGZ1FL892150005Q`): repo liabilities of all sectors. It is a
+   narrower measure than the OFR's $13.5 trillion outstanding across all repo segments, so the two should not be
+   compared with each other. The comparison with 2007 uses the same measure at both dates.
