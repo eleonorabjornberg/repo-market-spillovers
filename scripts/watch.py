@@ -1,7 +1,8 @@
 """The watch (study 07, part 2): fetch the latest data, compute the flags fixed in docs/design-study-07-watch.md, and
 build the public page.
 
-Run monthly by .github/workflows/watch.yml. Writes:
+Run weekly by .github/workflows/watch.yml. The flags score the last complete month (re-scored each week until the
+next month ends); the daily charts run to the latest data. Writes:
   results/watch/latest.json        this run's readings and flags
   results/watch/flags_history.csv  one row per month (re-running a month replaces its row)
   results/watch/swap_daily.csv     daily 10-year SOFR swap spread, extended incrementally from DTCC
@@ -228,12 +229,13 @@ def compute(run_date):
     flags = flags_from(readings, hf, fut, sponsored, month)
     upto = lambda s, start="": {k: v for k, v in s.items() if start <= k and k[:7] <= month}  # noqa: E731
     charts = {
-        "spread": upto(spread_daily, h.month_add(month, -23)),
+        # daily charts run to the latest data; the flags above read only complete months
+        "spread": {k: v for k, v in spread_daily.items() if k[:7] >= h.month_add(month, -23)},
         "hf": upto(hf, "2013-01"),
         "fut": upto(fut, "2013-01"),
         "sponsored": upto(sponsored),
-        "swaps": upto(swaps),
-        "fsi": upto(fsi, "2013-01"),
+        "swaps": dict(swaps),
+        "fsi": {k: v for k, v in fsi_daily.items() if k[:7] >= h.month_add(month, -23)},
     }
     return month, readings, flags, charts
 
@@ -359,12 +361,12 @@ def page(run_date, month, readings, flags, charts, prospective=""):
         f'<li class="flag {"on" if flags[k] else "off"}"><div class="state">{"ON" if flags[k] else "off"}</div>'
         f'<div><b>{k} · {html.escape(FLAGS[k][0])}</b><p>{html.escape(FLAGS[k][1])}</p></div></li>' for k in FLAGS)
     figs = "".join([
-        svg_line(charts["spread"], "SOFR − IORB, last 24 months", "bp, daily", 0, "IORB", daily=True),
+        svg_line(charts["spread"], "SOFR − IORB, about 2 years", "bp, daily", 0, "IORB", daily=True),
         svg_line(charts["swaps"], "10-year SOFR swap spread", "bp, daily", -60, "April 2025 stress (−60)", daily=True),
         svg_line(charts["hf"], "Hedge-fund repo borrowing", "% of private Treasuries"),
         svg_line(charts["fut"], "Leveraged funds' Treasury futures short", "% of private Treasuries"),
         svg_line(charts["sponsored"], "FICC sponsored reverse repo", "% of cleared DVP repo"),
-        svg_line(charts["fsi"], "OFR financial stress index", "0 = average", 0, "average"),
+        svg_line(charts["fsi"], "OFR financial stress index, about 2 years", "daily, 0 = average", 0, "average", daily=True),
     ])
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -393,10 +395,11 @@ table.tests{{border-collapse:collapse;width:100%;max-width:760px;background:var(
 </style></head><body><main>
 <nav style="font-size:15px;margin-bottom:20px">Repo Market Watch · <a href="findings.html">Findings: is the repo market signalling a crisis?</a></nav>
 <h1>Repo Market Watch</h1>
-<p class="sub">A monthly look at the US repo market and the leverage behind the Treasury market. Data to the end of
-<b>{dt.date.fromisoformat(month + "-01"):%B %Y}</b>; built {today:%-d %B %Y}.</p>
+<p class="sub">A weekly look at the US repo market and the leverage behind the Treasury market, rebuilt every Monday.
+The flags score the last complete month, <b>{dt.date.fromisoformat(month + "-01"):%B %Y}</b>; the daily charts run to
+<b>{dt.date.fromisoformat(max(charts["spread"])):%-d %B %Y}</b>. Built {today:%-d %B %Y}.</p>
 <div class="deadlines">{countdown}</div>
-<p class="summary"><b>{on} of {len(FLAGS)}</b> flags on this month.</p>
+<p class="summary"><b>{on} of {len(FLAGS)}</b> flags on for {dt.date.fromisoformat(month + "-01"):%B %Y}.</p>
 <h2>Flags</h2>
 <ul class="flags">{cards}</ul>
 <p class="note">A flag says something has changed, not that a crisis is coming. The project's studies found that none of

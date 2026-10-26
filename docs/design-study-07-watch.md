@@ -71,3 +71,9 @@ so beside the flags. A flag says "this has changed", not "a crisis is coming".
 - **A reading added (not a flag).** The watch now shows FICC sponsored repo (the hedge-fund leg) over hedge funds' Form
   PF repo borrowing, quarterly: a public proxy for how much hedge-fund repo is centrally cleared ahead of the June 2027
   deadline. It sets no flag and changes no rule.
+- **Weekly runs (26 October 2026, Eleonora's decision).** The workflow runs every Monday instead of on the 3rd of each
+  month. The flags are unchanged: each is still scored on the last complete month, and that month's row in
+  `results/watch/flags_history.csv` is re-scored each week until the next month ends, so late-published data can still
+  change it. The daily charts now run to the latest data, and the OFR stress index is charted daily; those are display
+  changes only.
+

@@ -1,10 +1,11 @@
-# The watch (study 07): rebuild the public page monthly from fresh data and publish it to GitHub Pages.
-# Runs on the 3rd of each month, after month-end data has been published; can also be run by hand.
+# The watch (study 07): rebuild the public page weekly from fresh data and publish it to GitHub Pages.
+# Runs every Monday; can also be run by hand. Flags score the last complete month and are re-scored each week until
+# the next month ends, so a month's row in results/watch/flags_history.csv settles once its late data is in.
 name: watch
 
 on:
   schedule:
-    - cron: "17 13 3 * *"
+    - cron: "17 13 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -28,7 +29,7 @@ jobs:
         run: |
           python scripts/watch.py
           python scripts/build_findings.py
-      - name: Commit this month's readings
+      - name: Commit this week's readings
         run: |
           git config user.name "repo-market-watch"
           git config user.email "repo-market-watch@users.noreply.github.com"
@@ -36,7 +37,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "nothing changed"
           else
-            git commit -m "Watch: monthly readings ($(date -u +%Y-%m-%d))"
+            git commit -m "Watch: weekly readings ($(date -u +%Y-%m-%d))"
             git push
           fi
       - uses: actions/upload-pages-artifact@v3

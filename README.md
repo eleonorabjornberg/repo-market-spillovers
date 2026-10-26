@@ -2,15 +2,16 @@
 
 Does the US repo market show warning signs of a crisis in the bond market, and does repo stress spread to markets
 as a whole? An exploratory project in twelve studies (one of them the synthesis), each designed before its data was
-run, plus a monthly public watch.
+run, plus a weekly public watch.
 
 **Start here: [`SYNTHESIS.md`](SYNTHESIS.md), "Is the repo market signalling a crisis?"**, the findings written for
 publication. It is also on the site as [findings](https://eleonorabjornberg.github.io/repo-market-spillovers/findings.html).
 
 - **Plan:** [`PLAN.md`](PLAN.md): the five claims (H1–H5), where each stands, the next steps, data sources and rules.
 - **The watch:** the **[Repo Market Watch](https://eleonorabjornberg.github.io/repo-market-spillovers/)** is rebuilt
-  on the 3rd of each month by [`.github/workflows/watch.yml`](.github/workflows/watch.yml). It shows eight warning
-  flags, the prospective tests of study 10 and the candidate indicators of study 12.
+  every Monday by [`.github/workflows/watch.yml`](.github/workflows/watch.yml). Its daily charts run to the latest data;
+  its eight warning flags score the last complete month. It also shows study 10's prospective tests, the clearing
+  migration still to come and study 12's candidate indicators.
 - **Data:** it reads the published daily panel of
   [repo-market-model](https://github.com/eleonorabjornberg/repo-market-model), pinned by commit and digest in
   [`metadata/parent_pin.json`](metadata/parent_pin.json), and adds public data from FRED, the OFR, the CFTC, DTCC, the US
@@ -27,7 +28,7 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 04: amplification](results/study-04/result.md) | H2: do Treasury-market shocks spread into repo? | Nominally "supported for 2025–26 only" (+1.1 bp next day), but weak: a placebo is 84% as large, no replication, no dose–response. April 2025 moved repo 7 bp. |
 | [Study 05: spillback beyond the calendar](results/study-05/result.md) | H3: do non-calendar repo shocks move wider markets, and do swap spreads follow repo? | Not supported. Broad stress eased slightly after 2025–26 repo shocks; swap-spread pass-through about zero. Only hint: Baa +1.3 bp. |
 | [Study 06: would the chain have warned?](results/study-06/result.md) | H4: do repo-chain indicators warn of stress better than the standard signs? | Cannot tell. Best chain indicator (basis-trade proxy) AUROC 0.63 against the yield curve's 0.58; difference +0.05 [−0.14, +0.24]. Nothing warned reliably. |
-| [Study 07: clearing migration and the watch](results/study-07/result.md) | H5: is the growth of cleared repo a move ahead of the SEC mandate? Plus the monthly public watch. | Supported: FICC's share of money-fund repo was flat for four years, then rose 21 points a year after the rule's adoption (Dec 2023) and slowed after the extension (Feb 2025). The watch's first reading (Sep 2026): 1 of 8 flags on (complacency). |
+| [Study 07: clearing migration and the watch](results/study-07/result.md) | H5: is the growth of cleared repo a move ahead of the SEC mandate? Plus the public watch. | Supported: FICC's share of money-fund repo was flat for four years, then rose 21 points a year after the rule's adoption (Dec 2023) and slowed after the extension (Feb 2025). The watch's first reading (Sep 2026): 1 of 8 flags on (complacency). |
 | [Study 08: synthesis](SYNTHESIS.md) | Pull it together for a reader outside the project. | Published; updated as later studies landed. |
 | [Study 09: Treasuries in a panic](results/study-09/result.md) | Does more federal debt make Treasuries a worse safe haven, and does that hit repo? With household debt. | Not supported: the weaker haven since 2020 tracks inflation, not debt; repo moves less after panic sell-offs; household debt is down from 98% to 66% of GDP. |
 | [Study 10: three prospective tests](docs/design-study-10-prospective.md) | Set before their data exists: the clearing deadlines (31 Dec 2026, 30 Jun 2027), the credit lead on new repo shocks, and whether the repo chain holds in the next stress event. | Pending; scored automatically each month ([status](results/study-10/status.json)). April 2025, as a reference, scores "held". The first verdict (cash clearing) is due after January 2027. |
@@ -66,7 +67,7 @@ python3 -m unittest discover -s tests      # also run by .github/workflows/tests
 - `scripts/`: the panel build, one fetch script per source group, one script per study, the watch and the findings
   page
 - `results/<study>/`: `result.json` (every figure), `result.md` (written from it), charts and derived series;
-  `results/watch/` holds the monthly readings and flag history
+  `results/watch/` holds the latest readings and the flag history (one row per month)
 - `metadata/`: the parent pin and one SHA-256 manifest per fetch
 - `site/`: the public pages, rebuilt by the watch workflow
 - `tests/`: unit tests, run on every pull request

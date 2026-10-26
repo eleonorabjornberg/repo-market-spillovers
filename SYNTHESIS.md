@@ -21,7 +21,7 @@ What *has* changed is the scale and shape of the borrowing behind the Treasury m
 - federal debt held by the public is 97% of GDP;
 - credit spreads are as tight as they have been only once before, in the mid-1990s.
 
-None of these has a track record to say what it means, because none has been here before. A public monthly watch now
+None of these has a track record to say what it means, because none has been here before. A public weekly watch now
 tracks them: the **[Repo Market Watch](index.html)**.
 
 ## Why the repo market
@@ -166,7 +166,8 @@ includes a coin flip. Most of these episodes came out of calm.
 
 ## What to watch
 
-The watch tracks eight flags monthly, fixed before its first build:
+The watch, rebuilt every week, tracks eight flags fixed before its first build, each scored on the last complete
+month:
 - repo trading above the Fed's rate;
 - repo spikes;
 - hedge-fund repo or the basis trade at a record;
@@ -176,7 +177,8 @@ The watch tracks eight flags monthly, fixed before its first build:
 - complacency in credit.
 
 In September 2026 one was on: **complacency**, with Baa spreads tighter than 96.5% of months since 1986. October's
-sell-off pushed the OFR's stress index from −2.5 to −1.5, and the next build will show whether that holds.
+sell-off pushed the OFR's stress index from −2.5 to −1.5; the watch's daily charts show it week by week, and October's
+flags are scored once the month is complete.
 
 The two clearing deadlines are the events to watch. They move the most leveraged part of the market into new plumbing,
 on a fixed date. Three tests were set before either happens, with the code that scores them

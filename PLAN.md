@@ -53,7 +53,7 @@ evidence behind each.
 | [11](results/study-11/result.md) what hedge-fund repo funds | descriptive | Still Treasuries (repo +21%, long Treasuries +20%); the hedge moved from futures (−16%) to rate derivatives (+47%); growth with multi-strategy and relative-value funds, not macro. The DTCC package proxy did not confirm swap-spread trades. |
 | [12](results/study-12/result.md) better indicators? | test (H4) | **Promising, not proven**: the composite is no better than the curve (−0.02 [−0.23, +0.16]); top-10 hedge-fund leverage scores 0.74 (2016–25 only); low long-run VIX 0.78 at 12 months on 2013–25 but 0.44 before. Both are tracked on the watch. |
 
-Every study keeps to the rules below. The watch ([`scripts/watch.py`](scripts/watch.py), run on the 3rd of each month
+Every study keeps to the rules below. The watch ([`scripts/watch.py`](scripts/watch.py), run every Monday
 by [`.github/workflows/watch.yml`](.github/workflows/watch.yml)) shows the eight flags fixed in study 07's design,
 study 10's tests and study 12's candidates. It scores nothing itself.
 
@@ -62,7 +62,7 @@ study 10's tests and study 12's candidates. It scores nothing itself.
 In order of value:
 
 1. **Read the deadline results as they come.** Study 10A scores the cash-clearing deadline once data runs to the end
-   of January 2027, and the repo deadline after September 2027. Nothing to build; the monthly run does it.
+   of January 2027, and the repo deadline after September 2027. Nothing to build; the weekly run does it.
 2. **Study 13 (when the data is public): uncleared bilateral repo.** The OFR's new collection on non-centrally cleared
    bilateral repo would show where leverage sits outside clearing, and its haircuts. The New York Fed reports that 75%
    of these Treasury trades carry a zero haircut, and that only about 30% of hedge-fund repo with dealers was cleared
@@ -121,7 +121,8 @@ cross-currency basis.
 2. **Network:** the CFTC, DTCC, FINRA, SEC and TIC hosts were added to the environment's network policy.
 3. **Study 06 stress events:** widened beyond the NFCI onsets to named episodes since 2010. Claude fixes the list in
    study 06's design, before any indicator is scored against it.
-4. **The watch:** study 07 runs monthly on a schedule, and its page is public.
+4. **The watch:** study 07 runs on a schedule, and its page is public. Changed from monthly to weekly on 26 October
+   2026 at her request; the flags still score complete months only.
 5. **Audience:** the synthesis is written to be published.
 6. **Review:** Claude merges each study's pull request itself once its checks pass; she does not review each one.
 7. **Additions:** study 09 (debt and the safe haven, with household debt), study 11 (what hedge-fund repo funds) and
