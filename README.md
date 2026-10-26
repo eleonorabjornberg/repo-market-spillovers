@@ -8,6 +8,8 @@ It reads the published daily panel of [repo-market-model](https://github.com/ele
 from FRED. It never writes to, scores for, or changes anything in repo-market-model. Nothing found here enters that
 project except through its own directive and scoring process.
 
+The research plan, hypotheses H1–H5 and the studies that test them, is [`PLAN.md`](PLAN.md).
+
 ## Results
 
 | Study | Question | Finding |
