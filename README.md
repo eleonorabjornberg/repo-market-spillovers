@@ -8,6 +8,8 @@ It reads the published daily panel of [repo-market-model](https://github.com/ele
 from FRED. It never writes to, scores for, or changes anything in repo-market-model. Nothing found here enters that
 project except through its own directive and scoring process.
 
+**Start here: [`SYNTHESIS.md`](SYNTHESIS.md), "Is the repo market signalling a crisis?"**, the findings written for publication (also on the site as [findings](https://eleonorabjornberg.github.io/repo-market-spillovers/findings.html)).
+
 The research plan, hypotheses H1–H5 and the studies that test them, is [`PLAN.md`](PLAN.md).
 
 The **[Repo Market Watch](https://eleonorabjornberg.github.io/repo-market-spillovers/)** is rebuilt on the 3rd of each month by [`.github/workflows/watch.yml`](.github/workflows/watch.yml) (`python3 scripts/watch.py` builds it locally).
