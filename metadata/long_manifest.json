@@ -1,0 +1,77 @@
+{
+  "BAA10Y.csv": {
+    "retrieved_at": "2026-10-26T15:56:07+00:00",
+    "sha256": "64fb420ac4fc8189d3c7f2271e618f0e280dc8939a6a81f1783a2faffc7da24e",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10Y"
+  },
+  "BOGZ1FL892150005Q.csv": {
+    "retrieved_at": "2026-10-26T15:56:08+00:00",
+    "sha256": "a7a42469773db81201949c455a2205ced5f94a26a2ea3888757d36f1cc3f6922",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BOGZ1FL892150005Q"
+  },
+  "DCPF3M.csv": {
+    "retrieved_at": "2026-10-26T15:56:08+00:00",
+    "sha256": "3e865410cbe2083d1ea0a64791cc44aad4912ae62d8c818693e2f0b5b591601d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCPF3M"
+  },
+  "DGS10.csv": {
+    "retrieved_at": "2026-10-26T15:56:08+00:00",
+    "sha256": "19f98e90edb98a9e861f534980d7f6189fe69c771159197585a057589b65327d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
+  },
+  "DTB3.csv": {
+    "retrieved_at": "2026-10-26T15:56:08+00:00",
+    "sha256": "3437358abeac96f2417ec10d173e985b8aa831d09dee78debdafa52f016f21c8",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTB3"
+  },
+  "FYGFDPUN.csv": {
+    "retrieved_at": "2026-10-26T15:56:09+00:00",
+    "sha256": "829270267f4e348319fded79083c78543b4607fcd6863a52e651edd15c044f3d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FYGFDPUN"
+  },
+  "GDP.csv": {
+    "retrieved_at": "2026-10-26T15:56:09+00:00",
+    "sha256": "5d2a8770ac8661e0989113aad8be4b2ea4a0f5fa4549dc7f372ce6279a95c818",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GDP"
+  },
+  "NFCI.csv": {
+    "retrieved_at": "2026-10-26T15:56:09+00:00",
+    "sha256": "869ecd21cb3ad3fc06ce94a909fecfc77c8c7814c286e0679483907de7040b5d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NFCI"
+  },
+  "NFCILEVERAGE.csv": {
+    "retrieved_at": "2026-10-26T15:56:09+00:00",
+    "sha256": "ebf3ee66c9bb3fbc6f41f02c9e4cc15d388c99326a45ab20fedfccc05ee29bf1",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NFCILEVERAGE"
+  },
+  "OFRHF_FPF-BORROW_REPO_SUM.json": {
+    "retrieved_at": "2026-10-26T15:56:10+00:00",
+    "sha256": "8ddc7f3b62592286b853cb5a6f3abc3abe040f4ccbfaebe445ef31b0ec4c0f5c",
+    "url": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-BORROW_REPO_SUM"
+  },
+  "OFR_FSI.csv": {
+    "retrieved_at": "2026-10-26T15:56:10+00:00",
+    "sha256": "8433d8ccaf70d88d5451107e3b084b68787303153458b3b56d3d35742ab822ae",
+    "url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv"
+  },
+  "T10Y3M.csv": {
+    "retrieved_at": "2026-10-26T15:56:10+00:00",
+    "sha256": "b3db552823d4f7e29bc7dfd2a1d600681a23bc6853f09a34d035990dd8e79a00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y3M"
+  },
+  "TEDRATE.csv": {
+    "retrieved_at": "2026-10-26T15:56:11+00:00",
+    "sha256": "291d6007c287e3a1a56fff7879dcfa5aaa44620bc0a68cb2ab8ccf032795c99d",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TEDRATE"
+  },
+  "THREEFYTP10.csv": {
+    "retrieved_at": "2026-10-26T15:56:11+00:00",
+    "sha256": "b67a729281dd2d559968768dfb059be1887065100e07cff8786ee6d1f4fb8621",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=THREEFYTP10"
+  },
+  "TOTRESNS.csv": {
+    "retrieved_at": "2026-10-26T15:56:11+00:00",
+    "sha256": "e9491674f1e21ee9a9c9f6d2b313f8c83d607f453cc05643ad45588dfe57c700",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TOTRESNS"
+  }
+}

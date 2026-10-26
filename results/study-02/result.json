@@ -1,0 +1,596 @@
+{
+ "design": "docs/design-study-02-then-and-now.md",
+ "manifest": "metadata/long_manifest.json",
+ "today": "2026-06",
+ "reference": {
+  "2000-03": "Dot-com peak",
+  "2007-07": "Before the 2007 repo run",
+  "2008-08": "Before Lehman",
+  "2019-08": "Before the 2019 repo spike",
+  "2020-02": "Before COVID"
+ },
+ "stress_onsets": [
+  "1978-03-31",
+  "1983-10-28",
+  "1987-04-10",
+  "1998-10-09",
+  "2000-05-12",
+  "2007-08-17",
+  "2020-03-13"
+ ],
+ "check_window": {
+  "from": "1990-01",
+  "horizon_months": 24,
+  "last_month_with_full_horizon": "2024-09"
+ },
+ "indicators": [
+  {
+   "indicator": "repo_gdp",
+   "label": "Repo liabilities, all sectors (% GDP)",
+   "group": "Repo and funding",
+   "warn": "high",
+   "from": "1947-10",
+   "to": "2026-06",
+   "2000-03": {
+    "value": 17.859,
+    "pct": 64.0
+   },
+   "2007-07": {
+    "value": 34.456,
+    "pct": 99.7
+   },
+   "2008-08": {
+    "value": 32.551,
+    "pct": 98.3
+   },
+   "2019-08": {
+    "value": 21.43,
+    "pct": 78.9
+   },
+   "2020-02": {
+    "value": 22.33,
+    "pct": 82.2
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 22.003,
+    "pct": 81.5
+   },
+   "latest": {
+    "month": "2026-06",
+    "value": 22.003,
+    "pct": 81.5,
+    "highest_since": "2026-05",
+    "lowest_since": "2026-05"
+   },
+   "check": {
+    "warning_months": 165,
+    "share_followed": 0.158,
+    "base_share": 0.218,
+    "months": 417
+   }
+  },
+  {
+   "indicator": "hf_repo_gdp",
+   "label": "Hedge-fund repo borrowing (% GDP)",
+   "group": "Repo and funding",
+   "warn": "high",
+   "from": "2013-01",
+   "to": "2026-06",
+   "2000-03": null,
+   "2007-07": null,
+   "2008-08": null,
+   "2019-08": {
+    "value": 6.129,
+    "pct": 74.1
+   },
+   "2020-02": {
+    "value": 6.243,
+    "pct": 77.8
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 10.386,
+    "pct": 98.1
+   },
+   "latest": {
+    "month": "2026-06",
+    "value": 10.386,
+    "pct": 98.1,
+    "highest_since": "2026-05",
+    "lowest_since": "2026-05"
+   },
+   "check": {
+    "warning_months": 0,
+    "share_followed": null,
+    "base_share": 0.17,
+    "months": 141
+   }
+  },
+  {
+   "indicator": "reserves_gdp",
+   "label": "Reserves (% GDP)",
+   "group": "Repo and funding",
+   "warn": "low",
+   "from": "1959-01",
+   "to": "2026-06",
+   "2000-03": {
+    "value": 0.397,
+    "pct": 12.0
+   },
+   "2007-07": {
+    "value": 0.295,
+    "pct": 0.6
+   },
+   "2008-08": {
+    "value": 0.307,
+    "pct": 2.2
+   },
+   "2019-08": {
+    "value": 7.307,
+    "pct": 76.8
+   },
+   "2020-02": {
+    "value": 7.939,
+    "pct": 78.3
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 9.271,
+    "pct": 79.9
+   },
+   "latest": {
+    "month": "2026-06",
+    "value": 9.271,
+    "pct": 79.9,
+    "highest_since": "2026-05",
+    "lowest_since": "2026-04"
+   },
+   "check": {
+    "warning_months": 271,
+    "share_followed": 0.31,
+    "base_share": 0.218,
+    "months": 417
+   }
+  },
+  {
+   "indicator": "cp_bill_bp",
+   "label": "3m financial CP \u2212 3m bill (bp)",
+   "group": "Repo and funding",
+   "warn": "high",
+   "from": "1997-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 33.304,
+    "pct": 73.9
+   },
+   "2007-07": {
+    "value": 42.381,
+    "pct": 82.3
+   },
+   "2008-08": {
+    "value": 103.762,
+    "pct": 96.1
+   },
+   "2019-08": {
+    "value": 10.955,
+    "pct": 30.1
+   },
+   "2020-02": {
+    "value": 7.947,
+    "pct": 14.3
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 10.262,
+    "pct": 26.1
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": -0.147,
+    "pct": 0.6,
+    "highest_since": "2026-08",
+    "lowest_since": "2024-02"
+   },
+   "check": {
+    "warning_months": 252,
+    "share_followed": 0.333,
+    "base_share": 0.265,
+    "months": 332
+   }
+  },
+  {
+   "indicator": "ted_bp",
+   "label": "TED spread (bp, ended 2022)",
+   "group": "Repo and funding",
+   "warn": "high",
+   "from": "1986-01",
+   "to": "2021-12",
+   "2000-03": {
+    "value": 50.217,
+    "pct": 58.8
+   },
+   "2007-07": {
+    "value": 53.857,
+    "pct": 62.5
+   },
+   "2008-08": {
+    "value": 108.25,
+    "pct": 88.9
+   },
+   "2019-08": {
+    "value": 21.619,
+    "pct": 19.2
+   },
+   "2020-02": {
+    "value": 16.211,
+    "pct": 6.7
+   },
+   "today": null,
+   "latest": {
+    "month": "2021-12",
+    "value": 14.4,
+    "pct": 3.9,
+    "highest_since": "2021-04",
+    "lowest_since": "2021-11"
+   }
+  },
+  {
+   "indicator": "ofr_funding",
+   "label": "OFR stress index: funding",
+   "group": "Repo and funding",
+   "warn": "high",
+   "from": "2000-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 0.231,
+    "pct": 73.8
+   },
+   "2007-07": {
+    "value": -0.398,
+    "pct": 24.3
+   },
+   "2008-08": {
+    "value": 3.145,
+    "pct": 97.8
+   },
+   "2019-08": {
+    "value": -0.653,
+    "pct": 12.1
+   },
+   "2020-02": {
+    "value": -0.752,
+    "pct": 8.7
+   },
+   "today": {
+    "month": "2026-06",
+    "value": -0.08,
+    "pct": 56.1
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": -0.167,
+    "pct": 46.4,
+    "highest_since": "2026-08",
+    "lowest_since": "2024-11"
+   },
+   "check": {
+    "warning_months": 134,
+    "share_followed": 0.037,
+    "base_share": 0.175,
+    "months": 297
+   }
+  },
+  {
+   "indicator": "nfci_leverage",
+   "label": "NFCI leverage subindex",
+   "group": "Leverage and conditions",
+   "warn": "high",
+   "from": "1971-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 1.184,
+    "pct": 89.8
+   },
+   "2007-07": {
+    "value": 0.413,
+    "pct": 78.5
+   },
+   "2008-08": {
+    "value": 2.638,
+    "pct": 96.3
+   },
+   "2019-08": {
+    "value": 0.037,
+    "pct": 60.7
+   },
+   "2020-02": {
+    "value": 0.571,
+    "pct": 82.2
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 0.245,
+    "pct": 72.9
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": 0.164,
+    "pct": 70.3,
+    "highest_since": "2026-06",
+    "lowest_since": "2026-08"
+   },
+   "check": {
+    "warning_months": 90,
+    "share_followed": 0.278,
+    "base_share": 0.218,
+    "months": 417
+   }
+  },
+  {
+   "indicator": "nfci",
+   "label": "NFCI (financial conditions)",
+   "group": "Leverage and conditions",
+   "warn": null,
+   "from": "1971-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": -0.129,
+    "pct": 66.1
+   },
+   "2007-07": {
+    "value": -0.366,
+    "pct": 51.7
+   },
+   "2008-08": {
+    "value": 0.739,
+    "pct": 84.9
+   },
+   "2019-08": {
+    "value": -0.55,
+    "pct": 31.5
+   },
+   "2020-02": {
+    "value": -0.465,
+    "pct": 43.5
+   },
+   "today": {
+    "month": "2026-06",
+    "value": -0.51,
+    "pct": 37.1
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": -0.532,
+    "pct": 34.4,
+    "highest_since": "2026-07",
+    "lowest_since": "2026-08"
+   }
+  },
+  {
+   "indicator": "term_premium",
+   "label": "10y term premium, Kim\u2013Wright (%)",
+   "group": "Bond market",
+   "warn": null,
+   "from": "1990-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 1.397,
+    "pct": 76.6
+   },
+   "2007-07": {
+    "value": 0.792,
+    "pct": 52.2
+   },
+   "2008-08": {
+    "value": 0.829,
+    "pct": 54.0
+   },
+   "2019-08": {
+    "value": -0.422,
+    "pct": 2.5
+   },
+   "2020-02": {
+    "value": -0.404,
+    "pct": 2.9
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 0.753,
+    "pct": 50.1
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": 0.96,
+    "pct": 61.2,
+    "highest_since": "2010-04",
+    "lowest_since": "2026-08"
+   }
+  },
+  {
+   "indicator": "curve_10y3m_bp",
+   "label": "10y \u2212 3m curve (bp)",
+   "group": "Bond market",
+   "warn": "low",
+   "from": "1982-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 39.261,
+    "pct": 20.1
+   },
+   "2007-07": {
+    "value": 4.333,
+    "pct": 11.7
+   },
+   "2008-08": {
+    "value": 213.286,
+    "pct": 64.2
+   },
+   "2019-08": {
+    "value": -36.409,
+    "pct": 6.3
+   },
+   "2020-02": {
+    "value": -4.053,
+    "pct": 10.1
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 65.952,
+    "pct": 27.4
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": 89.619,
+    "pct": 32.6,
+    "highest_since": "2022-06",
+    "lowest_since": "2026-08"
+   },
+   "check": {
+    "warning_months": 112,
+    "share_followed": 0.482,
+    "base_share": 0.218,
+    "months": 417
+   }
+  },
+  {
+   "indicator": "baa_10y_bp",
+   "label": "Baa \u2212 10y (bp)",
+   "group": "Bond market",
+   "warn": "high",
+   "from": "1986-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 211.087,
+    "pct": 48.5
+   },
+   "2007-07": {
+    "value": 164.81,
+    "pct": 15.1
+   },
+   "2008-08": {
+    "value": 326.286,
+    "pct": 93.5
+   },
+   "2019-08": {
+    "value": 224.727,
+    "pct": 58.9
+   },
+   "2020-02": {
+    "value": 210.684,
+    "pct": 47.9
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 153.048,
+    "pct": 7.6
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": 148.143,
+    "pct": 3.5,
+    "highest_since": "2026-08",
+    "lowest_since": "2025-02"
+   },
+   "check": {
+    "warning_months": 390,
+    "share_followed": 0.208,
+    "base_share": 0.218,
+    "months": 417
+   },
+   "post_hoc_check": {
+    "direction": "low",
+    "warning_months": 27,
+    "share_followed": 0.37,
+    "base_share": 0.218,
+    "months": 417
+   }
+  },
+  {
+   "indicator": "debt_gdp",
+   "label": "Federal debt held by public (% GDP)",
+   "group": "Bond market",
+   "warn": "high",
+   "from": "1970-01",
+   "to": "2026-06",
+   "2000-03": {
+    "value": 36.872,
+    "pct": 43.8
+   },
+   "2007-07": {
+    "value": 34.669,
+    "pct": 35.4
+   },
+   "2008-08": {
+    "value": 39.024,
+    "pct": 51.3
+   },
+   "2019-08": {
+    "value": 77.478,
+    "pct": 88.1
+   },
+   "2020-02": {
+    "value": 79.208,
+    "pct": 88.9
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 97.367,
+    "pct": 98.2
+   },
+   "latest": {
+    "month": "2026-06",
+    "value": 97.367,
+    "pct": 98.2,
+    "highest_since": "2026-05",
+    "lowest_since": "2026-05"
+   },
+   "check": {
+    "warning_months": 6,
+    "share_followed": null,
+    "base_share": 0.218,
+    "months": 417
+   }
+  },
+  {
+   "indicator": "ust10y",
+   "label": "10-year Treasury yield (%)",
+   "group": "Bond market",
+   "warn": null,
+   "from": "1962-01",
+   "to": "2026-09",
+   "2000-03": {
+    "value": 6.257,
+    "pct": 60.4
+   },
+   "2007-07": {
+    "value": 5.004,
+    "pct": 46.3
+   },
+   "2008-08": {
+    "value": 3.886,
+    "pct": 24.8
+   },
+   "2019-08": {
+    "value": 1.626,
+    "pct": 3.5
+   },
+   "2020-02": {
+    "value": 1.504,
+    "pct": 2.3
+   },
+   "today": {
+    "month": "2026-06",
+    "value": 4.47,
+    "pct": 38.9
+   },
+   "latest": {
+    "month": "2026-09",
+    "value": 4.989,
+    "pct": 45.9,
+    "highest_since": "2007-07",
+    "lowest_since": "2026-08"
+   }
+  }
+ ]
+}
