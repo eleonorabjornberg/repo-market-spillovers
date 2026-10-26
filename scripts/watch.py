@@ -143,6 +143,33 @@ def ratio(num, den):
     return {k: v / den[k] * 100 for k, v in num.items() if k in den and den[k]}
 
 
+def flags_from(readings, hf, fut, sponsored, month):
+    """The eight flags of docs/design-study-07-watch.md, from this month's readings and the monthly series.
+
+    hf: hedge-fund repo % of private Treasuries (quarterly, carried to months); fut: leveraged funds' futures short %
+    of private Treasuries; sponsored: sponsored reverse repo % of DVP volume. Only months up to `month` are read.
+    """
+    hf = {k: v for k, v in hf.items() if k <= month}
+    fut = {k: v for k, v in fut.items() if k <= month}
+    hf_m, fut_m = max(hf), max(fut)
+    hf_v, fut_v = hf[hf_m], fut[fut_m]
+    sp_keys = sorted(k for k in sponsored if k <= month)[-4:]
+    hf_prev = [v for k, v in hf.items() if k < hf_m]
+    hf_prev_q = hf.get(h.month_add(hf_m, -3))
+    fut_prev = [v for k, v in fut.items() if k < fut_m]
+    return {
+        "F1": readings["sofr_iorb_month_avg_bp"] is not None and readings["sofr_iorb_month_avg_bp"] > 0,
+        "F2": readings["sofr_iorb_month_max_bp"] is not None and readings["sofr_iorb_month_max_bp"] >= 10,
+        "F3": bool(hf_prev) and hf_v >= max(hf_prev),
+        "F4": bool(fut_prev) and fut_v > max(fut_prev),
+        "F5": len(sp_keys) == 4 and all(sponsored[a] > sponsored[b] for a, b in zip(sp_keys, sp_keys[1:]))
+        and hf_prev_q is not None and hf_v >= hf_prev_q,
+        "F6": readings["swap_spread_10y_month_min_bp"] is not None and readings["swap_spread_10y_month_min_bp"] <= -60,
+        "F7": readings["ofr_fsi_month_avg"] is not None and readings["ofr_fsi_month_avg"] > 0,
+        "F8": readings["baa_10y_bp"]["percentile"] <= 5,
+    }
+
+
 def compute(run_date):
     month = h.month_add(run_date[:7], -1)  # the latest complete month
     m = h.complete_months
@@ -194,19 +221,7 @@ def compute(run_date):
         "baa_10y_bp": {"month": baa_m, "value": round(baa_v, 1), "percentile": round(
             100 * sum(x <= baa_v for x in baa_hist) / len(baa_hist), 1)},
     }
-    hf_prev = [v for k, v in hf.items() if k < hf_m]
-    hf_prev_q = hf.get(h.month_add(hf_m, -3))
-    flags = {
-        "F1": readings["sofr_iorb_month_avg_bp"] is not None and readings["sofr_iorb_month_avg_bp"] > 0,
-        "F2": readings["sofr_iorb_month_max_bp"] is not None and readings["sofr_iorb_month_max_bp"] >= 10,
-        "F3": bool(hf_prev) and hf_v >= max(hf_prev),
-        "F4": fut_v is not None and fut_v > max(v for k, v in fut.items() if k < fut_m),
-        "F5": len(sp_keys) == 4 and all(sponsored[a] > sponsored[b] for a, b in zip(sp_keys, sp_keys[1:]))
-        and hf_prev_q is not None and hf_v >= hf_prev_q,
-        "F6": readings["swap_spread_10y_month_min_bp"] is not None and readings["swap_spread_10y_month_min_bp"] <= -60,
-        "F7": readings["ofr_fsi_month_avg"] is not None and readings["ofr_fsi_month_avg"] > 0,
-        "F8": readings["baa_10y_bp"]["percentile"] <= 5,
-    }
+    flags = flags_from(readings, hf, fut, sponsored, month)
     upto = lambda s, start="": {k: v for k, v in s.items() if start <= k and k[:7] <= month}  # noqa: E731
     charts = {
         "spread": upto(spread_daily, h.month_add(month, -23)),
