@@ -1,0 +1,150 @@
+{
+ "design": "docs/design-study-14-haircuts-netting.md",
+ "manifest": "metadata/s14_manifest.json",
+ "weeks": [
+  "2022-01-05",
+  "2026-10-14"
+ ],
+ "n_weeks": 250,
+ "n_complete_weeks": 94,
+ "first_window": [
+  "2022-10-26",
+  "2024-05-01"
+ ],
+ "last_window": [
+  "2026-07-22",
+  "2026-10-14"
+ ],
+ "Q1_uncleared_segment": {
+  "M1_rev_uncleared_share": {
+   "first_13_weeks": 63.478,
+   "last_13_weeks": 57.19
+  },
+  "M1_rep_uncleared_share": {
+   "first_13_weeks": 59.402,
+   "last_13_weeks": 60.369
+  },
+  "rev_uncleared_bn": {
+   "first_13_weeks": 1133.415,
+   "last_13_weeks": 1563.354
+  },
+  "rev_sponsored_bn": {
+   "first_13_weeks": 203.423,
+   "last_13_weeks": 506.754
+  },
+  "rep_uncleared_bn": {
+   "first_13_weeks": 817.0,
+   "last_13_weeks": 1164.415
+  },
+  "change_pp": -6.29,
+  "verdict": "holding"
+ },
+ "Q2_matched_book": {
+  "uncleared_specified_mean": 0.839,
+  "uncleared_specified_first_13": 0.812,
+  "uncleared_specified_last_13": 0.801,
+  "cleared_specified_sponsored_mean": 0.711,
+  "large_matched_book": true,
+  "shrank": false
+ },
+ "Q3_year_end": {
+  "by_year": {
+   "2023": {
+    "year_end": 58.38,
+    "before": 65.24,
+    "after": 62.15,
+    "dip": true
+   },
+   "2024": {
+    "year_end": 54.96,
+    "before": 58.97,
+    "after": 57.51,
+    "dip": true
+   },
+   "2025": {
+    "year_end": 47.2,
+    "before": 51.7,
+    "after": 55.89,
+    "dip": true
+   }
+  },
+  "dip_in_3_of_4": true
+ },
+ "sensitivity_suppressed_as_zero": {
+  "weeks": [
+   "2022-01-05",
+   "2026-10-14"
+  ],
+  "n_weeks": 250,
+  "n_complete_weeks": 250,
+  "first_window": [
+   "2022-01-05",
+   "2022-03-30"
+  ],
+  "last_window": [
+   "2026-07-22",
+   "2026-10-14"
+  ],
+  "Q1_uncleared_segment": {
+   "M1_rev_uncleared_share": {
+    "first_13_weeks": 59.998,
+    "last_13_weeks": 57.19
+   },
+   "M1_rep_uncleared_share": {
+    "first_13_weeks": 64.214,
+    "last_13_weeks": 60.369
+   },
+   "rev_uncleared_bn": {
+    "first_13_weeks": 884.085,
+    "last_13_weeks": 1563.354
+   },
+   "rev_sponsored_bn": {
+    "first_13_weeks": 31.954,
+    "last_13_weeks": 506.754
+   },
+   "rep_uncleared_bn": {
+    "first_13_weeks": 802.723,
+    "last_13_weeks": 1164.415
+   },
+   "change_pp": -2.81,
+   "verdict": "holding"
+  },
+  "Q2_matched_book": {
+   "uncleared_specified_mean": 0.839,
+   "uncleared_specified_first_13": 0.959,
+   "uncleared_specified_last_13": 0.801,
+   "cleared_specified_sponsored_mean": 0.736,
+   "large_matched_book": true,
+   "shrank": true
+  },
+  "Q3_year_end": {
+   "by_year": {
+    "2022": {
+     "year_end": 62.69,
+     "before": 64.06,
+     "after": 63.58,
+     "dip": true
+    },
+    "2023": {
+     "year_end": 59.04,
+     "before": 65.24,
+     "after": 63.04,
+     "dip": true
+    },
+    "2024": {
+     "year_end": 54.96,
+     "before": 58.97,
+     "after": 57.51,
+     "dip": true
+    },
+    "2025": {
+     "year_end": 47.2,
+     "before": 51.7,
+     "after": 55.89,
+     "dip": true
+    }
+   },
+   "dip_in_3_of_4": true
+  }
+ }
+}
