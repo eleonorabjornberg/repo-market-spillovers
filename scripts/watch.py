@@ -40,7 +40,7 @@ FLAGS = {
     "F2": ("Repo spike", "A day with SOFR − IORB at 10 bp or more: stress beyond the calendar's usual."),
     "F3": ("Hedge-fund repo at a record", "Hedge funds' repo borrowing at its highest share of private Treasuries since 2013."),
     "F4": ("Basis trade at a record", "Leveraged funds' Treasury futures short above its previous peak share of private Treasuries."),
-    "F5": ("Moving away from clearing", "Sponsored repo's share of cleared volume down three months running while hedge-fund repo has not fallen."),
+    "F5": ("Moving away from clearing", "Sponsored reverse repo's share of cleared volume down three months running while hedge-fund repo has not fallen."),
     "F6": ("Swap spreads at April 2025 levels", "10-year SOFR swap spread at −60 bp or below on any day: dealer balance sheets strained."),
     "F7": ("Broad stress", "OFR financial stress index above 0 on average: more stress than usual across markets."),
     "F8": ("Complacency", "Baa − 10-year spread in the tightest 5% of its history since 1986: risk priced as if absent."),
@@ -269,6 +269,41 @@ def svg_line(series, title, unit, threshold=None, threshold_label="", width=440,
             f' · {keys[-1]}: {vals[-1]:.1f}</span></figcaption>{"".join(parts)}</figure>')
 
 
+def cleared_share(sponsored_repo_monthly, hf_repo_quarterly):
+    """Quarter -> FICC sponsored repo volume (the cash-borrowing leg, mostly hedge funds; quarterly mean of monthly
+    means) over hedge funds' Form PF repo borrowing, in percent. A proxy for how much hedge-fund repo is centrally
+    cleared: the two are measured differently, so its direction means more than its level. Quarters are keyed by their
+    first month (YYYY-MM), as Form PF values carried by spillovers.history are."""
+    out = {}
+    for q, borrowing in hf_repo_quarterly.items():
+        if int(q[5:7]) % 3 != 1 or not borrowing:
+            continue
+        months = [h.month_add(q, k) for k in range(3)]
+        if all(m in sponsored_repo_monthly for m in months):
+            out[q] = statistics.fmean(sponsored_repo_monthly[m] for m in months) / borrowing * 100
+    return out
+
+
+def clearing_countdown_section(run_date):
+    """The hedge-fund side of the clearing migration, against the 30 June 2027 repo deadline."""
+    sponsored = h.complete_months(ofr("OFRHF_FICC-SPONSORED_REPO_VOL.json"), "daily")
+    hf = h.complete_months(ofr("OFRHF_FPF-BORROW_REPO_SUM.json"), "quarterly")
+    share = cleared_share(sponsored, hf)
+    label = lambda q: f"{q[:4]} Q{(int(q[5:7]) - 1) // 3 + 1}"  # noqa: E731
+    chart = svg_line({label(k): v for k, v in share.items() if k >= "2020-04"}, "Hedge-fund repo cleared via FICC (proxy)",
+                     "% of hedge funds' repo borrowing, quarterly")
+    latest = max(share)
+    days = (dt.date(2027, 6, 30) - dt.date.fromisoformat(run_date)).days
+    quarter = label(latest)
+    return ('<h2>The clearing migration still to come</h2><p class="note">About 40% of money funds\' repo lending now goes through '
+            'FICC\'s central clearing (study 07). The hedge-fund side is further behind, and the SEC requires it cleared by '
+            f'30 June 2027 ({days} days away). In {quarter}, FICC sponsored repo, mostly hedge funds borrowing cash, '
+            f'equalled <b>{share[latest]:.0f}%</b> of hedge funds\' repo borrowing. It is a proxy built from public data, '
+            'measured differently from Form PF, so its trend means more than its level; it tracks the New York Fed\'s '
+            'figure from non-public data (about 30% in late 2025). A rising line is the migration happening; a flat or '
+            f'falling one as the deadline nears is worth watching.</p><div class="figs" style="max-width:560px">{chart}</div>')
+
+
 def candidate_section():
     """Study 12's two promising indicators, tracked prospectively: percentile of the latest reading in its own history."""
     vix = h.complete_months(fred("VIXCLS"), "daily")
@@ -400,7 +435,7 @@ def main():
             w.writerow(rows[k])
     SITE.mkdir(parents=True, exist_ok=True)
     status = s10.run(run_date)
-    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, prospective_section(status) + candidate_section()))
+    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, prospective_section(status) + clearing_countdown_section(run_date) + candidate_section()))
     print(json.dumps({"month": month, "flags": flags, "readings": readings}, indent=1))
 
 

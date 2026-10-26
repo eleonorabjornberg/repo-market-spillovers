@@ -61,6 +61,7 @@ def load():
     return {"days": days, "spread": {d: (sofr[d] - iorb[d]) * 100 for d in days}, "iorb": iorb,
             "baa": {d: v * 100 for d, v in fred("BAA10Y").items()}, "fsi": fsi, "swap": swap, "futures": futures,
             "sponsored": ofr("OFRHF_FICC-SPONSORED_REVREPO_VOL.json"), "dvp": ofr("OFR_REPO-DVP_TV_TOT-P.json"),
+            "sponsored_repo": ofr("OFRHF_FICC-SPONSORED_REPO_VOL.json"),
             "hf_repo": ofr("OFRHF_FPF-BORROW_REPO_SUM.json")}
 
 
@@ -161,6 +162,12 @@ def part_a(data, noncal):
         if all(m in sp for m in months) and q in hf:
             a5[q[:4] + "Q" + str((int(q[5:7]) - 1) // 3 + 1)] = round(statistics.fmean(sp[m] for m in months) / hf[q], 3)
     out["A5_sponsored_over_hf_repo"] = a5
+    # erratum (26 Oct 2026, see the design): A5 uses the money-fund lending leg. The hedge-fund leg is reported beside
+    # it, by the same quarters; A5 itself is unchanged, and neither decides anything.
+    rp = h.complete_months(data["sponsored_repo"], "daily")
+    out["A5_erratum_sponsored_repo_over_hf_repo"] = {
+        q[:4] + "Q" + str((int(q[5:7]) - 1) // 3 + 1): round(statistics.fmean(rp[h.month_add(q, k)] for k in range(3)) / hf[q], 3)
+        for q in ("2026-04", "2027-04", "2027-07") if q in hf and all(h.month_add(q, k) in rp for k in range(3))}
     return out
 
 

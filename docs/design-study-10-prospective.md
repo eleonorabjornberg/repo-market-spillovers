@@ -116,3 +116,12 @@ event".
   net out only the calendar.
 - **The non-calendar rule approximates** the earlier studies' calendar.
 - **Part C scores one episode.** Its verdict describes that episode, not the chain in general.
+
+## Erratum (26 October 2026, after this design was committed, before any scored data existed)
+
+A5 divides FICC *sponsored reverse repo* by hedge funds' repo borrowing. Per the OFR's definitions, sponsored reverse
+repo is mostly money funds *lending* cash. The hedge-fund leg is sponsored *repo*, mostly hedge funds borrowing cash.
+A5 therefore does not measure "what is left outside clearing" for hedge funds. It is kept unchanged, and the
+correctly-legged ratio is reported beside it as `A5_erratum_sponsored_repo_over_hf_repo`. A5 is descriptive and decides
+no verdict, so no test changes. A1 measures money funds' side of the migration, which sponsored reverse repo is right
+for, and is unaffected.
