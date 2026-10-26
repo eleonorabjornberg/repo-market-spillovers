@@ -1,0 +1,12 @@
+{
+  "IORB.csv": {
+    "retrieved_at": "2026-10-26T18:18:49+00:00",
+    "sha256": "7949bd48287186eb613009ed381c5a0be26cf6d55c8d8ed389508ec1724047b6",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IORB"
+  },
+  "SOFR99.csv": {
+    "retrieved_at": "2026-10-26T18:18:49+00:00",
+    "sha256": "0913b4bd0e0058e0cd8fa2297dbd03e5a05ff6bdeb5e48cfcb1f634d40c32ea6",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR99"
+  }
+}

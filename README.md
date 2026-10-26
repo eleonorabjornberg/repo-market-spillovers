@@ -34,6 +34,7 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 10: three prospective tests](docs/design-study-10-prospective.md) | Set before their data exists: the clearing deadlines (31 Dec 2026, 30 Jun 2027), the credit lead on new repo shocks, and whether the repo chain holds in the next stress event. | Pending; scored automatically each month ([status](results/study-10/status.json)). April 2025, as a reference, scores "held". The first verdict (cash clearing) is due after January 2027. |
 | [Study 11: what hedge-fund repo funds](results/study-11/result.md) | Descriptive: now that the basis trade has shrunk, what is hedge-fund repo funding? | Still Treasuries (repo +21%, long Treasuries +20%), hedged less with futures (−16%) and more with rate derivatives (+47%); growth with multi-strategy and relative-value funds, not macro. |
 | [Study 12: better indicators?](results/study-12/result.md) | Can better warning indicators be found without overfitting? 9 candidates fixed in advance, 22 events since 1990, development/test split. | No reliable one. Composite = yield curve (−0.02). Two "promising": largest hedge funds' leverage (0.74, but only from 2013) and low long-run VIX (0.78 at 12m, but below chance before 2013). Both now tracked in the watch. |
+| [Study 13: pre-publication checks](results/study-13/result.md) | Before an article: do the key claims survive their likeliest failure? | One withdrawn (seasonal dip in hedge-fund clearing); basis-trade decline 17% by risk, not 30%; the swap shift is already published by the Fed; clearing's rise began with the 2022 proposal (erratum to study 07). |
 
 ## Reproduce
 
@@ -55,6 +56,7 @@ python3 scripts/fetch_study09.py && python3 scripts/study_09_debt_volatility.py
 python3 scripts/watch.py                   # the watch; also runs study 10 (scripts/study_10_prospective.py)
 python3 scripts/fetch_study11.py && python3 scripts/fetch_dtcc_packages.py && python3 scripts/study_11_what_repo_funds.py
 python3 scripts/fetch_study12.py && python3 scripts/study_12_indicators.py   # data/raw/s12/ebp.csv supplied by hand
+python3 scripts/study_13_prepublication.py   # after scripts/watch.py and fetch_study11.py
 python3 scripts/build_findings.py          # site/findings.html from SYNTHESIS.md
 python3 -m unittest discover -s tests      # also run by .github/workflows/tests.yml on every pull request
 ```
