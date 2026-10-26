@@ -130,3 +130,15 @@ trades: the 99th percentile went above the line more often after full allotment 
 ceiling would produce. A likely reason, not tested here, is that only some firms can borrow from the facility.
 
 This refines section 3. "The worst turn since the facility, 22 bp above" (31 October 2025) predates full allotment.
+
+**Note on the addendum (26 October 2026): what full allotment was, and a confound.** The New York Fed's ["Statement
+Regarding Standing Overnight Repo Operations"](https://www.newyorkfed.org/markets/opolicy/operating_policy_251210)
+(10 December 2025, effective 11 December) removed the facility's aggregate limit and moved it to a "full allotment
+format". Each eligible counterparty may submit one proposition per security type at each of the two daily operations,
+up to $40bn, awarded at the facility's rate. The [implementation note](https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a1.htm)
+of the same day set that rate at 3.75%, the top of the range, with IORB at 3.65%. The same FOMC decision also began
+[reserve management purchases](https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a) of Treasury bills,
+about $40bn in the first month from 12 December, to keep reserves ample. Two changes started at once, so the 2026 calm
+in the benchmark cannot be credited to full allotment alone. The design of the facility, eligible counterparties only
+and two fixed operation times a day, fits the reading that firms outside it still pay above its rate, but this note
+does not test that.
