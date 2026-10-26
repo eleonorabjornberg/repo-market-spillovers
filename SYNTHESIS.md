@@ -51,6 +51,7 @@ afterwards is labelled as such in the study.
 | Would repo indicators have warned of past stress? | **Cannot tell**; nothing warned reliably | [06](results/study-06/result.md) |
 | Is the growth of cleared repo a move ahead of the SEC's mandate? | **Yes** | [07](results/study-07/result.md) |
 | Does high federal debt make Treasuries a worse safe haven? | **Not detectably**; inflation explains it | [09](results/study-09/result.md) |
+| Would corporate bonds or repo cushion a stock-market bust? | **Only while Treasuries act as a haven**: corporate collateral is a small part of repo, and corporate yields rise with Treasury yields in 9 of 10 panics when Treasuries sell off | [15](results/study-15/result.md) |
 | What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
 | Can better warning indicators be found? | **Not yet**: two promising, unproven candidates | [12](results/study-12/result.md) |
 | What happens at the clearing deadlines, and in the next stress? | **Pending**: tests set before the data exists | [10](docs/design-study-10-prospective.md) |
@@ -142,6 +143,14 @@ debt, had the least reliable haven. A moderate debt effect cannot be ruled out.
 
 When Treasuries did sell off in a panic, repo felt *less* pressure, not more. Household debt is down from 98% of GDP in
 2008 to 66%, and panics widen mortgage spreads by about 2 bp regardless of how much households owe.
+
+Corporate bonds give no cover in that case ([study 15](results/study-15/result.md)). On panic days when the 10-year yield
+rose, the Baa corporate yield rose too on 89% of them [83, 94]. Since 2020, corporate yields rose on 46% of panic days,
+against 18% in 2008–19. In repo itself corporate bonds are a small corner: dealers' repo against them was about $167bn
+in 2026, against about $3.4 trillion against Treasuries. In March 2020 dealers' corporate repo did not shrink, but the
+Fed had just opened a facility that lent to dealers against corporate bonds. So a stock-market bust, say in AI shares,
+would be cushioned by the repo market only while Treasuries rally. When they do not, as on some days of March 2020
+and more often since inflation returned, Treasuries and corporate bonds fall together.
 
 ### 7. No indicator warned
 

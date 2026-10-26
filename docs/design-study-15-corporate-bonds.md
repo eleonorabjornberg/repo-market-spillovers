@@ -88,3 +88,28 @@ Changes:
 - **Suppressed values** ("*") in the new format count as zero, so totals are lower bounds. The number of weeks with
   any suppressed corporate cell is reported.
 - Q2 and Q3 are unchanged. March 2020 falls in the first segment and April 2025 in the second.
+
+## Second amendment (26 October 2026, after the first results were seen)
+
+**This amendment was written after seeing results,** and says so. The first complete run summed the new-format venue
+series. Its 2022 segment showed dealers' corporate repo rising from $19.5bn to $168.4bn. That is an artefact: in the
+new format, the tri-party venue series (`TRIG`, `TRISP`), where most corporate collateral sits, begin only on 3 July
+2024. Before then the venue sum leaves tri-party out. It also showed a break at the turn of 2022 ($82.7bn in the last
+weeks of 2021, $19.5bn in the first weeks of 2022).
+
+The New York Fed also publishes continuous totals by collateral, weekly from 3 April 2013:
+- `PDSORA-CDTOT` and `PDSIRRA-CDTOT` for corporate debt;
+- `PDSORA-UTSETTOT`, `PDSORA-UTSTTOT`, `PDSIRRA-UTSETTOT` and `PDSIRRA-UTSTTOT` for Treasuries.
+
+Two of their published descriptions are wrong. `PDSORA-CDTOT` says "Triparty", yet it matches the venue sum across
+all venues in 2026. `PDSIRRA-CDTOT` is described as mortgage securities borrowed, yet its values are of the size of
+corporate reverse repo. So before use, each corporate total is checked against the OFR's corporate series for
+2015–2021. The total is used only if the two agree within 1% in at least 95% of overlapping weeks.
+
+Changes:
+- **Q1** uses these totals, as one series from 2013: C1 on the first and last 13 weeks with all four components of a
+  leg reported. A "*" is missing, and drops that week for that leg. The tests are unchanged ("small" below 10%;
+  "grew faster" than Treasury repo). The two-segment construction is dropped.
+- **Q2** keeps the OFR series for March 2020 as specified. The same windows from the totals are reported beside it, and
+  April 2025 now comes from the totals.
+- **Q3** is unchanged; its result was seen before this amendment and does not depend on it.
