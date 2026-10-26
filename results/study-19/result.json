@@ -1,0 +1,796 @@
+{
+ "design": "docs/design-study-19-who-pays-above-the-line.md",
+ "manifest": "metadata/s19_manifest.json",
+ "data": [
+  "2021-07-29",
+  "2026-10-23"
+ ],
+ "periods": {
+  "before full allotment": {
+   "from": "2021-07-29",
+   "to": "2025-12-10",
+   "Q1_where": {
+    "n_days": 1089,
+    "n_breach_days": 79,
+    "TGCR_p99_also_above": 27,
+    "TGCR_p99_also_above_pct": 34.2,
+    "BGCR_p99_also_above": 44,
+    "BGCR_p99_also_above_pct": 55.7,
+    "mean_gap_sofr_p99_minus_tgcr_p99_bp": 9.7,
+    "mean_sofr_p99_above_line_bp": 9.3,
+    "verdict": "mixed"
+   },
+   "Q2_takeup": {
+    "median_takeup_breach_days_bn": 0.0,
+    "median_takeup_other_days_bn": 0.0,
+    "mean_takeup_breach_days_bn": 3.26,
+    "share_breach_days_with_any_takeup_pct": 67.1,
+    "share_other_days_with_any_takeup_pct": 33.6,
+    "max_takeup_breach_day_bn": 50.35,
+    "verdict": "largely unused when the top of the market paid more",
+    "takeup_on_breach_days_by_operation_close_time_bn": {
+     "08:30": 191.95,
+     "10:15": 0.1,
+     "13:45": 65.52
+    }
+   },
+   "post_hoc_split": {
+    "takeup_at_least_1bn": {
+     "n": 25,
+     "mean_sofr_p99_above_line_bp": 15.3,
+     "mean_tgcr_p99_minus_line_bp": 4.8,
+     "tgcr_p99_also_above": 14,
+     "mean_takeup_bn": 10.28,
+     "first_day": "2024-09-30",
+     "last_day": "2025-12-02"
+    },
+    "takeup_below_1bn": {
+     "n": 54,
+     "mean_sofr_p99_above_line_bp": 6.5,
+     "mean_tgcr_p99_minus_line_bp": -2.8,
+     "tgcr_p99_also_above": 13,
+     "mean_takeup_bn": 0.01,
+     "first_day": "2023-11-30",
+     "last_day": "2025-12-09"
+    }
+   },
+   "breach_days": [
+    {
+     "date": "2023-11-30",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -10.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2023-12-27",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -2.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2023-12-28",
+     "sofr_p99_above_bp": 14.0,
+     "tgcr_p99_above_bp": -2.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2023-12-29",
+     "sofr_p99_above_bp": 18.0,
+     "tgcr_p99_above_bp": -2.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-01-02",
+     "sofr_p99_above_bp": 6.0,
+     "tgcr_p99_above_bp": -11.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-01-03",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -9.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-04-01",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -12.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-07-01",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -13.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-07-31",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -11.0,
+     "takeup_bn": 0.01
+    },
+    {
+     "date": "2024-08-01",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -11.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-09-19",
+     "sofr_p99_above_bp": 34.0,
+     "tgcr_p99_above_bp": 34.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-09-30",
+     "sofr_p99_above_bp": 45.0,
+     "tgcr_p99_above_bp": -5.0,
+     "takeup_bn": 2.6
+    },
+    {
+     "date": "2024-10-01",
+     "sofr_p99_above_bp": 28.0,
+     "tgcr_p99_above_bp": -2.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-10-02",
+     "sofr_p99_above_bp": 9.0,
+     "tgcr_p99_above_bp": 6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-10-31",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -11.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-11-08",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": 8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-12-10",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -9.0,
+     "takeup_bn": 0.1
+    },
+    {
+     "date": "2024-12-19",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": 10.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-12-24",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-12-26",
+     "sofr_p99_above_bp": 30.0,
+     "tgcr_p99_above_bp": 6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-12-27",
+     "sofr_p99_above_bp": 23.0,
+     "tgcr_p99_above_bp": 4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-12-30",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -3.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2024-12-31",
+     "sofr_p99_above_bp": 25.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-01-02",
+     "sofr_p99_above_bp": 6.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-03-31",
+     "sofr_p99_above_bp": 7.0,
+     "tgcr_p99_above_bp": -10.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-04-08",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -9.0,
+     "takeup_bn": 0.1
+    },
+    {
+     "date": "2025-04-09",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-04-30",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -10.0,
+     "takeup_bn": 0.11
+    },
+    {
+     "date": "2025-06-26",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -9.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-06-30",
+     "sofr_p99_above_bp": 15.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 11.07
+    },
+    {
+     "date": "2025-07-01",
+     "sofr_p99_above_bp": 4.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-05",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-12",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-15",
+     "sofr_p99_above_bp": 18.0,
+     "tgcr_p99_above_bp": 2.0,
+     "takeup_bn": 1.5
+    },
+    {
+     "date": "2025-09-16",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": 2.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-18",
+     "sofr_p99_above_bp": 14.0,
+     "tgcr_p99_above_bp": 14.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-25",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -5.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-26",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-09-30",
+     "sofr_p99_above_bp": 13.0,
+     "tgcr_p99_above_bp": -2.0,
+     "takeup_bn": 6.0
+    },
+    {
+     "date": "2025-10-01",
+     "sofr_p99_above_bp": 4.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-10-02",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-10-03",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.1
+    },
+    {
+     "date": "2025-10-14",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -5.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-10-15",
+     "sofr_p99_above_bp": 14.0,
+     "tgcr_p99_above_bp": 3.0,
+     "takeup_bn": 6.75
+    },
+    {
+     "date": "2025-10-16",
+     "sofr_p99_above_bp": 16.0,
+     "tgcr_p99_above_bp": 5.0,
+     "takeup_bn": 8.35
+    },
+    {
+     "date": "2025-10-17",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": 6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-10-20",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 2.0
+    },
+    {
+     "date": "2025-10-21",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": -1.0,
+     "takeup_bn": 3.0
+    },
+    {
+     "date": "2025-10-22",
+     "sofr_p99_above_bp": 4.0,
+     "tgcr_p99_above_bp": -1.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-10-23",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": -1.0,
+     "takeup_bn": 3.0
+    },
+    {
+     "date": "2025-10-24",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-10-27",
+     "sofr_p99_above_bp": 11.0,
+     "tgcr_p99_above_bp": 2.0,
+     "takeup_bn": 8.4
+    },
+    {
+     "date": "2025-10-28",
+     "sofr_p99_above_bp": 17.0,
+     "tgcr_p99_above_bp": 6.0,
+     "takeup_bn": 7.75
+    },
+    {
+     "date": "2025-10-29",
+     "sofr_p99_above_bp": 11.0,
+     "tgcr_p99_above_bp": 7.0,
+     "takeup_bn": 10.31
+    },
+    {
+     "date": "2025-10-30",
+     "sofr_p99_above_bp": 27.0,
+     "tgcr_p99_above_bp": 28.0,
+     "takeup_bn": 6.2
+    },
+    {
+     "date": "2025-10-31",
+     "sofr_p99_above_bp": 35.0,
+     "tgcr_p99_above_bp": 19.0,
+     "takeup_bn": 50.35
+    },
+    {
+     "date": "2025-11-03",
+     "sofr_p99_above_bp": 23.0,
+     "tgcr_p99_above_bp": 23.0,
+     "takeup_bn": 22.0
+    },
+    {
+     "date": "2025-11-04",
+     "sofr_p99_above_bp": 14.0,
+     "tgcr_p99_above_bp": 14.0,
+     "takeup_bn": 4.8
+    },
+    {
+     "date": "2025-11-05",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": 1.0,
+     "takeup_bn": 0.1
+    },
+    {
+     "date": "2025-11-06",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-11-07",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 2.0
+    },
+    {
+     "date": "2025-11-10",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-11-12",
+     "sofr_p99_above_bp": 7.0,
+     "tgcr_p99_above_bp": -2.0,
+     "takeup_bn": 6.05
+    },
+    {
+     "date": "2025-11-13",
+     "sofr_p99_above_bp": 10.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 3.9
+    },
+    {
+     "date": "2025-11-14",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": 1.0,
+     "takeup_bn": 0.02
+    },
+    {
+     "date": "2025-11-17",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 5.57
+    },
+    {
+     "date": "2025-11-18",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": 1.0,
+     "takeup_bn": 0.01
+    },
+    {
+     "date": "2025-11-21",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-11-24",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-11-25",
+     "sofr_p99_above_bp": 9.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 10.6
+    },
+    {
+     "date": "2025-11-26",
+     "sofr_p99_above_bp": 15.0,
+     "tgcr_p99_above_bp": 5.0,
+     "takeup_bn": 14.0
+    },
+    {
+     "date": "2025-11-28",
+     "sofr_p99_above_bp": 23.0,
+     "tgcr_p99_above_bp": 11.0,
+     "takeup_bn": 24.4
+    },
+    {
+     "date": "2025-12-01",
+     "sofr_p99_above_bp": 21.0,
+     "tgcr_p99_above_bp": 13.0,
+     "takeup_bn": 26.0
+    },
+    {
+     "date": "2025-12-02",
+     "sofr_p99_above_bp": 12.0,
+     "tgcr_p99_above_bp": 13.0,
+     "takeup_bn": 10.26
+    },
+    {
+     "date": "2025-12-03",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": 2.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-04",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-05",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-08",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-09",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.11
+    }
+   ]
+  },
+  "after full allotment": {
+   "from": "2025-12-11",
+   "to": "2026-10-23",
+   "Q1_where": {
+    "n_days": 217,
+    "n_breach_days": 35,
+    "TGCR_p99_also_above": 8,
+    "TGCR_p99_also_above_pct": 22.9,
+    "BGCR_p99_also_above": 13,
+    "BGCR_p99_also_above_pct": 37.1,
+    "mean_gap_sofr_p99_minus_tgcr_p99_bp": 8.2,
+    "mean_sofr_p99_above_line_bp": 5.4,
+    "verdict": "outside tri-party (in DVP)"
+   },
+   "Q2_takeup": {
+    "median_takeup_breach_days_bn": 0.0,
+    "median_takeup_other_days_bn": 0.0,
+    "mean_takeup_breach_days_bn": 6.13,
+    "share_breach_days_with_any_takeup_pct": 74.3,
+    "share_other_days_with_any_takeup_pct": 58.2,
+    "max_takeup_breach_day_bn": 74.6,
+    "verdict": "largely unused when the top of the market paid more",
+    "takeup_on_breach_days_by_operation_close_time_bn": {
+     "08:30": 162.07,
+     "10:45": 0.06,
+     "13:45": 52.37
+    }
+   },
+   "post_hoc_split": {
+    "takeup_at_least_1bn": {
+     "n": 10,
+     "mean_sofr_p99_above_line_bp": 11.1,
+     "mean_tgcr_p99_minus_line_bp": 2.3,
+     "tgcr_p99_also_above": 6,
+     "mean_takeup_bn": 21.44,
+     "first_day": "2025-12-15",
+     "last_day": "2026-04-15"
+    },
+    "takeup_below_1bn": {
+     "n": 25,
+     "mean_sofr_p99_above_line_bp": 3.1,
+     "mean_tgcr_p99_minus_line_bp": -4.8,
+     "tgcr_p99_also_above": 2,
+     "mean_takeup_bn": 0.01,
+     "first_day": "2025-12-11",
+     "last_day": "2026-08-31"
+    }
+   },
+   "breach_days": [
+    {
+     "date": "2025-12-11",
+     "sofr_p99_above_bp": 15.0,
+     "tgcr_p99_above_bp": 16.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-12",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-15",
+     "sofr_p99_above_bp": 10.0,
+     "tgcr_p99_above_bp": 0.0,
+     "takeup_bn": 16.8
+    },
+    {
+     "date": "2025-12-16",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": 1.0,
+     "takeup_bn": 4.0
+    },
+    {
+     "date": "2025-12-17",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -5.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-22",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2025-12-26",
+     "sofr_p99_above_bp": 12.0,
+     "tgcr_p99_above_bp": 1.0,
+     "takeup_bn": 17.25
+    },
+    {
+     "date": "2025-12-29",
+     "sofr_p99_above_bp": 14.0,
+     "tgcr_p99_above_bp": 2.0,
+     "takeup_bn": 25.95
+    },
+    {
+     "date": "2025-12-30",
+     "sofr_p99_above_bp": 8.0,
+     "tgcr_p99_above_bp": 3.0,
+     "takeup_bn": 3.0
+    },
+    {
+     "date": "2025-12-31",
+     "sofr_p99_above_bp": 25.0,
+     "tgcr_p99_above_bp": 10.0,
+     "takeup_bn": 74.6
+    },
+    {
+     "date": "2026-01-02",
+     "sofr_p99_above_bp": 12.0,
+     "tgcr_p99_above_bp": 13.0,
+     "takeup_bn": 22.8
+    },
+    {
+     "date": "2026-01-05",
+     "sofr_p99_above_bp": 4.0,
+     "tgcr_p99_above_bp": 1.0,
+     "takeup_bn": 0.02
+    },
+    {
+     "date": "2026-01-26",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-01-27",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-01-30",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-02-02",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 0.03
+    },
+    {
+     "date": "2026-02-03",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -5.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-02-17",
+     "sofr_p99_above_bp": 14.0,
+     "tgcr_p99_above_bp": -1.0,
+     "takeup_bn": 30.5
+    },
+    {
+     "date": "2026-02-18",
+     "sofr_p99_above_bp": 10.0,
+     "tgcr_p99_above_bp": -1.0,
+     "takeup_bn": 0.06
+    },
+    {
+     "date": "2026-02-19",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -1.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-02-24",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-02-25",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-02-26",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-02-27",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-03-02",
+     "sofr_p99_above_bp": 7.0,
+     "tgcr_p99_above_bp": -3.0,
+     "takeup_bn": 9.0
+    },
+    {
+     "date": "2026-03-03",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -3.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-03-04",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -4.0,
+     "takeup_bn": 0.01
+    },
+    {
+     "date": "2026-03-16",
+     "sofr_p99_above_bp": 4.0,
+     "tgcr_p99_above_bp": -5.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-03-31",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -7.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-04-15",
+     "sofr_p99_above_bp": 7.0,
+     "tgcr_p99_above_bp": -3.0,
+     "takeup_bn": 10.46
+    },
+    {
+     "date": "2026-04-24",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-04-27",
+     "sofr_p99_above_bp": 1.0,
+     "tgcr_p99_above_bp": -8.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-06-15",
+     "sofr_p99_above_bp": 3.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-06-30",
+     "sofr_p99_above_bp": 5.0,
+     "tgcr_p99_above_bp": -9.0,
+     "takeup_bn": 0.0
+    },
+    {
+     "date": "2026-08-31",
+     "sofr_p99_above_bp": 2.0,
+     "tgcr_p99_above_bp": -6.0,
+     "takeup_bn": 0.0
+    }
+   ]
+  }
+ }
+}

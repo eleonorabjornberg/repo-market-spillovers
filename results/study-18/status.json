@@ -1,0 +1,39 @@
+{
+ "design": "docs/design-study-18-year-end-2026.md",
+ "run_date": "2026-10-26",
+ "data_to": "2026-10-23",
+ "forecasts": {
+  "T1": "held",
+  "T2": "breached",
+  "T3": "milder"
+ },
+ "turns": {
+  "2025_26": {
+   "status": "measured",
+   "days": {
+    "2025-12-31": {
+     "line_pct": 3.75,
+     "iorb_plus_10_pct": 3.75,
+     "sofr_gap_bp": 12.0,
+     "sofr99_gap_bp": 25.0
+    },
+    "2026-01-02": {
+     "line_pct": 3.75,
+     "iorb_plus_10_pct": 3.75,
+     "sofr_gap_bp": 0.0,
+     "sofr99_gap_bp": 12.0
+    }
+   },
+   "takeup_bn": {
+    "2025-12-31": 74.6,
+    "2026-01-02": 22.8
+   },
+   "max_sofr_gap_bp": 12.0,
+   "max_sofr99_gap_bp": 25.0
+  },
+  "2026_27": {
+   "status": "pending"
+  }
+ },
+ "status": "pending"
+}
