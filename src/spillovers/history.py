@@ -115,3 +115,17 @@ def warning_check(series, today_value, direction, onset_months, start="1990-01",
         return {"warning_months": len(warn), "share_followed": None, "base_share": base, "months": len(months)}
     return {"warning_months": len(warn), "share_followed": sum(followed(m) for m in warn) / len(warn),
             "base_share": base, "months": len(months)}
+
+
+def complete_months(observations, kind):
+    """Monthly series from dated observations, without a partial last month.
+
+    kind: "daily" (daily or weekly; the latest month is dropped as possibly partial), "monthly" (one observation per
+    month, dated within it; kept whole) or "quarterly" (carried to the three months of its quarter).
+    """
+    if kind not in ("daily", "monthly", "quarterly"):
+        raise ValueError(f"unknown kind {kind!r}")
+    monthly = to_monthly(observations, quarterly=kind == "quarterly")
+    if kind == "daily" and monthly:
+        monthly.pop(max(monthly))
+    return monthly

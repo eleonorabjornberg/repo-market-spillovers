@@ -52,3 +52,16 @@ class StressTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CompleteMonthsTest(unittest.TestCase):
+    def test_daily_drops_the_partial_last_month(self):
+        self.assertEqual(h.complete_months({"2026-09-30": 1.0, "2026-10-02": 2.0}, "daily"), {"2026-09": 1.0})
+
+    def test_monthly_keeps_its_last_month(self):
+        self.assertEqual(h.complete_months({"2026-08-31": 1.0, "2026-09-30": 2.0}, "monthly"),
+                         {"2026-08": 1.0, "2026-09": 2.0})
+
+    def test_unknown_kind(self):
+        with self.assertRaises(ValueError):
+            h.complete_months({}, "weekly")

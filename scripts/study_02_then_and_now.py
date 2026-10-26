@@ -43,11 +43,7 @@ def read_daily(source):
 
 
 def complete_months(daily, quarterly):
-    """Monthly series without a partial last month (a daily or weekly series' latest month is dropped)."""
-    monthly = h.to_monthly(daily, quarterly)
-    if not quarterly:
-        monthly.pop(max(monthly), None)
-    return monthly
+    return h.complete_months(daily, "quarterly" if quarterly else "daily")
 
 
 def check_manifest():
