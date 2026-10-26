@@ -52,6 +52,8 @@ afterwards is labelled as such in the study.
 | Is the growth of cleared repo a move ahead of the SEC's mandate? | **Yes** | [07](results/study-07/result.md) |
 | Does high federal debt make Treasuries a worse safe haven? | **Not detectably**; inflation explains it | [09](results/study-09/result.md) |
 | Would corporate bonds or repo cushion a stock-market bust? | **Only while Treasuries act as a haven**: corporate collateral is a small part of repo, and corporate yields rise with Treasury yields in 9 of 10 panics when Treasuries sell off | [15](results/study-15/result.md) |
+| What keeps Treasury repo outside central clearing? | **The uncleared market grew alongside clearing**: a large matched book, mostly zero-haircut netted packages, that enters clearing only at year-ends | [14](results/study-14/result.md) |
+| Does data-centre borrowing reach the swap market, as the Dallas Fed suggests? | **Not visibly**: debt up $95bn to $334bn in a year, but long-dated swap trading no heavier around the bond deals | [16](results/study-16/result.md) |
 | What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
 | Can better warning indicators be found? | **Not yet**: two promising, unproven candidates | [12](results/study-12/result.md) |
 | What happens at the clearing deadlines, and in the next stress? | **Pending**: tests set before the data exists | [10](docs/design-study-10-prospective.md) |
