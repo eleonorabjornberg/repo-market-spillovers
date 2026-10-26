@@ -28,12 +28,13 @@ jobs:
       - name: Fetch data and build the page
         run: |
           python scripts/watch.py
+          python scripts/study_18_year_end_2026.py
           python scripts/build_findings.py
       - name: Commit this week's readings
         run: |
           git config user.name "repo-market-watch"
           git config user.email "repo-market-watch@users.noreply.github.com"
-          git add results/watch results/study-10 site
+          git add results/watch results/study-10 results/study-18 site
           if git diff --cached --quiet; then
             echo "nothing changed"
           else
