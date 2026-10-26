@@ -1,7 +1,7 @@
 # Plan: are there warning signs of a bond-market crisis, and does the repo market show them?
 
-Drafted 26 October 2026 for Eleonora's review. This is a proposal: the decisions it needs from her are listed at the
-end, and nothing in it is in force until she has merged it.
+Drafted 26 October 2026. Eleonora's decisions of 26 October 2026 are recorded at the end; the plan is in force with
+them.
 
 ## The question
 
@@ -190,12 +190,12 @@ estimate. Total: about eight to ten sessions, plus two to three if swap spreads 
    never writes to it. A finding enters the parent only through its own directive process.
 6. **No forecast of a crisis.** Results say what the evidence supports, with its limits.
 
-## Decisions for Eleonora
+## Eleonora's decisions (26 October 2026)
 
-1. **Scope.** The five hypotheses and the order above, or a narrower cut. If narrower, the shortest path to an answer
-   is 03, then 04, then 08.
-2. **Network.** Whether to allow the CFTC hosts (high value), DTCC (high value, heavy), and FINRA and SEC (optional).
-3. **Stress definition for study 06.** Whether to widen beyond NFCI onsets to the named episodes since 2010, and who
-   fixes that list: her, or Claude in the design for her approval.
-4. **The watch.** Whether study 07 should run on a monthly schedule, and whether its page should be public.
-5. **Audience.** Whether the synthesis is for her own use, or written to be published.
+1. **Scope:** all five claims, H1–H5, in the order above.
+2. **Network:** the CFTC, DTCC, FINRA and SEC hosts have been added to the environment's network policy.
+3. **Study 06 stress events:** widened beyond the NFCI onsets to named episodes since 2010. Claude fixes the list in
+   study 06's design, before any indicator is scored against it.
+4. **The watch:** study 07 runs monthly on a schedule, and its page is public.
+5. **Audience:** the synthesis is written to be published.
+6. **Review:** Claude merges each study's pull request itself once its checks pass; she does not review each one.
