@@ -100,3 +100,10 @@ All are monthly. Each reading uses only what was public at the time, with the pu
   dependent. The yearly block bootstrap allows for some of this.
 - **Form PF** history is short (about 10 events), and its two-quarter lag is a conservative guess at when each quarter
   became public.
+
+## Amendment before scoring (26 October 2026)
+
+The excess bond premium (L2) is published only on the Federal Reserve Board's website, which refuses automated
+downloads from this environment. It is dropped. The composite is the plain average of L1, L3, L4 and L5. This was
+decided before any candidate was scored. If Eleonora supplies the file, L2 can be scored separately and reported beside
+the main test, which this amendment fixes.
