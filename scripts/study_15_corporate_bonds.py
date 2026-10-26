@@ -28,6 +28,9 @@ PANIC_RISE = 0.15  # study 09's rule
 ERAS = (("1990-01-01", "1999-12-31"), ("2000-01-01", "2007-12-31"), ("2008-01-01", "2019-12-31"),
         ("2020-01-01", "2026-12-31"))
 SEED, DRAWS = 20261026, 2000
+OLD_COLL = {"corporate": "C", "mortgage": "MB", "agency": "FA", "treasury": "UST"}  # 2008 extension, SBP2013 format
+OLD_SIDES = {"out": "PDFSO", "in": "PDFSI"}
+OLD_WINDOWS = {"baseline_end": "2007-08-01", "W1_bear_start": "2008-03-17", "W2_lehman_start": "2008-09-15"}
 WINDOWS = {"march_2020": ("2020-02-26", "2020-03-18"), "april_2025": ("2025-04-02", "2025-04-09")}
 
 
@@ -37,6 +40,9 @@ def fetch():
     urls = {f"{k}.json": f"https://data.financialresearch.gov/v1/series/timeseries?mnemonic={m}" for k, m in OFR.items()}
     urls.update({f"{s}.csv": f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={s}" for s in FRED})
     urls.update({f"nyfed/{k}.json": f"https://markets.newyorkfed.org/api/pd/get/{k}.json" for k in nyfed_keys()})
+    urls.update({f"sbp2013/{k}.json": f"https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/{k}.json"
+                 for k in old_keys()})
+    (RAW / "sbp2013").mkdir(exist_ok=True)
     (RAW / "nyfed").mkdir(exist_ok=True)
     for name, url in urls.items():
         with urllib.request.urlopen(url, timeout=180) as response:
@@ -45,6 +51,57 @@ def fetch():
         manifest[name] = {"url": url, "sha256": hashlib.sha256(body).hexdigest(),
                           "retrieved_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
     (ROOT / "metadata" / "s15_manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n")
+
+
+def old_keys():
+    return [f"{side}{c}{t}" for side in OLD_SIDES.values() for c in OLD_COLL.values() for t in ("T", "OC", "TA")]
+
+
+def old(key):
+    rows = json.loads((RAW / "sbp2013" / f"{key}.json").read_text())["pd"]["timeseries"]
+    return {r["asofdate"]: float(r["value"]) for r in rows if r["value"] not in ("*", "")}
+
+
+def total_check(t, oc, ta):
+    """Share of weeks in which T is within 1% of OC + TA (the extension's check on reading the names)."""
+    common = [w for w in t if w in oc and w in ta and t[w]]
+    ok = sum(abs((oc[w] + ta[w]) / t[w] - 1) <= 0.01 for w in common)
+    return round(ok / len(common) * 100, 1) if common else None
+
+
+def window_mean(series, start=None, end=None):
+    """Mean of the 13 weeks from start, or of the 13 weeks up to and including end."""
+    keys = sorted(series)
+    ws = [k for k in keys if k >= start][:13] if start else [k for k in keys if k <= end][-13:]
+    return (statistics.fmean(series[k] for k in ws), [ws[0], ws[-1]]) if len(ws) == 13 else (None, None)
+
+
+def q4_2008():
+    out = {"checks_T_equals_OC_plus_TA_pct": {}}
+    series = {}
+    for side, sp in OLD_SIDES.items():
+        for coll, c in OLD_COLL.items():
+            t, oc, ta = (old(f"{sp}{c}{x}") for x in ("T", "OC", "TA"))
+            share = total_check(t, oc, ta)
+            out["checks_T_equals_OC_plus_TA_pct"][f"{sp}{c}"] = share
+            if share is None or share < 95:
+                raise ValueError(f"{sp}{c}: T does not equal OC + TA ({share}%); the design says stop")
+            series[(side, coll)] = t
+    for side in OLD_SIDES:
+        rows = {}
+        for coll in OLD_COLL:
+            s = series[(side, coll)]
+            base, bw = window_mean(s, end=OLD_WINDOWS["baseline_end"])
+            w1, w1w = window_mean(s, start=OLD_WINDOWS["W1_bear_start"])
+            w2, w2w = window_mean(s, start=OLD_WINDOWS["W2_lehman_start"])
+            rows[coll] = {"baseline_bn": round(base / 1000, 1), "W1_bn": round(w1 / 1000, 1), "W2_bn": round(w2 / 1000, 1),
+                          "W1_change_pct": pct(base, w1), "W2_change_pct": pct(base, w2)}
+            out["windows"] = {"baseline": bw, "W1": w1w, "W2": w2w}
+        out[f"securities_{side}"] = rows
+    so = out["securities_out"]
+    out["run_on_private_collateral_visible"] = (so["corporate"]["W2_change_pct"] <= -20 and
+                                                so["corporate"]["W2_change_pct"] <= so["treasury"]["W2_change_pct"] - 20)
+    return out
 
 
 def nyfed_keys():
@@ -177,7 +234,7 @@ def measures():
                       "treasury_up_pct": round(sum(r[1] > 0 for r in e) / len(e) * 100, 1) if e else None}
                      for a, b in ERAS],
           "panic_days_2020_on": [{"date": r[0], "dT_bp": r[1], "dBaa_bp": r[2]} for r in rows if r[0] >= "2020"]}
-    return {"Q1_size": q1, "Q2_stress_windows": q2, "Q3_panic_days": q3}
+    return {"Q1_size": q1, "Q2_stress_windows": q2, "Q3_panic_days": q3, "Q4_2008": q4_2008()}
 
 
 def main():

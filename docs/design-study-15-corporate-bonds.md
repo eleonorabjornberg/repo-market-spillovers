@@ -113,3 +113,46 @@ Changes:
 - **Q2** keeps the OFR series for March 2020 as specified. The same windows from the totals are reported beside it, and
   April 2025 now comes from the totals.
 - **Q3** is unchanged; its result was seen before this amendment and does not depend on it.
+
+## Extension to 2008 (26 October 2026, Eleonora's request, before the 2001–2013 values were fetched)
+
+Q1–Q3 cannot reach 2008: their repo data start in 2013. The New York Fed's API also serves the dealer statistics'
+2001–2013 format (series break `SBP2013`, 1 July 2001 to 31 March 2013). Seen beforehand: the series names, and that
+each has 613 weekly observations. No values.
+
+**Q4. In 2007–08, did dealers' financing against private collateral shrink while their Treasury financing held?**
+
+**Data.** Weekly, in $ millions, from `https://markets.newyorkfed.org/api/pd/get/SBP2013/timeseries/{key}.json`:
+
+| | Securities out (dealers borrow cash: repo and securities lent) | Securities in (dealers lend cash: reverse repo and securities borrowed) |
+|---|---|---|
+| Corporate securities | `PDFSOCT` | `PDFSICT` |
+| Mortgage-backed securities | `PDFSOMBT` | `PDFSIMBT` |
+| Federal agency | `PDFSOFAT` | `PDFSIFAT` |
+| Treasuries | `PDFSOUSTT` | `PDFSIUSTT` |
+
+The names are read as follows: `FSO` and `FSI` are financing securities out and in, `C`, `MB`, `FA` and `UST` are
+the collateral, and the suffix `T` is the total of `OC` (overnight and continuing) and `TA` (term agreements). The API
+gives no descriptions for this format, so the reading is checked first. If `T` is not within 1% of `OC` + `TA` in at
+least 95% of weeks for every series used, the study stops and reports that.
+
+**Windows.**
+- **Baseline:** the 13 weeks up to and including 1 August 2007, before BNP Paribas froze its funds on 9 August.
+- **W1:** the 13 weeks from 17 March 2008, the week of Bear Stearns.
+- **W2:** the 13 weeks from 15 September 2008, Lehman.
+
+Each window's value is its mean.
+
+**What would count.** A **run on private collateral is visible** if dealers' securities out against corporate
+securities fell by at least 20% from baseline to W2, and by at least 20 percentage points more than against
+Treasuries. The same comparison is reported for mortgage-backed securities, for securities in, and for W1, without
+verdicts.
+
+**Limits of the extension.**
+- **"Securities out" includes securities lending as well as repo,** and "corporate securities" in this format is not
+  defined as today's "corporate debt". It may include private-label mortgage and asset-backed securities. Levels are
+  therefore not compared with 2013 onward, only changes within 2007–08.
+- **The Fed lent to dealers in 2008 too:** its Primary Dealer Credit Facility opened on 17 March 2008, and its Term
+  Securities Lending Facility shortly before. As in March 2020, dealers' totals may include that support.
+- **Dealers' financing also falls when dealers shrink,** so a fall is a run by lenders or a retreat by dealers. The
+  data cannot tell which.

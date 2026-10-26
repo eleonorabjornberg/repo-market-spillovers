@@ -69,12 +69,46 @@ though by about half as much, so even a rally leaves corporate bonds behind. Whe
 sell off with them in nine panics out of ten. On 12 March 2020 the 10-year yield rose 6 bp and the Baa yield 27 bp.
 Since 2020, corporate bond yields have risen on nearly half of panic days, against fewer than one in five in 2008–19.
 
+## 4. 2008 in the same data: a run on private collateral (verdict: visible)
+
+Added at Eleonora's request, designed before the 2001–2013 values were fetched. Primary dealers' financing in the
+report's old format, the mean of 13 weeks in each window. The baseline ends on 1 August 2007, before BNP Paribas froze
+its funds. W1 starts in the week of Bear Stearns and W2 in the week of Lehman.
+
+| Dealers borrow cash against… (securities out) | Baseline | Bear Stearns (W1) | Lehman (W2) | Change to W2 |
+|---|---:|---:|---:|---:|
+| Corporate securities | $458bn | $406bn | **$266bn** | **−42%** |
+| Mortgage-backed securities | $939bn | $1,051bn | $981bn | +4% |
+| Federal agency debt | $534bn | $680bn | $571bn | +7% |
+| Treasuries | $2,425bn | $2,559bn | $2,025bn | −17% |
+
+| Dealers lend cash against… (securities in) | Baseline | W1 | W2 | Change to W2 |
+|---|---:|---:|---:|---:|
+| Corporate securities | $237bn | $198bn | $113bn | −52% |
+| Mortgage-backed securities | $594bn | $608bn | $617bn | +4% |
+| Federal agency debt | $472bn | $574bn | $494bn | +5% |
+| Treasuries | $2,689bn | $2,760bn | $2,190bn | −19% |
+
+Financing against corporate securities fell by 42% from mid-2007 to the months after Lehman, 25 points more than
+against Treasuries, which fell 17% as dealers shrank. Mortgage-backed and agency financing held up, probably because
+the mortgage category in this format is mostly agency securities, backed by Fannie Mae and Freddie Mac, which the
+government took into conservatorship on 7 September 2008. The data do not show the split. The run shows up where the collateral was
+private.
+
+Compared with March 2020 (Q2), when dealers' corporate repo **rose** 12%, 2008 is the case where lenders pulled away
+from private collateral. Two cautions. First, "corporate securities" in the old format is not today's "corporate
+debt": it likely includes private-label mortgage and asset-backed securities, the collateral at the centre of 2008, so
+levels are not compared across formats. Second, "securities out" includes securities lending as well as repo. The Fed
+lent to dealers in 2008 as well (its dealer facility opened on 17 March 2008), so even these falls happened with
+support in place.
+
 ## What this means for the question asked
 
 If a crisis started outside repo, in a stock-market bust:
 - **Repo's own exposure to corporate bonds is small.** About $167bn of dealers' repo rests on corporate collateral,
   against about $3.4 trillion on Treasuries. A run on corporate collateral like the one on private collateral in 2008
-  would hit a small corner, not the core.
+  would hit a small corner, not the core. In 2008 that corner shrank by 42% in just over a year while the rest held; today it
+  is about 5% of dealers' corporate and Treasury repo.
 - **Corporate bonds would not cushion a bust.** Their yields go where Treasury yields go. When Treasuries are a haven,
   corporate bonds gain a little; when they are not, corporate bonds lose too. Study 09 found the second case has become
   more common since 2020, with inflation.
@@ -85,9 +119,10 @@ If a crisis started outside repo, in a stock-market bust:
 
 - **Dealers only,** and their repo is partly their own choice: a rise can be dealers financing inventories they could
   not sell.
-- **One stress episode** in the repo data, and it overlaps the Fed's emergency lending.
+- **Two stress episodes** in the repo data (2008 and March 2020), and both overlap the Fed's emergency lending.
 - **Moody's Baa is an index of long, seasoned bonds,** priced slowly. Q3 uses its yield level. Its spread over
   Treasuries widens mechanically when Treasury yields fall, which is why the spread is not the test.
 - **Nothing here forecasts a crisis or says an AI bust is coming.** It describes what happened in past panics.
-- **2008 is out of reach:** the repo data start in 2013. Published research (Gorton and Metrick, 2012; Copeland,
-  Martin and Walker, 2014) found the run on repo in 2008 hit private collateral hardest.
+- **2008 uses an older report format** (Q4): broader categories, repo and securities lending combined. It agrees with
+  published research (Gorton and Metrick, 2012; Copeland, Martin and Walker, 2014) that the run on repo in 2008 hit
+  private collateral hardest.
