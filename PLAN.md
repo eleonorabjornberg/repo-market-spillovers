@@ -35,6 +35,7 @@ evidence behind each.
 | [Study 04](results/study-04/result.md) | H2 | **Supported for 2025–26 only** by its rule (+1.1 bp [0.0, 2.2]), but weak: the main test repeats the probe, a +10-day placebo is 84% as large, the 2018–19 replication has the opposite sign, there is no dose–response, and the effect is larger after rallies than sell-offs. |
 | [Study 05](results/study-05/result.md) | H3 | **Not supported**: after 2025–26's non-calendar repo shocks the OFR stress index eased (−0.11 [−0.36, +0.05]); 10-year swap spreads (built from DTCC trades) show no pass-through from repo (−0.04 bp/bp [−0.14, +0.06]). Only hint: Baa +1.3 bp. |
 | [Study 06](results/study-06/result.md) | H4 | **Cannot tell**: the best chain indicator (leveraged funds' futures short, AUROC 0.63) edges out the yield curve (0.58) by +0.05 [−0.14, +0.24]; no indicator warned reliably over eight episodes since 2017. |
+| [Study 07](results/study-07/result.md) | H5 | **Clearing migration supported**: FICC's share of money-fund repo sped up by +19.8 pp a year [+13.3, +27.0] at the SEC's adoption of the rule and slowed after the extension (also on private repo alone, post hoc). The monthly public watch is live, with 1 of 8 flags on (complacency). |
 | [Study 09](results/study-09/result.md) | Added: debt and the safe haven | **Not supported**: Treasuries' weaker haven role since 2020 tracks inflation (+5.9 pp per point), not federal debt (−0.07 pp per point [−0.43, +0.24]); repo moves less after panic sell-offs; household debt fell from 98% to 66% of GDP. |
 
 ## The studies

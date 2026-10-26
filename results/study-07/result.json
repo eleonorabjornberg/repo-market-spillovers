@@ -1,0 +1,168 @@
+{
+ "design": "docs/design-study-07-watch.md",
+ "manifest": "metadata/chain_manifest.json",
+ "seed": 20261031,
+ "breaks": [
+  "2023-12",
+  "2025-02"
+ ],
+ "verdict_migration": "supported",
+ "series_meeting_rule": [
+  "C1_ficc_share_of_mmf_repo",
+  "M6_sponsored_revrepo_pct_dvp"
+ ],
+ "fits": {
+  "C1_ficc_share_of_mmf_repo": {
+   "from": "2014-03",
+   "to": "2026-09",
+   "n_months": 142,
+   "units": "percentage points per year",
+   "slope_before_2023_12": {
+    "estimate": 1.233,
+    "ci95": [
+     0.592,
+     1.848
+    ],
+    "excludes_zero": true
+   },
+   "slope_2023_12_to_2025_01": 21.029,
+   "slope_from_2025_02": 2.41,
+   "change_at_adoption_2023_12": {
+    "estimate": 19.796,
+    "ci95": [
+     13.281,
+     27.038
+    ],
+    "excludes_zero": true
+   },
+   "change_at_extension_2025_02": {
+    "estimate": -18.619,
+    "ci95": [
+     -31.791,
+     -7.008
+    ],
+    "excludes_zero": true
+   },
+   "values": {
+    "2019-06": 15.69,
+    "2023-11": 16.18,
+    "2025-01": 35.9,
+    "2026-09": 39.61
+   }
+  },
+  "M6_sponsored_revrepo_pct_dvp": {
+   "from": "2020-03",
+   "to": "2026-09",
+   "n_months": 79,
+   "units": "percentage points per year",
+   "slope_before_2023_12": {
+    "estimate": 3.541,
+    "ci95": [
+     2.079,
+     5.023
+    ],
+    "excludes_zero": true
+   },
+   "slope_2023_12_to_2025_01": 13.019,
+   "slope_from_2025_02": 2.121,
+   "change_at_adoption_2023_12": {
+    "estimate": 9.478,
+    "ci95": [
+     3.699,
+     14.99
+    ],
+    "excludes_zero": true
+   },
+   "change_at_extension_2025_02": {
+    "estimate": -10.898,
+    "ci95": [
+     -18.975,
+     -2.606
+    ],
+    "excludes_zero": true
+   },
+   "values": {
+    "2023-11": 32.6,
+    "2025-01": 43.28,
+    "2026-09": 46.72
+   }
+  },
+  "M6_sponsored_repo_pct_dvp": {
+   "from": "2020-03",
+   "to": "2026-09",
+   "n_months": 79,
+   "units": "percentage points per year",
+   "slope_before_2023_12": {
+    "estimate": 2.417,
+    "ci95": [
+     1.44,
+     3.391
+    ],
+    "excludes_zero": true
+   },
+   "slope_2023_12_to_2025_01": 11.838,
+   "slope_from_2025_02": 3.601,
+   "change_at_adoption_2023_12": {
+    "estimate": 9.421,
+    "ci95": [
+     5.672,
+     13.068
+    ],
+    "excludes_zero": true
+   },
+   "change_at_extension_2025_02": {
+    "estimate": -8.237,
+    "ci95": [
+     -13.627,
+     -2.99
+    ],
+    "excludes_zero": true
+   },
+   "values": {
+    "2023-11": 19.86,
+    "2025-01": 31.63,
+    "2026-09": 37.17
+   }
+  }
+ },
+ "post_hoc": {
+  "C1_ficc_share_of_mmf_private_repo": {
+   "from": "2014-03",
+   "to": "2026-09",
+   "n_months": 140,
+   "units": "percentage points per year",
+   "slope_before_2023_12": {
+    "estimate": 2.478,
+    "ci95": [
+     2.0,
+     2.934
+    ],
+    "excludes_zero": true
+   },
+   "slope_2023_12_to_2025_01": 15.273,
+   "slope_from_2025_02": 1.903,
+   "change_at_adoption_2023_12": {
+    "estimate": 12.795,
+    "ci95": [
+     7.96,
+     18.094
+    ],
+    "excludes_zero": true
+   },
+   "change_at_extension_2025_02": {
+    "estimate": -13.371,
+    "ci95": [
+     -23.256,
+     -4.052
+    ],
+    "excludes_zero": true
+   },
+   "values": {
+    "2019-06": 16.27,
+    "2023-11": 24.06,
+    "2025-01": 38.11,
+    "2026-09": 39.69
+   }
+  }
+ }
+}
