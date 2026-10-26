@@ -150,7 +150,9 @@ against 18% in 2008–19. In repo itself corporate bonds are a small corner: dea
 in 2026, against about $3.4 trillion against Treasuries. In March 2020 dealers' corporate repo did not shrink, but the
 Fed had just opened a facility that lent to dealers against corporate bonds. In 2008 it was different: in the same
 dealer data, financing against corporate securities fell 42% from mid-2007 to the months after Lehman, while against
-Treasuries it fell 17% and against agency and mortgage securities it held. The run struck private collateral. So a stock-market bust, say in AI shares,
+Treasuries it fell 17% and against agency and mortgage securities it held. Lenders pulled back from private
+collateral, as the New York Fed's own researchers found with confidential tri-party data (corporate-bond collateral
+down roughly 44%, Treasury margins unchanged). So a stock-market bust, say in AI shares,
 would be cushioned by the repo market only while Treasuries rally. When they do not, as on some days of March 2020
 and more often since inflation returned, Treasuries and corporate bonds fall together.
 
