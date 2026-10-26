@@ -1,0 +1,164 @@
+{
+ "design": "docs/design-study-06-warning.md",
+ "seed": 20261030,
+ "draws": 2000,
+ "period": [
+  "2017-11",
+  "2025-09"
+ ],
+ "n_months": 95,
+ "n_positive_months_named": 44,
+ "named_events_in_period": [
+  "6: Volmageddon (2018-02-02)",
+  "7: Q4 2018 sell-off (2018-10-10)",
+  "8: Repo spike (2019-09-16)",
+  "9: COVID, Treasury dash for cash (2020-02-24)",
+  "10: UK gilt (LDI) crisis (2022-09-23)",
+  "11: Regional banks (SVB) (2023-03-09)",
+  "12: Yen carry unwind (2024-08-01)",
+  "13: Tariff shock and Treasury sell-off (2025-04-03)"
+ ],
+ "mechanical_onsets": [
+  "2010-02-05",
+  "2010-05-04",
+  "2010-08-24",
+  "2011-03-14",
+  "2011-06-16",
+  "2011-09-12",
+  "2012-04-16",
+  "2013-06-03",
+  "2013-08-30",
+  "2014-02-03",
+  "2014-08-08",
+  "2014-12-10",
+  "2015-07-08",
+  "2016-01-06",
+  "2016-06-16",
+  "2017-04-13",
+  "2018-02-05",
+  "2018-10-11",
+  "2019-05-13",
+  "2019-08-07",
+  "2020-01-27",
+  "2021-11-26",
+  "2022-02-24",
+  "2022-06-14",
+  "2022-09-07",
+  "2023-03-13",
+  "2023-10-20",
+  "2024-08-02",
+  "2025-03-10",
+  "2025-11-21",
+  "2026-03-04"
+ ],
+ "n_positive_months_mechanical": 68,
+ "auroc_named": {
+  "chain_hf_repo_pct_phmt": {
+   "auroc": 0.528,
+   "ci95": [
+    0.279,
+    0.767
+   ]
+  },
+  "chain_levfund_futures_short_pct_phmt": {
+   "auroc": 0.63,
+   "ci95": [
+    0.371,
+    0.84
+   ]
+  },
+  "chain_ficc_share_mmf_repo": {
+   "auroc": 0.601,
+   "ci95": [
+    0.29,
+    0.86
+   ]
+  },
+  "std_curve_10y3m": {
+   "auroc": 0.583,
+   "ci95": [
+    0.337,
+    0.805
+   ]
+  },
+  "std_baa_10y": {
+   "auroc": 0.434,
+   "ci95": [
+    0.13,
+    0.708
+   ]
+  },
+  "std_nfci": {
+   "auroc": 0.524,
+   "ci95": [
+    0.194,
+    0.821
+   ]
+  },
+  "std_nfci_leverage": {
+   "auroc": 0.406,
+   "ci95": [
+    0.151,
+    0.699
+   ]
+  }
+ },
+ "auroc_mechanical": {
+  "chain_hf_repo_pct_phmt": 0.521,
+  "chain_levfund_futures_short_pct_phmt": 0.601,
+  "chain_ficc_share_mmf_repo": 0.513,
+  "std_curve_10y3m": 0.549,
+  "std_baa_10y": 0.355,
+  "std_nfci": 0.467,
+  "std_nfci_leverage": 0.334
+ },
+ "best_chain": "chain_levfund_futures_short_pct_phmt",
+ "best_standard": "std_curve_10y3m",
+ "main_difference": {
+  "estimate": 0.046,
+  "ci95": [
+   -0.142,
+   0.244
+  ],
+  "excludes_zero": false
+ },
+ "mechanical_difference": {
+  "estimate": 0.052,
+  "ci95": [
+   -0.142,
+   0.228
+  ],
+  "excludes_zero": false
+ },
+ "verdict": "cannot tell",
+ "latest_scores": {
+  "chain_hf_repo_pct_phmt": {
+   "month": "2026-06",
+   "score": 0.944
+  },
+  "chain_levfund_futures_short_pct_phmt": {
+   "month": "2026-09",
+   "score": 0.77
+  },
+  "chain_ficc_share_mmf_repo": {
+   "month": "2026-09",
+   "score": 0.951
+  },
+  "std_curve_10y3m": {
+   "month": "2026-09",
+   "score": 0.676
+  },
+  "std_baa_10y": {
+   "month": "2026-09",
+   "score": 0.035
+  },
+  "std_nfci": {
+   "month": "2026-09",
+   "score": 0.344
+  },
+  "std_nfci_leverage": {
+   "month": "2026-09",
+   "score": 0.703
+  }
+ }
+}
