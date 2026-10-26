@@ -156,6 +156,13 @@ down roughly 44%, Treasury margins unchanged). So a stock-market bust, say in AI
 would be cushioned by the repo market only while Treasuries rally. When they do not, as on some days of March 2020
 and more often since inflation returned, Treasuries and corporate bonds fall together.
 
+The companies building AI data centres are a growing part of that corporate market ([study 16](results/study-16/result.md)).
+Alphabet, Amazon, Meta, Microsoft, Oracle and CoreWeave owed $334bn at their latest fiscal year-ends, up $95bn in a
+year, and most of it is due after five years. The Dallas Fed has suggested that their borrowing reaches the Treasury
+market through swaps. In public swap reports it does not show: trading in 20- and 30-year swaps was no heavier
+around their 14 registered bond deals than on other days (+6%, interval −16% to +30%). Their largest financings,
+through joint ventures and private placements, cannot be seen at all.
+
 ### 7. No indicator warned
 
 Every month from November 2017 to September 2025, each indicator was scored by where it stood in its own history up to

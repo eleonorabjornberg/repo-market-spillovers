@@ -85,12 +85,18 @@ def annual(facts, concept):
 
 
 def first_available(facts, options):
-    """The first option whose concepts all have annual values; summed over its concepts, year by year."""
+    """The first option whose concepts all report the measure's latest fiscal year (the latest any option reports),
+    summed over its concepts, year by year (design amendment)."""
+    candidates = []
     for concepts in options:
         series = [annual(facts, c) for c in concepts]
         if all(series):
             years = set.intersection(*(set(s) for s in series))
-            return "+".join(concepts), {y: sum(s[y] for s in series) for y in years}
+            candidates.append(("+".join(concepts), {y: sum(s[y] for s in series) for y in years}))
+    latest = max((max(s) for _, s in candidates if s), default=None)
+    for name, s in candidates:
+        if latest in s:
+            return name, s
     return None, {}
 
 
@@ -116,9 +122,9 @@ def size():
                 totals.setdefault(kind, {}).setdefault(y, {})[name] = v
     together = {}
     for kind in ("debt", "capex"):
-        full = {y: v for y, v in totals.get(kind, {}).items() if len(v) == len([n for n in COMPANIES if n != "CoreWeave"])
-                or len(v) == len(COMPANIES)}
-        together[kind] = {str(y): round(sum(v.values()) / 1e9, 1) for y, v in sorted(full.items()) if y >= 2019}
+        reporters = {n for y in totals.get(kind, {}).values() for n in y}
+        together[kind] = {str(y): round(sum(v.values()) / 1e9, 1) for y, v in sorted(totals.get(kind, {}).items())
+                          if y >= 2019 and set(v) == reporters}
     return out, together
 
 

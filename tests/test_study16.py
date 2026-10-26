@@ -40,3 +40,12 @@ class Study16Test(unittest.TestCase):
             {"form": "10-K", "start": "2024-10-01", "end": "2024-12-31", "val": 3, "filed": "2025-02-01"},
             {"form": "10-Q", "start": "2025-01-01", "end": "2025-03-31", "val": 4, "filed": "2025-04-01"}]}}}}}
         self.assertEqual(s16.annual(facts, "X"), {2024: 11})
+
+
+class FirstAvailableTest(unittest.TestCase):
+    def test_skips_a_tag_the_company_stopped_using(self):
+        def fact(concept, year, val):
+            return {concept: {"units": {"USD": [{"form": "10-K", "start": f"{year}-01-01", "end": f"{year}-12-31",
+                                                 "val": val, "filed": f"{year + 1}-02-01"}]}}}
+        facts = {"facts": {"us-gaap": {**fact("Old", 2016, 5), **fact("New", 2025, 9)}}}
+        self.assertEqual(s16.first_available(facts, [("Old",), ("New",)]), ("New", {2025: 9}))

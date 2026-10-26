@@ -81,3 +81,16 @@ no verdict.
 - **Floating-rate private credit,** the other half of the Dallas Fed's mechanism, is not in public data.
 - **DTCC's window** starts in November 2024, so the test covers about two years of deals.
 - **Nothing here forecasts a crisis,** or says AI spending is a bubble.
+
+## Amendment (26 October 2026, after the first results were seen)
+
+**Written after seeing the first run's figures.** The swap test (Q2) does not depend on it, and its result is
+unchanged. Q1 and Q3 have no verdicts, but two of their figures were wrong:
+- **Oracle's debt read as zero.** Its `LongTermDebt` tag has a single value, for 2022.
+- **Amazon's capital spending was missing.** Its `PaymentsToAcquirePropertyPlantAndEquipment` tag ends in 2016,
+  after which it reports `PaymentsToAcquireProductiveAssets`.
+
+The rule "the first option that is present" picked a tag the company had stopped using. Change: an option is used
+only if it has a value for the company's latest fiscal year, the latest year any of that measure's options reports.
+Otherwise the next option is tried. The order of options is unchanged. The six companies together are summed only
+over years in which every company with any debt or spending reports a value.
