@@ -1,0 +1,465 @@
+{
+ "design": "docs/design-study-12-indicators.md",
+ "seed": 20261102,
+ "draws": 2000,
+ "events": [
+  "1990-08-02",
+  "1994-02-04",
+  "1997-10-27",
+  "1998-08-17",
+  "2000-04-03",
+  "2001-09-17",
+  "2002-06-25",
+  "2007-08-09",
+  "2008-09-15",
+  "2010-05-06",
+  "2011-08-01",
+  "2013-05-22",
+  "2014-10-15",
+  "2015-08-20",
+  "2018-02-02",
+  "2018-10-10",
+  "2019-09-16",
+  "2020-02-24",
+  "2022-09-23",
+  "2023-03-09",
+  "2024-08-01",
+  "2025-04-03"
+ ],
+ "verdict": "promising",
+ "main_test_composite_minus_curve_test_6m": {
+  "estimate": -0.018,
+  "ci95": [
+   -0.23,
+   0.159
+  ]
+ },
+ "promising": [
+  "F2_top10_leverage",
+  "L1_vix_12m_mean"
+ ],
+ "results": {
+  "development_6m": {
+   "months": [
+    "1993-11",
+    "2012-12"
+   ],
+   "n_months": 230,
+   "n_positive": 59,
+   "composite": {
+    "auroc": 0.448,
+    "ci95": [
+     0.294,
+     0.6
+    ],
+    "above_chance": false
+   },
+   "L1_vix_12m_mean": {
+    "auroc": 0.436,
+    "ci95": [
+     0.284,
+     0.599
+    ],
+    "above_chance": false
+   },
+   "L3_credit_gap": {
+    "auroc": 0.503,
+    "ci95": [
+     0.338,
+     0.645
+    ],
+    "above_chance": false
+   },
+   "L4_dealer_growth": {
+    "auroc": 0.518,
+    "ci95": [
+     0.362,
+     0.667
+    ],
+    "above_chance": false
+   },
+   "L5_stock_bond_corr": {
+    "auroc": 0.457,
+    "ci95": [
+     0.312,
+     0.598
+    ],
+    "above_chance": false
+   },
+   "B_curve_10y3m": {
+    "auroc": 0.436,
+    "ci95": [
+     0.272,
+     0.597
+    ],
+    "above_chance": false
+   },
+   "B_baa_10y": {
+    "auroc": 0.512,
+    "ci95": [
+     0.324,
+     0.678
+    ],
+    "above_chance": false
+   },
+   "B_nfci": {
+    "auroc": 0.548,
+    "ci95": [
+     0.383,
+     0.69
+    ],
+    "above_chance": false
+   },
+   "L2_excess_bond_premium": {
+    "auroc": 0.532,
+    "ci95": [
+     0.367,
+     0.698
+    ],
+    "above_chance": false
+   }
+  },
+  "development_12m": {
+   "months": [
+    "1993-11",
+    "2012-12"
+   ],
+   "n_months": 230,
+   "n_positive": 114,
+   "composite": {
+    "auroc": 0.393,
+    "ci95": [
+     0.258,
+     0.557
+    ],
+    "above_chance": false
+   },
+   "L1_vix_12m_mean": {
+    "auroc": 0.379,
+    "ci95": [
+     0.235,
+     0.56
+    ],
+    "above_chance": false
+   },
+   "L3_credit_gap": {
+    "auroc": 0.508,
+    "ci95": [
+     0.308,
+     0.694
+    ],
+    "above_chance": false
+   },
+   "L4_dealer_growth": {
+    "auroc": 0.465,
+    "ci95": [
+     0.317,
+     0.631
+    ],
+    "above_chance": false
+   },
+   "L5_stock_bond_corr": {
+    "auroc": 0.445,
+    "ci95": [
+     0.297,
+     0.62
+    ],
+    "above_chance": false
+   },
+   "B_curve_10y3m": {
+    "auroc": 0.528,
+    "ci95": [
+     0.384,
+     0.685
+    ],
+    "above_chance": false
+   },
+   "B_baa_10y": {
+    "auroc": 0.557,
+    "ci95": [
+     0.36,
+     0.715
+    ],
+    "above_chance": false
+   },
+   "B_nfci": {
+    "auroc": 0.647,
+    "ci95": [
+     0.46,
+     0.759
+    ],
+    "above_chance": false
+   },
+   "L2_excess_bond_premium": {
+    "auroc": 0.593,
+    "ci95": [
+     0.408,
+     0.744
+    ],
+    "above_chance": false
+   }
+  },
+  "test_6m": {
+   "months": [
+    "2013-01",
+    "2025-09"
+   ],
+   "n_months": 153,
+   "n_positive": 63,
+   "composite": {
+    "auroc": 0.568,
+    "ci95": [
+     0.395,
+     0.738
+    ],
+    "above_chance": false
+   },
+   "L1_vix_12m_mean": {
+    "auroc": 0.646,
+    "ci95": [
+     0.445,
+     0.823
+    ],
+    "above_chance": false
+   },
+   "L3_credit_gap": {
+    "auroc": 0.473,
+    "ci95": [
+     0.285,
+     0.687
+    ],
+    "above_chance": false
+   },
+   "L4_dealer_growth": {
+    "auroc": 0.571,
+    "ci95": [
+     0.387,
+     0.737
+    ],
+    "above_chance": false
+   },
+   "L5_stock_bond_corr": {
+    "auroc": 0.502,
+    "ci95": [
+     0.306,
+     0.692
+    ],
+    "above_chance": false
+   },
+   "B_curve_10y3m": {
+    "auroc": 0.586,
+    "ci95": [
+     0.431,
+     0.75
+    ],
+    "above_chance": false
+   },
+   "B_baa_10y": {
+    "auroc": 0.376,
+    "ci95": [
+     0.208,
+     0.546
+    ],
+    "above_chance": false
+   },
+   "B_nfci": {
+    "auroc": 0.47,
+    "ci95": [
+     0.243,
+     0.677
+    ],
+    "above_chance": false
+   },
+   "L2_excess_bond_premium": {
+    "auroc": 0.456,
+    "ci95": [
+     0.294,
+     0.637
+    ],
+    "above_chance": false
+   }
+  },
+  "test_12m": {
+   "months": [
+    "2013-01",
+    "2025-09"
+   ],
+   "n_months": 153,
+   "n_positive": 100,
+   "composite": {
+    "auroc": 0.614,
+    "ci95": [
+     0.379,
+     0.831
+    ],
+    "above_chance": false
+   },
+   "L1_vix_12m_mean": {
+    "auroc": 0.781,
+    "ci95": [
+     0.587,
+     0.929
+    ],
+    "above_chance": true
+   },
+   "L3_credit_gap": {
+    "auroc": 0.432,
+    "ci95": [
+     0.19,
+     0.739
+    ],
+    "above_chance": false
+   },
+   "L4_dealer_growth": {
+    "auroc": 0.581,
+    "ci95": [
+     0.335,
+     0.812
+    ],
+    "above_chance": false
+   },
+   "L5_stock_bond_corr": {
+    "auroc": 0.498,
+    "ci95": [
+     0.298,
+     0.696
+    ],
+    "above_chance": false
+   },
+   "B_curve_10y3m": {
+    "auroc": 0.543,
+    "ci95": [
+     0.328,
+     0.75
+    ],
+    "above_chance": false
+   },
+   "B_baa_10y": {
+    "auroc": 0.281,
+    "ci95": [
+     0.108,
+     0.507
+    ],
+    "above_chance": false
+   },
+   "B_nfci": {
+    "auroc": 0.399,
+    "ci95": [
+     0.167,
+     0.632
+    ],
+    "above_chance": false
+   },
+   "L2_excess_bond_premium": {
+    "auroc": 0.436,
+    "ci95": [
+     0.252,
+     0.645
+    ],
+    "above_chance": false
+   }
+  },
+  "form_pf_test_6m": {
+   "months": [
+    "2016-06",
+    "2025-09"
+   ],
+   "n_months": 112,
+   "n_positive": 47,
+   "F1_top10_repo_share": {
+    "auroc": 0.658,
+    "ci95": [
+     0.412,
+     0.845
+    ],
+    "above_chance": false
+   },
+   "F2_top10_leverage": {
+    "auroc": 0.738,
+    "ci95": [
+     0.554,
+     0.88
+    ],
+    "above_chance": true
+   },
+   "F3_rv_leverage": {
+    "auroc": 0.687,
+    "ci95": [
+     0.449,
+     0.87
+    ],
+    "above_chance": false
+   },
+   "F4_liquidity_mismatch": {
+    "auroc": 0.509,
+    "ci95": [
+     0.326,
+     0.712
+    ],
+    "above_chance": false
+   },
+   "B_curve_10y3m": {
+    "auroc": 0.64,
+    "ci95": [
+     0.443,
+     0.836
+    ],
+    "above_chance": false
+   }
+  }
+ },
+ "latest_scores": {
+  "L1_vix_12m_mean": {
+   "month": "2026-09",
+   "score": 0.502
+  },
+  "L3_credit_gap": {
+   "month": "2026-03",
+   "score": 0.007
+  },
+  "L4_dealer_growth": {
+   "month": "2026-09",
+   "score": 0.751
+  },
+  "L5_stock_bond_corr": {
+   "month": "2026-10",
+   "score": 0.53
+  },
+  "F1_top10_repo_share": {
+   "month": "2026-12",
+   "score": 0.167
+  },
+  "F2_top10_leverage": {
+   "month": "2026-12",
+   "score": 0.722
+  },
+  "F3_rv_leverage": {
+   "month": "2026-12",
+   "score": 0.611
+  },
+  "F4_liquidity_mismatch": {
+   "month": "2026-12",
+   "score": 0.074
+  },
+  "B_curve_10y3m": {
+   "month": "2026-09",
+   "score": 0.676
+  },
+  "B_baa_10y": {
+   "month": "2026-09",
+   "score": 0.035
+  },
+  "B_nfci": {
+   "month": "2026-09",
+   "score": 0.344
+  },
+  "L2_excess_bond_premium": {
+   "month": "2026-10",
+   "score": 0.096
+  },
+  "composite": {
+   "month": "2026-03",
+   "score": 0.451
+  }
+ }
+}

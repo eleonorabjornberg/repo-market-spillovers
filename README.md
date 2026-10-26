@@ -28,6 +28,7 @@ The **[Repo Market Watch](https://eleonorabjornberg.github.io/repo-market-spillo
 | [Study 09: Treasuries in a panic](results/study-09/result.md) | Does more federal debt make Treasuries a worse safe haven, and does that hit repo? With household debt. | Not supported: the weaker haven since 2020 tracks inflation, not debt; repo moves less after panic sell-offs; household debt is down from 98% to 66% of GDP. |
 | [Study 10: three prospective tests](docs/design-study-10-prospective.md) | Set before their data exists: the clearing deadlines (31 Dec 2026, 30 Jun 2027), the credit lead on new repo shocks, and whether the repo chain holds in the next stress event. | Pending; scored automatically each month ([status](results/study-10/status.json)). April 2025, as a reference, scores "held". |
 | [Study 11: what hedge-fund repo funds](results/study-11/result.md) | Descriptive: now that the basis trade has shrunk, what is hedge-fund repo funding? | Still Treasuries (repo +21%, long Treasuries +20%), hedged less with futures (−16%) and more with rate derivatives (+47%); growth with multi-strategy and relative-value funds, not macro. |
+| [Study 12: better indicators?](results/study-12/result.md) | Can better warning indicators be found without overfitting? 9 candidates fixed in advance, 22 events since 1990, development/test split. | No reliable one. Composite = yield curve (−0.02). Two "promising": largest hedge funds' leverage (0.74, but only from 2013) and low long-run VIX (0.78 at 12m, but below chance before 2013). Both now tracked in the watch. |
 
 ## Reproduce
 
@@ -47,6 +48,7 @@ python3 scripts/study_06_warning.py
 python3 scripts/study_07_clearing.py
 python3 scripts/study_10_prospective.py   # after scripts/watch.py
 python3 scripts/fetch_study11.py && python3 scripts/fetch_dtcc_packages.py && python3 scripts/study_11_what_repo_funds.py
+python3 scripts/fetch_study12.py && python3 scripts/study_12_indicators.py   # ebp.csv supplied by hand
 python3 scripts/fetch_study09.py && python3 scripts/study_09_debt_volatility.py
 python3 -m unittest discover -s tests
 ```

@@ -1,0 +1,63 @@
+# Study 12: looking for better warning indicators — result
+
+Design: [`docs/design-study-12-indicators.md`](../../docs/design-study-12-indicators.md), committed before any candidate
+was scored, with one amendment before scoring: the excess bond premium (L2) was dropped from the composite and scored
+beside it once Eleonora supplied the file. Every figure is read from [`result.json`](result.json). 22 stress events,
+1990–2025. Each month, each indicator is scored by its percentile in its own history up to that month, using only what
+was public then.
+
+## Verdict: "promising" by the rule, but no reliable early warning was found
+
+**Main test (test period 2013–2025, 6 months ahead):** the composite of four long-history candidates against the yield
+curve gives **−0.02** [−0.23, +0.16]. No better than the curve.
+
+**AUROC** (0.5 is a coin flip):
+
+| Indicator | Development 1993–2012, 6m | Test 2013–2025, 6m | Test, 12m |
+|---|---:|---:|---:|
+| Composite (L1, L3, L4, L5) | 0.45 | 0.57 | 0.61 |
+| L1 calm before the storm: VIX 12-month average, low | 0.44 | 0.65 | **0.78** [0.59, 0.93] |
+| L2 excess bond premium (supplied) | 0.53 | 0.46 | 0.44 |
+| L3 credit gap | 0.50 | 0.47 | 0.43 |
+| L4 dealer balance-sheet growth | 0.52 | 0.57 | 0.58 |
+| L5 stocks–bonds correlation | 0.46 | 0.50 | 0.50 |
+| Benchmark: 10y − 3m curve | 0.44 | 0.59 | 0.54 |
+| Benchmark: Baa − 10y | 0.51 | 0.38 | 0.28 |
+| Benchmark: NFCI | 0.55 | 0.47 | 0.40 |
+
+**Hedge funds' quarterly reports** (Form PF, scored from June 2016, 6 months ahead, with a two-quarter publication lag):
+
+| Indicator | AUROC |
+|---|---:|
+| **F2 leverage of the 10 largest funds** | **0.74** [0.55, 0.88] |
+| F3 relative-value funds' leverage | 0.69 [0.45, 0.87] |
+| F1 top-10 share of hedge-fund repo | 0.66 [0.41, 0.85] |
+| F4 liquidity mismatch | 0.51 [0.33, 0.71] |
+| Benchmark: yield curve, same months | 0.64 [0.44, 0.84] |
+
+## Reading it honestly
+
+- **The two "promising" candidates are where to look, not answers.**
+  - **Low long-run VIX** beat chance on 2013–2025 at 12 months, but was *worse* than a coin flip on 1993–2012. A
+    signal that flips between periods is not reliable; it may reflect that the 2013–2025 episodes mostly arrived after
+    long calm spells.
+  - **Leverage of the largest hedge funds** did best of all (0.74), but Form PF only starts in 2013, so it has no
+    development period to check against. It is the most interesting candidate, and the least tested.
+- **The rest found nothing.** The credit gap, the excess bond premium, the stocks–bonds correlation and the composite
+  were coin flips. The same holds for the credit-spread benchmark: tight spreads did not precede trouble in this
+  sample.
+- **The reason is in the events.** Most of these 22 episodes were sudden shocks: 9/11, the flash crashes, COVID, the
+  tariff announcement. No slow-moving balance-sheet indicator could time them. The literature's successes are with
+  banking crises over years, not market stress over months.
+
+**What to do with it:** as the design said, the two promising candidates go into the monthly watch as readings, to be
+judged on events that have not happened yet. Their latest readings (percentile in their own history):
+- **Top-10 hedge-fund leverage:** 72% (as of June 2026's report, public by about December 2026).
+- **VIX 12-month average:** 50% (September 2026), middling.
+
+## Limits
+
+- **Overlapping events and labels:** 22 events with 6- and 12-month labels overlap, and the yearly block bootstrap
+  only partly allows for that.
+- **Form PF's publication lag** is assumed to be two quarters.
+- **The credit gap** is a simplified trailing mean, not the BIS's one-sided filter.

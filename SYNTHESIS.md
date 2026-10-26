@@ -150,6 +150,12 @@ then, and checked for whether stress followed within six months:
 | Baa − 10y spread | 0.43 |
 | NFCI leverage | 0.41 |
 
+A follow-up ([study 12](results/study-12/result.md)) searched for better indicators without overfitting: nine
+candidates chosen in advance by mechanism, 22 stress events since 1990, a development and a test period. A combination
+did no better than the yield curve. Two candidates look promising but unproven: the leverage of the 10 largest hedge
+funds (0.74, but its data starts in 2013) and long spells of low volatility (good after 2013, worse than chance
+before). Both are now tracked by the watch.
+
 The episodes were: February 2018, Q4 2018, September 2019, COVID, the UK gilt crisis, SVB, the yen carry unwind and
 the April 2025 tariff shock. The repo indicators did slightly better than the standard ones, but every interval
 includes a coin flip. Most of these episodes came out of calm.

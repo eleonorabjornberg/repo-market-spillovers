@@ -31,7 +31,7 @@ import study_10_prospective as s10  # noqa: E402
 RAW = ROOT / "data" / "raw" / "watch"
 OUT = ROOT / "results" / "watch"
 SITE = ROOT / "site"
-FRED = ["SOFR", "IORB", "BAA10Y", "DGS10"]
+FRED = ["SOFR", "IORB", "BAA10Y", "DGS10", "VIXCLS"]
 OFR_FSI = "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv"
 SWAP_SEED = ROOT / "results" / "study-05" / "swap_rates_daily.csv"
 DEADLINES = {"Cash Treasury clearing": "2026-12-31", "Repo clearing": "2027-06-30"}
@@ -65,6 +65,9 @@ def fetch():
         (RAW / f"{s}.csv").write_bytes(get(url))
         fetched[f"{s}.csv"] = url
     (RAW / "OFR_FSI.csv").write_bytes(get(OFR_FSI))
+    top10 = "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE"
+    (RAW / "FPF_top10_leverage.json").write_bytes(get(top10))
+    fetched["FPF_top10_leverage.json"] = top10
     fetched["OFR_FSI.csv"] = OFR_FSI
     return fetched
 
@@ -266,6 +269,26 @@ def svg_line(series, title, unit, threshold=None, threshold_label="", width=440,
             f' · {keys[-1]}: {vals[-1]:.1f}</span></figcaption>{"".join(parts)}</figure>')
 
 
+def candidate_section():
+    """Study 12's two promising indicators, tracked prospectively: percentile of the latest reading in its own history."""
+    vix = h.complete_months(fred("VIXCLS"), "daily")
+    keys = sorted(vix)
+    avg = {k: statistics.fmean(vix[x] for x in keys[i - 11:i + 1]) for i, k in enumerate(keys) if i >= 11}
+    lev = {d: float(v) for d, v in json.loads((RAW / "FPF_top10_leverage.json").read_text()) if v is not None}
+    rows = []
+    for label, series, low_warns in (("VIX, 12-month average (low = warning)", avg, True),
+                                     ("Leverage of the 10 largest hedge funds (high = warning)", lev, False)):
+        k = max(series)
+        v = series[k]
+        pct = 100 * sum((x >= v) if low_warns else (x <= v) for x in series.values()) / len(series)
+        rows.append(f"<tr><td>{html.escape(label)}</td><td>{k[:7]}: {v:.1f}</td><td>percentile {pct:.0f}</td></tr>")
+    return ('<h2>Candidate indicators</h2><p class="note">The two most promising from <a href="https://github.com/'
+            'eleonorabjornberg/repo-market-spillovers/blob/main/results/study-12/result.md">study 12</a>, now being '
+            'judged on events that have not happened yet. Neither has proved itself: the VIX signal failed before 2013, '
+            'and hedge-fund leverage data starts in 2013. Percentiles are in the warning direction.</p>'
+            f'<table class="tests"><tbody>{"".join(rows)}</tbody></table>')
+
+
 def prospective_section(status):
     """Study 10's three pre-registered tests, as they stand."""
     a = status["A_clearing_deadlines"]
@@ -377,7 +400,7 @@ def main():
             w.writerow(rows[k])
     SITE.mkdir(parents=True, exist_ok=True)
     status = s10.run(run_date)
-    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, prospective_section(status)))
+    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, prospective_section(status) + candidate_section()))
     print(json.dumps({"month": month, "flags": flags, "readings": readings}, indent=1))
 
 
