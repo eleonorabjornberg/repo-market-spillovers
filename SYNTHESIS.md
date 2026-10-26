@@ -195,7 +195,13 @@ on a fixed date. Three tests were set before either happens, with the code that 
 
 The watch also tracks the hedge-fund side of the migration still to come: FICC sponsored repo, mostly hedge funds
 borrowing cash, equalled about 31% of hedge funds' repo borrowing in mid-2026, up from about 8% in 2021 and 6 points
-higher than a year earlier. It jumps around each year-end, so compare a quarter with the same quarter a year before. And it tracks
+higher than a year earlier. It jumps around each year-end, so compare a quarter with the same quarter a year before.
+
+Since October 2026 it also shows, every week, how much of primary dealers' cash lending against Treasuries is
+uncleared bilateral repo ([study 14](results/study-14/result.md)). In the four weeks to 14 October 2026 it was 55%,
+against 54% in the same weeks a year earlier: eight months before the repo deadline, the segment the rule is meant to
+shrink is no smaller a share than a year ago, and larger in dollars ($1.55 trillion against $1.44 trillion). Like the hedge-fund proxy, it dips each year-end,
+so it is read against the same weeks a year before. And it tracks
 study 12's two candidate indicators, on stress that has not happened yet.
 
 ## What this cannot see

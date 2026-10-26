@@ -40,6 +40,15 @@
    "percentile": 3.5
   }
  },
+ "uncleared_share": {
+  "weeks": [
+   "2026-09-23",
+   "2026-10-14"
+  ],
+  "latest": 55.37,
+  "year_earlier": 54.17,
+  "change_pp": 1.2
+ },
  "sources": {
   "TREAST.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TREAST",
   "OFRHF_FPF-BORROW_REPO_SUM.json": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-BORROW_REPO_SUM",
@@ -62,6 +71,30 @@
   "DGS10.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
   "VIXCLS.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
   "FPF_top10_leverage.json": "https://data.financialresearch.gov/hf/v1/series/timeseries?mnemonic=FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE",
-  "OFR_FSI.csv": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv"
+  "OFR_FSI.csv": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
+  "fr2004/PDSIRRA-UBGUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBGUTSET.json",
+  "fr2004/PDSIRRA-UBGUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBGUTSETTAL30.json",
+  "fr2004/PDSIRRA-UBGUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBGUTSETTAG30.json",
+  "fr2004/PDSIRRA-UBSUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBSUTSET.json",
+  "fr2004/PDSIRRA-UBSUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBSUTSETTAL30.json",
+  "fr2004/PDSIRRA-UBSUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-UBSUTSETTAG30.json",
+  "fr2004/PDSIRRA-CBGUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBGUTSET.json",
+  "fr2004/PDSIRRA-CBGUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBGUTSETTAL30.json",
+  "fr2004/PDSIRRA-CBGUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBGUTSETTAG30.json",
+  "fr2004/PDSIRRA-CBSUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSUTSET.json",
+  "fr2004/PDSIRRA-CBSUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSUTSETTAL30.json",
+  "fr2004/PDSIRRA-CBSUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSUTSETTAG30.json",
+  "fr2004/PDSIRRA-CBSPUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSPUTSET.json",
+  "fr2004/PDSIRRA-CBSPUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSPUTSETTAL30.json",
+  "fr2004/PDSIRRA-CBSPUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-CBSPUTSETTAG30.json",
+  "fr2004/PDSIRRA-TRIGUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRIGUTSET.json",
+  "fr2004/PDSIRRA-TRIGUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRIGUTSETTAL30.json",
+  "fr2004/PDSIRRA-TRIGUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRIGUTSETTAG30.json",
+  "fr2004/PDSIRRA-TRISPUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRISPUTSET.json",
+  "fr2004/PDSIRRA-TRISPUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRISPUTSETTAL30.json",
+  "fr2004/PDSIRRA-TRISPUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-TRISPUTSETTAG30.json",
+  "fr2004/PDSIRRA-GCFUTSET.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-GCFUTSET.json",
+  "fr2004/PDSIRRA-GCFUTSETTAL30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-GCFUTSETTAL30.json",
+  "fr2004/PDSIRRA-GCFUTSETTAG30.json": "https://markets.newyorkfed.org/api/pd/get/PDSIRRA-GCFUTSETTAG30.json"
  }
 }

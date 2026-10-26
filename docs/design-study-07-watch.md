@@ -77,3 +77,9 @@ so beside the flags. A flag says "this has changed", not "a crisis is coming".
   change it. The daily charts now run to the latest data, and the OFR stress index is charted daily; those are display
   changes only.
 
+- **A second reading added (not a flag), 26 October 2026.** The watch now shows, weekly, the share of primary dealers'
+  Treasury reverse repo (their cash lending) that is uncleared bilateral, from the New York Fed's FR 2004 statistics:
+  study 14's measure M1, with weeks that have a suppressed venue left out. Because the share dips every year-end, the
+  page compares the latest four weeks with the same weeks 52 weeks earlier, never with the weeks just before. It sets
+  no flag and changes no rule. Its first reading: 55.4% in the four weeks to 14 October 2026, against 54.2% a year
+  earlier.

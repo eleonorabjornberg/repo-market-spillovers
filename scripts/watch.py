@@ -3,7 +3,7 @@ build the public page.
 
 Run weekly by .github/workflows/watch.yml. The flags score the last complete month (re-scored each week until the
 next month ends); the daily charts run to the latest data. Writes:
-  results/watch/latest.json        this run's readings and flags
+  results/watch/latest.json        this run's readings, flags and the uncleared share (study 14)
   results/watch/flags_history.csv  one row per month (re-running a month replaces its row)
   results/watch/swap_daily.csv     daily 10-year SOFR swap spread, extended incrementally from DTCC
   site/index.html                  the public page
@@ -28,6 +28,7 @@ from spillovers import history as h  # noqa: E402
 import fetch_chain  # noqa: E402
 import fetch_dtcc  # noqa: E402
 import study_10_prospective as s10  # noqa: E402
+import study_14_haircuts_netting as s14  # noqa: E402
 
 RAW = ROOT / "data" / "raw" / "watch"
 OUT = ROOT / "results" / "watch"
@@ -70,6 +71,13 @@ def fetch():
     (RAW / "FPF_top10_leverage.json").write_bytes(get(top10))
     fetched["FPF_top10_leverage.json"] = top10
     fetched["OFR_FSI.csv"] = OFR_FSI
+    (RAW / "fr2004").mkdir(exist_ok=True)
+    for code in s14.VENUES.values():
+        for term in s14.TERMS:
+            key = f"{s14.SIDES['reverse_repo']}-{code}{term}"
+            url = f"https://markets.newyorkfed.org/api/pd/get/{key}.json"
+            (RAW / "fr2004" / f"{key}.json").write_bytes(get(url))
+            fetched[f"fr2004/{key}.json"] = url
     return fetched
 
 
@@ -286,6 +294,45 @@ def cleared_share(sponsored_repo_monthly, hf_repo_quarterly):
     return out
 
 
+def uncleared_weekly():
+    """Week -> percent of primary dealers' Treasury reverse repo (their cash lending) that is uncleared bilateral, from
+    the New York Fed's FR 2004 statistics: study 14's M1 measure. Weeks with a suppressed venue are left out."""
+    weeks = s14.venue_totals("reverse_repo", RAW / "fr2004")
+    return {w: v for w, t in weeks.items() if (v := s14.uncleared_share(t)) is not None}
+
+
+def uncleared_year_on_year(weekly):
+    """The latest four weeks' mean against the mean of the weeks 52 weeks before them. The share dips every year-end,
+    so a reading is compared with the same weeks a year earlier, never with the weeks just before it. The year-earlier
+    mean needs at least two weeks with complete data, or it is None."""
+    keys = sorted(weekly)[-4:]
+    shift = lambda w: (dt.date.fromisoformat(w) - dt.timedelta(days=364)).isoformat()  # noqa: E731
+    then = [v for w, v in weekly.items() if shift(keys[0]) <= w <= shift(keys[-1])]
+    latest = round(statistics.fmean(weekly[k] for k in keys), 2)
+    earlier = round(statistics.fmean(then), 2) if len(then) >= 2 else None
+    return {"weeks": [keys[0], keys[-1]], "latest": latest, "year_earlier": earlier,
+            "change_pp": None if earlier is None else round(latest - earlier, 2)}
+
+
+def uncleared_section(weekly, yoy):
+    """The uncleared bilateral segment, against the 30 June 2027 repo deadline (study 14)."""
+    chart = svg_line(weekly, "Dealers' reverse repo left uncleared", "% of their Treasury reverse repo, weekly", daily=True)
+    change = ("" if yoy["change_pp"] is None else
+              f", against <b>{yoy['year_earlier']:.0f}%</b> in the same weeks a year earlier "
+              f"({format(yoy['change_pp'], '+.1f').replace('-', '−')} points)")
+    return ('<h2>The repo still outside clearing</h2><p class="note">Primary dealers report each week how much cash they '
+            'lend against Treasuries, and through which channel. In the four weeks to '
+            f'{dt.date.fromisoformat(yoy["weeks"][1]):%-d %B %Y}, <b>{yoy["latest"]:.0f}%</b> of it was uncleared '
+            f'bilateral repo{change}. The SEC rule requires much of this segment to be centrally cleared by 30 June 2027; how '
+            'far it reaches trades between affiliates is still contested. The share has '
+            'fallen only slowly while uncleared lending kept growing in dollars, and it dips each year-end as trades are '
+            'moved into clearing for the balance-sheet date and back out after it, so compare it with the same weeks a '
+            'year earlier. It covers primary dealers only, and says nothing about haircuts or who the counterparty is; '
+            'regulators see those, the public does not (<a href="https://github.com/eleonorabjornberg/repo-market-'
+            'spillovers/blob/main/results/study-14/result.md">study 14</a>). Weeks where the New York Fed suppresses a '
+            f'figure are left out of the line.</p><div class="figs" style="max-width:560px">{chart}</div>')
+
+
 def clearing_countdown_section(run_date):
     """The hedge-fund side of the clearing migration, against the 30 June 2027 repo deadline."""
     sponsored = h.complete_months(ofr("OFRHF_FICC-SPONSORED_REPO_VOL.json"), "daily")
@@ -423,9 +470,12 @@ def main():
     run_date = dt.date.today().isoformat()
     fetched = fetch()
     month, readings, flags, charts = compute(run_date)
+    weekly = uncleared_weekly()
+    yoy = uncleared_year_on_year(weekly)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "latest.json").write_text(json.dumps({"run_date": run_date, "month": month, "flags": flags,
-                                                 "readings": readings, "sources": fetched}, indent=1) + "\n")
+                                                 "readings": readings, "uncleared_share": yoy, "sources": fetched},
+                                                indent=1) + "\n")
     hist_path = OUT / "flags_history.csv"
     rows = {}
     if hist_path.exists():
@@ -439,7 +489,9 @@ def main():
             w.writerow(rows[k])
     SITE.mkdir(parents=True, exist_ok=True)
     status = s10.run(run_date)
-    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, prospective_section(status) + clearing_countdown_section(run_date) + candidate_section()))
+    sections = (prospective_section(status) + uncleared_section(weekly, yoy) + clearing_countdown_section(run_date)
+                + candidate_section())
+    (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, sections))
     print(json.dumps({"month": month, "flags": flags, "readings": readings}, indent=1))
 
 
