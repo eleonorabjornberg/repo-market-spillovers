@@ -40,10 +40,10 @@ def fetch():
 SUPPRESSED_AS_ZERO = False  # the sensitivity version (design amendment) sets this
 
 
-def series(key):
+def series(key, raw=None):
     """date -> $bn; suppressed ('*') values left out, or zero in the sensitivity version."""
     out = {}
-    for row in json.loads((RAW / f"{key}.json").read_text())["pd"]["timeseries"]:
+    for row in json.loads(((raw or RAW) / f"{key}.json").read_text())["pd"]["timeseries"]:
         try:
             out[row["asofdate"]] = float(row["value"]) / 1000  # FR 2004 reports $ millions
         except ValueError:
@@ -52,9 +52,9 @@ def series(key):
     return out
 
 
-def venue_totals(side):
+def venue_totals(side, raw=None):
     """week -> {venue: $bn summed over terms}; a venue is present only when all its terms are."""
-    parts = {v: [series(f"{SIDES[side]}-{code}{t}") for t in TERMS] for v, code in VENUES.items()}
+    parts = {v: [series(f"{SIDES[side]}-{code}{t}", raw) for t in TERMS] for v, code in VENUES.items()}
     weeks = sorted(set().union(*(set(p) for ps in parts.values() for p in ps)))
     out = {}
     for w in weeks:

@@ -11,7 +11,8 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 - **The watch:** the **[Repo Market Watch](https://eleonorabjornberg.github.io/repo-market-spillovers/)** is rebuilt
   every Monday by [`.github/workflows/watch.yml`](.github/workflows/watch.yml). Its daily charts run to the latest data;
   its eight warning flags score the last complete month. It also shows study 10's prospective tests, the clearing
-  migration still to come and study 12's candidate indicators.
+  migration still to come (the hedge-fund proxy, and the weekly share of dealers' repo lending left uncleared, from
+  study 14) and study 12's candidate indicators.
 - **Data:** it reads the published daily panel of
   [repo-market-model](https://github.com/eleonorabjornberg/repo-market-model), pinned by commit and digest in
   [`metadata/parent_pin.json`](metadata/parent_pin.json), and adds public data from FRED, the OFR, the CFTC, DTCC, the US

@@ -85,3 +85,18 @@ class ClearedShareTest(unittest.TestCase):
               "2026-09": 500.0}
         # Q2: mean 200 over 1000 = 20%; Q3 is incomplete in the sponsored data, so it is left out
         self.assertEqual(watch.cleared_share(sponsored, hf), {"2026-04": 20.0})
+
+
+class UnclearedShareTest(unittest.TestCase):
+    def test_latest_four_weeks_against_a_year_earlier(self):
+        weekly = {"2025-09-24": 60.0, "2025-10-01": 62.0, "2025-10-08": 64.0, "2025-10-15": 66.0, "2025-12-31": 40.0,
+                  "2026-09-23": 55.0, "2026-09-30": 57.0, "2026-10-07": 59.0, "2026-10-14": 61.0}
+        got = watch.uncleared_year_on_year(weekly)
+        self.assertEqual(got["weeks"], ["2026-09-23", "2026-10-14"])
+        self.assertEqual(got["latest"], 58.0)
+        self.assertEqual(got["year_earlier"], 63.0)  # the year-end week is outside the window
+        self.assertEqual(got["change_pp"], -5.0)
+
+    def test_too_few_weeks_a_year_earlier(self):
+        weekly = {"2025-10-15": 66.0, "2026-09-23": 55.0, "2026-09-30": 57.0, "2026-10-07": 59.0, "2026-10-14": 61.0}
+        self.assertIsNone(watch.uncleared_year_on_year(weekly)["year_earlier"])

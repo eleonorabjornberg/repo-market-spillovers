@@ -76,6 +76,9 @@ In order of value:
    points above a year earlier (it jumps each fourth quarter; study 13), close to the New York Fed's figure from non-public data (about 30% in late 2025). It is a proxy;
    its trend toward the June 2027 deadline is what to read. Building it showed that study 10's descriptive A5 used
    the money-fund leg instead; that is recorded as an erratum in its design, and A5 decides nothing.
+   **Added (26 Oct 2026):** a weekly reading from study 14, the share of primary dealers' Treasury reverse repo left
+   uncleared, compared with the same weeks a year earlier. First reading: 55.4% in the four weeks to 14 October 2026,
+   against 54.2% a year earlier. Eight months before the repo deadline, the uncleared share is no lower than a year ago.
 4. **Keep the two candidate indicators honest.** Top-10 hedge-fund leverage and low long-run VIX are scored on future
    stress only. Re-score them once three new stress events, by study 12's mechanical definition, have occurred. Do not
    re-tune them in between.
