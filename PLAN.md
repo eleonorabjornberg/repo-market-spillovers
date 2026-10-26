@@ -37,6 +37,7 @@ evidence behind each.
 | [Study 06](results/study-06/result.md) | H4 | **Cannot tell**: the best chain indicator (leveraged funds' futures short, AUROC 0.63) edges out the yield curve (0.58) by +0.05 [−0.14, +0.24]; no indicator warned reliably over eight episodes since 2017. |
 | [Study 07](results/study-07/result.md) | H5 | **Clearing migration supported**: FICC's share of money-fund repo sped up by +19.8 pp a year [+13.3, +27.0] at the SEC's adoption of the rule and slowed after the extension (also on private repo alone, post hoc). The monthly public watch is live, with 1 of 8 flags on (complacency). |
 | [Study 09](results/study-09/result.md) | Added: debt and the safe haven | **Not supported**: Treasuries' weaker haven role since 2020 tracks inflation (+5.9 pp per point), not federal debt (−0.07 pp per point [−0.43, +0.24]); repo moves less after panic sell-offs; household debt fell from 98% to 66% of GDP. |
+| [Study 08](SYNTHESIS.md) | Synthesis | Published: repo stress has not spread to wider markets; shocks run from bonds to repo, weakly; no indicator warned reliably. New and untested: record hedge-fund repo, 97% federal debt, very tight credit spreads. Much of the shift to FICC is migration ahead of the clearing mandate. |
 
 ## The studies
 
