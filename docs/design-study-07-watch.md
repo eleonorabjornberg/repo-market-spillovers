@@ -61,3 +61,13 @@ a monitor, not a study: it scores nothing and changes no verdict.
 
 **What a flag means.** Studies 04–06 found that none of these indicators reliably warned of past stress. The page says
 so beside the flags. A flag says "this has changed", not "a crisis is coming".
+
+## Notes added after the first build (26 October 2026)
+
+- **F5's leg.** F5 is defined on sponsored *reverse* repo, which per the OFR's definitions is mostly money funds
+  lending cash, not hedge funds borrowing it. So F5 detects money funds' cash leaving clearing, not hedge funds'
+  borrowing leaving it. The flag stays as fixed here. The page's description of F5 was corrected to say "sponsored
+  reverse repo"; it had said "sponsored repo".
+- **A reading added (not a flag).** The watch now shows FICC sponsored repo (the hedge-fund leg) over hedge funds' Form
+  PF repo borrowing, quarterly: a public proxy for how much hedge-fund repo is centrally cleared ahead of the June 2027
+  deadline. It sets no flag and changes no rule.

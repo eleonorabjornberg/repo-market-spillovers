@@ -187,7 +187,9 @@ on a fixed date. Three tests were set before either happens, with the code that 
 - **The chain under stress:** at the next stress surge, whether repo strains while the basis trade unwinds. April 2025,
   scored the same way, "held".
 
-The watch also tracks study 12's two candidate indicators, on stress that has not happened yet.
+The watch also tracks the hedge-fund side of the migration still to come: FICC sponsored repo, mostly hedge funds
+borrowing cash, equalled about 31% of hedge funds' repo borrowing in mid-2026, up from about 8% in 2021. And it tracks
+study 12's two candidate indicators, on stress that has not happened yet.
 
 ## What this cannot see
 

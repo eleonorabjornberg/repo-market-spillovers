@@ -76,3 +76,12 @@ class ProspectiveCalendarTest(unittest.TestCase):
         days = ["a", "b", "c"]
         self.assertEqual(s10.offset(days, "b", 1), "c")
         self.assertIsNone(s10.offset(days, "c", 1))
+
+
+class ClearedShareTest(unittest.TestCase):
+    def test_quarterly_mean_over_borrowing(self):
+        sponsored = {"2026-04": 100.0, "2026-05": 200.0, "2026-06": 300.0, "2026-07": 50.0}
+        hf = {"2026-04": 1000.0, "2026-05": 1000.0, "2026-06": 1000.0, "2026-07": 500.0, "2026-08": 500.0,
+              "2026-09": 500.0}
+        # Q2: mean 200 over 1000 = 20%; Q3 is incomplete in the sponsored data, so it is left out
+        self.assertEqual(watch.cleared_share(sponsored, hf), {"2026-04": 20.0})

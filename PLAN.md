@@ -68,12 +68,12 @@ In order of value:
    of these Treasury trades carry a zero haircut, and that only about 30% of hedge-fund repo with dealers was cleared
    by late 2025. The collection is not yet in the OFR's public data feed. Check it quarterly; write the design before
    the first download.
-3. **Put the migration still to come on the watch (small, now).** Study 07 measured money funds' side of clearing.
-   The larger move is the dealer-to-hedge-fund side, about 70% uncleared in late 2025 by the New York Fed's count,
-   whose underlying split is not in the OFR's public data. The closest public proxy is FICC sponsored repo volume over
-   hedge funds' Form PF repo borrowing: study 10's A5 already computes it (0.41 in Q2 2026). Showing it on the watch
-   each quarter would turn the June 2027 deadline into a visible countdown. It is a proxy: the two are measured
-   differently, so only its direction means anything.
+3. **Done (26 Oct 2026): the migration still to come is on the watch.** Study 07 measured money funds' side of
+   clearing. The larger move is the dealer-to-hedge-fund side. The watch now shows, each quarter, FICC sponsored repo
+   (the hedge-fund borrowing leg) over hedge funds' Form PF repo borrowing: about 8% in 2021, 35% at the end of 2025,
+   31% in Q2 2026, close to the New York Fed's figure from non-public data (about 30% in late 2025). It is a proxy;
+   its trend toward the June 2027 deadline is what to read. Building it showed that study 10's descriptive A5 used
+   the money-fund leg instead; that is recorded as an erratum in its design, and A5 decides nothing.
 4. **Keep the two candidate indicators honest.** Top-10 hedge-fund leverage and low long-run VIX are scored on future
    stress only. Re-score them once three new stress events, by study 12's mechanical definition, have occurred. Do not
    re-tune them in between.
