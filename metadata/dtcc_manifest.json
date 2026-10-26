@@ -1,0 +1,3101 @@
+{
+ "2024-11-01": {
+  "kept_trades": 242,
+  "retrieved_at": "2026-10-26T16:17:48+00:00",
+  "sha256": "2ce0053974eb9e04a9454f40c2162b530e152dfab58501ab4eca3d8fd5246c94",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_01.zip"
+ },
+ "2024-11-04": {
+  "kept_trades": 225,
+  "retrieved_at": "2026-10-26T16:17:48+00:00",
+  "sha256": "2f8b94b38c6e2bf97212d8cad3705d730b5247fbe0adce54222f8f4ecda56acf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_04.zip"
+ },
+ "2024-11-05": {
+  "kept_trades": 174,
+  "retrieved_at": "2026-10-26T16:17:49+00:00",
+  "sha256": "9d7c8afb08f1ffa17b7b035426042bdc8e87f3fd58f9bf2507a5d457aec7393c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_05.zip"
+ },
+ "2024-11-06": {
+  "kept_trades": 327,
+  "retrieved_at": "2026-10-26T16:17:50+00:00",
+  "sha256": "cfeff10af10d769ed920e0f54b2d6cf740f9b60e3bcdf522f73430ab0da7e3d1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_06.zip"
+ },
+ "2024-11-07": {
+  "kept_trades": 272,
+  "retrieved_at": "2026-10-26T16:17:50+00:00",
+  "sha256": "2af65d90442477efcbd1e18f1e6e4bb7390ff433d78222767886c4d179aab4ac",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_07.zip"
+ },
+ "2024-11-08": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:17:51+00:00",
+  "sha256": "7cadf020620d073dc2a00b0ee087bc26b21325100843666341dbf7ca5c965806",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_08.zip"
+ },
+ "2024-11-11": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:53+00:00",
+  "sha256": "4fdd9b446b2cbf7f7f003d8fbd70c8a13bf54bc468e7ffa110a0b5828818147e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_11.zip"
+ },
+ "2024-11-12": {
+  "kept_trades": 210,
+  "retrieved_at": "2026-10-26T16:17:52+00:00",
+  "sha256": "605d0c7f0ab73c8ed591318ad300a066768e0a5f240652dfab01ee43d3a0fc85",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_12.zip"
+ },
+ "2024-11-13": {
+  "kept_trades": 213,
+  "retrieved_at": "2026-10-26T16:17:53+00:00",
+  "sha256": "851b7d3e979cd8b2d945a445ba3f45a7af6811d636c48b6f06f1634f881faeb1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_13.zip"
+ },
+ "2024-11-14": {
+  "kept_trades": 174,
+  "retrieved_at": "2026-10-26T16:17:54+00:00",
+  "sha256": "0cf716234351378f1e766d16072deb7957c9c38e679455ff08e2da9c82cfd8e4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_14.zip"
+ },
+ "2024-11-15": {
+  "kept_trades": 160,
+  "retrieved_at": "2026-10-26T16:17:54+00:00",
+  "sha256": "05c9afbc9dab53e6fdf9c2dc2dc56c49ad641e50a4785d9831d31a8616932431",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_15.zip"
+ },
+ "2024-11-18": {
+  "kept_trades": 134,
+  "retrieved_at": "2026-10-26T16:17:55+00:00",
+  "sha256": "6a81a1731f30d9b8c57bfd48c2a591f053bf489a15d4da7e3d9ad15c05801833",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_18.zip"
+ },
+ "2024-11-19": {
+  "kept_trades": 146,
+  "retrieved_at": "2026-10-26T16:17:55+00:00",
+  "sha256": "bb88c80d068163dca0256f673a214c625a64839674e94e876df70c48e92800a6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_19.zip"
+ },
+ "2024-11-20": {
+  "kept_trades": 138,
+  "retrieved_at": "2026-10-26T16:17:56+00:00",
+  "sha256": "4dcdd076f23b9258d241b9c77197a51784bd09755a748293b7452bb5026c2adf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_20.zip"
+ },
+ "2024-11-21": {
+  "kept_trades": 120,
+  "retrieved_at": "2026-10-26T16:17:57+00:00",
+  "sha256": "324d2df9acb1f56016b8fb24d3b977621b07f8d4a294e0a1efdb3fd6785d9809",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_21.zip"
+ },
+ "2024-11-22": {
+  "kept_trades": 162,
+  "retrieved_at": "2026-10-26T16:17:58+00:00",
+  "sha256": "6353e4762759bcc83055ccf49324ffe99f171f3a8ccba3d14ed08a968fe29beb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_22.zip"
+ },
+ "2024-11-25": {
+  "kept_trades": 225,
+  "retrieved_at": "2026-10-26T16:17:59+00:00",
+  "sha256": "37f2b8fdb98a24780ce87ab36228d622e31d820491e53f1886268cae727a872b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_25.zip"
+ },
+ "2024-11-26": {
+  "kept_trades": 134,
+  "retrieved_at": "2026-10-26T16:18:00+00:00",
+  "sha256": "029708e9f677e2651bf5af078b126e77cedae365987f1d967c19644e0f6e0979",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_26.zip"
+ },
+ "2024-11-27": {
+  "kept_trades": 145,
+  "retrieved_at": "2026-10-26T16:18:00+00:00",
+  "sha256": "6efbfebb747f5b06c899e8bca9eede1c80df507eaf3fdb11398bd310eaf836d2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_27.zip"
+ },
+ "2024-11-28": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:53+00:00",
+  "sha256": "dd6fbfa100e5dcd02413073e3852d76a9b1602ebacfd4752a3d4a8733ef68c11",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_28.zip"
+ },
+ "2024-11-29": {
+  "kept_trades": 120,
+  "retrieved_at": "2026-10-26T16:18:01+00:00",
+  "sha256": "13d238367d4984521c3e7a992f6e250b8df8aeaffa6e642697655796836f8f06",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_11_29.zip"
+ },
+ "2024-12-02": {
+  "kept_trades": 163,
+  "retrieved_at": "2026-10-26T16:18:02+00:00",
+  "sha256": "df001f396213ea6310555fa5df2819e4315c7ce2684fed13810e80dbba753c06",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_02.zip"
+ },
+ "2024-12-03": {
+  "kept_trades": 106,
+  "retrieved_at": "2026-10-26T16:18:02+00:00",
+  "sha256": "9a6bc6bc63c01f03a9d7f64b6264267e36f157f5b91c14a6b911f339e82ba922",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_03.zip"
+ },
+ "2024-12-04": {
+  "kept_trades": 186,
+  "retrieved_at": "2026-10-26T16:18:03+00:00",
+  "sha256": "a02cd57846a41fec06ed32b5a8aaabc877552941e437d62ce6d330541aa0223d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_04.zip"
+ },
+ "2024-12-05": {
+  "kept_trades": 122,
+  "retrieved_at": "2026-10-26T16:18:04+00:00",
+  "sha256": "245df95f086836cf14ef0ac4056da19ec9c3eedb9436e273fa611954dbdcde08",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_05.zip"
+ },
+ "2024-12-06": {
+  "kept_trades": 164,
+  "retrieved_at": "2026-10-26T16:18:04+00:00",
+  "sha256": "8c5f70f00ffb0a82b7ec9c4775d899af80c3e4ce1aed719155240e0b89288463",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_06.zip"
+ },
+ "2024-12-09": {
+  "kept_trades": 109,
+  "retrieved_at": "2026-10-26T16:18:05+00:00",
+  "sha256": "abf14c34e918ffef0f8e16e6266b79896cd6390072f32c20a8f845cf600b4946",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_09.zip"
+ },
+ "2024-12-10": {
+  "kept_trades": 105,
+  "retrieved_at": "2026-10-26T16:18:05+00:00",
+  "sha256": "195c385ce7b0da158ca27a8007aacffb9f4a6eed64ade974f5eeea412a167093",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_10.zip"
+ },
+ "2024-12-11": {
+  "kept_trades": 190,
+  "retrieved_at": "2026-10-26T16:18:06+00:00",
+  "sha256": "17e457c3c8557c6b36e9d2d222426cd8e3807ce5037ae11de49f24ee4101b5f2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_11.zip"
+ },
+ "2024-12-12": {
+  "kept_trades": 162,
+  "retrieved_at": "2026-10-26T16:18:07+00:00",
+  "sha256": "ebcaa63f76e852c8b0b75c1c28ef7d557261ad3fe933cf4699616fbc49984b6b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_12.zip"
+ },
+ "2024-12-13": {
+  "kept_trades": 187,
+  "retrieved_at": "2026-10-26T16:18:07+00:00",
+  "sha256": "aef2228731c51235fbd7ddaf2feeb110551d3b8100faecb37a07e441690930f8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_13.zip"
+ },
+ "2024-12-16": {
+  "kept_trades": 171,
+  "retrieved_at": "2026-10-26T16:18:08+00:00",
+  "sha256": "99145fbd495674b1e443634482e3ec8dee0608b2ff3acbd643c7631d3c2e5852",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_16.zip"
+ },
+ "2024-12-17": {
+  "kept_trades": 153,
+  "retrieved_at": "2026-10-26T16:18:08+00:00",
+  "sha256": "91e744b82bee463c4fc2952303b5b64f21bad4250bc7af3042bfd90d073e439d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_17.zip"
+ },
+ "2024-12-18": {
+  "kept_trades": 219,
+  "retrieved_at": "2026-10-26T16:18:09+00:00",
+  "sha256": "0e9a3da07fbf63509f40b07f2006acd92e9c46b50c705403da9c1efb7faec885",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_18.zip"
+ },
+ "2024-12-19": {
+  "kept_trades": 233,
+  "retrieved_at": "2026-10-26T16:18:10+00:00",
+  "sha256": "ec317eead25edb89e695c734e043e23e3e0335a0e9a9207b1e302db0f79d60b2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_19.zip"
+ },
+ "2024-12-20": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:18:10+00:00",
+  "sha256": "3ecb3cb80853933c80635c3e1c29fc23cf5bdb8f9f58777282485fb1ba3931e3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_20.zip"
+ },
+ "2024-12-23": {
+  "kept_trades": 118,
+  "retrieved_at": "2026-10-26T16:18:11+00:00",
+  "sha256": "223cdb5d70b61b4a4ac2230038f09246812e446c03b7c68edda5c4ec703f481b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_23.zip"
+ },
+ "2024-12-24": {
+  "kept_trades": 48,
+  "retrieved_at": "2026-10-26T16:18:11+00:00",
+  "sha256": "5275824d5ad1c12b42cceff00c664520a51f6c7f4bfd4e87bb4ef08db27c8c6d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_24.zip"
+ },
+ "2024-12-25": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:53+00:00",
+  "sha256": "a6646b34e0b6a0ebf23c0dce808bb06ff6b313b423ffc987a4fc226abc98e78e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_25.zip"
+ },
+ "2024-12-26": {
+  "kept_trades": 45,
+  "retrieved_at": "2026-10-26T16:18:12+00:00",
+  "sha256": "f57c65071b345a2451cd5b44e41154ff2f2c8b8e5a41dad6690f47a3bbf4104e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_26.zip"
+ },
+ "2024-12-27": {
+  "kept_trades": 78,
+  "retrieved_at": "2026-10-26T16:18:12+00:00",
+  "sha256": "b518382f4034d7519647d96dda87bcbd9234747057dc14929a5f2d6ed319187f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_27.zip"
+ },
+ "2024-12-30": {
+  "kept_trades": 115,
+  "retrieved_at": "2026-10-26T16:18:13+00:00",
+  "sha256": "6c7cbeef2aeced960250c322bc39e1efebb6544904e2e12a53906dd4fcc568d3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_30.zip"
+ },
+ "2024-12-31": {
+  "kept_trades": 56,
+  "retrieved_at": "2026-10-26T16:18:13+00:00",
+  "sha256": "a9ad215ffb4a63af26b49bfffe0b2abd67ecdb12f084e4f86ff95a289ea2342f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2024_12_31.zip"
+ },
+ "2025-01-01": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:54+00:00",
+  "sha256": "ab2193a64a9762798e868874eb745c0c047dedecf18baa122bb95290e64d23ed",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_01.zip"
+ },
+ "2025-01-02": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:18:14+00:00",
+  "sha256": "b87332527c8519d20c30d7ba7f486001fea4886d2923b639180c3b81a850e596",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_02.zip"
+ },
+ "2025-01-03": {
+  "kept_trades": 102,
+  "retrieved_at": "2026-10-26T16:18:15+00:00",
+  "sha256": "d171d337c1bc2fc39073b723291f09a4daf16551bdf9e333e5c0e7d52d6dcc96",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_03.zip"
+ },
+ "2025-01-06": {
+  "kept_trades": 191,
+  "retrieved_at": "2026-10-26T16:18:15+00:00",
+  "sha256": "7428e121d40c160d9a41af1bb0bcf29d476a70bd65a523082cf3bf97cfd08626",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_06.zip"
+ },
+ "2025-01-07": {
+  "kept_trades": 219,
+  "retrieved_at": "2026-10-26T16:18:16+00:00",
+  "sha256": "3c3f5bbb2590e40fcc14996b7a6efe29540f7e0564337489b35c8324d015c782",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_07.zip"
+ },
+ "2025-01-08": {
+  "kept_trades": 200,
+  "retrieved_at": "2026-10-26T16:18:17+00:00",
+  "sha256": "52883824ab097bac35179ba8223668ba4020e2489876b327fb3b14769019c00e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_08.zip"
+ },
+ "2025-01-09": {
+  "kept_trades": 123,
+  "retrieved_at": "2026-10-26T16:18:17+00:00",
+  "sha256": "a2982388287999aea37b3626c86ec850afc0d6ec7c7d884078163a66d992ec79",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_09.zip"
+ },
+ "2025-01-10": {
+  "kept_trades": 310,
+  "retrieved_at": "2026-10-26T16:18:18+00:00",
+  "sha256": "7041bf0abea846c15accd03df0cfcbd66d7527054a84dc5181b08ecde15c68ee",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_10.zip"
+ },
+ "2025-01-13": {
+  "kept_trades": 206,
+  "retrieved_at": "2026-10-26T16:18:19+00:00",
+  "sha256": "e77fca9f3143c8b2ef68ecb1e7a7c77ecb5ca876be80f7613fb44386475ea0cb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_13.zip"
+ },
+ "2025-01-14": {
+  "kept_trades": 192,
+  "retrieved_at": "2026-10-26T16:18:20+00:00",
+  "sha256": "a6def4f9d7aa68846b502caba2f312989cb47e67ae45bf41973409dc99817c57",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_14.zip"
+ },
+ "2025-01-15": {
+  "kept_trades": 311,
+  "retrieved_at": "2026-10-26T16:18:20+00:00",
+  "sha256": "11391a1a4da5cae4fb5c1c522bf27d65e0b29f52a18ddd704599a630645679dc",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_15.zip"
+ },
+ "2025-01-16": {
+  "kept_trades": 226,
+  "retrieved_at": "2026-10-26T16:18:21+00:00",
+  "sha256": "de6964e36bf7fb8633cb78307729496ddd97e040dd2c41f29f5b3cec1e0ab28a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_16.zip"
+ },
+ "2025-01-17": {
+  "kept_trades": 235,
+  "retrieved_at": "2026-10-26T16:18:22+00:00",
+  "sha256": "30b9bc14f7bdb2c1dd2055f649a89b211c7ab4138aa4827979ae67e24f1367e6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_17.zip"
+ },
+ "2025-01-20": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:54+00:00",
+  "sha256": "4c8c2be656db7422d1bd95839919a859f4857cd0b69b49afe5d5b85063774c5e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_20.zip"
+ },
+ "2025-01-21": {
+  "kept_trades": 172,
+  "retrieved_at": "2026-10-26T16:18:23+00:00",
+  "sha256": "53a897d2d6b1656b9bb7ebdfe54e01f4211d288baabeb80d69ac04bbd3a96190",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_21.zip"
+ },
+ "2025-01-22": {
+  "kept_trades": 173,
+  "retrieved_at": "2026-10-26T16:18:23+00:00",
+  "sha256": "3522d25cefd82208ee8c299d759481f73a3d38f03d442c52a4be6fd63545e27b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_22.zip"
+ },
+ "2025-01-23": {
+  "kept_trades": 244,
+  "retrieved_at": "2026-10-26T16:18:24+00:00",
+  "sha256": "a9a73ecb7c48ea70f71683ee9b14c6ef57e88390f745eeb4f9fdfea75012277d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_23.zip"
+ },
+ "2025-01-24": {
+  "kept_trades": 210,
+  "retrieved_at": "2026-10-26T16:18:25+00:00",
+  "sha256": "4470a594f688e02605f702adf62e51e0169a12b788901277ad708284207fa17e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_24.zip"
+ },
+ "2025-01-27": {
+  "kept_trades": 279,
+  "retrieved_at": "2026-10-26T16:18:25+00:00",
+  "sha256": "82b000df920f364a45170318d6816c6daf2e602e8b24d8f6cf1cf0e0e069f39e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_27.zip"
+ },
+ "2025-01-28": {
+  "kept_trades": 176,
+  "retrieved_at": "2026-10-26T16:18:26+00:00",
+  "sha256": "5168ea2dfcd5b664ec0e7527a0a8509b0de3b21025ab39355efafbda48e70869",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_28.zip"
+ },
+ "2025-01-29": {
+  "kept_trades": 145,
+  "retrieved_at": "2026-10-26T16:18:26+00:00",
+  "sha256": "909c3516b3f7671b1354ee3e62d87b3324eb16876d9d3fcab1679e72ae8c53ea",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_29.zip"
+ },
+ "2025-01-30": {
+  "kept_trades": 173,
+  "retrieved_at": "2026-10-26T16:18:27+00:00",
+  "sha256": "eef5c7e45704b6108486e2fabd646abd0b07a7b55b65538f27bddd9aac74bfca",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_30.zip"
+ },
+ "2025-01-31": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:18:28+00:00",
+  "sha256": "e3cc30fa96108de374ed36b4cfaa87471f966f66c124e3fde5ec0627adf16a8a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_01_31.zip"
+ },
+ "2025-02-03": {
+  "kept_trades": 220,
+  "retrieved_at": "2026-10-26T16:18:28+00:00",
+  "sha256": "1d34560a3165165045cd2fdf7a6bc7e5ecd840ec95c9be1ca50a2fd0fa0d3360",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_03.zip"
+ },
+ "2025-02-04": {
+  "kept_trades": 170,
+  "retrieved_at": "2026-10-26T16:18:29+00:00",
+  "sha256": "83dccf5c7ee35363d0394bedc6106f669007b6f68b3f483ff3319371dc1286ba",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_04.zip"
+ },
+ "2025-02-05": {
+  "kept_trades": 259,
+  "retrieved_at": "2026-10-26T16:18:30+00:00",
+  "sha256": "09059fd6adb5d4800237d3b4c2679e8b51311babb86ec6ac6656e3d2c12d0398",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_05.zip"
+ },
+ "2025-02-06": {
+  "kept_trades": 218,
+  "retrieved_at": "2026-10-26T16:18:31+00:00",
+  "sha256": "fdc5ab26a1262b65239a99aab9dc3f678ee9e832c2193551d06460db2cee0f3c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_06.zip"
+ },
+ "2025-02-07": {
+  "kept_trades": 243,
+  "retrieved_at": "2026-10-26T16:18:31+00:00",
+  "sha256": "025497250233ca86a2c2eff4e114e2dbb0e1b98e38e8deffae2bde85a29f558d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_07.zip"
+ },
+ "2025-02-10": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:18:32+00:00",
+  "sha256": "120024849bc3c048010a06c1d861609264d1fdcde8faf5fd9608f13250690ac5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_10.zip"
+ },
+ "2025-02-11": {
+  "kept_trades": 136,
+  "retrieved_at": "2026-10-26T16:18:32+00:00",
+  "sha256": "47d5d0a0fd4870856bee2ff2b209258f9c7e0f5c5ac444247a739ee9ff71a786",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_11.zip"
+ },
+ "2025-02-12": {
+  "kept_trades": 288,
+  "retrieved_at": "2026-10-26T16:18:33+00:00",
+  "sha256": "7a280847b369d79919051249eb6c2399e326eb8c652c28c3f0579b42a510cdd8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_12.zip"
+ },
+ "2025-02-13": {
+  "kept_trades": 236,
+  "retrieved_at": "2026-10-26T16:18:34+00:00",
+  "sha256": "7d0805d4340dfe3b0ce70769629a7e76c07432e579a223b16adcc9465beaa023",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_13.zip"
+ },
+ "2025-02-14": {
+  "kept_trades": 210,
+  "retrieved_at": "2026-10-26T16:18:34+00:00",
+  "sha256": "abfc31b4e7fef064f2f0cf249d9d431681050e83bd11e2dba49eb6b2b1d70d34",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_14.zip"
+ },
+ "2025-02-17": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:54+00:00",
+  "sha256": "74927b4ed5d801399b259074dc1626047d49db32e256e6846832944a6e2e48fe",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_17.zip"
+ },
+ "2025-02-18": {
+  "kept_trades": 164,
+  "retrieved_at": "2026-10-26T16:18:35+00:00",
+  "sha256": "b85b4191e4ccd6990a1a104b00fc133322613e9f71226d113dda5b6539c37e96",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_18.zip"
+ },
+ "2025-02-19": {
+  "kept_trades": 153,
+  "retrieved_at": "2026-10-26T16:18:36+00:00",
+  "sha256": "890d69cd12d725b5d7ac435c64ba001e8e821493ad6887fba2ebeadbc2a69e1f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_19.zip"
+ },
+ "2025-02-20": {
+  "kept_trades": 138,
+  "retrieved_at": "2026-10-26T16:18:37+00:00",
+  "sha256": "e21b41271dc6e17c9a538d246b20fc8fb67aa97d0db78de100253c4b5556f1f7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_20.zip"
+ },
+ "2025-02-21": {
+  "kept_trades": 225,
+  "retrieved_at": "2026-10-26T16:18:37+00:00",
+  "sha256": "ce07f173556367a95ea8f188a00d7e34d63fe427fc03bc7655f8466b2de2c6ff",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_21.zip"
+ },
+ "2025-02-24": {
+  "kept_trades": 162,
+  "retrieved_at": "2026-10-26T16:18:38+00:00",
+  "sha256": "53d5487db97dd29cb3956409b42d4b5b4b7adc00ff4421d7fe2b9212890745f1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_24.zip"
+ },
+ "2025-02-25": {
+  "kept_trades": 254,
+  "retrieved_at": "2026-10-26T16:18:38+00:00",
+  "sha256": "d3b8a88a842821e03867d77d29a8ec08f436dcde12ffba622993345d5c7b4bd9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_25.zip"
+ },
+ "2025-02-26": {
+  "kept_trades": 218,
+  "retrieved_at": "2026-10-26T16:18:39+00:00",
+  "sha256": "bff20281d173b1015e0e0b4c12c300b7e8c526fe52a8b0f8799b189368c97eb5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_26.zip"
+ },
+ "2025-02-27": {
+  "kept_trades": 190,
+  "retrieved_at": "2026-10-26T16:18:40+00:00",
+  "sha256": "e1f78d83044f38983e94a6772823bc6ee4f058bfb28e74c5aff8557e3bb8e278",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_27.zip"
+ },
+ "2025-02-28": {
+  "kept_trades": 280,
+  "retrieved_at": "2026-10-26T16:18:40+00:00",
+  "sha256": "5e7ddd163d0bc3857dac7fde6ae4e2c09d01631a3db9b414b9630aea387305d8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_02_28.zip"
+ },
+ "2025-03-03": {
+  "kept_trades": 208,
+  "retrieved_at": "2026-10-26T16:18:41+00:00",
+  "sha256": "0358fae602c7b063e51c876d0d1e0558630b7ef4570db33af09d6c334a809eb4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_03.zip"
+ },
+ "2025-03-04": {
+  "kept_trades": 350,
+  "retrieved_at": "2026-10-26T16:18:42+00:00",
+  "sha256": "b76b4c344e5df0b68cc0fcc2454377cf24fd4d4860324d875a86d8b46f67e064",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_04.zip"
+ },
+ "2025-03-05": {
+  "kept_trades": 328,
+  "retrieved_at": "2026-10-26T16:18:43+00:00",
+  "sha256": "9a5be807b170f099343e71e9124fc0369bfdfe34a844c506057f3b25865fc1b7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_05.zip"
+ },
+ "2025-03-06": {
+  "kept_trades": 238,
+  "retrieved_at": "2026-10-26T16:18:43+00:00",
+  "sha256": "5ed0264df3e4e32d19bbbf76c78450c339ff557f55436ca81b9ea32c53e9028b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_06.zip"
+ },
+ "2025-03-07": {
+  "kept_trades": 263,
+  "retrieved_at": "2026-10-26T16:18:44+00:00",
+  "sha256": "5d01174ea964d2c33ecba87f819faf0d388fdd31e7da00437def6ec56cd0bf5a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_07.zip"
+ },
+ "2025-03-10": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:18:45+00:00",
+  "sha256": "525e52d9934587856a9542b4fcbd7dff100288e2a4cb1dbd8dc158d001713ba0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_10.zip"
+ },
+ "2025-03-11": {
+  "kept_trades": 288,
+  "retrieved_at": "2026-10-26T16:18:45+00:00",
+  "sha256": "dcfd6993c098b8f2441f734581e696edecdd77912e29191895a649032ba849a5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_11.zip"
+ },
+ "2025-03-12": {
+  "kept_trades": 265,
+  "retrieved_at": "2026-10-26T16:18:46+00:00",
+  "sha256": "83065236319a785e45a5395053334788a6fa088e7c1d60278db714dc68c8975f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_12.zip"
+ },
+ "2025-03-13": {
+  "kept_trades": 194,
+  "retrieved_at": "2026-10-26T16:18:47+00:00",
+  "sha256": "0194a866980c8222e410d4aae0a15f2cd80d12ad1588524d75f8fc4da844808b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_13.zip"
+ },
+ "2025-03-14": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:18:47+00:00",
+  "sha256": "f761b5c37e647234f8e29cd91e8377962132a2a326b590038c925b2273af2139",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_14.zip"
+ },
+ "2025-03-17": {
+  "kept_trades": 199,
+  "retrieved_at": "2026-10-26T16:18:48+00:00",
+  "sha256": "c5ca983871a03d2a060b6b6449313f68957ce4c41020e8bf88da769aa62bc9e8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_17.zip"
+ },
+ "2025-03-18": {
+  "kept_trades": 215,
+  "retrieved_at": "2026-10-26T16:18:49+00:00",
+  "sha256": "83f994248017e53ef80b6ebd6416e11f9c045f0d0255ce69dcebc10cf2f2f2f6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_18.zip"
+ },
+ "2025-03-19": {
+  "kept_trades": 214,
+  "retrieved_at": "2026-10-26T16:18:50+00:00",
+  "sha256": "6d51bb9f6d0fe29bec058fb48eee74d263174af6df0851881f8d0f7f10e8b6b8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_19.zip"
+ },
+ "2025-03-20": {
+  "kept_trades": 182,
+  "retrieved_at": "2026-10-26T16:18:50+00:00",
+  "sha256": "efae3792e7b599bef744dc78febeefc031cea15047e013ee450b41ce414a499e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_20.zip"
+ },
+ "2025-03-21": {
+  "kept_trades": 186,
+  "retrieved_at": "2026-10-26T16:18:51+00:00",
+  "sha256": "08eaf4a62ca942a589a3134aac625b107b0fe5a184bebd3eefb566e0a792d7fd",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_21.zip"
+ },
+ "2025-03-24": {
+  "kept_trades": 211,
+  "retrieved_at": "2026-10-26T16:18:51+00:00",
+  "sha256": "28ac59f276cb9b2612336c56042c891a916c49ac26e1c28eb1cf8f40c53b36c2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_24.zip"
+ },
+ "2025-03-25": {
+  "kept_trades": 180,
+  "retrieved_at": "2026-10-26T16:18:52+00:00",
+  "sha256": "5e5430f1ccd4fb59078d848dcacccc2198c91247eb05c2e696b0d174720d5f43",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_25.zip"
+ },
+ "2025-03-26": {
+  "kept_trades": 172,
+  "retrieved_at": "2026-10-26T16:18:53+00:00",
+  "sha256": "71a6b4fab619f5d28efc923e82975d0f7073941a749ccf344e47b2843fa6555c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_26.zip"
+ },
+ "2025-03-27": {
+  "kept_trades": 192,
+  "retrieved_at": "2026-10-26T16:18:54+00:00",
+  "sha256": "f018fbc35d3e4a57af425fb21fee418e05982bb3c3b0e9d373c780911783802c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_27.zip"
+ },
+ "2025-03-28": {
+  "kept_trades": 232,
+  "retrieved_at": "2026-10-26T16:18:54+00:00",
+  "sha256": "ebc1f762a9bd4926587284442b521c27312eaff0f634fc6cd01205f26ed4f00a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_28.zip"
+ },
+ "2025-03-31": {
+  "kept_trades": 212,
+  "retrieved_at": "2026-10-26T16:18:55+00:00",
+  "sha256": "f482659b329dc4af011f37cad718f6f31ad2c9a66fb12ce137effd0947754ca9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_03_31.zip"
+ },
+ "2025-04-01": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:18:55+00:00",
+  "sha256": "f88f13cceb19740e968d19d15b96b23747251272526842b27668bc1660bca7bc",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_01.zip"
+ },
+ "2025-04-02": {
+  "kept_trades": 284,
+  "retrieved_at": "2026-10-26T16:18:56+00:00",
+  "sha256": "65d5947e0f41cf00f933268bbb9c9d7876ca0c04cd0ba2360de98c495958fc0c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_02.zip"
+ },
+ "2025-04-03": {
+  "kept_trades": 340,
+  "retrieved_at": "2026-10-26T16:18:57+00:00",
+  "sha256": "88916472adfa9a3eb59b590b279679833aae0ad64159567898d4676bc87a263a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_03.zip"
+ },
+ "2025-04-04": {
+  "kept_trades": 377,
+  "retrieved_at": "2026-10-26T16:18:58+00:00",
+  "sha256": "a5d4a38b6fa88000988168ebc0331a6e8a957d0981bba098b37056a4d9d609da",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_04.zip"
+ },
+ "2025-04-07": {
+  "kept_trades": 431,
+  "retrieved_at": "2026-10-26T16:18:59+00:00",
+  "sha256": "b3f0247e5f38a01d95495314e09f1d1229cc8a3106bd3607d4acfdd32ac315ec",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_07.zip"
+ },
+ "2025-04-08": {
+  "kept_trades": 314,
+  "retrieved_at": "2026-10-26T16:18:59+00:00",
+  "sha256": "9846bc890f9c60934bddadd22e09c22b1221f97c5c81729c0b524fb2d2c070c5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_08.zip"
+ },
+ "2025-04-09": {
+  "kept_trades": 459,
+  "retrieved_at": "2026-10-26T16:19:00+00:00",
+  "sha256": "c033ebe8180b8eaad8b9b9b30bfe94d1b143ee3f32b04b6e1fd7a38bf47357c0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_09.zip"
+ },
+ "2025-04-10": {
+  "kept_trades": 313,
+  "retrieved_at": "2026-10-26T16:19:01+00:00",
+  "sha256": "7a67b73c194353486ca5374f5d193e24810a1da19445563fbca828489266c151",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_10.zip"
+ },
+ "2025-04-11": {
+  "kept_trades": 405,
+  "retrieved_at": "2026-10-26T16:19:02+00:00",
+  "sha256": "6dd745ee2704e8f45cf17bf53b71e82e37b68bb85765745ed49c1e3b1e8e0222",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_11.zip"
+ },
+ "2025-04-14": {
+  "kept_trades": 227,
+  "retrieved_at": "2026-10-26T16:19:02+00:00",
+  "sha256": "8f50960f61034525f1c67622aa254a3b228d3214e7bc62454323545a9c1b5beb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_14.zip"
+ },
+ "2025-04-15": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:19:03+00:00",
+  "sha256": "33e0efc9f2a74c985d4d09c2857cc2da1cf1340d115b22a77332e190a1cf11f7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_15.zip"
+ },
+ "2025-04-16": {
+  "kept_trades": 251,
+  "retrieved_at": "2026-10-26T16:19:04+00:00",
+  "sha256": "bb24381f511a48156241cd2b1141e05074a456d1babd8d89303bf893152c2397",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_16.zip"
+ },
+ "2025-04-17": {
+  "kept_trades": 142,
+  "retrieved_at": "2026-10-26T16:19:04+00:00",
+  "sha256": "c5f62be8484ef8604396dba3dd8a681fed482503556b3be19064e8fdaa59ec43",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_17.zip"
+ },
+ "2025-04-18": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:55+00:00",
+  "sha256": "b81a1bcd7fa57ddfa451cdc5474b3dc3a1614f47129072a56ffb45ba1d329e01",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_18.zip"
+ },
+ "2025-04-21": {
+  "kept_trades": 126,
+  "retrieved_at": "2026-10-26T16:19:05+00:00",
+  "sha256": "d3af83c4d0fde56fbf36677ca666e45eca7eec359e4ff55f8981caeb05b07a9a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_21.zip"
+ },
+ "2025-04-22": {
+  "kept_trades": 178,
+  "retrieved_at": "2026-10-26T16:19:06+00:00",
+  "sha256": "749dda5634b885ffd0a04a04492e5cae691daceb645480681e790285fa1aee2d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_22.zip"
+ },
+ "2025-04-23": {
+  "kept_trades": 313,
+  "retrieved_at": "2026-10-26T16:19:06+00:00",
+  "sha256": "6b4833e9c6f3b1a139246aba2fad73577b62abd96a38b87c90bb7dec3bae4ff8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_23.zip"
+ },
+ "2025-04-24": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:19:07+00:00",
+  "sha256": "eea524d9af9663cb82709fca8b6d6a8fc1be9986d316206353b8cb0f28f7e07d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_24.zip"
+ },
+ "2025-04-25": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:19:08+00:00",
+  "sha256": "aeafaa1e33b349e195b15dacd04385a5ba871bc13fb828804fa1666675fe1265",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_25.zip"
+ },
+ "2025-04-28": {
+  "kept_trades": 254,
+  "retrieved_at": "2026-10-26T16:19:09+00:00",
+  "sha256": "259b126eacce2996d30076595e415bd61cde260a3d76bb06f24eb7be30ca097c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_28.zip"
+ },
+ "2025-04-29": {
+  "kept_trades": 236,
+  "retrieved_at": "2026-10-26T16:19:10+00:00",
+  "sha256": "c39ad44a49a3fac9457e79af6a8f0d195c899a85c50e973a838d7ce6e7237c8a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_29.zip"
+ },
+ "2025-04-30": {
+  "kept_trades": 210,
+  "retrieved_at": "2026-10-26T16:19:10+00:00",
+  "sha256": "7aef607c3916b80f381ae805b7fce8b353d21ebf8eb65af280aacb83078ee169",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_04_30.zip"
+ },
+ "2025-05-01": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:19:11+00:00",
+  "sha256": "13c3b62547a468cc036c01f90a603966ccf28c5f75ae72f4e22624ccd7d4697e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_01.zip"
+ },
+ "2025-05-02": {
+  "kept_trades": 274,
+  "retrieved_at": "2026-10-26T16:19:11+00:00",
+  "sha256": "6ff7cf184c84d70fd6982ac8e32c4aefd183e81b89b7fb9f22657c8b2fbb11e3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_02.zip"
+ },
+ "2025-05-05": {
+  "kept_trades": 142,
+  "retrieved_at": "2026-10-26T16:19:12+00:00",
+  "sha256": "b2b20947363f246b32db41c866901c13d1e8cac7d3665b8720637bdd7b5372b7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_05.zip"
+ },
+ "2025-05-06": {
+  "kept_trades": 170,
+  "retrieved_at": "2026-10-26T16:19:12+00:00",
+  "sha256": "97122622221517d8775f13700b5ac5c5d4a264c5855f7f65e601f9cfa9331493",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_06.zip"
+ },
+ "2025-05-07": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:19:13+00:00",
+  "sha256": "c3503fc6dff7b0877b450ec5cdb3bef6d58c4a45152006540e23f6ae763f2b78",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_07.zip"
+ },
+ "2025-05-08": {
+  "kept_trades": 184,
+  "retrieved_at": "2026-10-26T16:19:14+00:00",
+  "sha256": "4bbb1a739e655dee12a4c0ae8aaa0329bd526a6a8015f41817d19410cfc8b255",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_08.zip"
+ },
+ "2025-05-09": {
+  "kept_trades": 177,
+  "retrieved_at": "2026-10-26T16:19:14+00:00",
+  "sha256": "187de6569d89834f823fdbeffca567ef1c79998392486283a79f7168d59a6f36",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_09.zip"
+ },
+ "2025-05-12": {
+  "kept_trades": 268,
+  "retrieved_at": "2026-10-26T16:19:15+00:00",
+  "sha256": "16d844dfc8664e0872b20842b3dbc1860e4bc15739e71afa8a806c10b1cc4193",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_12.zip"
+ },
+ "2025-05-13": {
+  "kept_trades": 162,
+  "retrieved_at": "2026-10-26T16:19:16+00:00",
+  "sha256": "069430c3cc2feb70156d5de2c90eae3f12ce31f601bc2c41c7f507f1d149a6cf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_13.zip"
+ },
+ "2025-05-14": {
+  "kept_trades": 193,
+  "retrieved_at": "2026-10-26T16:19:17+00:00",
+  "sha256": "2d24f1062164561e5ff763548d067383b2d636d0f913ff5f05c19702df87906e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_14.zip"
+ },
+ "2025-05-15": {
+  "kept_trades": 205,
+  "retrieved_at": "2026-10-26T16:19:17+00:00",
+  "sha256": "77e4f5b2c9513af5c546a87c7c757d31c1ff9da70371f6f94e106cf1928030bd",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_15.zip"
+ },
+ "2025-05-16": {
+  "kept_trades": 142,
+  "retrieved_at": "2026-10-26T16:19:18+00:00",
+  "sha256": "e8388e70f32b5a69b7412c027466c2dbba5fb604697cca21bd8241d13bbf0729",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_16.zip"
+ },
+ "2025-05-19": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:19:19+00:00",
+  "sha256": "fc41d72c7c8f770041fdb35d35d01ebc30c521b28e7300d9836887f73f078c13",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_19.zip"
+ },
+ "2025-05-20": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:19:19+00:00",
+  "sha256": "d4b22fc100ee607b4614d04f3ca651e09c3172190e2989e0d578620e8c0204fa",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_20.zip"
+ },
+ "2025-05-21": {
+  "kept_trades": 178,
+  "retrieved_at": "2026-10-26T16:19:20+00:00",
+  "sha256": "50e777a88d90d944579bf9446996c4e0a9d4614e043c10825d6dfa4c5657b172",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_21.zip"
+ },
+ "2025-05-22": {
+  "kept_trades": 201,
+  "retrieved_at": "2026-10-26T16:19:21+00:00",
+  "sha256": "df714a16c6b718bc1e51a0cb7d7db0e4a3d3e2c12b8ce00fb31a503fdba62539",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_22.zip"
+ },
+ "2025-05-23": {
+  "kept_trades": 217,
+  "retrieved_at": "2026-10-26T16:19:22+00:00",
+  "sha256": "a5a6c1e0c836c453ae4cfd1b617263c60010881309e9d62821f99d3b1860e15a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_23.zip"
+ },
+ "2025-05-26": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:55+00:00",
+  "sha256": "4708e12303db12138cc7203c93e0758d4620cb5475bbeff1a6210d62b5ac9b36",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_26.zip"
+ },
+ "2025-05-27": {
+  "kept_trades": 173,
+  "retrieved_at": "2026-10-26T16:19:23+00:00",
+  "sha256": "a7f7cb883cfc4b4e69b60cc3b2e0e6d14644c2fba6cdde0bb9ee2df33e1c48cd",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_27.zip"
+ },
+ "2025-05-28": {
+  "kept_trades": 177,
+  "retrieved_at": "2026-10-26T16:19:23+00:00",
+  "sha256": "6977eab2bfbd4b002ae0ab8c7feb372882cc28412448132394a8063e0c26778e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_28.zip"
+ },
+ "2025-05-29": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:19:24+00:00",
+  "sha256": "e33c0dd9b9e8633f0cf494187210a3f81234f63248951e474820fe3938aefe75",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_29.zip"
+ },
+ "2025-05-30": {
+  "kept_trades": 144,
+  "retrieved_at": "2026-10-26T16:19:25+00:00",
+  "sha256": "c48174efca099e501a16d5a2fd4ec44223a6e4da1388859ae0ec214253478e2d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_05_30.zip"
+ },
+ "2025-06-02": {
+  "kept_trades": 136,
+  "retrieved_at": "2026-10-26T16:19:25+00:00",
+  "sha256": "8d66096ae079f563a86d266082456b50ad0326904fafa17ad1acd645b17cdb9e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_02.zip"
+ },
+ "2025-06-03": {
+  "kept_trades": 131,
+  "retrieved_at": "2026-10-26T16:19:26+00:00",
+  "sha256": "dc6c18e1a7a943ad2cd1b034df170b5294f652fee9612737b7cd45c9ff241853",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_03.zip"
+ },
+ "2025-06-04": {
+  "kept_trades": 233,
+  "retrieved_at": "2026-10-26T16:19:27+00:00",
+  "sha256": "6760cd932c9cc75da0a8a5e81f0116dc36c52f16321059dd5213d25eeba5fd10",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_04.zip"
+ },
+ "2025-06-05": {
+  "kept_trades": 217,
+  "retrieved_at": "2026-10-26T16:19:27+00:00",
+  "sha256": "d6b5eb3741663650626eea05e7188293f6188b0ce75b3c5cdd66bdfe3a9b2b63",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_05.zip"
+ },
+ "2025-06-06": {
+  "kept_trades": 228,
+  "retrieved_at": "2026-10-26T16:19:28+00:00",
+  "sha256": "5acb5c9a04dbd41f835a798d5248d37115881e72daaa300990a808162f6bc3b5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_06.zip"
+ },
+ "2025-06-09": {
+  "kept_trades": 160,
+  "retrieved_at": "2026-10-26T16:19:29+00:00",
+  "sha256": "7aeee7bbbfb13ff501ba8559a8fdde3e942177c43ccb66c73ff8a53f0cc7bdf9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_09.zip"
+ },
+ "2025-06-10": {
+  "kept_trades": 120,
+  "retrieved_at": "2026-10-26T16:19:30+00:00",
+  "sha256": "e24dd22da3a0e18ebc80a8bdf50b810a281d78d68c373ec9bc8424306c5e1aa9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_10.zip"
+ },
+ "2025-06-11": {
+  "kept_trades": 191,
+  "retrieved_at": "2026-10-26T16:19:30+00:00",
+  "sha256": "06a605ba3a0f833ddedb6e7936b5cb8eca46b60eeeb39117805d59c3cfe05ed2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_11.zip"
+ },
+ "2025-06-12": {
+  "kept_trades": 173,
+  "retrieved_at": "2026-10-26T16:19:31+00:00",
+  "sha256": "feec0e10aed21e469e8dd96f503d8b8528d7b8534a821cba678f496a57810d94",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_12.zip"
+ },
+ "2025-06-13": {
+  "kept_trades": 271,
+  "retrieved_at": "2026-10-26T16:19:32+00:00",
+  "sha256": "ce1a2d25572ff27cc4f8562ce12123fffe6571f249282b5d49f55ec60695f885",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_13.zip"
+ },
+ "2025-06-16": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:19:32+00:00",
+  "sha256": "70d83a6621b4ef5a36cccfbbd5b875e03073c4f38aa759efc7db24e6f207fc2f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_16.zip"
+ },
+ "2025-06-17": {
+  "kept_trades": 153,
+  "retrieved_at": "2026-10-26T16:19:33+00:00",
+  "sha256": "a7582e035bb16b51704b6bd4d2a758f3800458fd6099fe56fd6d32431c5a7ee9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_17.zip"
+ },
+ "2025-06-18": {
+  "kept_trades": 211,
+  "retrieved_at": "2026-10-26T16:19:33+00:00",
+  "sha256": "b4b314b9ff03d6de1fdedc2e9b2dfe698cc91bff78541069d89378e02245e11b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_18.zip"
+ },
+ "2025-06-19": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:55+00:00",
+  "sha256": "e1d61b118c97625be93c2a706e76cc6ca5280134591c058a9ae1bc5c22aec146",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_19.zip"
+ },
+ "2025-06-20": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:19:34+00:00",
+  "sha256": "2257482a069de98f6806076c3e09c9027b23b6052f7f03b5c1521b6f6b0441c9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_20.zip"
+ },
+ "2025-06-23": {
+  "kept_trades": 202,
+  "retrieved_at": "2026-10-26T16:19:35+00:00",
+  "sha256": "0dee8b41582b6859ba5dc6faceb0ae00c27824046b53eb7bcf48a4c77a22ae1d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_23.zip"
+ },
+ "2025-06-24": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:19:36+00:00",
+  "sha256": "ee8e6adc28399a336a00e9ad1ba79b5a874084f341232523c397babd5a8ae81c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_24.zip"
+ },
+ "2025-06-25": {
+  "kept_trades": 174,
+  "retrieved_at": "2026-10-26T16:19:36+00:00",
+  "sha256": "e86de6a560c7983b7977f6a67d51adbd1ef4f6cacbbfc4fd218f18685bea7d31",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_25.zip"
+ },
+ "2025-06-26": {
+  "kept_trades": 197,
+  "retrieved_at": "2026-10-26T16:19:37+00:00",
+  "sha256": "066ba59577c6bb5ade8e3ddfc300eacb4e5916d0e88c1985a2213454259e1816",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_26.zip"
+ },
+ "2025-06-27": {
+  "kept_trades": 185,
+  "retrieved_at": "2026-10-26T16:19:38+00:00",
+  "sha256": "9002a417f60d7fbbec895bc1c6f618e4ea48104ea77a6d326b098f0fdef30cfc",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_27.zip"
+ },
+ "2025-06-30": {
+  "kept_trades": 217,
+  "retrieved_at": "2026-10-26T16:19:38+00:00",
+  "sha256": "033af45d369f4619e843c9753d5e5f071b095950364d242347814414026f6aa2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_06_30.zip"
+ },
+ "2025-07-01": {
+  "kept_trades": 164,
+  "retrieved_at": "2026-10-26T16:19:39+00:00",
+  "sha256": "d6d9b0a562822058a9f28d2a3f334d15ef34630bcadb878368c3cc55804533cc",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_01.zip"
+ },
+ "2025-07-02": {
+  "kept_trades": 205,
+  "retrieved_at": "2026-10-26T16:19:40+00:00",
+  "sha256": "2935ee652c39a3d7f683d6daeaedad0e714a835c154050a1765ba972013b37f6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_02.zip"
+ },
+ "2025-07-03": {
+  "kept_trades": 203,
+  "retrieved_at": "2026-10-26T16:19:40+00:00",
+  "sha256": "b4b511236efe956bb52bd675faa5d3e37be3697cf66da65b403724ea2ad3efc8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_03.zip"
+ },
+ "2025-07-04": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:56+00:00",
+  "sha256": "341989d978bb17dbcd8cc95649eade347d81333e4ee4f44e654785345c6b1d41",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_04.zip"
+ },
+ "2025-07-07": {
+  "kept_trades": 207,
+  "retrieved_at": "2026-10-26T16:19:41+00:00",
+  "sha256": "f57ae1bf698914e7d5dd0ad2afc477da58058a9ba0531c2ccd7bf08deada3c1a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_07.zip"
+ },
+ "2025-07-08": {
+  "kept_trades": 175,
+  "retrieved_at": "2026-10-26T16:19:42+00:00",
+  "sha256": "650fbeac026b17666fd6c292750c073c6dd80127ed268094782497411d81ddaa",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_08.zip"
+ },
+ "2025-07-09": {
+  "kept_trades": 192,
+  "retrieved_at": "2026-10-26T16:19:42+00:00",
+  "sha256": "5585bf9533614308e5bac918b21c5ac8c4fd63685d9d2cf1c74e7e55212302e9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_09.zip"
+ },
+ "2025-07-10": {
+  "kept_trades": 151,
+  "retrieved_at": "2026-10-26T16:19:43+00:00",
+  "sha256": "fde6e0840a2b0d072a0ffc56210cfb72f8590f40e835c2ca2c1898205fe28683",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_10.zip"
+ },
+ "2025-07-11": {
+  "kept_trades": 160,
+  "retrieved_at": "2026-10-26T16:19:43+00:00",
+  "sha256": "584a1b888986c08a2ade416722a5d7c01a3db0e1c3bbbdf6666a9ff3d4ec7925",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_11.zip"
+ },
+ "2025-07-14": {
+  "kept_trades": 148,
+  "retrieved_at": "2026-10-26T16:19:44+00:00",
+  "sha256": "8c8f2549fab91abc0c5b878ba2ff1f4e3a071838995f633bb703d7fb7975759e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_14.zip"
+ },
+ "2025-07-15": {
+  "kept_trades": 226,
+  "retrieved_at": "2026-10-26T16:19:45+00:00",
+  "sha256": "7350473cd3c9dd0c19b0fbf61bcefa0b06a96c44a7c785716072dee7f4033bc4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_15.zip"
+ },
+ "2025-07-16": {
+  "kept_trades": 225,
+  "retrieved_at": "2026-10-26T16:19:45+00:00",
+  "sha256": "366e2a3ef336dd369833a0ce07c43ac81e814024bcb351e92ef600b151262772",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_16.zip"
+ },
+ "2025-07-17": {
+  "kept_trades": 182,
+  "retrieved_at": "2026-10-26T16:19:46+00:00",
+  "sha256": "f54eb1643e0f87f47872065e5bfc1daa624b5c0d88864b970046795d5cc5e58d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_17.zip"
+ },
+ "2025-07-18": {
+  "kept_trades": 134,
+  "retrieved_at": "2026-10-26T16:19:47+00:00",
+  "sha256": "33135e77be1ea02e2cd20cdca212cece7e4b7cff9b7c9fa92d2f5dc49a3afcf0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_18.zip"
+ },
+ "2025-07-21": {
+  "kept_trades": 129,
+  "retrieved_at": "2026-10-26T16:19:47+00:00",
+  "sha256": "418300f219e9dac9a3554fcebd8855f0c553fca64825dd7305527ba95dae190e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_21.zip"
+ },
+ "2025-07-22": {
+  "kept_trades": 155,
+  "retrieved_at": "2026-10-26T16:19:48+00:00",
+  "sha256": "b1d0896c7e3c510f6d7c1683cf345c1536e0108e4632e2834a5b246fb36eb13b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_22.zip"
+ },
+ "2025-07-23": {
+  "kept_trades": 166,
+  "retrieved_at": "2026-10-26T16:19:49+00:00",
+  "sha256": "9a1b975304b5744d919bdc60d081e14b4c3b3a6d8be22b403f05e7b4ea1bc7e5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_23.zip"
+ },
+ "2025-07-24": {
+  "kept_trades": 175,
+  "retrieved_at": "2026-10-26T16:19:50+00:00",
+  "sha256": "54597f5948f2970c7bd495fad63e1ce1d5b306524b1d59d845683a60cee49cf3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_24.zip"
+ },
+ "2025-07-25": {
+  "kept_trades": 126,
+  "retrieved_at": "2026-10-26T16:19:50+00:00",
+  "sha256": "473074df0955b90250f9c0ca2080efaeb1513079251ad0982627e414bc225285",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_25.zip"
+ },
+ "2025-07-28": {
+  "kept_trades": 129,
+  "retrieved_at": "2026-10-26T16:19:51+00:00",
+  "sha256": "362fa2a40c29f7a755e5b2a7642743a23f3366caaa3e66965a2d26ef9cbcdb64",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_28.zip"
+ },
+ "2025-07-29": {
+  "kept_trades": 204,
+  "retrieved_at": "2026-10-26T16:19:52+00:00",
+  "sha256": "f22eea02c5345520ead971f9428cf905eb36e5fbebfd9a366795893c7f9dc379",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_29.zip"
+ },
+ "2025-07-30": {
+  "kept_trades": 208,
+  "retrieved_at": "2026-10-26T16:19:52+00:00",
+  "sha256": "968104bf79ab5cd005f1b186512aded8976acd40cb6f6fa43f07f6bc7b9583ed",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_30.zip"
+ },
+ "2025-07-31": {
+  "kept_trades": 137,
+  "retrieved_at": "2026-10-26T16:19:53+00:00",
+  "sha256": "a6d5375be19425ee0644179565a629e731318076a6b2c5bd291a5aa5865fdb34",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_07_31.zip"
+ },
+ "2025-08-01": {
+  "kept_trades": 301,
+  "retrieved_at": "2026-10-26T16:19:54+00:00",
+  "sha256": "3da7d556ca398bca8c3be1e85a32adde428424752acefc0af6db599f1c24f89e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_01.zip"
+ },
+ "2025-08-04": {
+  "kept_trades": 216,
+  "retrieved_at": "2026-10-26T16:19:54+00:00",
+  "sha256": "afe1ea5c44f995e576951f7f18a297112dc621657b5d8ec456e21593d41a038b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_04.zip"
+ },
+ "2025-08-05": {
+  "kept_trades": 132,
+  "retrieved_at": "2026-10-26T16:19:55+00:00",
+  "sha256": "494092c6fe5bb073e8e0521c517c2d914d163b590b9ffbdee55299f17049e2b8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_05.zip"
+ },
+ "2025-08-06": {
+  "kept_trades": 143,
+  "retrieved_at": "2026-10-26T16:19:56+00:00",
+  "sha256": "489d338bf8575eed1b5974c2642d3247f7caba931d8f9589cc091189cc1fe721",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_06.zip"
+ },
+ "2025-08-07": {
+  "kept_trades": 144,
+  "retrieved_at": "2026-10-26T16:19:56+00:00",
+  "sha256": "1659dadf14566ffe1eb46078e93157a75de2d161e917cd1f7e03c6238881a3ba",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_07.zip"
+ },
+ "2025-08-08": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:19:57+00:00",
+  "sha256": "0a0230c62d4bbbb92fbd8b11e6fa8a9535ab6d153de46bcd72702dc6faadc5f1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_08.zip"
+ },
+ "2025-08-11": {
+  "kept_trades": 108,
+  "retrieved_at": "2026-10-26T16:19:57+00:00",
+  "sha256": "8a3b8d704d15d66b608c2da34a629cc89a4b7ccb3b3d44cc2b139a0e9b26ab98",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_11.zip"
+ },
+ "2025-08-12": {
+  "kept_trades": 148,
+  "retrieved_at": "2026-10-26T16:19:58+00:00",
+  "sha256": "11220be1a7f3138f1ab3f58bc700aed7ba1a194c61d3c2da5d398b61623f967c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_12.zip"
+ },
+ "2025-08-13": {
+  "kept_trades": 127,
+  "retrieved_at": "2026-10-26T16:19:59+00:00",
+  "sha256": "96ab07b5450779373620f03e45bcc073bc40ca7acd4463f7ced64a70254bc77e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_13.zip"
+ },
+ "2025-08-14": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:19:59+00:00",
+  "sha256": "4d98f5b2822bbeff2d417f755d01cbead4ab15bfb9f7e0b86665c7e9793efe5b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_14.zip"
+ },
+ "2025-08-15": {
+  "kept_trades": 108,
+  "retrieved_at": "2026-10-26T16:20:00+00:00",
+  "sha256": "a489c7b8f6e9e6c6416e7f8e28a1a1bc9bb050c22031e86fbf9fc6acaaddf555",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_15.zip"
+ },
+ "2025-08-18": {
+  "kept_trades": 168,
+  "retrieved_at": "2026-10-26T16:20:00+00:00",
+  "sha256": "46c0233fe288c9f797647f50f8c1bca7afc2c91d6b13369792ccaa58c10c373f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_18.zip"
+ },
+ "2025-08-19": {
+  "kept_trades": 146,
+  "retrieved_at": "2026-10-26T16:20:01+00:00",
+  "sha256": "1b2b2ce97cfe3d61c8499ef4faf0dfaae771dfda8c4a0641e7a5847a60addc1d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_19.zip"
+ },
+ "2025-08-20": {
+  "kept_trades": 137,
+  "retrieved_at": "2026-10-26T16:20:02+00:00",
+  "sha256": "fa36a003077ab36bbe4432ceea570626fb22f4ed2174ae463933af5921df1dec",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_20.zip"
+ },
+ "2025-08-21": {
+  "kept_trades": 175,
+  "retrieved_at": "2026-10-26T16:20:02+00:00",
+  "sha256": "5502c58d1db69f836cf2e0a1b132f2b55da22a65bf8ab6c50fafda1480f74539",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_21.zip"
+ },
+ "2025-08-22": {
+  "kept_trades": 259,
+  "retrieved_at": "2026-10-26T16:20:03+00:00",
+  "sha256": "55b2eac3e4b8e15a229e3648160ba8090b45e442498d79256ca676ab04cac320",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_22.zip"
+ },
+ "2025-08-25": {
+  "kept_trades": 168,
+  "retrieved_at": "2026-10-26T16:20:03+00:00",
+  "sha256": "95aafd8bc802d6675cab4c8c0d7859cf3f1a1351937a6e4ce04c101e2f4f6d62",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_25.zip"
+ },
+ "2025-08-26": {
+  "kept_trades": 152,
+  "retrieved_at": "2026-10-26T16:20:04+00:00",
+  "sha256": "514dbaf02258fc351ebc86bf91ff5fdf75ee070d9ee1b6b374f2733d00d34640",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_26.zip"
+ },
+ "2025-08-27": {
+  "kept_trades": 131,
+  "retrieved_at": "2026-10-26T16:20:05+00:00",
+  "sha256": "119aed6283719e83aa40a8d16e08210dd8dcfef9e8c1bf64e994b9cc0dd56dfe",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_27.zip"
+ },
+ "2025-08-28": {
+  "kept_trades": 159,
+  "retrieved_at": "2026-10-26T16:20:05+00:00",
+  "sha256": "7737070add20671f4199ae4dbe56213baaff01bc3e2ef3527f272ad7b02e3107",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_28.zip"
+ },
+ "2025-08-29": {
+  "kept_trades": 154,
+  "retrieved_at": "2026-10-26T16:20:06+00:00",
+  "sha256": "18ca34e88861596185c12347613df474a63c0df2c700ed35f021c07850121286",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_08_29.zip"
+ },
+ "2025-09-01": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:21:56+00:00",
+  "sha256": "afd9974a027e1370e6b8883456df8b053761f629e1eef92c6eedf23732bef365",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_01.zip"
+ },
+ "2025-09-02": {
+  "kept_trades": 213,
+  "retrieved_at": "2026-10-26T16:20:07+00:00",
+  "sha256": "92b34c7c3864312d7a87dd9069edcad729472323c11947f9eb94037430ad5e38",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_02.zip"
+ },
+ "2025-09-03": {
+  "kept_trades": 208,
+  "retrieved_at": "2026-10-26T16:20:07+00:00",
+  "sha256": "7bb13347c78b289f99e740702196134006c60fead2880b1f88ed47ba1dffab22",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_03.zip"
+ },
+ "2025-09-04": {
+  "kept_trades": 171,
+  "retrieved_at": "2026-10-26T16:20:08+00:00",
+  "sha256": "8bddd86dd169daa3d41b192add29f0e66096ccac17b5d93b21f94439ab098ca3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_04.zip"
+ },
+ "2025-09-05": {
+  "kept_trades": 265,
+  "retrieved_at": "2026-10-26T16:20:09+00:00",
+  "sha256": "d2b08cf218995ef6be7d0f5ef8aacf1af94f787debccbd3affcaf943e6ef9cd1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_05.zip"
+ },
+ "2025-09-08": {
+  "kept_trades": 178,
+  "retrieved_at": "2026-10-26T16:20:09+00:00",
+  "sha256": "d9a461661d8a84f4af19934c656817a15792b5d44ed4afa8b6ba4b53f0c8791a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_08.zip"
+ },
+ "2025-09-09": {
+  "kept_trades": 266,
+  "retrieved_at": "2026-10-26T16:20:10+00:00",
+  "sha256": "bd1594e07b44bdb07c317df0e25bfe2a19bf724ad2fbb7ab83014b81c5f612f2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_09.zip"
+ },
+ "2025-09-10": {
+  "kept_trades": 211,
+  "retrieved_at": "2026-10-26T16:20:11+00:00",
+  "sha256": "8eb834f432a5b9fcd49a95e85be71ff7f0488eaaa69a9eab6fec8ec39b83e10a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_10.zip"
+ },
+ "2025-09-11": {
+  "kept_trades": 195,
+  "retrieved_at": "2026-10-26T16:20:12+00:00",
+  "sha256": "4e9dedf24f607fa1b9d0fe9b8ab1a8dbd52a5caaa458acdd7938a04c0ea951f9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_11.zip"
+ },
+ "2025-09-12": {
+  "kept_trades": 212,
+  "retrieved_at": "2026-10-26T16:20:12+00:00",
+  "sha256": "88b63476c76f86b9545f4abcb9ca937e8907f2d4b69d5d781f43f59613d8da69",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_12.zip"
+ },
+ "2025-09-15": {
+  "kept_trades": 172,
+  "retrieved_at": "2026-10-26T16:20:13+00:00",
+  "sha256": "c99d3c32a8538ecec2d7dcf0e5fdd08a9d8a5810ae2f2d4887e286edd48b7f6f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_15.zip"
+ },
+ "2025-09-16": {
+  "kept_trades": 180,
+  "retrieved_at": "2026-10-26T16:20:14+00:00",
+  "sha256": "e6cefec75b5b3b00cd3a3ac0a03d6a5acad16ab53ace647af39bb0de17a9537c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_16.zip"
+ },
+ "2025-09-17": {
+  "kept_trades": 220,
+  "retrieved_at": "2026-10-26T16:20:14+00:00",
+  "sha256": "5cc1f577cdc7fea178929cf690824e28ffd67b3d7e94a704103bbe4d70dd7e6e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_17.zip"
+ },
+ "2025-09-18": {
+  "kept_trades": 205,
+  "retrieved_at": "2026-10-26T16:20:15+00:00",
+  "sha256": "31254ac83eac5b87dcfa8701eb9570210d5702afdea027592d02f169f65df121",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_18.zip"
+ },
+ "2025-09-19": {
+  "kept_trades": 152,
+  "retrieved_at": "2026-10-26T16:20:16+00:00",
+  "sha256": "131ac1163cd5c9b6762f0fcab0a6e743fa35e1937e210c080f9d5b0fa836f7d6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_19.zip"
+ },
+ "2025-09-22": {
+  "kept_trades": 146,
+  "retrieved_at": "2026-10-26T16:20:16+00:00",
+  "sha256": "ad3aedf2cd74f07f9b64b9e377f9a68a87a948b71832af96841e7efcbb07cf2a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_22.zip"
+ },
+ "2025-09-23": {
+  "kept_trades": 141,
+  "retrieved_at": "2026-10-26T16:20:17+00:00",
+  "sha256": "9f79ac7cb473cbc2728749e162fc3491ded9e4c1cae63bf54c3c272f7be2afb7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_23.zip"
+ },
+ "2025-09-24": {
+  "kept_trades": 132,
+  "retrieved_at": "2026-10-26T16:20:18+00:00",
+  "sha256": "1732ccee77393efbbd53993b57f67cfa05051f76265ec957d3f6a0c51c6fec47",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_24.zip"
+ },
+ "2025-09-25": {
+  "kept_trades": 223,
+  "retrieved_at": "2026-10-26T16:20:19+00:00",
+  "sha256": "49f48fac4acae391822ef243ed760447ac656faaaa5b21eb0ec191080810c2b8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_25.zip"
+ },
+ "2025-09-26": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:20:19+00:00",
+  "sha256": "4b3884fa2db85959ec93ad303cca12f42aea5f354348858a4dcd5c80b925e208",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_26.zip"
+ },
+ "2025-09-29": {
+  "kept_trades": 166,
+  "retrieved_at": "2026-10-26T16:20:20+00:00",
+  "sha256": "e43f6f734771615da5539d9a5ac5a588abc265364a91bd84a80858c3a095456a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_29.zip"
+ },
+ "2025-09-30": {
+  "kept_trades": 187,
+  "retrieved_at": "2026-10-26T16:20:21+00:00",
+  "sha256": "33e6fffafe8e0c8a7130b0c0f8eb34f1090d604d2514d147ba5ed410f619a8f8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_09_30.zip"
+ },
+ "2025-10-01": {
+  "kept_trades": 212,
+  "retrieved_at": "2026-10-26T16:20:22+00:00",
+  "sha256": "524f4f913945395cff261ee0870f2518d7c58af1005a3a0d73ba4c883744ec28",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_01.zip"
+ },
+ "2025-10-02": {
+  "kept_trades": 117,
+  "retrieved_at": "2026-10-26T16:20:23+00:00",
+  "sha256": "477498a9c9cdc522eeee0fbb456eda9b290e08ccf37bd7cfc81892ba478853c3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_02.zip"
+ },
+ "2025-10-03": {
+  "kept_trades": 140,
+  "retrieved_at": "2026-10-26T16:20:23+00:00",
+  "sha256": "ed7e43dcb89ca793095419d0d1b08057ddcbeae27c557c0c200081fdfaabede7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_03.zip"
+ },
+ "2025-10-06": {
+  "kept_trades": 126,
+  "retrieved_at": "2026-10-26T16:20:24+00:00",
+  "sha256": "ae6e6e39d13aa15292e1b6d84a354b99f7d22ee66d26066d3637965f771c504e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_06.zip"
+ },
+ "2025-10-07": {
+  "kept_trades": 221,
+  "retrieved_at": "2026-10-26T16:20:25+00:00",
+  "sha256": "a5b89fe9b1ceafc2d62937587c299fe332aced12179b21b88780d85386a8ae95",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_07.zip"
+ },
+ "2025-10-08": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:20:25+00:00",
+  "sha256": "b6a467f4ed4287fdded62202806f8e16ae51b3d0fb30db9845bc9ccda2653e89",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_08.zip"
+ },
+ "2025-10-09": {
+  "kept_trades": 134,
+  "retrieved_at": "2026-10-26T16:20:26+00:00",
+  "sha256": "6e894334aa9e19c8452d83ad3c3b09d1de53a43a97d1d01a4c06207381a6e4e8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_09.zip"
+ },
+ "2025-10-10": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:20:27+00:00",
+  "sha256": "4a5b56006589bb0a40966bb8ee8d2b891aa075e25b6980117280b0430a8c3111",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_10.zip"
+ },
+ "2025-10-13": {
+  "kept_trades": 4,
+  "retrieved_at": "2026-10-26T16:20:27+00:00",
+  "sha256": "679d1e677ea1314f47823577a5b290eca2e8915b7621c0904658043a0e9d0803",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_13.zip"
+ },
+ "2025-10-14": {
+  "kept_trades": 236,
+  "retrieved_at": "2026-10-26T16:20:28+00:00",
+  "sha256": "dd7f73a0741563d3ec93789af807ffc6937f34ce91d2598b430fa685f4ae3337",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_14.zip"
+ },
+ "2025-10-15": {
+  "kept_trades": 188,
+  "retrieved_at": "2026-10-26T16:20:29+00:00",
+  "sha256": "6be1c6fb8a03070bcc804c507774da672057406f5f08bb22eace867e8ac46548",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_15.zip"
+ },
+ "2025-10-16": {
+  "kept_trades": 186,
+  "retrieved_at": "2026-10-26T16:20:29+00:00",
+  "sha256": "df20553894e3f97354b7f564111511d6e6dbf3c7955ce9bbd49001f4ce711035",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_16.zip"
+ },
+ "2025-10-17": {
+  "kept_trades": 186,
+  "retrieved_at": "2026-10-26T16:20:30+00:00",
+  "sha256": "a2c7c9deefc5b56bfd5f8f24217a6d43d90f6b1b636b651df8a4821c5dd70796",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_17.zip"
+ },
+ "2025-10-20": {
+  "kept_trades": 118,
+  "retrieved_at": "2026-10-26T16:20:30+00:00",
+  "sha256": "b74a989b6b5efd2e8a010dc8b7fb8b99dd4efd0229266f601007e1cf111ffff4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_20.zip"
+ },
+ "2025-10-21": {
+  "kept_trades": 144,
+  "retrieved_at": "2026-10-26T16:20:31+00:00",
+  "sha256": "e3b6a13c906f75110dd49d2562780a18ce0878087b41387af351afa931736e79",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_21.zip"
+ },
+ "2025-10-22": {
+  "kept_trades": 126,
+  "retrieved_at": "2026-10-26T16:20:32+00:00",
+  "sha256": "424c8eb470d39320bfc14b0240e9343210691dc369a9cbf38193efc953db3ebe",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_22.zip"
+ },
+ "2025-10-23": {
+  "kept_trades": 156,
+  "retrieved_at": "2026-10-26T16:20:32+00:00",
+  "sha256": "c364b4fde430f69f363ce5b1ea6419d40847498922a7f45a4a1690e6fdef38b6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_23.zip"
+ },
+ "2025-10-24": {
+  "kept_trades": 132,
+  "retrieved_at": "2026-10-26T16:20:33+00:00",
+  "sha256": "6bbe5a2cb1e8af1a9ae736f1d146ab6e0f5af3e9ebaa6f86af372db0fb300f1c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_24.zip"
+ },
+ "2025-10-27": {
+  "kept_trades": 142,
+  "retrieved_at": "2026-10-26T16:20:34+00:00",
+  "sha256": "2e871344bb14d35091117f7a14a27a3024062de8709964ea4e4b7169f1c0eb39",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_27.zip"
+ },
+ "2025-10-28": {
+  "kept_trades": 144,
+  "retrieved_at": "2026-10-26T16:20:34+00:00",
+  "sha256": "5db8e472af66ae417f3613333dac8cbdd46a79612994a3864add28af9fec9efb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_28.zip"
+ },
+ "2025-10-29": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:20:35+00:00",
+  "sha256": "0b053bf5f96306cf477a16319db4a17593d1ab4965462b0dcf8ecb09e3d8cfa2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_29.zip"
+ },
+ "2025-10-30": {
+  "kept_trades": 209,
+  "retrieved_at": "2026-10-26T16:20:36+00:00",
+  "sha256": "e8c58e77737739b240571fd417e72ddeddbf859110dc6ab3e2f8231d7a333b29",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_30.zip"
+ },
+ "2025-10-31": {
+  "kept_trades": 161,
+  "retrieved_at": "2026-10-26T16:20:36+00:00",
+  "sha256": "94ce4a1ef8650e00ae90888884c6c53b2ce724882e305b3885c88acc4c83b59b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_10_31.zip"
+ },
+ "2025-11-03": {
+  "kept_trades": 127,
+  "retrieved_at": "2026-10-26T16:21:57+00:00",
+  "sha256": "de0f79d031935b492e4a19ef61c25bb052fb3d681bf7ffb58c3cc6ecb12ba175",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_03.zip"
+ },
+ "2025-11-04": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:21:57+00:00",
+  "sha256": "ce0355f59529345c4e055a0604a0ca385d5f7036204c5dd555be7a364048deec",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_04.zip"
+ },
+ "2025-11-05": {
+  "kept_trades": 237,
+  "retrieved_at": "2026-10-26T16:21:58+00:00",
+  "sha256": "0e22f59f2ce15e87751808dfaf6ff4e19206f5b3bafc223a826af9023beafa9d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_05.zip"
+ },
+ "2025-11-06": {
+  "kept_trades": 227,
+  "retrieved_at": "2026-10-26T16:21:59+00:00",
+  "sha256": "3d8cc613fdfbf7e3debf5032b20d37fbc25ba7adf0f7371dddeee2d8fdfabf38",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_06.zip"
+ },
+ "2025-11-07": {
+  "kept_trades": 156,
+  "retrieved_at": "2026-10-26T16:21:59+00:00",
+  "sha256": "b63620f5715dbceb9c2cd2a062115edea3a6230104b41f3a10b810e40481d14d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_07.zip"
+ },
+ "2025-11-10": {
+  "kept_trades": 112,
+  "retrieved_at": "2026-10-26T16:22:00+00:00",
+  "sha256": "b8f194432c39948abfe053a0e3c9af4654535f0ffa44bb6ec0fb88e60a560580",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_10.zip"
+ },
+ "2025-11-11": {
+  "kept_trades": 3,
+  "retrieved_at": "2026-10-26T16:22:01+00:00",
+  "sha256": "08ac094e5a8a766e7461e7c8285fae6eb752e019cc9fe7bf33304b588209613e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_11.zip"
+ },
+ "2025-11-12": {
+  "kept_trades": 172,
+  "retrieved_at": "2026-10-26T16:22:02+00:00",
+  "sha256": "243680a4de27aafbd4677d36a2e4187c87f9c1b0b8fe43bbaf2f742365864d39",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_12.zip"
+ },
+ "2025-11-13": {
+  "kept_trades": 135,
+  "retrieved_at": "2026-10-26T16:22:02+00:00",
+  "sha256": "0dd28560a54b622d45bb00360b95b6bcc4ec4eef545019f42b49125ee367d1b5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_13.zip"
+ },
+ "2025-11-14": {
+  "kept_trades": 190,
+  "retrieved_at": "2026-10-26T16:22:03+00:00",
+  "sha256": "77adf6f3a90a97af1d86f7fa82754c8e22d322c81c4b6470cd85830cc9e16834",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_14.zip"
+ },
+ "2025-11-17": {
+  "kept_trades": 136,
+  "retrieved_at": "2026-10-26T16:22:04+00:00",
+  "sha256": "86f761cd8d0f247a86b4a1a85a0940c4ea09a64845232f84bf3eb32f4bc3cac2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_17.zip"
+ },
+ "2025-11-18": {
+  "kept_trades": 171,
+  "retrieved_at": "2026-10-26T16:22:04+00:00",
+  "sha256": "ae9255b5da395a1a7ee5c22a39d6842908a7ed35e7d7d44ad3f233b0f21fba31",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_18.zip"
+ },
+ "2025-11-19": {
+  "kept_trades": 133,
+  "retrieved_at": "2026-10-26T16:22:05+00:00",
+  "sha256": "a9dc12520660a1042529309249964b1164134eafda375ad5aab431e6ac487928",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_19.zip"
+ },
+ "2025-11-20": {
+  "kept_trades": 199,
+  "retrieved_at": "2026-10-26T16:22:06+00:00",
+  "sha256": "fb82052dbf2d4c2352d61878dbf504dd9e599a66c511314974ac03e671dfd75c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_20.zip"
+ },
+ "2025-11-21": {
+  "kept_trades": 214,
+  "retrieved_at": "2026-10-26T16:22:07+00:00",
+  "sha256": "c25ae95ea7d66dc91a6e936d1f8a8f88c24d90c2568cf1c213c7aea6932b7b2f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_21.zip"
+ },
+ "2025-11-24": {
+  "kept_trades": 133,
+  "retrieved_at": "2026-10-26T16:22:08+00:00",
+  "sha256": "fa9938c0d05a262b8629182ef7ffde1c3cc67be5923c560ad3d3f1cfa7e2a1e0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_24.zip"
+ },
+ "2025-11-25": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:22:08+00:00",
+  "sha256": "93f80fec2dabc0530dbcb189d4b36e42460be80fffd3548dd23857f504fc8626",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_25.zip"
+ },
+ "2025-11-26": {
+  "kept_trades": 119,
+  "retrieved_at": "2026-10-26T16:22:09+00:00",
+  "sha256": "dbdbe4e65def8a7a7aceb63e436c219b9609a18370fad73307816359315612e1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_26.zip"
+ },
+ "2025-11-27": {
+  "kept_trades": 4,
+  "retrieved_at": "2026-10-26T16:22:10+00:00",
+  "sha256": "c0193d4b30dce33c1a0153ec004e49d404c0f1a7f3356f384fd30f14a172457b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_27.zip"
+ },
+ "2025-11-28": {
+  "kept_trades": 73,
+  "retrieved_at": "2026-10-26T16:22:10+00:00",
+  "sha256": "40c475ca774ba194a39e814dd4f687ba386eb91a3de05f7fcf4c7a4eaade1556",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_11_28.zip"
+ },
+ "2025-12-01": {
+  "kept_trades": 163,
+  "retrieved_at": "2026-10-26T16:22:11+00:00",
+  "sha256": "554ac874b0f15823bf14c20544fcfce9f644317536400d1c30e9ae31186e6ad9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_01.zip"
+ },
+ "2025-12-02": {
+  "kept_trades": 146,
+  "retrieved_at": "2026-10-26T16:22:12+00:00",
+  "sha256": "de5c498684cc609a742d7c7dc0341d35c6cbec078a7964eeacd453cec5f70e8f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_02.zip"
+ },
+ "2025-12-03": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:22:13+00:00",
+  "sha256": "be3baf32e6c702a0c4ad6bc5d145d6322e9a1043499ad4f264d29af6fa7145e8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_03.zip"
+ },
+ "2025-12-04": {
+  "kept_trades": 147,
+  "retrieved_at": "2026-10-26T16:22:14+00:00",
+  "sha256": "2db2cbffcd34fb611b1c8ce6441c28cfa6309569054362f265e01b7eea1e63e9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_04.zip"
+ },
+ "2025-12-05": {
+  "kept_trades": 133,
+  "retrieved_at": "2026-10-26T16:22:14+00:00",
+  "sha256": "45d0f87d40393a8ec3f3e1246133ea4dcff625f4fc00de78f83931c3ef00d267",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_05.zip"
+ },
+ "2025-12-08": {
+  "kept_trades": 153,
+  "retrieved_at": "2026-10-26T16:22:15+00:00",
+  "sha256": "59ce485e9fc988d2e79e13120de8418de555bad62fb7ec251b9b164e0ff740d1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_08.zip"
+ },
+ "2025-12-09": {
+  "kept_trades": 159,
+  "retrieved_at": "2026-10-26T16:22:16+00:00",
+  "sha256": "f74f36b65b50f4d066bf30360baaf961fb2187896459de4c99f03f9851ac6066",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_09.zip"
+ },
+ "2025-12-10": {
+  "kept_trades": 201,
+  "retrieved_at": "2026-10-26T16:22:17+00:00",
+  "sha256": "5fdef7c9a48df49de339210f538fa48ea57ade72b9d98a46d823400f14f6288e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_10.zip"
+ },
+ "2025-12-11": {
+  "kept_trades": 178,
+  "retrieved_at": "2026-10-26T16:22:18+00:00",
+  "sha256": "a686098627d3b325a3e3990d430d9fc170bb172b40e0ba31e27f88fd96b51323",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_11.zip"
+ },
+ "2025-12-12": {
+  "kept_trades": 224,
+  "retrieved_at": "2026-10-26T16:22:18+00:00",
+  "sha256": "ed0ab69e0c053921640ed599ab877023d25d1bfe5775675409b42a008c404478",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_12.zip"
+ },
+ "2025-12-15": {
+  "kept_trades": 237,
+  "retrieved_at": "2026-10-26T16:22:19+00:00",
+  "sha256": "61c57bed7fe97ba60a8b2c7df9d9345d75025c8873a688a21beaa21455745c61",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_15.zip"
+ },
+ "2025-12-16": {
+  "kept_trades": 210,
+  "retrieved_at": "2026-10-26T16:22:20+00:00",
+  "sha256": "c9b73a7ebdcaa986942d81d9000f2ae47a367bb517ca2638d2c602181f4e97a5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_16.zip"
+ },
+ "2025-12-17": {
+  "kept_trades": 136,
+  "retrieved_at": "2026-10-26T16:22:21+00:00",
+  "sha256": "db628954cf37f654b16dbe92a09205764ed7ade0bb84d16565928482678dc70f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_17.zip"
+ },
+ "2025-12-18": {
+  "kept_trades": 202,
+  "retrieved_at": "2026-10-26T16:22:22+00:00",
+  "sha256": "b73245f8d81bbb2bf5aa6a5189adbe97041fb9efa2a14b59a2ddf62dc921b726",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_18.zip"
+ },
+ "2025-12-19": {
+  "kept_trades": 123,
+  "retrieved_at": "2026-10-26T16:22:22+00:00",
+  "sha256": "bea562d31dd574c3c9540f7683f970d027af8c34827d5af943f7576403ff0d4a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_19.zip"
+ },
+ "2025-12-22": {
+  "kept_trades": 129,
+  "retrieved_at": "2026-10-26T16:22:23+00:00",
+  "sha256": "5777c2a674bb24034c45af46042be8e7ceab610806d5f1de88b6c03eca98fa15",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_22.zip"
+ },
+ "2025-12-23": {
+  "kept_trades": 184,
+  "retrieved_at": "2026-10-26T16:22:24+00:00",
+  "sha256": "8705ba36802d17f224a7deb524d2bfff039d578f5c81627d5734e1b4546917c3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_23.zip"
+ },
+ "2025-12-24": {
+  "kept_trades": 61,
+  "retrieved_at": "2026-10-26T16:22:24+00:00",
+  "sha256": "47c9b25482e35d3cb00e5ef7905713d81e5a720c634b04dec305ce4cac0bd6fc",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_24.zip"
+ },
+ "2025-12-25": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:22:24+00:00",
+  "sha256": "fc802fa6d351c85c75415b87332059c51e65250eeb1703a3ac9bfdd46338650d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_25.zip"
+ },
+ "2025-12-26": {
+  "kept_trades": 93,
+  "retrieved_at": "2026-10-26T16:22:25+00:00",
+  "sha256": "a949516710ecb6d0da463798aa1b3e1f8c04bc9dc40ae6d2a74f7d4d095fce17",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_26.zip"
+ },
+ "2025-12-29": {
+  "kept_trades": 107,
+  "retrieved_at": "2026-10-26T16:22:25+00:00",
+  "sha256": "e27d7fee42fec214c49ade0bc7d678ad2e81efcaeef988a4786c7ffa1a4ae14c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_29.zip"
+ },
+ "2025-12-30": {
+  "kept_trades": 115,
+  "retrieved_at": "2026-10-26T16:22:26+00:00",
+  "sha256": "247c2dc5fc57919ed9a0a989dab7889728ec07cd5206e1d976d1c8f959d2e26d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_30.zip"
+ },
+ "2025-12-31": {
+  "kept_trades": 89,
+  "retrieved_at": "2026-10-26T16:22:26+00:00",
+  "sha256": "1d58e3612e8dabd30a234556da4d28a4c9632f7bcb56d3bd661324be6643e9b6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2025_12_31.zip"
+ },
+ "2026-01-01": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:22:26+00:00",
+  "sha256": "acec1c1bb55e2448822e308558209da6750b1b7cee24cbe5be040ad1426c7de9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_01.zip"
+ },
+ "2026-01-02": {
+  "kept_trades": 120,
+  "retrieved_at": "2026-10-26T16:22:27+00:00",
+  "sha256": "aa92a153811a8d288268c47b8cdc02d17115113f9194d5917030c21971edb0ff",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_02.zip"
+ },
+ "2026-01-05": {
+  "kept_trades": 163,
+  "retrieved_at": "2026-10-26T16:22:27+00:00",
+  "sha256": "d09496739128012420ed49984107a9c50fadcadeb1a73869e085139dd8115f95",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_05.zip"
+ },
+ "2026-01-06": {
+  "kept_trades": 179,
+  "retrieved_at": "2026-10-26T16:22:28+00:00",
+  "sha256": "9ed8e0eba67b760f0e5d6613c48104a1a7d84ee1f81c1a8fa310cfd5fae9d9c5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_06.zip"
+ },
+ "2026-01-07": {
+  "kept_trades": 165,
+  "retrieved_at": "2026-10-26T16:22:29+00:00",
+  "sha256": "8948ba514cf1400dde930fd5fd8f973f1070199950267c437097997a32ad3eca",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_07.zip"
+ },
+ "2026-01-08": {
+  "kept_trades": 222,
+  "retrieved_at": "2026-10-26T16:22:30+00:00",
+  "sha256": "6d7f611ece97ae881e62b45e9fc3dfe367817b07d6f09763d822fd7f83f95f5e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_08.zip"
+ },
+ "2026-01-09": {
+  "kept_trades": 259,
+  "retrieved_at": "2026-10-26T16:22:30+00:00",
+  "sha256": "268e7e53bc581b4912fa80fb748241fa59b3579f4ac4fbbc7df9d1cb15344aa2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_09.zip"
+ },
+ "2026-01-12": {
+  "kept_trades": 163,
+  "retrieved_at": "2026-10-26T16:22:31+00:00",
+  "sha256": "5ca85fbd9d21635b8c6d2d6c54334b6b1e832c77b5db6de199503d6902fd99da",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_12.zip"
+ },
+ "2026-01-13": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:22:32+00:00",
+  "sha256": "81077b870d7f41efb6a5a5e6417d3e29622cb095905c4f0c73d4955b6607ac87",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_13.zip"
+ },
+ "2026-01-14": {
+  "kept_trades": 214,
+  "retrieved_at": "2026-10-26T16:22:33+00:00",
+  "sha256": "ecc4e45f180fe4f6698e2ce4b749d26e48fef9565c0f58388fc201eec4932d44",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_14.zip"
+ },
+ "2026-01-15": {
+  "kept_trades": 209,
+  "retrieved_at": "2026-10-26T16:22:34+00:00",
+  "sha256": "428814637a591e4cd9e700369ec5212452233e4b3e84b5adb001dd2bd93b0cec",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_15.zip"
+ },
+ "2026-01-16": {
+  "kept_trades": 261,
+  "retrieved_at": "2026-10-26T16:22:35+00:00",
+  "sha256": "a611430ecd438bfd006ff7695ec49b72f0f4fad9dd8a85980d94eacbd50074d0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_16.zip"
+ },
+ "2026-01-19": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:22:35+00:00",
+  "sha256": "be48669ce22d821fa0175b50a297d9121a558fac033b84f45ff989e58e73712c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_19.zip"
+ },
+ "2026-01-20": {
+  "kept_trades": 306,
+  "retrieved_at": "2026-10-26T16:22:36+00:00",
+  "sha256": "468284ba8ec1f2a7ba6cfcd7a7d263b43b33b15389a5c923f8e2007e233e8dc1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_20.zip"
+ },
+ "2026-01-21": {
+  "kept_trades": 201,
+  "retrieved_at": "2026-10-26T16:22:37+00:00",
+  "sha256": "afdb3a9aa6f015a8551ea39a74d24ecbcab5919cb1e1fcd43a6e27f6bf8a2f27",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_21.zip"
+ },
+ "2026-01-22": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:22:38+00:00",
+  "sha256": "b154f75bcec9762dfa018529a198a211b1f1d5bc56d16f5c656a7c63f8f91b6a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_22.zip"
+ },
+ "2026-01-23": {
+  "kept_trades": 185,
+  "retrieved_at": "2026-10-26T16:22:38+00:00",
+  "sha256": "9a49f3394dbd3abc2b68bd8131fac22757cd1311479ef5a29b20da836e99e9a7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_23.zip"
+ },
+ "2026-01-26": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:22:39+00:00",
+  "sha256": "7020c6d82aa45365bb9408a48b931548c80cde3100a3c792fd88b4983ae42270",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_26.zip"
+ },
+ "2026-01-27": {
+  "kept_trades": 140,
+  "retrieved_at": "2026-10-26T16:22:40+00:00",
+  "sha256": "5b6dcd93f86f3cb17d8e8d6ff02d93aac4a6b034ad593af767680599e4dc3cb6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_27.zip"
+ },
+ "2026-01-28": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:22:41+00:00",
+  "sha256": "72d0677651b59fd6b5bcd6a61cf29553f840758d680daa3e2f3b449be3fcab89",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_28.zip"
+ },
+ "2026-01-29": {
+  "kept_trades": 190,
+  "retrieved_at": "2026-10-26T16:22:42+00:00",
+  "sha256": "9783ba7eb0a2f983abbeff50752eaf1b57ae8ee9099ef2f4ad914fa03a80e576",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_29.zip"
+ },
+ "2026-01-30": {
+  "kept_trades": 249,
+  "retrieved_at": "2026-10-26T16:22:42+00:00",
+  "sha256": "5de55274f290298d10e831bbd6ea1bde9a4e6f2580ab3c2c624f0d0132b739c6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_01_30.zip"
+ },
+ "2026-02-02": {
+  "kept_trades": 170,
+  "retrieved_at": "2026-10-26T16:22:43+00:00",
+  "sha256": "52f44f30ebcf146a94d8e4fdbe3413c1288d1ba4080d49b82074132e0322869b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_02.zip"
+ },
+ "2026-02-03": {
+  "kept_trades": 223,
+  "retrieved_at": "2026-10-26T16:22:44+00:00",
+  "sha256": "5fdd10db1e1350685ec3d4421c9f45b6f0dc28c21c873b6d5cdc9206bb425a0d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_03.zip"
+ },
+ "2026-02-04": {
+  "kept_trades": 169,
+  "retrieved_at": "2026-10-26T16:22:45+00:00",
+  "sha256": "65203510b41f43a6b883600b06ede1e50782e23fe58fa4478aa18387e4e4086e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_04.zip"
+ },
+ "2026-02-05": {
+  "kept_trades": 295,
+  "retrieved_at": "2026-10-26T16:22:46+00:00",
+  "sha256": "0324c9c8cf5570905b7acb16180f90359386ea3f895fdd55e85728e4444f584a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_05.zip"
+ },
+ "2026-02-06": {
+  "kept_trades": 243,
+  "retrieved_at": "2026-10-26T16:22:47+00:00",
+  "sha256": "ce6ec745edff6853824054dd6a2cd3877d1b237cf8ea56819b4d08f409ec3ba9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_06.zip"
+ },
+ "2026-02-09": {
+  "kept_trades": 199,
+  "retrieved_at": "2026-10-26T16:22:47+00:00",
+  "sha256": "244b5054e992f68e753e992ccdac89f80d115426432c813f419609dba400770b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_09.zip"
+ },
+ "2026-02-10": {
+  "kept_trades": 249,
+  "retrieved_at": "2026-10-26T16:22:48+00:00",
+  "sha256": "a4ca2d1c0528c68d2d96ef5345cb6008a382d11428a9a506febf52bc562ebcf4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_10.zip"
+ },
+ "2026-02-11": {
+  "kept_trades": 230,
+  "retrieved_at": "2026-10-26T16:22:49+00:00",
+  "sha256": "abab6d32081aadf39e059ffde6a66a764382bcc2904c3f7e6d5aadee1ff924f2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_11.zip"
+ },
+ "2026-02-12": {
+  "kept_trades": 304,
+  "retrieved_at": "2026-10-26T16:22:50+00:00",
+  "sha256": "12a554eadb6e1cd9d675b58b5cb820d36472d4040f745fde33c4e9247f0b33bb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_12.zip"
+ },
+ "2026-02-13": {
+  "kept_trades": 288,
+  "retrieved_at": "2026-10-26T16:22:51+00:00",
+  "sha256": "de647d24f06eb4d4e2e5700923bc617984b84af0f431d0252d2ef2ff3f98e728",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_13.zip"
+ },
+ "2026-02-16": {
+  "kept_trades": 1,
+  "retrieved_at": "2026-10-26T16:22:51+00:00",
+  "sha256": "550be18c5dd2bb0b46e7d8ca46646606d30ba67d040e99a9b57faa0063113dbd",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_16.zip"
+ },
+ "2026-02-17": {
+  "kept_trades": 177,
+  "retrieved_at": "2026-10-26T16:22:52+00:00",
+  "sha256": "3c1bc58c17a441072ee0bbb3e443a4f9ade066e17d5cdc26927d938107623d94",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_17.zip"
+ },
+ "2026-02-18": {
+  "kept_trades": 152,
+  "retrieved_at": "2026-10-26T16:22:53+00:00",
+  "sha256": "dfdd68a940d3eb727514449b6ceb19651fd1c06c1498413ee2b8877df941a6f6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_18.zip"
+ },
+ "2026-02-19": {
+  "kept_trades": 149,
+  "retrieved_at": "2026-10-26T16:22:53+00:00",
+  "sha256": "5712e72568828edfb1b848fa903c9f9b1f8f8ca076f25dbf0f297f369a26a750",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_19.zip"
+ },
+ "2026-02-20": {
+  "kept_trades": 139,
+  "retrieved_at": "2026-10-26T16:22:54+00:00",
+  "sha256": "879c32aaf2eb7ce64d2db1e191437857913431d7d8e71e07007c56c34dcc010f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_20.zip"
+ },
+ "2026-02-23": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:22:55+00:00",
+  "sha256": "a3c27c687d3653f09f899c57b2cd66c21d1f639b1561ec434d4a0c296890f2d1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_23.zip"
+ },
+ "2026-02-24": {
+  "kept_trades": 180,
+  "retrieved_at": "2026-10-26T16:22:56+00:00",
+  "sha256": "0d4a1dbd0f1911f35c4f12edf2e8c0971e5c13aa7fe44d1e9a744aefa858afce",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_24.zip"
+ },
+ "2026-02-25": {
+  "kept_trades": 165,
+  "retrieved_at": "2026-10-26T16:22:56+00:00",
+  "sha256": "839a9d73a38dafd1595869368ac7dd15116680f023b39752f517811723690848",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_25.zip"
+ },
+ "2026-02-26": {
+  "kept_trades": 236,
+  "retrieved_at": "2026-10-26T16:22:57+00:00",
+  "sha256": "f646f4d28bb9757875f3059a34a581ca9fa9faf927a2008a8dbdf3d62eaf2082",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_26.zip"
+ },
+ "2026-02-27": {
+  "kept_trades": 296,
+  "retrieved_at": "2026-10-26T16:22:58+00:00",
+  "sha256": "1eb30b52a0502d2eefd58f496dfa3d8671ade1bba686361cc8c60b2b79678a4a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_02_27.zip"
+ },
+ "2026-03-02": {
+  "kept_trades": 306,
+  "retrieved_at": "2026-10-26T16:22:59+00:00",
+  "sha256": "07e8386c4610052350a760b5a4f7e385a36ea11e08ed8ddaa9ca609ee7044387",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_02.zip"
+ },
+ "2026-03-03": {
+  "kept_trades": 366,
+  "retrieved_at": "2026-10-26T16:23:00+00:00",
+  "sha256": "31af7c6ad3a0b5ff1b8a557e39fab3f6cbe5907716e3b3d3a7874569bcbb3840",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_03.zip"
+ },
+ "2026-03-04": {
+  "kept_trades": 219,
+  "retrieved_at": "2026-10-26T16:23:01+00:00",
+  "sha256": "a12c9ef0e8b4526c78909a10bb92dd4506ceefe1a6cec624ffc29680fedf0c89",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_04.zip"
+ },
+ "2026-03-05": {
+  "kept_trades": 260,
+  "retrieved_at": "2026-10-26T16:23:02+00:00",
+  "sha256": "c6a467a7fd024507138da16172899a05125ff4d9013a17bd49b1da74321068b7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_05.zip"
+ },
+ "2026-03-06": {
+  "kept_trades": 320,
+  "retrieved_at": "2026-10-26T16:23:02+00:00",
+  "sha256": "df551cca86beeacb1260fdf08ef34fc6ea1921b1c5ad3b9aa1f2e7bed84e9064",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_06.zip"
+ },
+ "2026-03-09": {
+  "kept_trades": 306,
+  "retrieved_at": "2026-10-26T16:23:03+00:00",
+  "sha256": "4362cca44db0cbf6f6797bbbd399b665feaf75a3d6834b35c368d6f64182a10f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_09.zip"
+ },
+ "2026-03-10": {
+  "kept_trades": 229,
+  "retrieved_at": "2026-10-26T16:23:04+00:00",
+  "sha256": "20d41f1c1b3e57a1bdb2dd4ae489b3552ed017190cfea5effb2ddb6e38445cb4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_10.zip"
+ },
+ "2026-03-11": {
+  "kept_trades": 218,
+  "retrieved_at": "2026-10-26T16:23:05+00:00",
+  "sha256": "965bc44eff3952605c8863c57dd4b9136c49d5929b7c5768af7031d023d02d3c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_11.zip"
+ },
+ "2026-03-12": {
+  "kept_trades": 274,
+  "retrieved_at": "2026-10-26T16:23:06+00:00",
+  "sha256": "e68638fde3a8bec643cf69d092dfd10e7111d88e033694aff7749c36a9bbbabe",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_12.zip"
+ },
+ "2026-03-13": {
+  "kept_trades": 266,
+  "retrieved_at": "2026-10-26T16:23:07+00:00",
+  "sha256": "591e00b2d0ffd8be1aae02e00db94fa1bdb775aa3dfedd6e1f982bbf5572c099",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_13.zip"
+ },
+ "2026-03-16": {
+  "kept_trades": 234,
+  "retrieved_at": "2026-10-26T16:23:07+00:00",
+  "sha256": "55c4a80e8cef9984cd92d9b87321a8def452ae8b98378380094a5dd3d4a4ea6e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_16.zip"
+ },
+ "2026-03-17": {
+  "kept_trades": 188,
+  "retrieved_at": "2026-10-26T16:23:08+00:00",
+  "sha256": "8360e2c82fc5b51110320d541ee8e61ed7dccbae94e4cf3006d4c002e428eb80",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_17.zip"
+ },
+ "2026-03-18": {
+  "kept_trades": 252,
+  "retrieved_at": "2026-10-26T16:23:09+00:00",
+  "sha256": "777adf2cdfd8e08235b89fe171f1465ba3583314416daf2a66364976d93d7f7f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_18.zip"
+ },
+ "2026-03-19": {
+  "kept_trades": 313,
+  "retrieved_at": "2026-10-26T16:23:10+00:00",
+  "sha256": "c84762f764ff36de8455ee3f427a87d45378beda46fdf3a9115a3fd73baded11",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_19.zip"
+ },
+ "2026-03-20": {
+  "kept_trades": 307,
+  "retrieved_at": "2026-10-26T16:23:11+00:00",
+  "sha256": "174d9b62cfa6918d1f7b3bfcd088e7ad9df213e3433338fa625943228e122498",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_20.zip"
+ },
+ "2026-03-23": {
+  "kept_trades": 339,
+  "retrieved_at": "2026-10-26T16:23:12+00:00",
+  "sha256": "0f3f3e4f323802a5ea1b09519db467b225411ade55a1aae9da42fc199a553f9f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_23.zip"
+ },
+ "2026-03-24": {
+  "kept_trades": 269,
+  "retrieved_at": "2026-10-26T16:23:13+00:00",
+  "sha256": "3bc2c7a1fcdb4d42b32f9aa442d7de07a298fca3e53a6315c36c0fec7ee08eea",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_24.zip"
+ },
+ "2026-03-25": {
+  "kept_trades": 217,
+  "retrieved_at": "2026-10-26T16:23:14+00:00",
+  "sha256": "7e66a044ba43e0ce6871c2131e7a16925f6f2978863567173a610e0a7b698753",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_25.zip"
+ },
+ "2026-03-26": {
+  "kept_trades": 223,
+  "retrieved_at": "2026-10-26T16:23:15+00:00",
+  "sha256": "fd76617f7b8d0560a8d5218c1d9db37f44a211410a3ea22c0b1eb3e00acd9e32",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_26.zip"
+ },
+ "2026-03-27": {
+  "kept_trades": 246,
+  "retrieved_at": "2026-10-26T16:23:15+00:00",
+  "sha256": "ab2069af6f314e0ba253253efcac0a207d09c8bd3675f84fa498483003840bdf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_27.zip"
+ },
+ "2026-03-30": {
+  "kept_trades": 184,
+  "retrieved_at": "2026-10-26T16:23:16+00:00",
+  "sha256": "102c5b58634115ee3f1547b30a77b9c674d70e4ed6070346e2b46ff7ebd5a3c1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_30.zip"
+ },
+ "2026-03-31": {
+  "kept_trades": 197,
+  "retrieved_at": "2026-10-26T16:23:17+00:00",
+  "sha256": "b47672843936678ebf726ffd40ef0d83f32ca6afa8796973851c3390bc45d1cd",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_03_31.zip"
+ },
+ "2026-04-01": {
+  "kept_trades": 199,
+  "retrieved_at": "2026-10-26T16:23:18+00:00",
+  "sha256": "604061b1a3ad5cc1b320c0e1dc0e671addf7abd9a18b4445ad8aeb7024f6f1e3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_01.zip"
+ },
+ "2026-04-02": {
+  "kept_trades": 206,
+  "retrieved_at": "2026-10-26T16:23:18+00:00",
+  "sha256": "169b079f99304a88cfad5c662918c4bd1f5c9cb7467fc893501aff061acf8adf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_02.zip"
+ },
+ "2026-04-03": {
+  "kept_trades": 62,
+  "retrieved_at": "2026-10-26T16:23:19+00:00",
+  "sha256": "37b233214ca03a55381b8dd7acde418938803a6403b155696bc2c5c2ee6eeebe",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_03.zip"
+ },
+ "2026-04-06": {
+  "kept_trades": 119,
+  "retrieved_at": "2026-10-26T16:23:19+00:00",
+  "sha256": "772506772faa5ef58776cfeb3cc48903b28357ef3bc30a3328e13bb1f81c942d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_06.zip"
+ },
+ "2026-04-07": {
+  "kept_trades": 169,
+  "retrieved_at": "2026-10-26T16:23:20+00:00",
+  "sha256": "d1de22a42d3f9624659867ccbd5df15f2b071985b9b31d7c92ee580d36213aee",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_07.zip"
+ },
+ "2026-04-08": {
+  "kept_trades": 260,
+  "retrieved_at": "2026-10-26T16:23:21+00:00",
+  "sha256": "61293b03103e45b2ec38afa26271f12ffa8f3a2a1f4c24bfe4478f3d5b0cbd0e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_08.zip"
+ },
+ "2026-04-09": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:23:22+00:00",
+  "sha256": "b542875ef8f45e3d718b3b2726a545341cde8d87e29f22f19200f0c86c767a7b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_09.zip"
+ },
+ "2026-04-10": {
+  "kept_trades": 135,
+  "retrieved_at": "2026-10-26T16:23:22+00:00",
+  "sha256": "c6bde2bcb3c178f3c8017a9758ed7f4bea709684bfbc600400d6be71a7d722c2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_10.zip"
+ },
+ "2026-04-13": {
+  "kept_trades": 179,
+  "retrieved_at": "2026-10-26T16:23:23+00:00",
+  "sha256": "4f21e274e2340331dd0c761c3749e17757562e7d830a57e39af518594168d678",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_13.zip"
+ },
+ "2026-04-14": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:23:24+00:00",
+  "sha256": "40d394003c387bfb85d84f8be1aa7436a59f827ff3fbe1fa0c49bab65af79685",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_14.zip"
+ },
+ "2026-04-15": {
+  "kept_trades": 166,
+  "retrieved_at": "2026-10-26T16:23:25+00:00",
+  "sha256": "fc854b0e91a91e572cfdd9db785ae21fc1687b971a6cad39e69a1f242e47bbb8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_15.zip"
+ },
+ "2026-04-16": {
+  "kept_trades": 151,
+  "retrieved_at": "2026-10-26T16:23:25+00:00",
+  "sha256": "c673f64040382d7ecfade1a52491cb39885dd4b435e433a83dc592cdb964498e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_16.zip"
+ },
+ "2026-04-17": {
+  "kept_trades": 260,
+  "retrieved_at": "2026-10-26T16:23:26+00:00",
+  "sha256": "40741a594b38d90ba8a5629ea3f216c9a28e104ba18145793be105f52e255cd3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_17.zip"
+ },
+ "2026-04-20": {
+  "kept_trades": 138,
+  "retrieved_at": "2026-10-26T16:23:27+00:00",
+  "sha256": "b5be9c7c50228cffe6f2e0427da4185bd431b64116c7b7114a61d32944527a51",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_20.zip"
+ },
+ "2026-04-21": {
+  "kept_trades": 126,
+  "retrieved_at": "2026-10-26T16:23:28+00:00",
+  "sha256": "62afa973e386274f50fb44c5536911c4734ac4d656cf4376cf435a67f829d6aa",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_21.zip"
+ },
+ "2026-04-22": {
+  "kept_trades": 133,
+  "retrieved_at": "2026-10-26T16:23:28+00:00",
+  "sha256": "d7c1aabdb5d19aae700c94d0d5112d80897fb47ed9913582e43ef20d88de6147",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_22.zip"
+ },
+ "2026-04-23": {
+  "kept_trades": 142,
+  "retrieved_at": "2026-10-26T16:23:29+00:00",
+  "sha256": "1f2e38e4cf71bc9d89b1b35834f172c26058206bac0951b5ddffa5467d13c9ab",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_23.zip"
+ },
+ "2026-04-24": {
+  "kept_trades": 153,
+  "retrieved_at": "2026-10-26T16:23:30+00:00",
+  "sha256": "2820c652cec1d7de52d4950c2549aa5c069427ac554c56d113c67175b32529a9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_24.zip"
+ },
+ "2026-04-27": {
+  "kept_trades": 141,
+  "retrieved_at": "2026-10-26T16:23:30+00:00",
+  "sha256": "88a1b948c82c3fe79d9d3f17cb1dee4aa65f6366f221dd268eba7d31cf426e9e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_27.zip"
+ },
+ "2026-04-28": {
+  "kept_trades": 182,
+  "retrieved_at": "2026-10-26T16:23:31+00:00",
+  "sha256": "b53ae2abf073034c3a6c4dbf8d3b780b7fe14e70379bac206442a2009534119a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_28.zip"
+ },
+ "2026-04-29": {
+  "kept_trades": 235,
+  "retrieved_at": "2026-10-26T16:23:32+00:00",
+  "sha256": "d5b4d56e4daef7ac6f356e89ad3f1cd17c5b58524af14dcaca4370200b3a7afd",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_29.zip"
+ },
+ "2026-04-30": {
+  "kept_trades": 191,
+  "retrieved_at": "2026-10-26T16:23:32+00:00",
+  "sha256": "5834ff7d86425233d5fb868665e6d61c052a6a07f8088b87c343d0ffb5867e7d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_04_30.zip"
+ },
+ "2026-05-01": {
+  "kept_trades": 100,
+  "retrieved_at": "2026-10-26T16:23:33+00:00",
+  "sha256": "821d2c12977ebce7fa5cada017eab704bb9659433b9430f069b75236acfd2c63",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_01.zip"
+ },
+ "2026-05-04": {
+  "kept_trades": 193,
+  "retrieved_at": "2026-10-26T16:23:33+00:00",
+  "sha256": "0c0673df755be2aef92b7ecd28f997810229e3a8c8114bef85cfabf30bf6500e",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_04.zip"
+ },
+ "2026-05-05": {
+  "kept_trades": 162,
+  "retrieved_at": "2026-10-26T16:23:34+00:00",
+  "sha256": "ac604783546031d71e11c8714b255ad522a9e0a65ae5a04aba26ec3d1886be2d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_05.zip"
+ },
+ "2026-05-06": {
+  "kept_trades": 255,
+  "retrieved_at": "2026-10-26T16:23:35+00:00",
+  "sha256": "0acb0d11d7ec04ec2b8198ce5181c40d08b1120c22f52f00bc52e1d70c71f0f6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_06.zip"
+ },
+ "2026-05-07": {
+  "kept_trades": 218,
+  "retrieved_at": "2026-10-26T16:23:36+00:00",
+  "sha256": "9072ecc917e6f6fdba17ce0b4a7d25ff4802516f517f4fc661e8b19329efe689",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_07.zip"
+ },
+ "2026-05-08": {
+  "kept_trades": 166,
+  "retrieved_at": "2026-10-26T16:23:36+00:00",
+  "sha256": "02f712bfd1d3f66a24628e354509e787a93e0a1ec945567b36f80ae2ba2f147a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_08.zip"
+ },
+ "2026-05-11": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:23:37+00:00",
+  "sha256": "99f8a7ae15728e616db1f020de937ef6a1326231ee2bbec01a6aaf80ffeb113b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_11.zip"
+ },
+ "2026-05-12": {
+  "kept_trades": 229,
+  "retrieved_at": "2026-10-26T16:23:37+00:00",
+  "sha256": "39e2a18a5739c7cf2f10bb9d0b408cf8890cd0b1fad2a8ff05514ca73d4d1c53",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_12.zip"
+ },
+ "2026-05-13": {
+  "kept_trades": 218,
+  "retrieved_at": "2026-10-26T16:23:38+00:00",
+  "sha256": "6b93270082d4de9f0652c87f44192ca8e1e7e2bbbcc711eae5d657d527dcae23",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_13.zip"
+ },
+ "2026-05-14": {
+  "kept_trades": 156,
+  "retrieved_at": "2026-10-26T16:23:39+00:00",
+  "sha256": "2389ceaf66bb2b22fea95a9f75c8ad8e9534a2f2f63015ab1f2436d8a09f0cc1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_14.zip"
+ },
+ "2026-05-15": {
+  "kept_trades": 296,
+  "retrieved_at": "2026-10-26T16:23:39+00:00",
+  "sha256": "7807bcde7af2c016ded128c4c4784080661ac269e48d5acef1f0043f7edd93b0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_15.zip"
+ },
+ "2026-05-18": {
+  "kept_trades": 277,
+  "retrieved_at": "2026-10-26T16:23:41+00:00",
+  "sha256": "fd1b64560933b7c95acf5ba08001cf2fe8b0f3f5165d41a7055c6248724fdf77",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_18.zip"
+ },
+ "2026-05-19": {
+  "kept_trades": 274,
+  "retrieved_at": "2026-10-26T16:23:41+00:00",
+  "sha256": "404d39400497ba11a9f215a84029840c2d1c93cb4c678e7976c1de2156cf5bdf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_19.zip"
+ },
+ "2026-05-20": {
+  "kept_trades": 285,
+  "retrieved_at": "2026-10-26T16:23:42+00:00",
+  "sha256": "f67e9006c95b43b8671486d9b80d32b4c0b5a2fee36ea864a7252805a3ab9c9c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_20.zip"
+ },
+ "2026-05-21": {
+  "kept_trades": 260,
+  "retrieved_at": "2026-10-26T16:23:43+00:00",
+  "sha256": "2b3ab26474a78e93f3baf40ddc2231010779edaa92ee94491e9a3fdd7248ecda",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_21.zip"
+ },
+ "2026-05-22": {
+  "kept_trades": 157,
+  "retrieved_at": "2026-10-26T16:23:44+00:00",
+  "sha256": "ecb32168cb091dbdfe65b425efc9f9c2ba46f7ea0e849b991bb1a032088aac67",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_22.zip"
+ },
+ "2026-05-25": {
+  "kept_trades": 1,
+  "retrieved_at": "2026-10-26T16:23:44+00:00",
+  "sha256": "8407f099ed56cd47aed1ecbbb9dfd3fe28ba993f3fc142c48f27d04806654f44",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_25.zip"
+ },
+ "2026-05-26": {
+  "kept_trades": 258,
+  "retrieved_at": "2026-10-26T16:23:45+00:00",
+  "sha256": "1eac72d8b92a12b67e2f39a3b5181d1b3da2994460d4868ce8eb06e248c4247c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_26.zip"
+ },
+ "2026-05-27": {
+  "kept_trades": 183,
+  "retrieved_at": "2026-10-26T16:23:45+00:00",
+  "sha256": "afa5c347adddd37089bd2992aa0ab9caf72e6faa8225fd4e2f4d4edfe7c2bdc8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_27.zip"
+ },
+ "2026-05-28": {
+  "kept_trades": 187,
+  "retrieved_at": "2026-10-26T16:23:46+00:00",
+  "sha256": "cce0e18098683d4218ccc81f5f3e556ed9e7ff9d1661306ab7575617e6fe1227",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_28.zip"
+ },
+ "2026-05-29": {
+  "kept_trades": 194,
+  "retrieved_at": "2026-10-26T16:23:47+00:00",
+  "sha256": "8f9d8743b4afb7cf3a083f46e662b9736f98fcdbf156b8cba46f257b132170f9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_05_29.zip"
+ },
+ "2026-06-01": {
+  "kept_trades": 234,
+  "retrieved_at": "2026-10-26T16:23:48+00:00",
+  "sha256": "1e37f444133e2e5fb3a9625ee6dd97acd467db189ee0b380b61e7a8f90674c94",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_01.zip"
+ },
+ "2026-06-02": {
+  "kept_trades": 161,
+  "retrieved_at": "2026-10-26T16:23:48+00:00",
+  "sha256": "7620821d1611d18d10b341613e84eff7f048e3b70a393844cfca542ab0dd6925",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_02.zip"
+ },
+ "2026-06-03": {
+  "kept_trades": 196,
+  "retrieved_at": "2026-10-26T16:23:49+00:00",
+  "sha256": "2804b16d5b9f3a1a05b2279cea186cf03981d44a2b15cda5237a85d42959c188",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_03.zip"
+ },
+ "2026-06-04": {
+  "kept_trades": 206,
+  "retrieved_at": "2026-10-26T16:23:50+00:00",
+  "sha256": "53b7801cf73bf5bf7c07f8f3d7319936e3edd280036ccfb1a27be2cdd26cc51c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_04.zip"
+ },
+ "2026-06-05": {
+  "kept_trades": 221,
+  "retrieved_at": "2026-10-26T16:23:51+00:00",
+  "sha256": "20a346986c2073fbc2d1790f0abcac9e5905e3c70dbcb9063dea55d6ef1b536d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_05.zip"
+ },
+ "2026-06-08": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:23:51+00:00",
+  "sha256": "3b7495266921cc57837912f777b980fed5f285382ea175e2067d81cd378d2694",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_08.zip"
+ },
+ "2026-06-09": {
+  "kept_trades": 213,
+  "retrieved_at": "2026-10-26T16:23:52+00:00",
+  "sha256": "50f6a5011a864838a560c28305b70891b61f538d53ed991e4fd17d97ce6d3baf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_09.zip"
+ },
+ "2026-06-10": {
+  "kept_trades": 189,
+  "retrieved_at": "2026-10-26T16:23:53+00:00",
+  "sha256": "f024034795bb8fe356780820245af49e74652c617502f1a71e6239889d943f40",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_10.zip"
+ },
+ "2026-06-11": {
+  "kept_trades": 241,
+  "retrieved_at": "2026-10-26T16:23:53+00:00",
+  "sha256": "2e4dda7864b7f5582d858bd0631767aefe4ca1cbffc3ec0eb5077731b2e84af5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_11.zip"
+ },
+ "2026-06-12": {
+  "kept_trades": 247,
+  "retrieved_at": "2026-10-26T16:23:54+00:00",
+  "sha256": "2e5fed3ac4793f7a789ea96ee358dddf55737bb5fabe0bdb4a6e3455d5536553",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_12.zip"
+ },
+ "2026-06-15": {
+  "kept_trades": 253,
+  "retrieved_at": "2026-10-26T16:23:55+00:00",
+  "sha256": "713bb28b2be6e894d6e149a03cba87f20942b0c6d65f37fd0e16215c3e68ecd1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_15.zip"
+ },
+ "2026-06-16": {
+  "kept_trades": 229,
+  "retrieved_at": "2026-10-26T16:23:56+00:00",
+  "sha256": "333c20cdb11ff57f609e03f89eda24fc24fda25afce110afe132ee51c20b64ef",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_16.zip"
+ },
+ "2026-06-17": {
+  "kept_trades": 302,
+  "retrieved_at": "2026-10-26T16:23:56+00:00",
+  "sha256": "b0ebdf8cc2fb41882b96c2841f91fce32543521e53b56f5351ad8a48a115f68b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_17.zip"
+ },
+ "2026-06-18": {
+  "kept_trades": 242,
+  "retrieved_at": "2026-10-26T16:23:57+00:00",
+  "sha256": "318805549b77c96b3c0636b3e969f175153ba1b32988e17a9800522b6a992f95",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_18.zip"
+ },
+ "2026-06-19": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:23:58+00:00",
+  "sha256": "df00dca67d5f0c34a601ca36acc1664a09081d3e09f7a6976512c2cea50ff1c3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_19.zip"
+ },
+ "2026-06-22": {
+  "kept_trades": 247,
+  "retrieved_at": "2026-10-26T16:23:58+00:00",
+  "sha256": "056d19ae8a4c39343433a82ec403a7a6a48bcad7590f1170e13c97ab41311a33",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_22.zip"
+ },
+ "2026-06-23": {
+  "kept_trades": 190,
+  "retrieved_at": "2026-10-26T16:23:59+00:00",
+  "sha256": "167c48211d3fa0a68e84814e2c4dc55452029c53f7f8e568f2a462c218c36623",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_23.zip"
+ },
+ "2026-06-24": {
+  "kept_trades": 252,
+  "retrieved_at": "2026-10-26T16:24:00+00:00",
+  "sha256": "0ba7196ef3b5ced41fb0987873f3bbf33086560778fbfc5548d1606368bd6ba1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_24.zip"
+ },
+ "2026-06-25": {
+  "kept_trades": 258,
+  "retrieved_at": "2026-10-26T16:24:01+00:00",
+  "sha256": "a804df1c2f38c83d4002f56251b41664ba9e52e62adbe826c5e173f1927712d8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_25.zip"
+ },
+ "2026-06-26": {
+  "kept_trades": 169,
+  "retrieved_at": "2026-10-26T16:24:01+00:00",
+  "sha256": "51d240d70137b1f3f9ebd485285526acd630ad8d39c73a7041a0e34ebf3703d6",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_26.zip"
+ },
+ "2026-06-29": {
+  "kept_trades": 165,
+  "retrieved_at": "2026-10-26T16:24:02+00:00",
+  "sha256": "cbcf929c76969386b7a42224f689eaf8a77082f562fee8b8ec689c6250ed77ba",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_29.zip"
+ },
+ "2026-06-30": {
+  "kept_trades": 211,
+  "retrieved_at": "2026-10-26T16:24:03+00:00",
+  "sha256": "1c3be28871c5617c40663eb30f097c100930b833dcab3bdea760d29344626346",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_06_30.zip"
+ },
+ "2026-07-01": {
+  "kept_trades": 195,
+  "retrieved_at": "2026-10-26T16:24:03+00:00",
+  "sha256": "631c54894ecfeb344471a67edba152d396c2060ad22c1a140878bc11a712fe62",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_01.zip"
+ },
+ "2026-07-02": {
+  "kept_trades": 191,
+  "retrieved_at": "2026-10-26T16:24:04+00:00",
+  "sha256": "0799d13a1237387a8b45642081f632826807a59e75b2d04b467135666744a3b1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_02.zip"
+ },
+ "2026-07-03": {
+  "kept_trades": 2,
+  "retrieved_at": "2026-10-26T16:24:05+00:00",
+  "sha256": "bea15fe67f01d777280da6dddc0e0b51a2e4d44672346ce78c6810b3a7903c61",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_03.zip"
+ },
+ "2026-07-06": {
+  "kept_trades": 165,
+  "retrieved_at": "2026-10-26T16:24:05+00:00",
+  "sha256": "cdf525e8b2692551c8e829c37546c14884719ff3a9f2a14bfa69bfedb4f6e229",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_06.zip"
+ },
+ "2026-07-07": {
+  "kept_trades": 196,
+  "retrieved_at": "2026-10-26T16:24:06+00:00",
+  "sha256": "0f9f5268b58be9b710efd810c2ba949194c4eb4ca0b1b2a84b401f8d24585c09",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_07.zip"
+ },
+ "2026-07-08": {
+  "kept_trades": 231,
+  "retrieved_at": "2026-10-26T16:24:07+00:00",
+  "sha256": "abfc45522c8d6bf3ab6e5ad4e69929572188f965d59fe83baa223aa9c1cd9575",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_08.zip"
+ },
+ "2026-07-09": {
+  "kept_trades": 171,
+  "retrieved_at": "2026-10-26T16:24:07+00:00",
+  "sha256": "efa727f5956b881170d2ee1264be072a0924eba40129f991687d2a16222e7dcf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_09.zip"
+ },
+ "2026-07-10": {
+  "kept_trades": 146,
+  "retrieved_at": "2026-10-26T16:24:08+00:00",
+  "sha256": "2501876127a1c9aad9e8cb854059e8b4398c28f05d668aef59245c4ea65f17b5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_10.zip"
+ },
+ "2026-07-13": {
+  "kept_trades": 175,
+  "retrieved_at": "2026-10-26T16:24:09+00:00",
+  "sha256": "49596119ff1e895a05a4642235a79f9073c129360a82bf3fb162b717b9f0d7f5",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_13.zip"
+ },
+ "2026-07-14": {
+  "kept_trades": 229,
+  "retrieved_at": "2026-10-26T16:24:10+00:00",
+  "sha256": "031d67c2bd847108c5c0b0f33903cfe7f786740b52df1af99621d369ab3fc0ef",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_14.zip"
+ },
+ "2026-07-15": {
+  "kept_trades": 197,
+  "retrieved_at": "2026-10-26T16:24:11+00:00",
+  "sha256": "1344904ecb4446f1194c271081a83b908f20c32c3bda0418d2dee0b939f822cb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_15.zip"
+ },
+ "2026-07-16": {
+  "kept_trades": 155,
+  "retrieved_at": "2026-10-26T16:24:11+00:00",
+  "sha256": "ca9a9ebccb481ea4406f302e266653a7a7ab3e5a67b5fdb2289c38b6a41f79fc",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_16.zip"
+ },
+ "2026-07-17": {
+  "kept_trades": 147,
+  "retrieved_at": "2026-10-26T16:24:12+00:00",
+  "sha256": "eae785949501745e1e811a1baa32b24231f461d14aec072e736998e48f1cf391",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_17.zip"
+ },
+ "2026-07-20": {
+  "kept_trades": 124,
+  "retrieved_at": "2026-10-26T16:24:13+00:00",
+  "sha256": "58d79df89984efe85abf6686d2f870e7a796ea1f60aa43496483ac45018f8721",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_20.zip"
+ },
+ "2026-07-21": {
+  "kept_trades": 203,
+  "retrieved_at": "2026-10-26T16:24:14+00:00",
+  "sha256": "2c71557f1d55405603c25b51f32abec7ca4e5e2787455118e54c323fae74fdf7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_21.zip"
+ },
+ "2026-07-22": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:24:14+00:00",
+  "sha256": "561711f0edb437d38b135f423a2ffe9f5932a37f9314f0442ef5b8b2ce87acc1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_22.zip"
+ },
+ "2026-07-23": {
+  "kept_trades": 200,
+  "retrieved_at": "2026-10-26T16:24:15+00:00",
+  "sha256": "76a4fd7ca6645028cda0d33ab1c80b868c4c49aa38c332535f514ed8c7954805",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_23.zip"
+ },
+ "2026-07-24": {
+  "kept_trades": 145,
+  "retrieved_at": "2026-10-26T16:24:16+00:00",
+  "sha256": "aa95fb3b7a0e9a2bb477554533b03a31e8ad97361b4cfd8c29a7bb7c2a81e9e3",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_24.zip"
+ },
+ "2026-07-27": {
+  "kept_trades": 172,
+  "retrieved_at": "2026-10-26T16:24:16+00:00",
+  "sha256": "1c8b298cc58233c0b3709b7425229d5c783abcf854038601266c6f5e2a4f7158",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_27.zip"
+ },
+ "2026-07-28": {
+  "kept_trades": 155,
+  "retrieved_at": "2026-10-26T16:24:17+00:00",
+  "sha256": "f705396784cb3f387cd3d1ad13eaa4b81d94d7f5f42bc7281be1b34726ddc104",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_28.zip"
+ },
+ "2026-07-29": {
+  "kept_trades": 200,
+  "retrieved_at": "2026-10-26T16:24:18+00:00",
+  "sha256": "15c84cfd243aa2c9b33122c83873381d9facbff5535ed07fa1f1a15150e0dd2c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_29.zip"
+ },
+ "2026-07-30": {
+  "kept_trades": 229,
+  "retrieved_at": "2026-10-26T16:24:19+00:00",
+  "sha256": "38e2bf139c6d65e6831305bcfbb7c7397a590bd1fa48ee0e4f8df36cbd1d1c01",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_30.zip"
+ },
+ "2026-07-31": {
+  "kept_trades": 258,
+  "retrieved_at": "2026-10-26T16:24:19+00:00",
+  "sha256": "5f852f2dad946ac23174782c1618cba3d102a64db9013248aff161ce4e94da42",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_07_31.zip"
+ },
+ "2026-08-03": {
+  "kept_trades": 173,
+  "retrieved_at": "2026-10-26T16:24:20+00:00",
+  "sha256": "2449e165b545a752e698365618220bb670b342b6719e1ed2d2c36a9281fb0941",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_03.zip"
+ },
+ "2026-08-04": {
+  "kept_trades": 186,
+  "retrieved_at": "2026-10-26T16:24:21+00:00",
+  "sha256": "d0ad1813cbd162b4129bb87576a7f84545b622b013ddef8612dbbfeabb5a9b34",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_04.zip"
+ },
+ "2026-08-05": {
+  "kept_trades": 187,
+  "retrieved_at": "2026-10-26T16:24:21+00:00",
+  "sha256": "574120aedf78ec4839b807af9768691f876074ae4eed04333aec079c41508e2d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_05.zip"
+ },
+ "2026-08-06": {
+  "kept_trades": 163,
+  "retrieved_at": "2026-10-26T16:24:22+00:00",
+  "sha256": "b8c64ebf3f4b68828f8dcf9d7330ba47748aa27c1810c2818988e704d375bec2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_06.zip"
+ },
+ "2026-08-07": {
+  "kept_trades": 185,
+  "retrieved_at": "2026-10-26T16:24:23+00:00",
+  "sha256": "6aba41c9d1b3051b3149b3c096c298ba18b89f3341058d0bfa7240183b3616a8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_07.zip"
+ },
+ "2026-08-10": {
+  "kept_trades": 168,
+  "retrieved_at": "2026-10-26T16:24:24+00:00",
+  "sha256": "0c83020aef33e721fb5d3ef0c95df012c37d5f1ab8eb2c84a1d4e173788a25f1",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_10.zip"
+ },
+ "2026-08-11": {
+  "kept_trades": 134,
+  "retrieved_at": "2026-10-26T16:24:24+00:00",
+  "sha256": "a22f801557ae6dbfcbfc33899d2f87d3e26e36c648a559cc075cda40a9b2d660",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_11.zip"
+ },
+ "2026-08-12": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:24:25+00:00",
+  "sha256": "a5b592d8eb0eb4f5286448a82f771d5beb2f411b9ada259a52988590f29e0a91",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_12.zip"
+ },
+ "2026-08-13": {
+  "kept_trades": 259,
+  "retrieved_at": "2026-10-26T16:24:25+00:00",
+  "sha256": "299a823ae91569c77a30dc19ab2d1f4ae91fe0ce7684d6f529aad449c92f9b2c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_13.zip"
+ },
+ "2026-08-14": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:24:26+00:00",
+  "sha256": "f3a7b90b84e19b3b380cde16baf52289af464221a94e10df5d5ac3a222746cd7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_14.zip"
+ },
+ "2026-08-17": {
+  "kept_trades": 152,
+  "retrieved_at": "2026-10-26T16:24:26+00:00",
+  "sha256": "72ec86aa4df21b58e6eb5091c0b31a122458b68b2ed63f01fd240652a5c4fb16",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_17.zip"
+ },
+ "2026-08-18": {
+  "kept_trades": 144,
+  "retrieved_at": "2026-10-26T16:24:27+00:00",
+  "sha256": "037da9558f9e65c20bf9fcb5b0eb1c7c9796cba4ead75ea3fdbefca6cfa728a0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_18.zip"
+ },
+ "2026-08-19": {
+  "kept_trades": 212,
+  "retrieved_at": "2026-10-26T16:24:28+00:00",
+  "sha256": "35229f84604a61f5a448d95c389a1743a6958eda613d10d03ff9b116ad69d148",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_19.zip"
+ },
+ "2026-08-20": {
+  "kept_trades": 203,
+  "retrieved_at": "2026-10-26T16:24:29+00:00",
+  "sha256": "47fb5b9b597d3ca807c16dd57f705ed100d7895c94cd7dfc016dc46e471310c4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_20.zip"
+ },
+ "2026-08-21": {
+  "kept_trades": 221,
+  "retrieved_at": "2026-10-26T16:24:29+00:00",
+  "sha256": "2d01de2f51fc1f653c9bcdb25a17daa7112c4683f70590b3eaef54a7304488ef",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_21.zip"
+ },
+ "2026-08-24": {
+  "kept_trades": 191,
+  "retrieved_at": "2026-10-26T16:24:30+00:00",
+  "sha256": "f8b0384fba711662ed63891f3ecdbd526ff52a6be6efb38872e0f4ced73a44e7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_24.zip"
+ },
+ "2026-08-25": {
+  "kept_trades": 199,
+  "retrieved_at": "2026-10-26T16:24:31+00:00",
+  "sha256": "4b96a7ab6c7317b9a93987a474a885280c4efcf1daed1135c63c6edce59ea849",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_25.zip"
+ },
+ "2026-08-26": {
+  "kept_trades": 191,
+  "retrieved_at": "2026-10-26T16:24:31+00:00",
+  "sha256": "b360ecaecf8ee0acde3a03fee820fcc2ebeb5e4ba034fc13d82224b4ad03bb1d",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_26.zip"
+ },
+ "2026-08-27": {
+  "kept_trades": 153,
+  "retrieved_at": "2026-10-26T16:24:32+00:00",
+  "sha256": "3558b51ef7017af11638dc6dbba01ddd3520f40e8e527ba7e750865543bc2bcf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_27.zip"
+ },
+ "2026-08-28": {
+  "kept_trades": 229,
+  "retrieved_at": "2026-10-26T16:24:33+00:00",
+  "sha256": "85a04417a76cd2d3640388a3576fb9796f3a1b230c7b417d737a271233f70beb",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_28.zip"
+ },
+ "2026-08-31": {
+  "kept_trades": 219,
+  "retrieved_at": "2026-10-26T16:24:33+00:00",
+  "sha256": "e2f10bfb650555679e5f104c4a038808d9e199439a07d667b6b4a0b84c6641e4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_08_31.zip"
+ },
+ "2026-09-01": {
+  "kept_trades": 208,
+  "retrieved_at": "2026-10-26T16:24:34+00:00",
+  "sha256": "a5005124a900fdb7c49dd406062d3f60b453ed6ad09dfe19b0ddc169824d8b91",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_01.zip"
+ },
+ "2026-09-02": {
+  "kept_trades": 194,
+  "retrieved_at": "2026-10-26T16:24:35+00:00",
+  "sha256": "4d90e434b3df6a88561073d439dd855b595195bde60a35c6698d497de553fdb8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_02.zip"
+ },
+ "2026-09-03": {
+  "kept_trades": 188,
+  "retrieved_at": "2026-10-26T16:24:36+00:00",
+  "sha256": "3931bfa59e9ca5bbf434545fe138d9435609ac63c20edd2a221951aa5c0b6bdf",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_03.zip"
+ },
+ "2026-09-04": {
+  "kept_trades": 197,
+  "retrieved_at": "2026-10-26T16:24:37+00:00",
+  "sha256": "f3bcb62e0a55fe9363d8eb82dd95a4db32f87bf378470382e88d775e9999e381",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_04.zip"
+ },
+ "2026-09-07": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:24:37+00:00",
+  "sha256": "042c8ca4deaa8299f4feb5df3a2e270ee1bcc15ae10b47efa7ca1436e9680203",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_07.zip"
+ },
+ "2026-09-08": {
+  "kept_trades": 198,
+  "retrieved_at": "2026-10-26T16:24:38+00:00",
+  "sha256": "5347b07c2bbb232b7134ebc8eab46899a1c0d80aba0c05692e7e714bbb22e003",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_08.zip"
+ },
+ "2026-09-09": {
+  "kept_trades": 248,
+  "retrieved_at": "2026-10-26T16:24:39+00:00",
+  "sha256": "a3f2da67a51cd06cc35d6f99914253d0ed8fa779f0e64c996820c2b8d4e51605",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_09.zip"
+ },
+ "2026-09-10": {
+  "kept_trades": 364,
+  "retrieved_at": "2026-10-26T16:24:39+00:00",
+  "sha256": "12e2fc129dd9da13247e5c3d0355adfc80ad5fe2add57450290a50e34ada6748",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_10.zip"
+ },
+ "2026-09-11": {
+  "kept_trades": 377,
+  "retrieved_at": "2026-10-26T16:24:40+00:00",
+  "sha256": "ab5f44d66375da242a556bd16697e786b96b7a98081931c92e78d6020fea0fc2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_11.zip"
+ },
+ "2026-09-14": {
+  "kept_trades": 281,
+  "retrieved_at": "2026-10-26T16:24:41+00:00",
+  "sha256": "cbab3b29e080472869250a6a388fddd54e15c670dfdd8e913096a0ceec699a3c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_14.zip"
+ },
+ "2026-09-15": {
+  "kept_trades": 293,
+  "retrieved_at": "2026-10-26T16:24:42+00:00",
+  "sha256": "f4f0ed77a65352489690a7bf77fa7adc7e5dac15cda56806d40cdf159085d0af",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_15.zip"
+ },
+ "2026-09-16": {
+  "kept_trades": 320,
+  "retrieved_at": "2026-10-26T16:24:43+00:00",
+  "sha256": "cab040d6781d0b356ecb9c77706f1c6d8dd3e883c6dfd500e67a86f174e4c1c8",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_16.zip"
+ },
+ "2026-09-17": {
+  "kept_trades": 242,
+  "retrieved_at": "2026-10-26T16:24:44+00:00",
+  "sha256": "6ec8eeb5bb5c2030a844198db223e58a4acb45a416cb0fdbb59b3e3b1cf2379f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_17.zip"
+ },
+ "2026-09-18": {
+  "kept_trades": 185,
+  "retrieved_at": "2026-10-26T16:24:44+00:00",
+  "sha256": "03a09a0ec9c5c5d1e233c2b663cb21d7c36b64573ef9ad5d587a874c5a7ba036",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_18.zip"
+ },
+ "2026-09-21": {
+  "kept_trades": 199,
+  "retrieved_at": "2026-10-26T16:24:45+00:00",
+  "sha256": "33930246e9c9ee9b4054ab97792ebf97569b8825bff1366b6c6954f0fec3d879",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_21.zip"
+ },
+ "2026-09-22": {
+  "kept_trades": 212,
+  "retrieved_at": "2026-10-26T16:24:46+00:00",
+  "sha256": "edd2dbd7d657a960b225e54d6a974a97a6b6fcd3a2e68708b047f1c88bdb33e9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_22.zip"
+ },
+ "2026-09-23": {
+  "kept_trades": 310,
+  "retrieved_at": "2026-10-26T16:24:46+00:00",
+  "sha256": "e9cfa4a5e468f8baccab2a50650395b630cf51e0c8f3fa3ea83bd4d329551c65",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_23.zip"
+ },
+ "2026-09-24": {
+  "kept_trades": 373,
+  "retrieved_at": "2026-10-26T16:24:47+00:00",
+  "sha256": "345b0c263acc9a9ffd0ae3280d133cb5436acf3e40c773f2573756fd823809a4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_24.zip"
+ },
+ "2026-09-25": {
+  "kept_trades": 338,
+  "retrieved_at": "2026-10-26T16:24:48+00:00",
+  "sha256": "f0facf5e214310f56c77878bc87ae63a55ab6a51f6ce8b0d66ca77bc82184f87",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_25.zip"
+ },
+ "2026-09-28": {
+  "kept_trades": 276,
+  "retrieved_at": "2026-10-26T16:24:48+00:00",
+  "sha256": "19a622f936592b244090bffb0c79a391f90863c32908a37ca4bdd6a8b08ed229",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_28.zip"
+ },
+ "2026-09-29": {
+  "kept_trades": 294,
+  "retrieved_at": "2026-10-26T16:24:49+00:00",
+  "sha256": "53e1594fcc3207a53331a853e132dacc7e551f895618748adbcc54c562f63c6b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_29.zip"
+ },
+ "2026-09-30": {
+  "kept_trades": 364,
+  "retrieved_at": "2026-10-26T16:24:50+00:00",
+  "sha256": "59fd3473f986f9c963fe05adf4ac07d1924d6d2109572ae723eb523eab4b95e9",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_09_30.zip"
+ },
+ "2026-10-01": {
+  "kept_trades": 351,
+  "retrieved_at": "2026-10-26T16:24:51+00:00",
+  "sha256": "9d68c7efcf2bab64ab0aa6b8516d8e6ffc54809a1f2a3c36086ce3ad2a65dc46",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_01.zip"
+ },
+ "2026-10-02": {
+  "kept_trades": 308,
+  "retrieved_at": "2026-10-26T16:24:52+00:00",
+  "sha256": "a7d97a7594cecc1e1a2be3e009d32900c7a0f6c1450578071dd6f2816cea89a7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_02.zip"
+ },
+ "2026-10-05": {
+  "kept_trades": 226,
+  "retrieved_at": "2026-10-26T16:24:52+00:00",
+  "sha256": "8146560e39de859023b467ed3ebb5e9cb6d1b5ae8e93dba2c49a54d584ea20c2",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_05.zip"
+ },
+ "2026-10-06": {
+  "kept_trades": 218,
+  "retrieved_at": "2026-10-26T16:24:53+00:00",
+  "sha256": "2b08a8fe5848d05e06afaefac970e65bfe9af0e7d272c811244302991a1787d4",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_06.zip"
+ },
+ "2026-10-07": {
+  "kept_trades": 301,
+  "retrieved_at": "2026-10-26T16:24:54+00:00",
+  "sha256": "5451646eae4adef7dd2347a2263687e49cfd83b4123a7ddd0d4a612a31806376",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_07.zip"
+ },
+ "2026-10-08": {
+  "kept_trades": 283,
+  "retrieved_at": "2026-10-26T16:24:55+00:00",
+  "sha256": "9b6f1f047192887943840463fd4aa1e1c887b74104dcce59a73595cfe97c0510",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_08.zip"
+ },
+ "2026-10-09": {
+  "kept_trades": 234,
+  "retrieved_at": "2026-10-26T16:24:55+00:00",
+  "sha256": "f00fa781a711e623bb81f038760ee8619b55f40b92dbc9d121ea7d6af1ba068a",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_09.zip"
+ },
+ "2026-10-12": {
+  "kept_trades": 0,
+  "retrieved_at": "2026-10-26T16:24:56+00:00",
+  "sha256": "4c5bd019df19083d7342f9e1c5baa8bcf686224bd224d52755e00feb9bbd031c",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_12.zip"
+ },
+ "2026-10-13": {
+  "kept_trades": 313,
+  "retrieved_at": "2026-10-26T16:24:57+00:00",
+  "sha256": "efdf50870f1083cae307c3ba55f31f09e6b6c7186516b12086d8bbc3a285da3f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_13.zip"
+ },
+ "2026-10-14": {
+  "kept_trades": 340,
+  "retrieved_at": "2026-10-26T16:24:57+00:00",
+  "sha256": "5409e43bbbcf5686108f5b312755009e2a7abbeb0d0ea38690a64c05493d3286",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_14.zip"
+ },
+ "2026-10-15": {
+  "kept_trades": 349,
+  "retrieved_at": "2026-10-26T16:24:58+00:00",
+  "sha256": "b6db614fc778d2339b011255b170d55da51dc835baa6429bd4fbff6140248f88",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_15.zip"
+ },
+ "2026-10-16": {
+  "kept_trades": 297,
+  "retrieved_at": "2026-10-26T16:24:59+00:00",
+  "sha256": "0eff76246870983a628c3ded2fd856e9eddea3bd8587d3c25dfb2edcc1c1404b",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_16.zip"
+ },
+ "2026-10-19": {
+  "kept_trades": 181,
+  "retrieved_at": "2026-10-26T16:24:59+00:00",
+  "sha256": "033e968d88f05f004f9b2f7fe4c1529629f5e12fcd6cfc09258ffd6898f2f946",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_19.zip"
+ },
+ "2026-10-20": {
+  "kept_trades": 240,
+  "retrieved_at": "2026-10-26T16:25:00+00:00",
+  "sha256": "5a5d07a434caa040a967646c4d8e058f086608608c899c9272bbeb6edbdda16f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_20.zip"
+ },
+ "2026-10-21": {
+  "kept_trades": 215,
+  "retrieved_at": "2026-10-26T16:25:01+00:00",
+  "sha256": "9f3da08e5ad1273f3ca3a022a2e7d50ceb9e4896a44e7a7b63bd85fa6bf632e7",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_21.zip"
+ },
+ "2026-10-22": {
+  "kept_trades": 428,
+  "retrieved_at": "2026-10-26T16:25:01+00:00",
+  "sha256": "500cf3607808053c45929e49ff37d7746dfdb2becdbc18a1c009a0689e5fece0",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_22.zip"
+ },
+ "2026-10-23": {
+  "kept_trades": 286,
+  "retrieved_at": "2026-10-26T16:25:02+00:00",
+  "sha256": "35048f26d688ef2bb44f48dca3137486d1ff3bd025ffc0ea5d1c099bcb56117f",
+  "url": "https://kgc0418-tdw-data-0.s3.amazonaws.com/cftc/eod/CFTC_CUMULATIVE_RATES_2026_10_23.zip"
+ },
+ "2026-10-26": {
+  "status": 403
+ }
+}
