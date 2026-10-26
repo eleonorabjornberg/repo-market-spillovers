@@ -48,6 +48,7 @@ afterwards is labelled as such in the study.
 | Do Treasury shocks now spread into repo? | **Weakly, in 2025–26 only**, and not the way forced selling would | [04](results/study-04/result.md) |
 | Would repo indicators have warned of past stress? | **Cannot tell**; nothing warned reliably | [06](results/study-06/result.md) |
 | Is the growth of cleared repo a move ahead of the SEC's mandate? | **Yes** | [07](results/study-07/result.md) |
+| What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
 | Does high federal debt make Treasuries a worse safe haven? | **Not detectably**; inflation explains it | [09](results/study-09/result.md) |
 
 ### 1. Repo stress has not spread to wider markets
@@ -91,8 +92,10 @@ Treasuries today. Credit spreads this tight have occurred only in 1994–97, and
 Scaled by the Treasuries the private market has to hold ($26.6 trillion in mid-2026):
 - **Hedge-fund repo** rose from 9.4% (2019) to 12.7%, near its record (13.1%, October 2025).
 - **The basis trade's public proxy**, leveraged funds' net short in Treasury futures, peaked at $1.15 trillion in
-  October 2024. It has shrunk since, to $0.80 trillion. So hedge funds' repo now funds more than the classic basis
-  trade, and public data cannot say what.
+  October 2024. It has shrunk since, to $0.80 trillion, while hedge-fund repo held. [Study 11](results/study-11/result.md)
+  narrows down why: the repo still funds Treasuries (long holdings grew in step with it), but the hedge has moved from
+  futures (−16%) to rate derivatives such as swaps (+47% gross). The growth sits with multi-strategy and relative-value
+  funds, not macro funds. Same exposure, carried where public data sees it less clearly.
 - **Money funds' cash** increasingly reaches borrowers through one channel, FICC's sponsored repo: 16% of their repo in
   2019, 42% in 2026.
 

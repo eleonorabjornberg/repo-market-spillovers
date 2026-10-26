@@ -1,0 +1,175 @@
+{
+ "design": "docs/design-study-11-what-repo-funds.md",
+ "manifest": "metadata/s11_manifest.json",
+ "base_quarter": "2024-09-30",
+ "latest_quarter": "2026-06-30",
+ "levels_bn": {
+  "hf_repo_borrowing": {
+   "base": 2803.0,
+   "latest": 3382.0,
+   "growth_pct": 20.7
+  },
+  "hf_long_treasury": {
+   "base": 1976.0,
+   "latest": 2362.0,
+   "growth_pct": 19.5
+  },
+  "hf_short_treasury": {
+   "base": 1548.0,
+   "latest": 1498.0,
+   "growth_pct": -3.2
+  },
+  "hf_ird_gross_notional": {
+   "base": 9489.0,
+   "latest": 13902.0,
+   "growth_pct": 46.5
+  },
+  "hf_ird_long": {
+   "base": 4885.0,
+   "latest": 6810.0,
+   "growth_pct": 39.4
+  },
+  "hf_ird_short": {
+   "base": 4604.0,
+   "latest": 7092.0,
+   "growth_pct": 54.0
+  }
+ },
+ "levfund_futures_net_short_bn": {
+  "base_month": "2024-09",
+  "base": 1091.3,
+  "latest_month": "2026-06",
+  "latest": 918.8,
+  "growth_pct": -15.8
+ },
+ "E1_swap_spread_trades": {
+  "a_package_share_pct": {
+   "first_months": [
+    "2024-11",
+    "2024-12",
+    "2025-01"
+   ],
+   "first": 75.2,
+   "last_months": [
+    "2026-07",
+    "2026-08",
+    "2026-09"
+   ],
+   "last": 70.7,
+   "change_pp": -4.4,
+   "points_to_E1a": false
+  },
+  "b_ird_grew_while_futures_fell": true,
+  "points_to_E1": false
+ },
+ "E2_E3_strategy_share_of_borrowing_change_pct": {
+  "RV": 12.7,
+  "MACRO": 0.7,
+  "MULTI": 36.9,
+  "CREDIT": 1.8,
+  "EQUITY": 42.2,
+  "EVENT": 1.0,
+  "OTHER": 4.6
+ },
+ "borrowing_by_strategy_bn": {
+  "RV": {
+   "base": 915.0,
+   "latest": 1187.0
+  },
+  "MACRO": {
+   "base": 809.0,
+   "latest": 825.0
+  },
+  "MULTI": {
+   "base": 2321.0,
+   "latest": 3111.0
+  },
+  "CREDIT": {
+   "base": 141.0,
+   "latest": 180.0
+  },
+  "EQUITY": {
+   "base": 1188.0,
+   "latest": 2091.0
+  },
+  "EVENT": {
+   "base": 43.0,
+   "latest": 65.0
+  },
+  "OTHER": {
+   "base": 394.0,
+   "latest": 493.0
+  }
+ },
+ "gne_by_strategy_bn": {
+  "RV": {
+   "base": 4337.0,
+   "latest": 6858.0
+  },
+  "MACRO": {
+   "base": 7014.0,
+   "latest": 9132.0
+  },
+  "MULTI": {
+   "base": 10397.0,
+   "latest": 14347.0
+  },
+  "CREDIT": {
+   "base": 902.0,
+   "latest": 1190.0
+  },
+  "EQUITY": {
+   "base": 4410.0,
+   "latest": 8598.0
+  },
+  "EVENT": {
+   "base": 357.0,
+   "latest": 449.0
+  },
+  "OTHER": {
+   "base": 2666.0,
+   "latest": 2835.0
+  }
+ },
+ "total_borrowing_change_bn": 2141.0,
+ "points_to_E2_macro": false,
+ "points_to_E3_relative_value": true,
+ "E4_repo_minus_long_treasury_growth_pp": 1.1,
+ "points_to_E4_non_treasury": false,
+ "tic_cayman_bn": {
+  "coverage": [
+   "2025-08",
+   "2026-08"
+  ],
+  "first": 410.5,
+  "last": 463.0,
+  "growth_pct": 12.8,
+  "levfund_futures_short_growth_same_months_pct": -24.2,
+  "decides_nothing": true
+ },
+ "package_share_by_month_pct": {
+  "2024-11": 74.4,
+  "2024-12": 76.8,
+  "2025-01": 74.3,
+  "2025-02": 71.8,
+  "2025-03": 71.6,
+  "2025-04": 70.2,
+  "2025-05": 74.1,
+  "2025-06": 72.8,
+  "2025-07": 72.3,
+  "2025-08": 73.7,
+  "2025-09": 76.8,
+  "2025-10": 72.6,
+  "2025-11": 74.1,
+  "2025-12": 73.9,
+  "2026-01": 68.4,
+  "2026-02": 72.8,
+  "2026-03": 68.5,
+  "2026-04": 69.3,
+  "2026-05": 70.5,
+  "2026-06": 69.6,
+  "2026-07": 70.7,
+  "2026-08": 69.7,
+  "2026-09": 71.8
+ }
+}
