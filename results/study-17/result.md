@@ -109,3 +109,24 @@ holds. This project does not touch the parent model's results.
 - **The design's comparability assumption failed for B2,** as explained above. The same Fed adjustments also moved
   ordinary-day tightness `B` in 2019, so A2's comparison at equal tightness is less clean for 2019 than for 2018.
 - **Monthly averages** smooth over the days that matter.
+
+## Addendum (26 October 2026, post hoc): the facility's line before and after full allotment
+
+Eleonora brought counts from another analysis of the standing repo facility's line, IORB + 10 bp, around the move to
+full allotment on 11 December 2025. They are reproduced here from FRED (SOFR, SOFR99, IORB), with the same periods,
+plus one extension to the latest data. A day counts as above the line if the rate closed more than 10 bp above IORB.
+
+| Period | SOFR above the line | SOFR's 99th percentile above the line |
+|---|---|---|
+| 29 Jul 2021 – 10 Dec 2025 | 16 of 1,090 days (1.5%), up to 22 bp | 79 of 1,089 days (7.3%), up to 45 bp |
+| 11–31 Dec 2025 (year-end, just after full allotment) | 3 of 14 days, up to 12 bp | 10 of 14 days, up to 25 bp |
+| 2 Jan – 3 Sep 2026 | **0 of 169 days** (at the line on 1) | 25 of 169 days (14.8%), up to 14 bp |
+| 2 Jan – 23 Oct 2026 (extension) | **0 of 203 days** (at the line on 1) | 25 of 203 days (12.3%), up to 14 bp |
+
+All of Eleonora's figures reproduce exactly. Since full allotment, the facility has held the benchmark below its line,
+through October 2026's bond-market swings, though it went through at the 2025 year-end. With 0 of 203 days, the rate
+of breaches is at most about 1.5% of days at 95% confidence (the rule of three). It has not held the most expensive
+trades: the 99th percentile went above the line more often after full allotment than before. That is not what a firm
+ceiling would produce. A likely reason, not tested here, is that only some firms can borrow from the facility.
+
+This refines section 3. "The worst turn since the facility, 22 bp above" (31 October 2025) predates full allotment.

@@ -80,7 +80,9 @@ The single hint: corporate (Baa) spreads rose 1.3 bp in the two days after those
 The calendar's grip has not weakened either ([study 17](results/study-17/result.md)). Ordinary month-ends lifted repo
 rates as much in 2025–26 as in 2018–19. What changed is the extremes. Year-end 2018 sent SOFR 65 bp above the top of
 the Fed's range; since the standing repo facility began offering cash at that rate, the worst turn day has reached
-22 bp above it. The ceiling leaks on reporting dates, but it holds back the spikes. The slow rise in repo rates since
+22 bp above it, on 31 October 2025. Since the Fed moved the facility to full allotment in December 2025, SOFR has not
+closed above its rate once in 2026, but the most expensive 1% of trades has, on about one day in eight: the facility
+caps the benchmark, not the top of the market. The slow rise in repo rates since
 2022 went mostly with money funds' cash leaving the Fed's reverse repo facility, and then with falling reserves.
 
 ### 2. Today does not look like 2000 or 2007, but it is different

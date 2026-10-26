@@ -22,7 +22,7 @@ from study_16_data_centre_debt import ols  # noqa: E402
 
 RAW = ROOT / "data" / "raw" / "s17"
 OUT = ROOT / "results" / "study-17"
-FRED = ("SOFR", "DFEDTARU", "IOER", "IORB", "WRESBAL", "TLAACBW027SBOG", "RRPONTSYD", "RPONTSYD")
+FRED = ("SOFR", "DFEDTARU", "IOER", "IORB", "WRESBAL", "TLAACBW027SBOG", "RRPONTSYD", "RPONTSYD", "SOFR99")
 OFR = {"FICC-SPONSORED_REPO_VOL": "hf", "FICC-SPONSORED_REVREPO_VOL": "hf", "REPO-DVP_TV_TOT-P": "stfm"}
 REGIMES = {"scarce_2018_19": ("2018-04-03", "2019-12-31"), "floor_2021_23": ("2021-01-01", "2023-12-31"),
            "scarce_2025_26": ("2025-01-01", "9999-12-31")}
@@ -297,6 +297,31 @@ def post_hoc(days, s, srf, top):
     return out
 
 
+LINE_PERIODS = (("before full allotment", "2021-07-29", "2025-12-10"),
+                ("year-end 2025, just after full allotment", "2025-12-11", "2025-12-31"),
+                ("2026 to 3 September", "2026-01-02", "2026-09-03"),
+                ("2026 to the latest data", "2026-01-02", "9999-12-31"))
+
+
+def facility_line():
+    """Addendum (post hoc, 26 October 2026): Eleonora brought counts from another analysis of the standing repo
+    facility's line, IORB + 10 bp, around the move to full allotment on 11 December 2025. This reproduces them from
+    FRED: days on which SOFR, and SOFR's 99th percentile, closed above the line."""
+    sofr, s99, iorb = fred("SOFR"), fred("SOFR99"), fred("IORB")
+    out = {}
+    for label, a, b in LINE_PERIODS:
+        rows = {}
+        for name, series in (("SOFR", sofr), ("SOFR99", s99)):
+            days = [d for d in series if a <= d <= b and d in iorb]
+            above = [round((series[d] - iorb[d]) * 100 - 10, 1) for d in days if series[d] - iorb[d] > 0.10 + 1e-9]
+            at = sum(abs((series[d] - iorb[d]) * 100 - 10) < 0.5 for d in days)
+            rows[name] = {"days": len(days), "above_line": len(above),
+                          "share_pct": round(len(above) / len(days) * 100, 1) if days else None,
+                          "max_bp_above": max(above) if above else None, "days_at_line": at}
+        out[label] = {"from": a, "to": b, **rows}
+    return out
+
+
 def main():
     if "--no-fetch" not in sys.argv:
         fetch()
@@ -306,10 +331,11 @@ def main():
     a4 = part_a4(new)
     yearly, b1, b2 = part_b(days, s, s_ior, r, q)
     extra = post_hoc(days, s, srf, top)
+    line = facility_line()
     result = {"design": "docs/design-study-17-milder-spikes-and-creep.md", "manifest": "metadata/s17_manifest.json",
               "seed": SEED, "draws": DRAWS, "data_to": days[-1],
               "A1_gap": a1, "A2_equal_tightness": a2, "A3_ceiling": a3, "A4_clearing": a4,
-              "B_yearly": yearly, "B1_drains": b1, "B2_2018_19_relationship": b2, "post_hoc": extra,
+              "B_yearly": yearly, "B1_drains": b1, "B2_2018_19_relationship": b2, "post_hoc": extra, "addendum_facility_line": line,
               "month_jumps": {m: {k: (round(v, 2) if isinstance(v, float) else v) for k, v in x.items()}
                               for m, x in sorted(jumps.items())}}
     OUT.mkdir(parents=True, exist_ok=True)

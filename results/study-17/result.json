@@ -321,6 +321,80 @@
    "date": "2025-10-31"
   }
  },
+ "addendum_facility_line": {
+  "before full allotment": {
+   "from": "2021-07-29",
+   "to": "2025-12-10",
+   "SOFR": {
+    "days": 1090,
+    "above_line": 16,
+    "share_pct": 1.5,
+    "max_bp_above": 22.0,
+    "days_at_line": 3
+   },
+   "SOFR99": {
+    "days": 1089,
+    "above_line": 79,
+    "share_pct": 7.3,
+    "max_bp_above": 45.0,
+    "days_at_line": 21
+   }
+  },
+  "year-end 2025, just after full allotment": {
+   "from": "2025-12-11",
+   "to": "2025-12-31",
+   "SOFR": {
+    "days": 14,
+    "above_line": 3,
+    "share_pct": 21.4,
+    "max_bp_above": 12.0,
+    "days_at_line": 1
+   },
+   "SOFR99": {
+    "days": 14,
+    "above_line": 10,
+    "share_pct": 71.4,
+    "max_bp_above": 25.0,
+    "days_at_line": 3
+   }
+  },
+  "2026 to 3 September": {
+   "from": "2026-01-02",
+   "to": "2026-09-03",
+   "SOFR": {
+    "days": 169,
+    "above_line": 0,
+    "share_pct": 0.0,
+    "max_bp_above": null,
+    "days_at_line": 1
+   },
+   "SOFR99": {
+    "days": 169,
+    "above_line": 25,
+    "share_pct": 14.8,
+    "max_bp_above": 14.0,
+    "days_at_line": 12
+   }
+  },
+  "2026 to the latest data": {
+   "from": "2026-01-02",
+   "to": "9999-12-31",
+   "SOFR": {
+    "days": 203,
+    "above_line": 0,
+    "share_pct": 0.0,
+    "max_bp_above": null,
+    "days_at_line": 1
+   },
+   "SOFR99": {
+    "days": 203,
+    "above_line": 25,
+    "share_pct": 12.3,
+    "max_bp_above": 14.0,
+    "days_at_line": 13
+   }
+  }
+ },
  "month_jumps": {
   "2018-04": {
    "J": 2.5,
