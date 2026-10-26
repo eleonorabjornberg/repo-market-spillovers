@@ -58,3 +58,13 @@ from fresh data, with the eight flags fixed in the design. First build, for Sept
 
 **Watch at work:** the OFR index had risen to −1.5 by 22 October, during that month's sell-off, so October's build will
 show whether F7 moves.
+
+## Erratum (26 October 2026, study 13)
+
+The test above passed by its pre-registered rule, but its description overstates the timing. A first break in mid- to
+late 2022, around the rule's proposal (14 September 2022), fits all three series better than December 2023
+([study 13, C6](../study-13/result.md), post hoc). "Flat for four years (15.7% in June 2019, 16.2% in November 2023)"
+compared two endpoints: the share fell to 2–4% in 2022, when money funds' cash sat at the Fed's reverse repo facility,
+and rose from late 2022. The slowdown after the February 2025 extension holds under every start date; saturation is an
+alternative explanation not ruled out.
+

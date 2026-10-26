@@ -302,8 +302,9 @@ def clearing_countdown_section(run_date):
             f'30 June 2027 ({days} days away). In {quarter}, FICC sponsored repo, mostly hedge funds borrowing cash, '
             f'equalled <b>{share[latest]:.0f}%</b> of hedge funds\' repo borrowing. It is a proxy built from public data, '
             'measured differently from Form PF, so its trend means more than its level; it tracks the New York Fed\'s '
-            'figure from non-public data (about 30% in late 2025). A rising line is the migration happening; a flat or '
-            f'falling one as the deadline nears is worth watching.</p><div class="figs" style="max-width:560px">{chart}</div>')
+            'figure from non-public data (about 30% in late 2025). It jumps around each year-end, so compare a quarter with '
+            f'the same quarter a year earlier. A rising line is the migration happening; a flat or falling one as the '
+            f'deadline nears is worth watching.</p><div class="figs" style="max-width:560px">{chart}</div>')
 
 
 def candidate_section():

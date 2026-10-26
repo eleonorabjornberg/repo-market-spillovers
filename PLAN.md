@@ -52,6 +52,7 @@ evidence behind each.
 | [10](docs/design-study-10-prospective.md) three prospective tests | test, pending | Set with frozen code before their data exists: (A) relief or disruption at the clearing deadlines; (B) the Baa lead on new repo shocks (10 needed); (C) whether the chain gives way in the next stress event. Scored each month; [status](results/study-10/status.json). |
 | [11](results/study-11/result.md) what hedge-fund repo funds | descriptive | Still Treasuries (repo +21%, long Treasuries +20%); the hedge moved from futures (−16%) to rate derivatives (+47%); growth with multi-strategy and relative-value funds, not macro. The DTCC package proxy did not confirm swap-spread trades. |
 | [12](results/study-12/result.md) better indicators? | test (H4) | **Promising, not proven**: the composite is no better than the curve (−0.02 [−0.23, +0.16]); top-10 hedge-fund leverage scores 0.74 (2016–25 only); low long-run VIX 0.78 at 12 months on 2013–25 but 0.44 before. Both are tracked on the watch. |
+| [13](results/study-13/result.md) pre-publication checks | checks before the article | One claim withdrawn (the hedge-fund clearing share's dip is seasonal); the basis-trade decline is 17% by risk, not 30%; the swap shift is already published by the Fed; the move to clearing began with the 2022 proposal, not the 2023 adoption (study 07 erratum). |
 
 Every study keeps to the rules below. The watch ([`scripts/watch.py`](scripts/watch.py), run every Monday
 by [`.github/workflows/watch.yml`](.github/workflows/watch.yml)) shows the eight flags fixed in study 07's design,
@@ -70,8 +71,8 @@ In order of value:
    the first download.
 3. **Done (26 Oct 2026): the migration still to come is on the watch.** Study 07 measured money funds' side of
    clearing. The larger move is the dealer-to-hedge-fund side. The watch now shows, each quarter, FICC sponsored repo
-   (the hedge-fund borrowing leg) over hedge funds' Form PF repo borrowing: about 8% in 2021, 35% at the end of 2025,
-   31% in Q2 2026, close to the New York Fed's figure from non-public data (about 30% in late 2025). It is a proxy;
+   (the hedge-fund borrowing leg) over hedge funds' Form PF repo borrowing: about 8% in 2021 and 31% in Q2 2026, 6
+   points above a year earlier (it jumps each fourth quarter; study 13), close to the New York Fed's figure from non-public data (about 30% in late 2025). It is a proxy;
    its trend toward the June 2027 deadline is what to read. Building it showed that study 10's descriptive A5 used
    the money-fund leg instead; that is recorded as an erratum in its design, and A5 decides nothing.
 4. **Keep the two candidate indicators honest.** Top-10 hedge-fund leverage and low long-run VIX are scored on future

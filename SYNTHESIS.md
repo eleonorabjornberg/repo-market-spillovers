@@ -106,9 +106,13 @@ Scaled by the Treasuries the private market has to hold ($26.6 trillion in mid-2
 ### 4. Most of that shift is the market preparing for central clearing
 
 Traders said they had been preparing for the SEC's clearing mandate for years. The data agrees:
-- FICC's share of money-fund repo was flat at about 16% from 2019 to November 2023;
-- after the SEC adopted the rule in December 2023, it rose about 21 percentage points a year;
-- when the deadlines were extended in February 2025, it slowed to about 2 a year.
+- FICC's share of money-fund repo was 2–4% through 2022, when most of their cash sat at the Fed's reverse repo
+  facility;
+- it began climbing around the SEC's proposal of the rule in September 2022 and reached 36% by January 2025 (an
+  earlier version of this page dated the rise to the rule's adoption in December 2023: [study 13](results/study-13/result.md)
+  corrected it);
+- after the deadlines were extended in February 2025, it slowed to about 2 points a year. The extension may explain
+  that, or the easy migration may simply have been done.
 
 The same shape shows in sponsored repo's share of cleared volume, and survives excluding the Fed's own facility. That
 makes the concentration less a warning sign than the market following the rule ahead of time; netting through a
@@ -190,7 +194,8 @@ on a fixed date. Three tests were set before either happens, with the code that 
   scored the same way, "held".
 
 The watch also tracks the hedge-fund side of the migration still to come: FICC sponsored repo, mostly hedge funds
-borrowing cash, equalled about 31% of hedge funds' repo borrowing in mid-2026, up from about 8% in 2021. And it tracks
+borrowing cash, equalled about 31% of hedge funds' repo borrowing in mid-2026, up from about 8% in 2021 and 6 points
+higher than a year earlier. It jumps around each year-end, so compare a quarter with the same quarter a year before. And it tracks
 study 12's two candidate indicators, on stress that has not happened yet.
 
 ## What this cannot see
