@@ -87,6 +87,9 @@ to clients such as hedge funds; since April 2026 they have been a premium of 1�
 well below the line and nobody used the facility ([study 19](results/study-19/result.md)). The ceiling caps dealers'
 own funding, not what they charge clients. Study 18 has set down, in advance, what the turn of 2026 to 2027 will test. The slow rise in repo rates since
 2022 went mostly with money funds' cash leaving the Fed's reverse repo facility, and then with falling reserves.
+How many reserves count as "ample" has grown with the government's debt: repo got tight when reserves fell to about a
+tenth of federal debt held by the public, at $1.6 trillion in 2018–19 and at $3.1 trillion in 2025–26
+([study 20](results/study-20/result.md)).
 
 ### 2. Today does not look like 2000 or 2007, but it is different
 

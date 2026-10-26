@@ -42,6 +42,7 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 17: milder spikes and the creep](results/study-17/result.md) | Why are 2025–26 month-ends milder than 2018–19's, and what drove the spread's slow creep since 2022? | Ordinary month-ends are not milder; the extremes are (year-end 2018 +62 bp; since the standing repo facility the worst turn is 22 bp above its rate): a leaky ceiling. The creep goes mostly with the reverse repo facility draining, then reserves. |
 | [Study 18: year-end 2026](results/study-18/result.md) | What will the turn of 2026 to 2027 do, with full allotment, the cash-clearing deadline and the G-SIB snapshot on one day? | Pending: forecasts and frozen code set on 26 Oct 2026; scored in January 2027. |
 | [Study 19: who pays above the line](results/study-19/result.md) | Why does the top 1% of repo still pay above the Fed's facility rate, and is the facility used on those days? | The expensive trades sit in cleared bilateral repo, not tri-party, and on most such days the facility is idle: since April 2026 they are a 1–5 bp dealer markup over a ceiling that caps dealers' own funding. |
+| [Study 20: full allotment, and the threshold](results/study-20/result.md) | Did full allotment or the bill purchases calm 2026, and why does repo now get tight with more reserves? | Spikes roughly halved while ordinary days got tighter, pointing to the facility, but not statistically clear. Repo gets tight when reserves fall to about a tenth of federal debt held by the public, in 2019 and 2025 alike. |
 
 ## Reproduce
 
@@ -71,6 +72,7 @@ SEC_USER_AGENT="name email" python3 scripts/study_16_data_centre_debt.py
 python3 scripts/study_17_spikes_and_creep.py
 python3 scripts/study_18_year_end_2026.py      # weekly in the watch; pending until January 2027
 python3 scripts/study_19_who_pays_above_the_line.py
+python3 scripts/study_20_allotment_and_threshold.py
 python3 scripts/build_findings.py          # site/findings.html from SYNTHESIS.md
 python3 -m unittest discover -s tests      # also run by .github/workflows/tests.yml on every pull request
 ```

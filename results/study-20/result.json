@@ -1,0 +1,108 @@
+{
+ "design": "docs/design-study-20-allotment-and-threshold.md",
+ "manifest": "metadata/s20_manifest.json",
+ "inputs_also": "metadata/s17_manifest.json",
+ "seed": 20261029,
+ "draws": 2000,
+ "data_to": "2026-10-23",
+ "months": {
+  "before": [
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11"
+  ],
+  "after": [
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09"
+  ]
+ },
+ "A1_ordinary_days": {
+  "n_before": 11,
+  "n_after": 10,
+  "mean_B_before_bp": -15.73,
+  "mean_B_after_bp": -12.1,
+  "difference_bp": 3.63,
+  "ci95": [
+   -0.35,
+   7.39
+  ],
+  "mean_J_before_bp": 9.5,
+  "mean_J_after_bp": 4.85
+ },
+ "A2_jumps_at_equal_tightness": {
+  "d_after_bp": -6.72,
+  "ci95": [
+   -12.31,
+   1.3
+  ],
+  "coef_B": 0.515,
+  "coef_quarter_end_bp": 1.54,
+  "verdict": "no detectable difference"
+ },
+ "A3_turn_days": {
+  "before": {
+   "max_turn_S_bp": 22.0,
+   "date": "2025-10-31"
+  },
+  "after": {
+   "max_turn_S_bp": 12.0,
+   "date": "2025-12-31"
+  }
+ },
+ "B1_threshold": {
+  "common_B_range_bp": [
+   -21.0,
+   -5.0
+  ],
+  "comparable_months": {
+   "2018_19": 15,
+   "2025_26": 20
+  },
+  "levels_tn": {
+   "reserves_tn": {
+    "median_2018_19": 1.64,
+    "median_2025_26": 3.05
+   },
+   "debt_tn": {
+    "median_2018_19": 16.22,
+    "median_2025_26": 30.87
+   }
+  },
+  "bank_assets_pct": {
+   "median_2018_19": 9.61,
+   "median_2025_26": 12.03,
+   "2025_26_as_pct_of_2018_19": 125.1,
+   "within_10pct": false
+  },
+  "gdp_pct": {
+   "median_2018_19": 7.75,
+   "median_2025_26": 9.4,
+   "2025_26_as_pct_of_2018_19": 121.3,
+   "within_10pct": false
+  },
+  "debt_held_by_public_pct": {
+   "median_2018_19": 10.09,
+   "median_2025_26": 9.62,
+   "2025_26_as_pct_of_2018_19": 95.3,
+   "within_10pct": true
+  },
+  "verdict": "the shift disappears under: debt_held_by_public_pct",
+  "closest": "debt_held_by_public_pct"
+ }
+}
