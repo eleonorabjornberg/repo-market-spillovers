@@ -13,6 +13,7 @@ project except through its own directive and scoring process.
 | Study | Question | Finding |
 |---|---|---|
 | [Event study 01](results/event-study-01/result.md) | Do calendar repo-pressure days move yields, VIX, credit, equities, the dollar and CP more when reserves are scarce? | No, at daily closes in public data. Weak signs only in bills and overnight CP. |
+| [Study 02: then and now](results/study-02/result.md) | Does today's repo and bond market look like the run-up to 2000 or 2007, and would those signs have warned? | Not on the measures that flashed then. New this time: record hedge-fund repo, record public debt, very tight credit spreads, with no history to score them against. |
 
 ## Reproduce
 
@@ -22,6 +23,8 @@ Python 3.11, stdlib only. Needs a checkout of repo-market-model next to this one
 scripts/build_panel.sh            # builds the parent panel at the pin and checks its digest
 python3 scripts/fetch_fred.py     # writes data/raw/ and metadata/fred_manifest.json
 python3 scripts/event_study_01.py # writes results/event-study-01/result.json and chart.svg
+python3 scripts/fetch_long.py     # study 02: long histories into data/raw/long/, manifest in metadata/
+python3 scripts/study_02_then_and_now.py
 python3 -m unittest discover -s tests
 ```
 
