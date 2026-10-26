@@ -1,0 +1,42 @@
+{
+  "DFEDTARU.csv": {
+    "retrieved_at": "2026-10-26T23:24:20+00:00",
+    "sha256": "08079608d93228075cb0bc533df7f692ea0eab9510e462529995a7f18b31ac6a",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARU"
+  },
+  "rp_2021.json": {
+    "retrieved_at": "2026-10-26T23:24:20+00:00",
+    "sha256": "c25890315e38c45dc3741ea4d14d37784482bf2968378b55b03cb6b510e9e13c",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2021-07-29&endDate=2021-12-31&operationTypes=Repo"
+  },
+  "rp_2022.json": {
+    "retrieved_at": "2026-10-26T23:24:21+00:00",
+    "sha256": "3e329761b286db9ba0f56bed499455dacf3c1e4a0ba95fc834b2268463c129ab",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2022-01-01&endDate=2022-12-31&operationTypes=Repo"
+  },
+  "rp_2023.json": {
+    "retrieved_at": "2026-10-26T23:24:21+00:00",
+    "sha256": "0875571e21743db02b81c4b392a5aca93bc71062e0a4005118c10cdf5bfbc52b",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2023-01-01&endDate=2023-12-31&operationTypes=Repo"
+  },
+  "rp_2024.json": {
+    "retrieved_at": "2026-10-26T23:24:22+00:00",
+    "sha256": "c0ac7347421ea4f2cba9859a7d029763deebb04f043f8df6f3b914030f278950",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2024-01-01&endDate=2024-12-31&operationTypes=Repo"
+  },
+  "rp_2025.json": {
+    "retrieved_at": "2026-10-26T23:24:23+00:00",
+    "sha256": "5752a5fc1d2c4449388f058078e2ddc2d94d323812cde3ca7c10f1464acd0730",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2025-12-31&operationTypes=Repo"
+  },
+  "rp_2026.json": {
+    "retrieved_at": "2026-10-26T23:24:23+00:00",
+    "sha256": "998048ac3e23e74abe2a392a97046b0df405ee522c2def2cbe0ff889e54b0205",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2026-01-01&endDate=2026-10-26&operationTypes=Repo"
+  },
+  "secured.json": {
+    "retrieved_at": "2026-10-26T23:24:19+00:00",
+    "sha256": "d36184512369669d9c46b3ca6fe332762b9e66e08414310aeb239207e1281885",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/all/search.json?startDate=2021-07-29&endDate=2026-10-26"
+  }
+}

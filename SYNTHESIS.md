@@ -82,7 +82,10 @@ rates as much in 2025–26 as in 2018–19. What changed is the extremes. Year-e
 the Fed's range; since the standing repo facility began offering cash at that rate, the worst turn day has reached
 22 bp above it, on 31 October 2025. Since the Fed moved the facility to full allotment in December 2025, SOFR has not
 closed above its rate once in 2026, but the most expensive 1% of trades has, on about one day in eight: the facility
-caps the benchmark, not the top of the market. The slow rise in repo rates since
+caps the benchmark, not the top of the market. Those expensive trades sit in cleared bilateral repo, where dealers lend
+to clients such as hedge funds; since April 2026 they have been a premium of 1–5 bp on days when tri-party repo traded
+well below the line and nobody used the facility ([study 19](results/study-19/result.md)). The ceiling caps dealers'
+own funding, not what they charge clients. Study 18 has set down, in advance, what the turn of 2026 to 2027 will test. The slow rise in repo rates since
 2022 went mostly with money funds' cash leaving the Fed's reverse repo facility, and then with falling reserves.
 
 ### 2. Today does not look like 2000 or 2007, but it is different

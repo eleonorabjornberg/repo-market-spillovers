@@ -40,6 +40,8 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 15: corporate bonds in repo and in panics](results/study-15/result.md) | Would repo or corporate bonds cushion a crisis from outside, such as a stock-market bust? | Corporate collateral is a small corner of repo ($167bn of dealers' repo against $3.4tn on Treasuries). When Treasuries fail as a haven in a panic, corporate yields rise too on 89% of days: no offset. The cushion depends on Treasuries rallying. In 2008, dealers' financing against corporate securities fell 42% while Treasury financing fell 17%: the run hit private collateral. |
 | [Study 16: data-centre debt and swaps](results/study-16/result.md) | How much are the AI data-centre builders borrowing, and does it show up in the swap market, as the Dallas Fed suggests? | Debt of Alphabet, Amazon, Meta, Microsoft, Oracle and CoreWeave up $95bn in a year to $334bn. Long-dated swap trading is no heavier around their bond deals (+6% [−16%, +30%]): the channel is not visible in public data. |
 | [Study 17: milder spikes and the creep](results/study-17/result.md) | Why are 2025–26 month-ends milder than 2018–19's, and what drove the spread's slow creep since 2022? | Ordinary month-ends are not milder; the extremes are (year-end 2018 +62 bp; since the standing repo facility the worst turn is 22 bp above its rate): a leaky ceiling. The creep goes mostly with the reverse repo facility draining, then reserves. |
+| [Study 18: year-end 2026](results/study-18/result.md) | What will the turn of 2026 to 2027 do, with full allotment, the cash-clearing deadline and the G-SIB snapshot on one day? | Pending: forecasts and frozen code set on 26 Oct 2026; scored in January 2027. |
+| [Study 19: who pays above the line](results/study-19/result.md) | Why does the top 1% of repo still pay above the Fed's facility rate, and is the facility used on those days? | The expensive trades sit in cleared bilateral repo, not tri-party, and on most such days the facility is idle: since April 2026 they are a 1–5 bp dealer markup over a ceiling that caps dealers' own funding. |
 
 ## Reproduce
 
@@ -67,6 +69,8 @@ python3 scripts/study_15_corporate_bonds.py
 python3 scripts/fetch_study16_dtcc.py          # resumable; about 500 daily DTCC files
 SEC_USER_AGENT="name email" python3 scripts/study_16_data_centre_debt.py
 python3 scripts/study_17_spikes_and_creep.py
+python3 scripts/study_18_year_end_2026.py      # weekly in the watch; pending until January 2027
+python3 scripts/study_19_who_pays_above_the_line.py
 python3 scripts/build_findings.py          # site/findings.html from SYNTHESIS.md
 python3 -m unittest discover -s tests      # also run by .github/workflows/tests.yml on every pull request
 ```
