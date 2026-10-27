@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study 23: the dealer markup as a daily series</title>
+<meta name="description" content="At quarter-ends (+11.6 bp; ~31 bp at year-ends); zero when reserves are abundant; untouched by full allotment or the growth of sponsored clearing.">
+<style>
+:root{--bg:#fafaf9;--fg:#1c1917;--muted:#57534e;--line:#e7e5e4;--card:#fff;--accent:#1e3a8a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c0a09;--fg:#f5f5f4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#93c5fd}}
+:root[data-theme="dark"]{--bg:#0c0a09;--fg:#f5f5f4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#93c5fd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 72px}h1{font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0 0 12px;letter-spacing:-.02em}
+h2{font-size:24px;margin:44px 0 12px;letter-spacing:-.01em}h3{font-size:19px;margin:32px 0 8px}
+p,li{max-width:70ch}a{color:var(--accent)}ul,ol{padding-left:22px}li{margin:4px 0}
+h1+p{color:var(--muted)}nav{font-size:15px;margin-bottom:28px}
+.table{overflow-x:auto;margin:16px 0}table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card)}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600}
+figure{margin:16px 0}img{max-width:100%;height:auto;background:#fff;border-radius:6px}
+.study{border-bottom:1px solid var(--line);padding:14px 0}.study h3{margin:0 0 4px}.study p{margin:0;color:var(--muted)}
+code{font:14px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:1px 4px}
+</style></head><body><main>
+<nav><a href="../index.html">Repo Market Watch</a> · <a href="../findings.html">Findings</a> · <a href="../studies.html">All studies</a></nav>
+<h1>Study 23: the dealer markup as a daily series — result</h1>
+<p>Design: <a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/docs/design-study-23-dealer-markup.md"><code>docs/design-study-23-dealer-markup.md</code></a>, committed before this study's new data was fetched. Every figure is read from <a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/results/study-23/result.json"><code>result.json</code></a>.</p>
+<p><b>The markup</b> is SOFR's 99th percentile minus tri-party's (TGCR's) 99th percentile, in bp. It is the premium the dearest trades in cleared bilateral repo pay over the dearest in tri-party. The series runs 2 April 2018 – 23 October 2026 (2,137 days).</p>
+<h2>In one line</h2>
+<p>The markup is a balance-sheet price. It is about zero when reserves are abundant, about 7 bp on ordinary days when they are scarce, and it jumps at every quarter-end, to about 31 bp at year-ends, when banks' balance sheets are measured. The Fed's full allotment did not touch it, and the growth of sponsored clearing has not shrunk it.</p>
+<h2>Q1, balance-sheet dates: it widens at quarter-ends (verdict)</h2>
+<div class="table"><table><thead><tr><th style="text-align:left"></th><th style="text-align:right">Quarter-end turn days (68)</th><th style="text-align:right">Other days</th><th style="text-align:left">Difference</th></tr></thead><tbody><tr><td style="text-align:left">99th percentiles</td><td style="text-align:right">18.2 bp (year-ends: 30.7 bp)</td><td style="text-align:right">6.5 bp</td><td style="text-align:left"><b>+11.6 bp</b> [+5.3, +20.8]</td></tr><tr><td style="text-align:left">75th percentiles</td><td style="text-align:right">9.0 bp (year-ends: 10.6 bp)</td><td style="text-align:right">5.5 bp</td><td style="text-align:left">+3.5 bp [+2.2, +5.0]</td></tr></tbody></table></div>
+<p>The premium for cleared bilateral repo jumps when dealers' balance sheets are measured. Quarter-ends are reporting dates for many banks, and year-end is when the G-SIB surcharge is set. This is the pattern a price for balance sheet would show.</p>
+<h2>Q2, full allotment: no change (reported)</h2>
+<p>On non-calendar days, the markup averaged 7.2 bp in 2025 before full allotment and 6.8 bp after: −0.4 bp [−0.8, +0.05]. Full allotment caps what dealers pay for cash, not what they charge clients, as study 19 read it.</p>
+<h2>Q3, sponsored clearing: no detectable narrowing (verdict)</h2>
+<p>Across 79 months since March 2020, the monthly markup on non-calendar days and the sponsored share of cleared repo are <b>positively</b> correlated, at +0.63 [+0.09, +0.91]. That is not because clearing raises the markup. Both trended with the return of scarce reserves.</p>
+<div class="table"><table><thead><tr><th style="text-align:left"></th><th style="text-align:right">2018</th><th style="text-align:right">2019</th><th style="text-align:right">2020</th><th style="text-align:right">2021</th><th style="text-align:right">2022</th><th style="text-align:right">2023</th><th style="text-align:right">2024</th><th style="text-align:right">2025</th><th style="text-align:right">2026</th></tr></thead><tbody><tr><td style="text-align:left">Markup, non-calendar days (bp)</td><td style="text-align:right">8.0</td><td style="text-align:right">11.8</td><td style="text-align:right">7.3</td><td style="text-align:right">0.1</td><td style="text-align:right">−0.4</td><td style="text-align:right">6.9</td><td style="text-align:right">7.9</td><td style="text-align:right">7.3</td><td style="text-align:right">6.7</td></tr><tr><td style="text-align:left">Sponsored share of cleared repo (%)</td><td style="text-align:right">–</td><td style="text-align:right">–</td><td style="text-align:right">32.9</td><td style="text-align:right">28.1</td><td style="text-align:right">32.7</td><td style="text-align:right">48.4</td><td style="text-align:right">62.6</td><td style="text-align:right">77.6</td><td style="text-align:right">83.3</td></tr></tbody></table></div>
+<p><b>Reading.</b> The markup vanished on the floor (2021–22), when reserves were abundant, and came back with scarcity in</p>
+<ol start="2023"><li>Since then it has held at about 7 bp while the sponsored share rose from 48% to 83%. Within the scarce years,</li></ol>
+<p>clearing's growth has not compressed it, at least not yet. Whether the June 2027 repo-clearing deadline does is a question for study 10's deadline test.</p>
+<h2>Limits</h2>
+<ul><li><b>Percentiles are volume-weighted.</b> Some of the quarter-end jump may be the volume mix shifting between segments.</li><li><b>Counterparties are not observed.</b> "Markup to clients" remains a reading.</li><li><b>Q3 compares trends.</b> The table, not the correlation, is the evidence.</li></ul><p><a href="https://github.com/eleonorabjornberg/repo-market-spillovers/blob/main/results/study-23/result.md">Source on GitHub</a>, with its design, code and data.</p>
+</main></body></html>
