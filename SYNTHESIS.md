@@ -85,11 +85,16 @@ closed above its rate once in 2026, but the most expensive 1% of trades has, on 
 caps the benchmark, not the top of the market. Those expensive trades sit in cleared bilateral repo, where dealers lend
 to clients such as hedge funds; since April 2026 they have been a premium of 1–5 bp on days when tri-party repo traded
 well below the line and nobody used the facility ([study 19](results/study-19/result.md)). The ceiling caps dealers'
-own funding, not what they charge clients. Study 18 has set down, in advance, what the turn of 2026 to 2027 will test. The slow rise in repo rates since
+own funding, not what they charge clients. That markup is a balance-sheet price: it is about zero when reserves are
+abundant, about 7 bp when they are scarce, and it jumps at every quarter-end, to about 31 bp at year-ends
+([study 23](results/study-23/result.md)). Study 18 has set down, in advance, what the turn of 2026 to 2027 will test. The slow rise in repo rates since
 2022 went mostly with money funds' cash leaving the Fed's reverse repo facility, and then with falling reserves.
 How many reserves count as "ample" has grown with the government's debt: repo got tight when reserves fell to about a
 tenth of federal debt held by the public, at $1.6 trillion in 2018–19 and at $3.1 trillion in 2025–26
-([study 20](results/study-20/result.md)).
+([study 20](results/study-20/result.md)). The match holds for every way of counting the debt and for none of the
+alternatives tried, GDP, bank assets or the size of the repo market ([study 22](results/study-22/result.md)). In 2026
+the ratio has stayed at 9.3–10%, the lowest since 2019; whether that keeps calling scarcity is now being tested on
+months to come ([study 21](results/study-21/result.md)).
 
 ### 2. Today does not look like 2000 or 2007, but it is different
 

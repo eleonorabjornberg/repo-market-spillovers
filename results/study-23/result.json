@@ -1,0 +1,111 @@
+{
+ "design": "docs/design-study-23-dealer-markup.md",
+ "manifest": "metadata/s23_manifest.json",
+ "seed": 20261031,
+ "draws": 2000,
+ "days": [
+  "2018-04-02",
+  "2026-10-23"
+ ],
+ "n_days": 2137,
+ "Q1_quarter_ends": {
+  "p99": {
+   "quarter_end_minus_other_bp": 11.62,
+   "ci95": [
+    5.25,
+    20.82
+   ],
+   "n_quarter_end_days": 68,
+   "mean_quarter_end_bp": 18.15,
+   "mean_other_bp": 6.53,
+   "mean_year_end_bp": 30.69
+  },
+  "p75": {
+   "quarter_end_minus_other_bp": 3.45,
+   "ci95": [
+    2.21,
+    5.01
+   ],
+   "n_quarter_end_days": 68,
+   "mean_quarter_end_bp": 8.96,
+   "mean_other_bp": 5.51,
+   "mean_year_end_bp": 10.56
+  },
+  "verdict": "widens at quarter-ends"
+ },
+ "Q2_full_allotment": {
+  "n_before": 150,
+  "n_after": 127,
+  "mean_before_bp": 7.23,
+  "mean_after_bp": 6.83,
+  "after_minus_before_bp": -0.39,
+  "ci95": [
+   -0.82,
+   0.05
+  ]
+ },
+ "Q3_sponsored_clearing": {
+  "months": [
+   "2020-03",
+   "2026-09"
+  ],
+  "n_months": 79,
+  "corr_sponsored_share_vs_markup": 0.63,
+  "ci95": [
+   0.087,
+   0.913
+  ],
+  "verdict": "no detectable narrowing with sponsored clearing"
+ },
+ "yearly": {
+  "2018": {
+   "p99_all_days_bp": 10.6,
+   "p99_noncal_days_bp": 7.98,
+   "sponsored_share_pct": null
+  },
+  "2019": {
+   "p99_all_days_bp": 15.1,
+   "p99_noncal_days_bp": 11.81,
+   "sponsored_share_pct": null
+  },
+  "2020": {
+   "p99_all_days_bp": 8.06,
+   "p99_noncal_days_bp": 7.25,
+   "sponsored_share_pct": 32.9
+  },
+  "2021": {
+   "p99_all_days_bp": 0.05,
+   "p99_noncal_days_bp": 0.06,
+   "sponsored_share_pct": 28.1
+  },
+  "2022": {
+   "p99_all_days_bp": -0.69,
+   "p99_noncal_days_bp": -0.39,
+   "sponsored_share_pct": 32.7
+  },
+  "2023": {
+   "p99_all_days_bp": 7.32,
+   "p99_noncal_days_bp": 6.87,
+   "sponsored_share_pct": 48.4
+  },
+  "2024": {
+   "p99_all_days_bp": 8.39,
+   "p99_noncal_days_bp": 7.88,
+   "sponsored_share_pct": 62.6
+  },
+  "2025": {
+   "p99_all_days_bp": 7.29,
+   "p99_noncal_days_bp": 7.28,
+   "sponsored_share_pct": 77.6
+  },
+  "2026": {
+   "p99_all_days_bp": 6.86,
+   "p99_noncal_days_bp": 6.73,
+   "sponsored_share_pct": 83.3
+  }
+ },
+ "latest": {
+  "date": "2026-10-23",
+  "p99_markup_bp": 8.0
+ }
+}

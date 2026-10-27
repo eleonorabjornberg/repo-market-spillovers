@@ -43,6 +43,9 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 18: year-end 2026](results/study-18/result.md) | What will the turn of 2026 to 2027 do, with full allotment, the cash-clearing deadline and the G-SIB snapshot on one day? | Pending: forecasts and frozen code set on 26 Oct 2026; scored in January 2027. |
 | [Study 19: who pays above the line](results/study-19/result.md) | Why does the top 1% of repo still pay above the Fed's facility rate, and is the facility used on those days? | The expensive trades sit in cleared bilateral repo, not tri-party, and on most such days the facility is idle: since April 2026 they are a 1–5 bp dealer markup over a ceiling that caps dealers' own funding. |
 | [Study 20: full allotment, and the threshold](results/study-20/result.md) | Did full allotment or the bill purchases calm 2026, and why does repo now get tight with more reserves? | Spikes roughly halved while ordinary days got tighter, pointing to the facility, but not statistically clear. Repo gets tight when reserves fall to about a tenth of federal debt held by the public, in 2019 and 2025 alike. |
+| [Study 21: the reserves-to-debt gauge](results/study-21/result.md) | Does the 10% gauge call months that have not happened yet? | Pending: frozen predictions from November 2026; the gauge reads 9.3% (scarce) and is on the watch. |
+| [Study 22: which denominator](results/study-22/result.md) | What should reserves be measured against? | The debt, however counted: three debt measures match the two scarce periods; GDP, bank assets and repo volume do not. |
+| [Study 23: the dealer markup](results/study-23/result.md) | When does the premium in cleared bilateral repo widen? | At quarter-ends (+11.6 bp; ~31 bp at year-ends); zero when reserves are abundant; untouched by full allotment or the growth of sponsored clearing. |
 
 ## Reproduce
 
@@ -73,6 +76,9 @@ python3 scripts/study_17_spikes_and_creep.py
 python3 scripts/study_18_year_end_2026.py      # weekly in the watch; pending until January 2027
 python3 scripts/study_19_who_pays_above_the_line.py
 python3 scripts/study_20_allotment_and_threshold.py
+python3 scripts/study_21_reserves_gauge.py      # weekly in the watch
+python3 scripts/study_22_which_denominator.py
+python3 scripts/study_23_dealer_markup.py
 python3 scripts/build_findings.py          # site/findings.html from SYNTHESIS.md
 python3 -m unittest discover -s tests      # also run by .github/workflows/tests.yml on every pull request
 ```

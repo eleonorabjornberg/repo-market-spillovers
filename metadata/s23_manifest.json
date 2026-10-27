@@ -1,0 +1,43 @@
+{
+  "s17/DFEDTARU.csv": {
+    "sha256": "08079608d93228075cb0bc533df7f692ea0eab9510e462529995a7f18b31ac6a"
+  },
+  "s17/FICC-SPONSORED_REPO_VOL.json": {
+    "sha256": "019d84e645d71f308cc08a7a1667c1f17cb38b74418b0d9e040411f51f036439"
+  },
+  "s17/FICC-SPONSORED_REVREPO_VOL.json": {
+    "sha256": "bb102c8b25b1b5a0e2ce6888cbf4f46f6cebb5b32c5f87fc7260a90cb94ae8e5"
+  },
+  "s17/IOER.csv": {
+    "sha256": "7e00dee924a8e5cc956302ca5aaf802a40341251a248a95d4860960df22e3292"
+  },
+  "s17/IORB.csv": {
+    "sha256": "eb7e797e9994acfd0c5ee6f407a81c09464a9206b19d4457612f5a068c302ad6"
+  },
+  "s17/REPO-DVP_TV_TOT-P.json": {
+    "sha256": "1f5736b613499ff25fa8e1d35a8075aaa405d22970279c4e84cb8fb3d9156b8a"
+  },
+  "s17/RPONTSYD.csv": {
+    "sha256": "000c82a2c5a969cacd0e3e624b39ba295dd3e8c850e23c21a29ad6682ee8b918"
+  },
+  "s17/RRPONTSYD.csv": {
+    "sha256": "63d1ad7fa4bbf3a77f5ffcc8d4b9a656874cc46c2aed508a56dbee5f5ffa5320"
+  },
+  "s17/SOFR.csv": {
+    "sha256": "9f56352250de9e0a35ea8900155d3a9c918f13c168a81007e44a526f4d73db39"
+  },
+  "s17/SOFR99.csv": {
+    "sha256": "0913b4bd0e0058e0cd8fa2297dbd03e5a05ff6bdeb5e48cfcb1f634d40c32ea6"
+  },
+  "s17/TLAACBW027SBOG.csv": {
+    "sha256": "0c3f1cf55d3ad428d57f9867e504759881116b20efda8ad9d14bc5c450b30d29"
+  },
+  "s17/WRESBAL.csv": {
+    "sha256": "25c323b07dd31f9164dcbfcdb959b5ff9b72c35353fc1d716088586f2dd0f0d8"
+  },
+  "secured.json": {
+    "retrieved_at": "2026-10-27T01:02:19+00:00",
+    "sha256": "2ea83da6b900513691ed2e326ddc84223feb4893770ba28798661889bff62996",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/all/search.json?startDate=2018-04-02&endDate=2026-10-27"
+  }
+}
