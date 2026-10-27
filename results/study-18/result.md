@@ -1,6 +1,6 @@
 # Study 18: year-end 2026, set down in advance
 
-Design: [`docs/design-study-18-year-end-2026.md`](../../docs/design-study-18-year-end-2026.md), committed with the scoring code on 26 October 2026, before the event. This page is rewritten by the weekly watch. Status as of 2026-10-26, data to 2026-10-23.
+Design: [`docs/design-study-18-year-end-2026.md`](../../docs/design-study-18-year-end-2026.md), committed with the scoring code on 26 October 2026, before the event. This page is rewritten by the weekly watch. Status as of 2026-10-27, data to 2026-10-23.
 
 ## In one line
 
