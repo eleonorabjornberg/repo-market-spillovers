@@ -1,10 +1,7 @@
 {
  "design": "docs/design-study-22-which-denominator.md",
  "manifest": "metadata/s22_manifest.json",
- "inputs_also": [
-  "metadata/s17_manifest.json",
-  "metadata/s20_manifest.json"
- ],
+ "inputs_also": "s17/ and s20/ entries in metadata/s22_manifest.json (refreshed copies)",
  "seed": 20261030,
  "draws": 2000,
  "months": [
