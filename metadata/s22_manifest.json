@@ -1,0 +1,17 @@
+{
+  "GFDEBTN.csv": {
+    "retrieved_at": "2026-10-27T01:01:01+00:00",
+    "sha256": "8f5f0b4259d5208e51ec47eb50e66b528cf9ee48c558875030d2044449d9281c",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GFDEBTN"
+  },
+  "WTREGEN.csv": {
+    "retrieved_at": "2026-10-27T01:01:01+00:00",
+    "sha256": "9e06a8f61758a6798640aa50a910d7a130938813c8df10d19b0ee45decb6c70f",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WTREGEN"
+  },
+  "sofr.json": {
+    "retrieved_at": "2026-10-27T01:01:02+00:00",
+    "sha256": "674a51573729b0a2c9f6751bbeca888a5ec13ad377684db0a442a6688bd99f02",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2018-04-02&endDate=2026-10-27"
+  }
+}

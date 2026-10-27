@@ -354,6 +354,21 @@ def clearing_countdown_section(run_date):
             f'deadline nears is worth watching.</p><div class="figs" style="max-width:560px">{chart}</div>')
 
 
+def reserves_gauge_section():
+    """Study 21's gauge, read from its status file (the workflow runs study 21 before this script)."""
+    path = ROOT / "results" / "study-21" / "status.json"
+    if not path.exists():
+        return ""
+    st = json.loads(path.read_text())
+    return ('<h2>Reserves against the debt</h2><p class="note">Repo got tight when the reserves banks keep at the Fed fell to '
+            'about a tenth of the federal debt held by the public, in 2018–19 and again in 2025–26 (<a href="studies/'
+            'study-20.html">study 20</a>). In the week of '
+            f'{dt.date.fromisoformat(st["latest_week"]):%-d %B %Y} the ratio was <b>{st["latest_gauge_pct"]:.1f}%</b>, '
+            f'the <b>{html.escape(st["latest_zone"])}</b> zone (below 10% scarce, 11% or more ample). Whether the gauge '
+            'calls the months ahead correctly is being tested, from November 2026, against predictions written down '
+            f'beforehand (<a href="studies/study-21.html">study 21</a>: {html.escape(st["verdict"])}).</p>')
+
+
 def candidate_section():
     """Study 12's two promising indicators, tracked prospectively: percentile of the latest reading in its own history."""
     vix = h.complete_months(fred("VIXCLS"), "daily")
@@ -489,7 +504,8 @@ def main():
             w.writerow(rows[k])
     SITE.mkdir(parents=True, exist_ok=True)
     status = s10.run(run_date)
-    sections = (prospective_section(status) + uncleared_section(weekly, yoy) + clearing_countdown_section(run_date)
+    sections = (prospective_section(status) + uncleared_section(weekly, yoy) + reserves_gauge_section()
+                + clearing_countdown_section(run_date)
                 + candidate_section())
     (SITE / "index.html").write_text(page(run_date, month, readings, flags, charts, sections))
     print(json.dumps({"month": month, "flags": flags, "readings": readings}, indent=1))

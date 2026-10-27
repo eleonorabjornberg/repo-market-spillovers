@@ -1,0 +1,95 @@
+{
+ "design": "docs/design-study-22-which-denominator.md",
+ "manifest": "metadata/s22_manifest.json",
+ "inputs_also": [
+  "metadata/s17_manifest.json",
+  "metadata/s20_manifest.json"
+ ],
+ "seed": 20261030,
+ "draws": 2000,
+ "months": [
+  "2018-04",
+  "2026-10"
+ ],
+ "n_months": 93,
+ "comparable_months": {
+  "2018_19": 15,
+  "2025_26": 20
+ },
+ "denominators": {
+  "debt_held_by_public": {
+   "T1_median_2018_19": 10.086,
+   "T1_median_2025_26": 9.617,
+   "T1_2025_26_as_pct_of_2018_19": 95.3,
+   "T1_matches": true,
+   "T2_corr_with_spread": -0.57,
+   "T2_ci95": [
+    -0.751,
+    -0.216
+   ]
+  },
+  "total_public_debt": {
+   "T1_median_2018_19": 7.428,
+   "T1_median_2025_26": 7.729,
+   "T1_2025_26_as_pct_of_2018_19": 104.1,
+   "T1_matches": true,
+   "T2_corr_with_spread": -0.622,
+   "T2_ci95": [
+    -0.747,
+    -0.358
+   ]
+  },
+  "sofr_volume": {
+   "T1_median_2018_19": 163.7,
+   "T1_median_2025_26": 99.623,
+   "T1_2025_26_as_pct_of_2018_19": 60.9,
+   "T1_matches": false,
+   "T2_corr_with_spread": -0.525,
+   "T2_ci95": [
+    -0.769,
+    0.119
+   ]
+  },
+  "gdp": {
+   "T1_median_2018_19": 7.751,
+   "T1_median_2025_26": 9.405,
+   "T1_2025_26_as_pct_of_2018_19": 121.3,
+   "T1_matches": false,
+   "T2_corr_with_spread": -0.67,
+   "T2_ci95": [
+    -0.774,
+    -0.464
+   ]
+  },
+  "bank_assets": {
+   "T1_median_2018_19": 9.615,
+   "T1_median_2025_26": 12.028,
+   "T1_2025_26_as_pct_of_2018_19": 125.1,
+   "T1_matches": false,
+   "T2_corr_with_spread": -0.667,
+   "T2_ci95": [
+    -0.786,
+    -0.436
+   ]
+  },
+  "reserves_plus_tga_over_debt_held_by_public": {
+   "T1_median_2018_19": 11.969,
+   "T1_median_2025_26": 12.317,
+   "T1_2025_26_as_pct_of_2018_19": 102.9,
+   "T1_matches": true,
+   "T2_corr_with_spread": -0.563,
+   "T2_ci95": [
+    -0.72,
+    -0.177
+   ]
+  }
+ },
+ "matching": [
+  "debt_held_by_public",
+  "total_public_debt",
+  "reserves_plus_tga_over_debt_held_by_public"
+ ],
+ "best": "total_public_debt",
+ "verdict": "debt held by the public is not beaten (total_public_debt fits as well within the intervals)",
+ "n_tried": 6
+}
