@@ -1,6 +1,6 @@
 {
- "run_date": "2026-10-27",
- "month": "2026-09",
+ "run_date": "2026-11-02",
+ "month": "2026-10",
  "flags": {
   "F1": false,
   "F2": false,
@@ -12,8 +12,8 @@
   "F8": true
  },
  "readings": {
-  "sofr_iorb_month_avg_bp": -1.81,
-  "sofr_iorb_month_max_bp": 1.0,
+  "sofr_iorb_month_avg_bp": -0.19,
+  "sofr_iorb_month_max_bp": 5.0,
   "hf_repo_pct_phmt": {
    "month": "2026-06",
    "value": 12.72
@@ -32,22 +32,22 @@
    "month": "2026-09",
    "value": 39.61
   },
-  "swap_spread_10y_month_min_bp": -45.3,
-  "ofr_fsi_month_avg": -2.537,
+  "swap_spread_10y_month_min_bp": -48.65,
+  "ofr_fsi_month_avg": -1.935,
   "baa_10y_bp": {
-   "month": "2026-09",
-   "value": 148.1,
-   "percentile": 3.5
+   "month": "2026-10",
+   "value": 146.1,
+   "percentile": 2.9
   }
  },
  "uncleared_share": {
   "weeks": [
-   "2026-09-23",
-   "2026-10-14"
+   "2026-09-30",
+   "2026-10-21"
   ],
-  "latest": 55.37,
-  "year_earlier": 54.17,
-  "change_pp": 1.2
+  "latest": 56.06,
+  "year_earlier": 54.87,
+  "change_pp": 1.19
  },
  "sources": {
   "TREAST.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TREAST",
