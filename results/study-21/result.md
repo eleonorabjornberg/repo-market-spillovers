@@ -1,10 +1,10 @@
 # Study 21: the reserves-to-debt gauge
 
-Design: [`docs/design-study-21-reserves-to-debt-gauge.md`](../../docs/design-study-21-reserves-to-debt-gauge.md), committed with the scoring code on 27 October 2026. This page is rewritten by the weekly watch. Status as of 2026-11-02.
+Design: [`docs/design-study-21-reserves-to-debt-gauge.md`](../../docs/design-study-21-reserves-to-debt-gauge.md), committed with the scoring code on 27 October 2026. This page is rewritten by the weekly watch. Status as of 2026-11-09.
 
 ## In one line
 
-Reserves were **9.1%** of federal debt held by the public in the week of 2026-10-28: the **scarce** zone (below 10% scarce, 11% or more ample). Verdict so far: **pending** (0 zone months scored from November 2026).
+Reserves were **9.2%** of federal debt held by the public in the week of 2026-11-04: the **scarce** zone (below 10% scarce, 11% or more ample). Verdict so far: **pending** (0 zone months scored from November 2026).
 
 ## What is being tested
 

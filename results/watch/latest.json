@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-02",
+ "run_date": "2026-11-09",
  "month": "2026-10",
  "flags": {
   "F1": false,
@@ -19,8 +19,8 @@
    "value": 12.72
   },
   "levfund_futures_short_pct_phmt": {
-   "month": "2026-09",
-   "value": 2.94
+   "month": "2026-10",
+   "value": 2.96
   },
   "sponsored_revrepo_pct_dvp": {
    "2026-06": 46.72,
@@ -33,7 +33,7 @@
    "value": 39.61
   },
   "swap_spread_10y_month_min_bp": -48.65,
-  "ofr_fsi_month_avg": -1.935,
+  "ofr_fsi_month_avg": -1.91,
   "baa_10y_bp": {
    "month": "2026-10",
    "value": 146.1,
@@ -42,12 +42,12 @@
  },
  "uncleared_share": {
   "weeks": [
-   "2026-09-30",
-   "2026-10-21"
+   "2026-10-07",
+   "2026-10-28"
   ],
-  "latest": 56.06,
-  "year_earlier": 54.87,
-  "change_pp": 1.19
+  "latest": 56.65,
+  "year_earlier": 54.91,
+  "change_pp": 1.74
  },
  "sources": {
   "TREAST.csv": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TREAST",

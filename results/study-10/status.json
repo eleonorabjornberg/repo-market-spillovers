@@ -1,7 +1,7 @@
 {
  "design": "docs/design-study-10-prospective.md",
- "run_date": "2026-11-02",
- "data_to": "2026-10-30",
+ "run_date": "2026-11-09",
+ "data_to": "2026-11-06",
  "A_clearing_deadlines": {
   "D1_cash_clearing": {
    "status": "pending",
