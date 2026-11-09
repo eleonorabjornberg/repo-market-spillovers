@@ -56,6 +56,7 @@ afterwards is labelled as such in the study.
 | Does data-centre borrowing reach the swap market, as the Dallas Fed suggests? | **Not visibly**: debt up $95bn to $334bn in a year, but long-dated swap trading no heavier around the bond deals | [16](results/study-16/result.md) |
 | Why are recent month-end spikes milder than 2018–19's? | **Only the extremes are**: ordinary month-ends are as large; the standing repo facility caps the worst spikes, leakily | [17](results/study-17/result.md) |
 | What does hedge-fund repo fund now that the basis trade shrank? | **Still Treasuries**, now hedged more with swaps than futures | [11](results/study-11/result.md) |
+| Can public data see the swap-spread trade that replaced part of the basis trade? | **Faintly**: a measure built from public swap reports moves with Form PF and caught the April 2025 unwind, both on the margin, and shows no direction | [24](results/study-24/result.md) |
 | Can better warning indicators be found? | **Not yet**: two promising, unproven candidates | [12](results/study-12/result.md) |
 | What happens at the clearing deadlines, and in the next stress? | **Pending**: tests set before the data exists | [10](docs/design-study-10-prospective.md) |
 
@@ -123,6 +124,14 @@ Scaled by the Treasuries the private market has to hold ($26.6 trillion in mid-2
   narrows down why: the repo still funds Treasuries (long holdings grew in step with it), but the hedge has moved from
   futures (−16%) to rate derivatives such as swaps (+47% gross). The growth sits with multi-strategy and relative-value
   funds, not macro funds. Same exposure, carried where public data sees it less clearly.
+- **How much less clearly.** By risk rather than face value the futures proxy is down 17% from its November 2025 peak, not
+  30% ([study 13](results/study-13/result.md)). Where the risk went is harder to see: [study 24](results/study-24/result.md)
+  built a public measure of swap-spread trades from DTCC's swap reports (swaps packaged with a single Treasury or
+  future), about 14% of new SOFR swap risk. It passed both of its tests, only just: it moved with hedge funds' Form PF
+  rate derivatives at the threshold set in advance (a rank correlation of 0.6, over six quarters), and its share rose in
+  the week of the April 2025 unwind. Front-end packages, at 1.5 to 4 years, nearly tripled in two years, as the Dallas
+  Fed's account of front-end swap-spread trades would predict. But no public trade says who paid fixed, so a new
+  position and an unwind look alike.
 - **Money funds' cash** increasingly reaches borrowers through one channel, FICC's sponsored repo: 16% of their repo in
   2019, 42% in 2026.
 
@@ -252,6 +261,10 @@ study 12's two candidate indicators, on stress that has not happened yet.
   clearing deadline. The New York Fed reports that 75% of these Treasury trades carry no haircut at all, and that only
   about 30% of hedge funds' repo with dealers was centrally cleared by late 2025.¹ No public dataset tracks either over
   time yet; the OFR's new collection is not in its public data feed.
+- **Swap-spread positions.** Public swap reports carry no direction and no counterparty type, cap the size of the
+  largest trades (about 9% of SOFR swap risk), and leave a quarter of packaged trades unclassifiable
+  ([study 24](results/study-24/result.md)). The trade that replaced part of the basis trade can be seen as a flow, not
+  as a position.
 - **Intraday stress**: everything here is daily closes.
 - **Futures prices, the MOVE index and cross-currency funding**, which are not free.
 - **More history.** The chain's data starts in 2013–14, so 2008 cannot be studied with it, and eight episodes are too
