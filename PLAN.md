@@ -63,6 +63,7 @@ evidence behind each.
 | [21](results/study-21/result.md) the reserves-to-debt gauge, prospective | test, pending | Frozen code: from Nov 2026 to Dec 2027, scarce-zone months (gauge < 10%) should show ordinary-day repo above −15 bp and month-end jumps above +3 bp; ample months (≥ 11%) neither. Gauge on the watch: 9.3% (scarce) in the week of 21 Oct 2026. |
 | [22](results/study-22/result.md) which denominator | test | It is the debt, however counted: debt held by the public, total public debt and reserves + TGA over debt all match the two scarce regimes (95–104%); GDP, bank assets and repo volume do not. Debt held by the public not beaten. |
 | [23](results/study-23/result.md) the dealer markup | test | SOFR99 − TGCR99 widens at quarter-ends (+11.6 bp [5.3, 20.8]; year-ends ~31 bp); unchanged by full allotment; ~0 on the floor, ~7 bp when scarce; no narrowing as sponsored clearing grew. A balance-sheet price. |
+| [24](results/study-24/result.md) can public data see the swap-spread trade? | test | **Faintly**: single-swap spread packages in DTCC data track Form PF rate derivatives at Spearman 0.6 (the threshold, six quarters) and see the April 2025 unwind (15.29% vs [13.31%, 14.90%]); no direction, 8.95% of DV01 capped. Front-end spread DV01 nearly tripled. |
 
 Every study keeps to the rules below. The watch ([`scripts/watch.py`](scripts/watch.py), run every Monday
 by [`.github/workflows/watch.yml`](.github/workflows/watch.yml)) shows the eight flags fixed in study 07's design,

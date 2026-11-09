@@ -46,6 +46,7 @@ publication. It is also on the site as [findings](https://eleonorabjornberg.gith
 | [Study 21: the reserves-to-debt gauge](results/study-21/result.md) | Does the 10% gauge call months that have not happened yet? | Pending: frozen predictions from November 2026; the gauge reads 9.3% (scarce) and is on the watch. |
 | [Study 22: which denominator](results/study-22/result.md) | What should reserves be measured against? | The debt, however counted: three debt measures match the two scarce periods; GDP, bank assets and repo volume do not. |
 | [Study 23: the dealer markup](results/study-23/result.md) | When does the premium in cleared bilateral repo widen? | At quarter-ends (+11.6 bp; ~31 bp at year-ends); zero when reserves are abundant; untouched by full allotment or the growth of sponsored clearing. |
+| [Study 24: can public data see the swap-spread trade?](results/study-24/result.md) | Can public swap data track the trade that replaced part of the basis trade? | Faintly. A measure from DTCC's swap reports passes both tests on the margin (Form PF correlation 0.6 on six quarters; the April 2025 unwind just visible), but shows no direction. Front-end spread packages nearly tripled. |
 
 ## Reproduce
 
